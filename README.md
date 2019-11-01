@@ -103,8 +103,11 @@ Then we generate the distance matrix between true and scelestial's distance matr
 ```bash
 python src/calc-matrix-distance.py data/synth01-true-distance-matrix.txt TRUE  data/synth01-scelestial-distance-matrix.txt SCEL
 # Result:
-# ...
+# TRUE SCEL 
+# TRUE 0.00 0.41 
+# SCEL 0.41 0.00 
 ```
+Result of the previous command is a matrix. The only important element in the matrix is the element in the row TRUE and column SCEL (or row SCEL and column TRUE). This element shows an overal difference between distances between pairs of samples in two trues. This is a value between 0 and 2 and higher values show more difference between the trees.
 
 #### Comparing partition similarity
 ```bash
@@ -119,8 +122,11 @@ Then we can compare partitions produced by true tree and the infered tree as fol
 # Calculating partition similarity between partitions of the two trees
 python src/calc-part-distance.py --match --normalize data/synth01-true-part.txt TRUE data/synth01-scelestial-part.txt SCEL
 # Result:
-# ...
+# TRUE SCEL
+# TRUE 1.0 0.6 
+# SCEL 0.6 1.0 
 ```
+The element in row TRUE and column SCEL shows the similarity between TRUE and SCEL with respect to the partitions they create on samples by the trees. The measure is a number between 0 and 1. 
 
 ### Generating PDF
 A tree could be represented as PDF with following command
