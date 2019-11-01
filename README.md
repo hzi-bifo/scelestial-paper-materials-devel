@@ -1,4 +1,4 @@
-# single-cell lineage tree reconstruction
+# Scelestial: Single Cell Lineage Tree Inference based on a Steiner Tree Approximation Algorithm
 To make
 make
 
