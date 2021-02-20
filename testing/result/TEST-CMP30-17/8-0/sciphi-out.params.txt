@@ -1,0 +1,8 @@
+background frequency:	0.322184
+wildAlpha:	772.792	795.747	338.917
+wildBeta:	1591.78	1644.03	697.001
+average mutation frequency:	0.28521
+altAlpha:	7.51569	8.56024	3.47732
+altBeta:	22.0469	25.0173	10.1375
+mu:	0.524009	0.518927	0.284731
+nu:	0	0	0

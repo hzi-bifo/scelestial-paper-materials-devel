@@ -1,0 +1,2 @@
+/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/dlib/dlib/CMakeFiles/dlib.dir
+/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/sciphi.dir

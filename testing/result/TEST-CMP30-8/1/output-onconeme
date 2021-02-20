@@ -1,0 +1,51 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	1 [label="" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label="2, 44" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	3 [label="6, 11,
+25" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 [label="10, 42" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="12, 20,
+28" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	6 [label="13, 26" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	7 [label="16, 33,
+40" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	8 [label=22 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	9 [label=24 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	10 [label=27 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	11 [label="17, 30" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	12 [label="5, 9, 19,
+21, 31, 34,
+36, 38" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	13 [label=32 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	14 [label=35 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	15 [label="1, 3, 4, 7,
+8, 14, 15,
+18, 23, 29,
+37" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	16 [label=39 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	17 [label=41 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	18 [label="43, 45" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	19 [label="46, 47, 48,
+49, 50, 51,
+52, 53, 54,
+55, 56, 57" color=aquamarine fillcolor=aquamarine fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 -> 2 [label=19.1 color=black fontname=Arial len=19.14391]
+	18 -> 3 [label=19.8 color=black fontname=Arial len=19.84377]
+	2 -> 4 [label=22.5 color=black fontname=Arial len=22.47489]
+	12 -> 5 [label=20.6 color=black fontname=Arial len=20.62427]
+	3 -> 6 [label=25.1 color=black fontname=Arial len=25.09681]
+	3 -> 7 [label=20.6 color=black fontname=Arial len=20.64885]
+	15 -> 8 [label=28.5 color=black fontname=Arial len=28.53201]
+	15 -> 9 [label=27.7 color=black fontname=Arial len=27.69707]
+	15 -> 10 [label=27.9 color=black fontname=Arial len=27.91789]
+	7 -> 11 [label=26.6 color=black fontname=Arial len=26.60639]
+	3 -> 12 [label=24.4 color=black fontname=Arial len=24.38246]
+	16 -> 13 [label=26.9 color=black fontname=Arial len=26.89638]
+	15 -> 14 [label=26.0 color=black fontname=Arial len=26.0258]
+	3 -> 15 [label=27.6 color=black fontname=Arial len=27.61255]
+	12 -> 16 [label=26.2 color=black fontname=Arial len=26.195]
+	7 -> 17 [label=25.9 color=black fontname=Arial len=25.86741]
+	1 -> 18 [label=20.1 color=black fontname=Arial len=20.05779]
+	4 -> 19 [label=27.4 color=black fontname=Arial len=27.37674]
+}

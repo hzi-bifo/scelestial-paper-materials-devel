@@ -1,0 +1,26 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	0 [label="3, 6, 21,
+27, 28, 35,
+38, 43, 44" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 [label="13, 14, 16,
+19, 20, 23,
+33, 34, 36,
+37, 39" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label="5, 15, 22,
+24, 31, 42,
+46" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	3 [label="2, 4, 7, 10,
+11, 25, 30,
+41, 48, 49" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 [label="1, 9, 12,
+17, 29, 32,
+40, 50" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="8, 18, 26,
+45, 47" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	0 -> 1 [label=1.0 color=black fontname=Arial len=1.0]
+	0 -> 2 [label=1.0 color=black fontname=Arial len=1.0]
+	0 -> 3 [label=1.0 color=black fontname=Arial len=1.0]
+	0 -> 4 [label=1.0 color=black fontname=Arial len=1.0]
+	3 -> 5 [label=1.0 color=black fontname=Arial len=1.0]
+}

@@ -1,0 +1,61 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	n2 [label="I3, N101,
+N102" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n3 [label="I6, N9,
+N110, N17,
+N19, N59,
+N64" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n1 [label="I1, N99,
+N112, N103,
+N104" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n6 [label="N107,
+P131,
+N111" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n7 [label="N100, I5,
+N108, N86,
+N95, N96" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n8 [label=P126 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n5 [label="N66, N67,
+N87, I7, N88,
+N94, N81,
+N53, N54,
+N55, N56,
+N85, MP1176,
+N62" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n0 [label="I2, I4, I8, N10, N11, N12,
+N13, N14, N15, N16, N18, N20,
+N21, N22, N23, N24, N25, N26,
+N27, N28, N29, N30, N31, N32,
+N33, N34, N35, N36, N37, N38,
+N39, N40, N41, N42, N43, N44,
+N45, N46, N47, N48, N49, N50,
+N51, N52, N57, N58, N60, N61,
+N63, N65, N68, N69, N70, N71,
+N72, N73, N74, N75, N76, N77,
+N78, N79, N80, N82, N83, N84,
+N89, N90, N91, N92, N93, N97,
+N98, N105, N106, N109, N113,
+P114, P115, P116, P117, P118,
+P119, P120, P121, P122, P123,
+P124, P125, P127, P128, P129,
+P130, P132, P133, P134, P135,
+P136, P137, P138, P139, P140,
+P141, P142, M3143, M3144,
+M3145, M3146, M3147, M3148,
+M3149, M3150, M3151, M3152,
+M3153, M3154, M3155, M3156,
+M3157, M3158, M3159, M3160,
+M3161, M3162, M2163, M2164,
+M2165, M2166, M2167, M2168,
+M2169, M2170, MP1171, MP1172,
+MP1173, MP1174, MP1175, MP1177,
+MP1178, MP1179, MP1180, MP1181" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n1 -> n2 [label="" color="#A2A2A2" fontname=Arial len=0.409538]
+	n1 -> n3 [label="" color="#A2A2A2" fontname=Arial len=0.0129801]
+	n5 -> n6 [label="" color="#A2A2A2" fontname=Arial len=0.329706]
+	n5 -> n7 [label="" color="#A2A2A2" fontname=Arial len=0.167328]
+	n5 -> n8 [label="" color="#A2A2A2" fontname=Arial len=0.0855692]
+	n0 -> n1 [label="" color="#A2A2A2" fontname=Arial len=0.071579]
+	n0 -> n5 [label="" color="#A2A2A2" fontname=Arial len=0.160795]
+}

@@ -1,0 +1,64 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	19 [label="BN2, BN3,
+BN5, BN6,
+BN7, BN9,
+BN12, BN13,
+BN14, BN15,
+BN16, BNT" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 [label="BC16,
+BC55" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label="BC6,
+BC58" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	6 [label="BC22,
+BC38" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	11 [label="BC28,
+BC43" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	17 [label=BC54 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	7 [label="BC25,
+BC46,
+BC53" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="BC21,
+BC32,
+BC41" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	13 [label=BC45 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	16 [label=BC52 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	12 [label="BC9, BC15,
+BC31, BC33,
+BC44, BC47,
+BC49, BC51" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	8 [label=BC34 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	9 [label=BC36 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	10 [label=BC39 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	14 [label=BC48 color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	15 [label="BCT, BC7,
+BC8, BC13,
+BC14, BC23,
+BC24, BC29,
+BC35, BC42,
+BC50" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	3 [label="BC11,
+BC18,
+BC37" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	18 [label="BC56,
+BC59" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 [label="" color="#C2C2C2" fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 -> 19 [label="" color="#A2A2A2" fontname=Arial len=27.37674]
+	2 -> 4 [label="" color="#A2A2A2" fontname=Arial len=22.47489]
+	7 -> 11 [label="" color="#A2A2A2" fontname=Arial len=26.60639]
+	7 -> 17 [label="" color="#A2A2A2" fontname=Arial len=25.86741]
+	16 -> 13 [label="" color="#A2A2A2" fontname=Arial len=26.89638]
+	12 -> 5 [label="" color="#A2A2A2" fontname=Arial len=20.62427]
+	12 -> 16 [label="" color="#A2A2A2" fontname=Arial len=26.195]
+	15 -> 8 [label="" color="#A2A2A2" fontname=Arial len=28.53201]
+	15 -> 9 [label="" color="#A2A2A2" fontname=Arial len=27.69707]
+	15 -> 10 [label="" color="#A2A2A2" fontname=Arial len=27.91789]
+	15 -> 14 [label="" color="#A2A2A2" fontname=Arial len=26.0258]
+	3 -> 6 [label="" color="#A2A2A2" fontname=Arial len=25.09681]
+	3 -> 7 [label="" color="#A2A2A2" fontname=Arial len=20.64885]
+	3 -> 12 [label="" color="#A2A2A2" fontname=Arial len=24.38246]
+	3 -> 15 [label="" color="#A2A2A2" fontname=Arial len=27.61255]
+	18 -> 3 [label="" color="#A2A2A2" fontname=Arial len=19.84377]
+	1 -> 2 [label="" color="#A2A2A2" fontname=Arial len=19.14391]
+	1 -> 18 [label="" color="#A2A2A2" fontname=Arial len=20.05779]
+}

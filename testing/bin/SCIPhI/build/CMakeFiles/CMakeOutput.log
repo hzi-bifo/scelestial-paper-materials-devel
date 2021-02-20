@@ -1,0 +1,416 @@
+The system is: Linux - 3.16.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc 
+Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/hforoughmand/miniconda3/envs/py3/include
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/hforoughmand/miniconda3/envs/py3/include
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4286282617/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4286282617.dir/build.make CMakeFiles/cmTryCompileExec4286282617.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4286282617.dir/testCCompiler.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec4286282617.dir/testCCompiler.c.o   -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4286282617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4286282617.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec4286282617.dir/testCCompiler.c.o  -o cmTryCompileExec4286282617 -rdynamic 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1179256304/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1179256304.dir/build.make CMakeFiles/cmTryCompileExec1179256304.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1179256304
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1179256304.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include    -v CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1179256304 -rdynamic  
+Reading specs from /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs
+COLLECT_GCC=/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper
+Target: x86_64-conda_cos6-linux-gnu
+Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) 
+COMPILER_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/
+LIBRARY_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/hforoughmand/miniconda3/envs/py3/include' '-v' '-o' 'cmTryCompileExec1179256304' '-rdynamic'
+ /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjkzE7Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTryCompileExec1179256304 /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/hforoughmand/miniconda3/envs/py3/include' '-v' '-o' 'cmTryCompileExec1179256304' '-rdynamic'
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1179256304/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1179256304.dir/build.make CMakeFiles/cmTryCompileExec1179256304.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1179256304]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1179256304.dir/link.txt --verbose=1]
+  ignore line: [/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include    -v CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1179256304 -rdynamic  ]
+  ignore line: [Reading specs from /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda_cos6-linux-gnu]
+  ignore line: [Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) ]
+  ignore line: [COMPILER_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/hforoughmand/miniconda3/envs/py3/include' '-v' '-o' 'cmTryCompileExec1179256304' '-rdynamic']
+  link line: [ /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjkzE7Z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTryCompileExec1179256304 /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjkzE7Z.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1179256304] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/lib] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1179256304.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> [/home/hforoughmand/miniconda3/envs/py3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc] ==> [/home/hforoughmand/miniconda3/envs/py3/lib/gcc]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/hforoughmand/miniconda3/envs/py3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0;/home/hforoughmand/miniconda3/envs/py3/lib/gcc;/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/lib;/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/lib;/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3289856033/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3289856033.dir/build.make CMakeFiles/cmTryCompileExec3289856033.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3289856033.dir/testCXXCompiler.cxx.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec3289856033.dir/testCXXCompiler.cxx.o -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3289856033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3289856033.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec3289856033.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3289856033 -rdynamic 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec882591055/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec882591055.dir/build.make CMakeFiles/cmTryCompileExec882591055.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec882591055
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec882591055.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include    -v CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec882591055 -rdynamic  
+Reading specs from /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs
+COLLECT_GCC=/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper
+Target: x86_64-conda_cos6-linux-gnu
+Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) 
+COMPILER_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/
+LIBRARY_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/hforoughmand/miniconda3/envs/py3/include' '-v' '-o' 'cmTryCompileExec882591055' '-rdynamic' '-shared-libgcc'
+ /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUJu6wR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTryCompileExec882591055 /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/hforoughmand/miniconda3/envs/py3/include' '-v' '-o' 'cmTryCompileExec882591055' '-rdynamic' '-shared-libgcc'
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec882591055/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec882591055.dir/build.make CMakeFiles/cmTryCompileExec882591055.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec882591055]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec882591055.dir/link.txt --verbose=1]
+  ignore line: [/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include    -v CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec882591055 -rdynamic  ]
+  ignore line: [Reading specs from /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/specs]
+  ignore line: [COLLECT_GCC=/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda_cos6-linux-gnu]
+  ignore line: [Configured with: /home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda_cos6-linux-gnu --prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built --with-sysroot=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.23.0.449-a04d0' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpfr=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-mpc=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --with-isl=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/.build/x86_64-conda_cos6-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/rdonnelly/mc/conda-bld/compilers_linux-64_1534865402226/work/gcc_built/x86_64-conda_cos6-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (crosstool-NG 1.23.0.449-a04d0) ]
+  ignore line: [COMPILER_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/:/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/hforoughmand/miniconda3/envs/py3/include' '-v' '-o' 'cmTryCompileExec882591055' '-rdynamic' '-shared-libgcc']
+  link line: [ /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2 -plugin /home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so -plugin-opt=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUJu6wR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTryCompileExec882591055 /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0 -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib -L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -rpath /home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o /home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/hforoughmand/miniconda3/envs/py3/bin/../libexec/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUJu6wR.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec882591055] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib]
+    arg [-L/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/lib] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec882591055.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/crtendS.o] ==> ignore
+    arg [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0] ==> [/home/hforoughmand/miniconda3/envs/py3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc] ==> [/home/hforoughmand/miniconda3/envs/py3/lib/gcc]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib/../lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib/../lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/lib]
+  collapse library dir [/home/hforoughmand/miniconda3/envs/py3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/lib] ==> [/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/hforoughmand/miniconda3/envs/py3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0;/home/hforoughmand/miniconda3/envs/py3/lib/gcc;/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/lib;/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/lib;/home/hforoughmand/miniconda3/envs/py3/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3559208856/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3559208856.dir/build.make CMakeFiles/cmTryCompileExec3559208856.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3559208856.dir/CheckIncludeFiles.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec3559208856.dir/CheckIncludeFiles.c.o   -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3559208856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3559208856.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec3559208856.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3559208856 -rdynamic 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3094437904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3094437904.dir/build.make CMakeFiles/cmTryCompileExec3094437904.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3094437904.dir/CheckFunctionExists.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3094437904.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3094437904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3094437904.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=pthread_create   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec3094437904.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3094437904 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function png_create_read_struct exists passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec807806573/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec807806573.dir/build.make CMakeFiles/cmTryCompileExec807806573.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec807806573.dir/CheckFunctionExists.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTryCompileExec807806573.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec807806573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec807806573.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec807806573.dir/CheckFunctionExists.c.o  -o cmTryCompileExec807806573 -rdynamic /home/hforoughmand/miniconda3/envs/py3/lib/libpng.so /home/hforoughmand/miniconda3/envs/py3/lib/libz.so -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec815881030/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec815881030.dir/build.make CMakeFiles/cmTryCompileExec815881030.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec815881030.dir/CheckIncludeFile.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec815881030.dir/CheckIncludeFile.c.o   -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec815881030
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec815881030.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec815881030.dir/CheckIncludeFile.c.o  -o cmTryCompileExec815881030 -rdynamic 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1412958840/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1412958840.dir/build.make CMakeFiles/cmTryCompileExec1412958840.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1412958840.dir/CheckIncludeFile.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec1412958840.dir/CheckIncludeFile.c.o   -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1412958840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1412958840.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec1412958840.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1412958840 -rdynamic 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1692416847/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1692416847.dir/build.make CMakeFiles/cmTryCompileExec1692416847.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1692416847.dir/CheckIncludeFile.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec1692416847.dir/CheckIncludeFile.c.o   -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1692416847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1692416847.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec1692416847.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1692416847 -rdynamic 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3594007900/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3594007900.dir/build.make CMakeFiles/cmTryCompileExec3594007900.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3594007900.dir/SIZE_OF_VOID_PTR.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -o CMakeFiles/cmTryCompileExec3594007900.dir/SIZE_OF_VOID_PTR.c.o   -c /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTryCompileExec3594007900
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3594007900.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include     -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec3594007900.dir/SIZE_OF_VOID_PTR.c.o  -o cmTryCompileExec3594007900 -rdynamic /home/hforoughmand/miniconda3/envs/py3/lib/libpng.so /home/hforoughmand/miniconda3/envs/py3/lib/libz.so -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgesv exists passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1228701264/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1228701264.dir/build.make CMakeFiles/cmTryCompileExec1228701264.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1228701264.dir/CheckFunctionExists.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTryCompileExec1228701264.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1228701264
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1228701264.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=sgesv   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec1228701264.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1228701264  -L/home/hforoughmand/miniconda3/envs/py3/lib -rdynamic -lmkl_rt -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgesv_ exists passed with the following output:
+Change Dir: /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2520240835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2520240835.dir/build.make CMakeFiles/cmTryCompileExec2520240835.dir/build
+make[1]: Entering directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2520240835.dir/CheckFunctionExists.c.o
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=sgesv_   -o CMakeFiles/cmTryCompileExec2520240835.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2520240835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2520240835.dir/link.txt --verbose=1
+/home/hforoughmand/miniconda3/envs/py3/bin/x86_64-conda_cos6-linux-gnu-cc  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/hforoughmand/miniconda3/envs/py3/include  -DCHECK_FUNCTION_EXISTS=sgesv_   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib -Wl,-rpath-link,/home/hforoughmand/miniconda3/envs/py3/lib -L/home/hforoughmand/miniconda3/envs/py3/lib CMakeFiles/cmTryCompileExec2520240835.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2520240835  -L/home/hforoughmand/miniconda3/envs/py3/lib -rdynamic -lmkl_rt -Wl,-rpath,/home/hforoughmand/miniconda3/envs/py3/lib 
+make[1]: Leaving directory '/home/hforoughmand/sc-phyl-infer-steiner/SCIPhI/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,77 @@
+# SCIPhI: Single-cell mutation identification via phylogenetic inference
+#
+# Copyright (C) 2018 ETH Zurich, Jochen Singer
+#
+# This file is part of SCIPhI.
+#
+# SCIPhI is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# SCIPhI is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with SCIPhI. If not, see <http://www.gnu.org/licenses/>.
+# 
+# @author: Jochen Singer
+
+import os, glob, sys
+from snakemake.utils import R
+
+SAMPLEMAPPING = 'sample_mapping.txt' 
+FASTQDIR = '../data/sra/'
+OUTDIR   = 'out/'
+TMPDIR   = 'tmp/'
+
+ORGANISM = 'H_sapiens_hg19'
+
+include: "../../pipe/misc_snake.py"
+
+TUMORSAMPLENAMES = getTumorSampleNames("CT")
+CELLNORMALSAMPLENAMES = getTumorSampleNames("CN")
+BULKNORMALSAMPLENAMES = getTumorSampleNames("BN")
+SAMPLENAMES = CELLNORMALSAMPLENAMES + BULKNORMALSAMPLENAMES + TUMORSAMPLENAMES
+
+PAIREDFASTQFILESWITHOUTR = getPairedFastqFilesWithoutR(SAMPLENAMES)
+SINGLEFASTQFILES = getSingleFastqFiles(SAMPLENAMES)
+
+BWAIN = FASTQDIR
+BWAOUT = OUTDIR + 'bwa/'
+FIXMATEANDSORTIN = BWAOUT
+FIXMATEANDSORTOUT = OUTDIR + 'sorted/'
+MERGEBAMSIN = FIXMATEANDSORTOUT
+MERGEBAMSOUT = OUTDIR + 'merged/'
+MARKPCRDUBLICATESIN = MERGEBAMSOUT
+MARKPCRDUBLICATESOUT = OUTDIR + 'markedDuplicates/'
+REALIGNINDELSIN = MARKPCRDUBLICATESOUT
+REALIGNINDELSOUT = OUTDIR +'realign/'
+MPILEUPIN = REALIGNINDELSOUT
+MPILEUPOUT = OUTDIR + 'mpileup/'
+FINALBAMOUTDIR = REALIGNINDELSOUT
+MONOVAROUT = OUTDIR + 'variants/monovar/'
+SCIPHIOUT = OUTDIR + 'variants/sciphi/'
+
+include: "../../pipe/align_snake.py"
+include: "../../pipe/qc_snake.py"
+include: "../../pipe/var_exome_snake.py"
+include: "../../pipe/monovar_snake.py"
+
+print(getExperimentNames())
+
+localrules: all
+rule all:
+    input:
+        REALIGNINDELSOUT + 'multiqc_report.html',
+        expand(OUTDIR + 'variants/monovar/{experiment}.vcf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/sciphi/1/{experiment}.vcf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/sciphi/2/{experiment}.vcf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/sciphi/1/{experiment}_heatTree.pdf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/sciphi/1/{experiment}_overview.pdf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/sciphi/2/{experiment}_heatTree.pdf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/sciphi/2/{experiment}_overview.pdf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/monovar/{experiment}_heatTree.pdf', experiment = getExperimentNames()),
+        expand(OUTDIR + 'variants/monovar/{experiment}_cluster.pdf', experiment = getExperimentNames())

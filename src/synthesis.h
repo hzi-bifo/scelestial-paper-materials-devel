@@ -26,8 +26,11 @@ const int MAX_SAMPLE = 1000;
 
 int n;
 vector<double> adv, advCumSum;
+// parent of a node, distance of node to its parent (not use for it now)
 vector<int> parent, parentDistance;
 vector<vector<int>> sequence;
+// number of children
+vector<int> childCount;
 
 int locusCount, step;
 double incAdvProb, decAdvProb, keepAdvProb;
@@ -36,11 +39,49 @@ double missingValueRate, zeroToOneRate, oneToZeroRate;
 
 double stepMutationRate;
 
+// when growing the clone tree, only allow nodes with less than treeGrowFilterOutChilderSize to have new child
+int treeGrowFilterOutChilderSize = 0;
+
+enum SamplingMethod {
+    ADVANTAGE, UNIFORM
+};
+std::istream& operator>>(std::istream& in, SamplingMethod& samplingMethod) {
+	string token;
+	in >> token;
+	if (token == "advantange")
+		samplingMethod = SamplingMethod::ADVANTAGE;
+	else if (token == "uniform")
+		samplingMethod = SamplingMethod::UNIFORM;
+	else
+		throw runtime_error("invalid sampling method " + token);
+	return in;
+}
+
+SamplingMethod samplingMethod;
+
+
 int sampleWithAdvantage() {
-	double prolR = doubleRand(advCumSum[n-1]);
-	vector<double>::iterator prolIt = lower_bound(advCumSum.begin(), advCumSum.end(), prolR);
-	int prolIdx = prolIt - advCumSum.begin();
-	return prolIdx;
+	if (treeGrowFilterOutChilderSize == 0) {
+		double prolR = doubleRand(advCumSum[n-1]);
+		vector<double>::iterator prolIt = lower_bound(advCumSum.begin(), advCumSum.end(), prolR);
+		int prolIdx = prolIt - advCumSum.begin();
+		return prolIdx;
+	} else {
+		double advSum = 0;
+		for (int i=0; i<parent.size(); i++) {
+			if (childCount[i] < treeGrowFilterOutChilderSize)
+				advSum += adv[i];
+		}
+		double prolR = doubleRand(advSum), advSum2 = 0;
+		for (int i=0; i<parent.size(); i++) {
+			if (childCount[i] < treeGrowFilterOutChilderSize) {
+				advSum2 += adv[i];
+				if (advSum2 > prolR)
+					return i;
+			}
+		}
+		return -1;
+	}
 }
 
 void simulate() {
@@ -58,6 +99,8 @@ void simulate() {
 	parent.push_back(-1);
 	parentDistance.clear();
 	parentDistance.push_back(0);
+	childCount.clear();
+	childCount.push_back(0);
 	n = 1;
 
 	std::poisson_distribution<int> distribution(stepMutationRate);
@@ -87,6 +130,8 @@ void simulate() {
 
 		parent.push_back(prolIdx);
 		parentDistance.push_back(1);
+		childCount.push_back(0);
+		childCount[prolIdx] ++;
 		n++;
 	}
 
@@ -134,11 +179,24 @@ Output sample(int sampleCount) {
 
 	Output o(sampleCount);
 
-	for (int i=0; i<sampleCount; i++) {
-		int prolIdx = sampleWithAdvantage();
+	if (samplingMethod == SamplingMethod::ADVANTAGE) {
+		for (int i=0; i<sampleCount; i++) {
+			int prolIdx = sampleWithAdvantage();
 
-		o.cloneSamples[prolIdx].push_back(i);
-		o.sampleClone.push_back(prolIdx);
+			o.cloneSamples[prolIdx].push_back(i);
+			o.sampleClone.push_back(prolIdx);
+		}
+	} else if (samplingMethod == SamplingMethod::UNIFORM) {
+		if (sampleCount != childCount.size()) {
+			cerr << "Warning: Sample count and child count should be equal for this sampling method " << sampleCount << " " << childCount.size() << endl;
+		}
+		for (int i=0; i<sampleCount; i++) {
+			int prolIdx = i % childCount.size();
+			o.cloneSamples[prolIdx].push_back(i);
+			o.sampleClone.push_back(prolIdx);
+		}
+	} else {
+		throw runtime_error("Invalid samplingMethod");
 	}
 
 

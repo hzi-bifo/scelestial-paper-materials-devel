@@ -119,3 +119,18 @@ python src/clone-tree-to-mu-tree-imput.py data/synth01-scelestial-tree.txt data/
 ```
 
 
+
+
+## Reproducing results of paper
+
+install 
+library(oncoNEM)
+library(igraph)
+
+conda py2 (for biopython)
+
+install java
+install boost
+configure makefile variables
+install graphviz
+

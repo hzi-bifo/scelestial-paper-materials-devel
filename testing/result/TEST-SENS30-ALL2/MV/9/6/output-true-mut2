@@ -1,0 +1,32 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	3 [label="C8, C15,
+C23, C35,
+C38, C43" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label="C19, C22,
+C24, C31,
+C39" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 [label="C0, C1, C3,
+C6, C7, C12,
+C16, C17, C20,
+C21, C25, C26,
+C34, C37, C40,
+C41, C44, C45,
+C48" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 [label="C2, C4,
+C9, C18,
+C27, C28,
+C46" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="C10, C11,
+C32, C33,
+C36, C47,
+C49" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	0 [label="C5, C13,
+C14, C29,
+C30, C42" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 -> 3 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+	1 -> 2 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+	1 -> 4 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+	0 -> 1 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+	0 -> 5 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+}

@@ -87,6 +87,8 @@ int main(int argc, char* argv[]) {
 		("zorate", po::value<double>(&zeroToOneRate)->default_value(0.1), "zero to one rate")
 		("ozrate", po::value<double>(&oneToZeroRate)->default_value(0.2), "one to zero rate")
 		("remove-dup", po::value<bool>(&removeDuplicateSequences)->default_value(false), "remove duplicate sequences")
+		("treeGrowFilterOutChildSize", po::value<int>(&treeGrowFilterOutChilderSize)->default_value(0), "max child number of the clone tree, 0=inactive")
+		("samplingMethod", po::value<SamplingMethod>(&samplingMethod)->default_value(SamplingMethod::ADVANTAGE), "Sampling method: advantage/uniform")
 	;
 
 	po::variables_map vm;

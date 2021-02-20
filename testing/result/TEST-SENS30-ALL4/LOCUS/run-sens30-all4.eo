@@ -1,0 +1,1413 @@
+parameters: RM:false SERVER:false STEP_MIN:5 STEP_MAX:5 STEP_INC:1 CLONE_MIN:20 CLONE_MAX:20 CLONE_INC:5 SAMPLE_MIN:50 SAMPLE_MAX:50 SAMPLE_INC:1 LOCUS_MIN:20 LOCUS_MAX:1000 LOCUS_INC:100 MISSING_VALUE_RATE_MIN:0.07 MISSING_VALUE_RATE_MAX:0.071 MISSING_VALUE_RATE_INC:1 ZORATE_MIN:0.015 ZORATE_MAX:0.0151 ZORATE_INC:0.1 OZRATE_MIN:0.10 OZRATE_MAX:0.101 OZRATE_INC:0.1 REPEAT_COUNT:10 STEPMUTATIONRATE_MIN:20 STEPMUTATIONRATE_MAX:20.1 STEPMUTATIONRATE_INC:1 SDIR:result/TEST-SENS30-ALL4/LOCUS ZORATE_RANGE: 0.015 OZRATE_RANGE: 0.1 MISSING_VALUE_RATE_RANGE: 0.07 MISSING_VALUE_RATE_RANGE: 0.07 RUN: I RUN2:  EXIT_ON_ERROR: 1
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=20 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:1 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 784 --seed-error 784 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 784 result/TEST-SENS30-ALL4/LOCUS/1/0/ --remove-dup false
+1 0 1 1 1 0 1 1 3 1 1 0 1 0 0 1 0 0 1 0 1 1 1 1 1 1 0 0 1 1 0 0 1 1 0 3 0 1 0 1 0 1 1 0 0 1 1 0 0 0 
+timestamp:19/02/2021 03:46:23
+0.72user 0.00system 0:00.72elapsed 99%CPU (0avgtext+0avgdata 2828maxresident)k
+0inputs+8outputs (0major+148minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/1/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/1/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/1/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3614 
+I0 0.3614 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.992 
+pI0 0.19076923076923077 1.0 
+ synthesis bin//synthesis/synthesis --seed 78561 --seed-error 78561 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 78561 result/TEST-SENS30-ALL4/LOCUS/1/1/ --remove-dup false
+1 0 1 0 1 1 0 0 0 0 3 0 0 3 1 0 1 0 0 1 0 0 3 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 0 0 0 0 1 1 1 0 1 
+timestamp:19/02/2021 03:46:24
+0.70user 0.00system 0:00.71elapsed 99%CPU (0avgtext+0avgdata 2872maxresident)k
+0inputs+8outputs (0major+152minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/1/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/1/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/1/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2804 
+I1 0.2804 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.976 
+pI1 0.1478787878787879 1.0 
+ synthesis bin//synthesis/synthesis --seed 156338 --seed-error 156338 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 156338 result/TEST-SENS30-ALL4/LOCUS/1/2/ --remove-dup false
+0 0 1 0 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 3 1 3 1 1 3 1 0 1 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 3 0 1 1 1 1 
+timestamp:19/02/2021 03:46:26
+0.70user 0.00system 0:00.71elapsed 99%CPU (0avgtext+0avgdata 2768maxresident)k
+0inputs+8outputs (0major+149minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/1/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/1/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/1/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.4489 
+I2 0.4489 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.896 
+pI2 0.20363636363636364 1.0 
+ synthesis bin//synthesis/synthesis --seed 234115 --seed-error 234115 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 234115 result/TEST-SENS30-ALL4/LOCUS/1/3/ --remove-dup false
+3 3 3 1 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 3 0 1 0 0 3 3 1 1 1 1 1 1 0 1 1 0 0 0 0 0 0 1 1 1 0 0 1 1 1 
+timestamp:19/02/2021 03:46:28
+0.71user 0.00system 0:00.72elapsed 99%CPU (0avgtext+0avgdata 2812maxresident)k
+0inputs+8outputs (0major+149minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/1/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/1/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/1/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3692 
+I3 0.3692 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.924 
+pI3 0.154 1.0 
+ synthesis bin//synthesis/synthesis --seed 311892 --seed-error 311892 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 311892 result/TEST-SENS30-ALL4/LOCUS/1/4/ --remove-dup false
+1 1 0 1 1 1 1 0 0 1 1 0 1 0 0 1 1 0 1 0 0 0 3 0 0 1 0 1 1 1 0 1 0 3 3 1 0 0 0 0 1 3 0 1 1 0 0 0 1 0 
+timestamp:19/02/2021 03:46:30
+0.71user 0.00system 0:00.71elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+8outputs (0major+151minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/1/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/1/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/1/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.4070 
+I4 0.4070 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.94 
+pI4 0.146875 1.0 
+ synthesis bin//synthesis/synthesis --seed 389669 --seed-error 389669 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 389669 result/TEST-SENS30-ALL4/LOCUS/1/5/ --remove-dup false
+1 0 1 1 0 0 0 1 0 1 0 1 0 1 1 0 0 0 1 0 0 0 0 1 1 1 0 0 0 0 1 1 0 0 1 0 3 0 1 1 1 1 1 1 0 3 0 0 0 0 
+timestamp:19/02/2021 03:46:32
+0.71user 0.00system 0:00.71elapsed 99%CPU (0avgtext+0avgdata 2752maxresident)k
+0inputs+8outputs (0major+149minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/1/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/1/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/1/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.4478 
+I5 0.4478 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.896 
+pI5 0.12108108108108108 1.0 
+ synthesis bin//synthesis/synthesis --seed 467446 --seed-error 467446 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 467446 result/TEST-SENS30-ALL4/LOCUS/1/6/ --remove-dup false
+0 0 0 0 3 1 3 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0 0 3 0 0 0 1 0 0 1 1 0 0 0 0 0 
+timestamp:19/02/2021 03:46:34
+0.71user 0.00system 0:00.72elapsed 99%CPU (0avgtext+0avgdata 2836maxresident)k
+0inputs+8outputs (0major+149minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/1/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/1/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/1/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.4160 
+I6 0.4160 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.956 
+pI6 0.149375 1.0 
+ synthesis bin//synthesis/synthesis --seed 545223 --seed-error 545223 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 545223 result/TEST-SENS30-ALL4/LOCUS/1/7/ --remove-dup false
+1 1 1 1 0 1 0 1 0 0 0 1 3 1 0 0 1 0 1 0 0 1 0 1 0 1 0 0 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 0 0 0 1 1 1 0 
+timestamp:19/02/2021 03:46:36
+0.71user 0.00system 0:00.72elapsed 99%CPU (0avgtext+0avgdata 2880maxresident)k
+0inputs+8outputs (0major+151minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/1/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/1/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/1/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.5499 
+I7 0.5499 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.928 
+pI7 0.1657142857142857 1.0 
+ synthesis bin//synthesis/synthesis --seed 623000 --seed-error 623000 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 623000 result/TEST-SENS30-ALL4/LOCUS/1/8/ --remove-dup false
+3 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 1 0 3 3 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:46:38
+0.70user 0.00system 0:00.71elapsed 99%CPU (0avgtext+0avgdata 2808maxresident)k
+0inputs+8outputs (0major+148minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/1/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/1/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/1/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.5699 
+I8 0.5699 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.884 
+pI8 0.12277777777777778 1.0 
+ synthesis bin//synthesis/synthesis --seed 700777 --seed-error 700777 --sample 50 --locus 20 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/1/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/1/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/1/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/1/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 700777 result/TEST-SENS30-ALL4/LOCUS/1/9/ --remove-dup false
+0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:46:40
+0.72user 0.00system 0:00.72elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+8outputs (0major+149minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/1/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/1/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/1/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/1/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.5152 
+I9 0.5152 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.928 
+pI9 0.1657142857142857 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=120 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:2 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 1561 --seed-error 1561 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 1561 result/TEST-SENS30-ALL4/LOCUS/2/0/ --remove-dup false
+0 1 1 0 0 0 0 0 1 3 3 0 0 3 0 0 0 0 3 0 0 1 3 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 1 0 
+timestamp:19/02/2021 03:46:42
+3.47user 0.00system 0:03.48elapsed 99%CPU (0avgtext+0avgdata 2832maxresident)k
+0inputs+32outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/2/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/2/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/2/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.2051 
+I0 0.2051 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 79338 --seed-error 79338 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 79338 result/TEST-SENS30-ALL4/LOCUS/2/1/ --remove-dup false
+0 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0 0 3 0 1 1 1 0 1 0 1 0 0 3 1 0 1 0 0 3 1 0 1 1 1 3 0 1 
+timestamp:19/02/2021 03:46:46
+3.46user 0.00system 0:03.47elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+32outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/2/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/2/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/2/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.3197 
+I1 0.3197 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.1388888888888889 1.0 
+ synthesis bin//synthesis/synthesis --seed 157115 --seed-error 157115 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 157115 result/TEST-SENS30-ALL4/LOCUS/2/2/ --remove-dup false
+0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+timestamp:19/02/2021 03:46:51
+3.46user 0.00system 0:03.46elapsed 99%CPU (0avgtext+0avgdata 2888maxresident)k
+0inputs+32outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/2/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/2/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/2/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2789 
+I2 0.2789 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 234892 --seed-error 234892 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 234892 result/TEST-SENS30-ALL4/LOCUS/2/3/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 3 0 0 0 
+timestamp:19/02/2021 03:46:56
+3.43user 0.00system 0:03.44elapsed 99%CPU (0avgtext+0avgdata 2844maxresident)k
+0inputs+32outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/2/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/2/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/2/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.2897 
+I3 0.2897 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 312669 --seed-error 312669 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 312669 result/TEST-SENS30-ALL4/LOCUS/2/4/ --remove-dup false
+0 0 3 1 1 0 0 0 0 3 1 1 0 0 0 0 1 0 0 0 1 0 0 0 3 0 1 0 0 0 0 3 0 0 3 0 0 0 1 0 1 0 1 0 3 1 0 1 0 0 
+timestamp:19/02/2021 03:47:01
+3.61user 0.00system 0:03.62elapsed 99%CPU (0avgtext+0avgdata 2944maxresident)k
+0inputs+32outputs (0major+166minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/2/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/2/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/2/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2645 
+I4 0.2645 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 390446 --seed-error 390446 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 390446 result/TEST-SENS30-ALL4/LOCUS/2/5/ --remove-dup false
+0 0 0 3 0 1 0 0 0 0 1 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 3 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 
+timestamp:19/02/2021 03:47:06
+3.48user 0.00system 0:03.48elapsed 99%CPU (0avgtext+0avgdata 2828maxresident)k
+0inputs+40outputs (0major+158minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/2/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/2/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/2/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.2321 
+I5 0.2321 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.14705882352941177 1.0 
+ synthesis bin//synthesis/synthesis --seed 468223 --seed-error 468223 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 468223 result/TEST-SENS30-ALL4/LOCUS/2/6/ --remove-dup false
+0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 1 0 3 1 1 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 1 1 0 1 1 1 
+timestamp:19/02/2021 03:47:10
+3.91user 0.00system 0:03.91elapsed 99%CPU (0avgtext+0avgdata 2848maxresident)k
+0inputs+32outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/2/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/2/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/2/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2628 
+I6 0.2628 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 546000 --seed-error 546000 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 546000 result/TEST-SENS30-ALL4/LOCUS/2/7/ --remove-dup false
+1 0 0 0 0 0 1 0 1 1 0 1 0 0 3 1 0 0 3 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 3 0 1 0 0 0 0 0 3 0 0 0 0 1 1 0 
+timestamp:19/02/2021 03:47:16
+3.48user 0.00system 0:03.48elapsed 100%CPU (0avgtext+0avgdata 2840maxresident)k
+0inputs+32outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/2/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/2/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/2/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2344 
+I7 0.2344 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 623777 --seed-error 623777 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 623777 result/TEST-SENS30-ALL4/LOCUS/2/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:47:20
+3.52user 0.00system 0:03.52elapsed 99%CPU (0avgtext+0avgdata 2836maxresident)k
+0inputs+32outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/2/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/2/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/2/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2447 
+I8 0.2447 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.1388888888888889 1.0 
+ synthesis bin//synthesis/synthesis --seed 701554 --seed-error 701554 --sample 50 --locus 120 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/2/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/2/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/2/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/2/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 701554 result/TEST-SENS30-ALL4/LOCUS/2/9/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:47:25
+3.46user 0.00system 0:03.46elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+40outputs (0major+165minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/2/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/2/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/2/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/2/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.3231 
+I9 0.3231 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.15151515151515152 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=220 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:3 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 2338 --seed-error 2338 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 2338 result/TEST-SENS30-ALL4/LOCUS/3/0/ --remove-dup false
+0 0 0 1 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:47:30
+6.12user 0.00system 0:06.12elapsed 99%CPU (0avgtext+0avgdata 2952maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/3/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/3/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/3/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3657 
+I0 0.3657 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.968 
+pI0 0.15125 1.0 
+ synthesis bin//synthesis/synthesis --seed 80115 --seed-error 80115 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 80115 result/TEST-SENS30-ALL4/LOCUS/3/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 
+timestamp:19/02/2021 03:47:38
+6.14user 0.00system 0:06.15elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/3/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/3/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/3/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2625 
+I1 0.2625 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.14705882352941177 1.0 
+ synthesis bin//synthesis/synthesis --seed 157892 --seed-error 157892 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 157892 result/TEST-SENS30-ALL4/LOCUS/3/2/ --remove-dup false
+0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:47:45
+6.16user 0.00system 0:06.17elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+56outputs (0major+174minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/3/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/3/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/3/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2296 
+I2 0.2296 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.14705882352941177 1.0 
+ synthesis bin//synthesis/synthesis --seed 235669 --seed-error 235669 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 235669 result/TEST-SENS30-ALL4/LOCUS/3/3/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:47:53
+6.53user 0.00system 0:06.54elapsed 99%CPU (0avgtext+0avgdata 2876maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/3/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/3/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/3/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.2451 
+I3 0.2451 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 313446 --seed-error 313446 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 313446 result/TEST-SENS30-ALL4/LOCUS/3/4/ --remove-dup false
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:48:01
+6.29user 0.00system 0:06.30elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/3/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/3/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/3/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2206 
+I4 0.2206 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 391223 --seed-error 391223 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 391223 result/TEST-SENS30-ALL4/LOCUS/3/5/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:48:08
+6.18user 0.00system 0:06.19elapsed 99%CPU (0avgtext+0avgdata 2872maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/3/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/3/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/3/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.2815 
+I5 0.2815 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.14705882352941177 1.0 
+ synthesis bin//synthesis/synthesis --seed 469000 --seed-error 469000 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 469000 result/TEST-SENS30-ALL4/LOCUS/3/6/ --remove-dup false
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:48:16
+6.36user 0.00system 0:06.36elapsed 99%CPU (0avgtext+0avgdata 2872maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/3/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/3/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/3/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3246 
+I6 0.3246 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 546777 --seed-error 546777 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 546777 result/TEST-SENS30-ALL4/LOCUS/3/7/ --remove-dup false
+0 3 3 0 0 3 0 1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 1 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 03:48:24
+6.15user 0.00system 0:06.16elapsed 99%CPU (0avgtext+0avgdata 2932maxresident)k
+0inputs+56outputs (0major+174minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/3/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/3/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/3/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.3065 
+I7 0.3065 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.98 
+pI7 0.15806451612903225 1.0 
+ synthesis bin//synthesis/synthesis --seed 624554 --seed-error 624554 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 624554 result/TEST-SENS30-ALL4/LOCUS/3/8/ --remove-dup false
+0 0 0 0 3 0 3 3 3 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:48:31
+6.63user 0.00system 0:06.63elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+56outputs (0major+172minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/3/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/3/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/3/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2306 
+I8 0.2306 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 702331 --seed-error 702331 --sample 50 --locus 220 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/3/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/3/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/3/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/3/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 702331 result/TEST-SENS30-ALL4/LOCUS/3/9/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 3 0 0 0 0 0 0 0 3 0 1 0 0 
+timestamp:19/02/2021 03:48:39
+6.25user 0.00system 0:06.25elapsed 99%CPU (0avgtext+0avgdata 2796maxresident)k
+0inputs+64outputs (0major+171minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/3/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/3/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/3/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/3/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2745 
+I9 0.2745 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.14705882352941177 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=320 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:4 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 3115 --seed-error 3115 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 3115 result/TEST-SENS30-ALL4/LOCUS/4/0/ --remove-dup false
+0 1 0 0 1 0 0 1 1 0 0 0 1 1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 3 1 3 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 1 0 0 3 
+timestamp:19/02/2021 03:48:47
+8.92user 0.00system 0:08.92elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+88outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/4/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/4/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/4/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3374 
+I0 0.3374 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 80892 --seed-error 80892 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 80892 result/TEST-SENS30-ALL4/LOCUS/4/1/ --remove-dup false
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 0 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 1 1 0 1 1 
+timestamp:19/02/2021 03:48:57
+8.93user 0.00system 0:08.94elapsed 99%CPU (0avgtext+0avgdata 2896maxresident)k
+0inputs+88outputs (0major+191minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/4/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/4/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/4/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.3866 
+I1 0.3866 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.98 
+pI1 0.1484848484848485 1.0 
+ synthesis bin//synthesis/synthesis --seed 158669 --seed-error 158669 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 158669 result/TEST-SENS30-ALL4/LOCUS/4/2/ --remove-dup false
+0 0 0 0 0 0 0 0 3 0 0 3 3 3 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:49:08
+9.44user 0.00system 0:09.44elapsed 99%CPU (0avgtext+0avgdata 2988maxresident)k
+0inputs+88outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/4/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/4/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/4/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2724 
+I2 0.2724 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 236446 --seed-error 236446 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 236446 result/TEST-SENS30-ALL4/LOCUS/4/3/ --remove-dup false
+0 3 0 3 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 
+timestamp:19/02/2021 03:49:19
+8.88user 0.00system 0:08.88elapsed 99%CPU (0avgtext+0avgdata 2880maxresident)k
+0inputs+80outputs (0major+187minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/4/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/4/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/4/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.2767 
+I3 0.2767 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.16129032258064516 1.0 
+ synthesis bin//synthesis/synthesis --seed 314223 --seed-error 314223 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 314223 result/TEST-SENS30-ALL4/LOCUS/4/4/ --remove-dup false
+3 0 0 0 3 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:49:29
+8.87user 0.00system 0:08.88elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+88outputs (0major+192minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/4/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/4/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/4/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2582 
+I4 0.2582 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 392000 --seed-error 392000 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 392000 result/TEST-SENS30-ALL4/LOCUS/4/5/ --remove-dup false
+0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:49:39
+10.04user 0.00system 0:10.04elapsed 99%CPU (0avgtext+0avgdata 2896maxresident)k
+0inputs+88outputs (0major+187minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/4/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/4/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/4/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.2629 
+I5 0.2629 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.1388888888888889 1.0 
+ synthesis bin//synthesis/synthesis --seed 469777 --seed-error 469777 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 469777 result/TEST-SENS30-ALL4/LOCUS/4/6/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 3 3 0 0 0 1 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:49:51
+8.92user 0.00system 0:08.93elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+80outputs (0major+189minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/4/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/4/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/4/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2410 
+I6 0.2410 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.1388888888888889 1.0 
+ synthesis bin//synthesis/synthesis --seed 547554 --seed-error 547554 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 547554 result/TEST-SENS30-ALL4/LOCUS/4/7/ --remove-dup false
+0 0 0 0 0 3 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:50:01
+9.01user 0.01system 0:09.04elapsed 99%CPU (0avgtext+0avgdata 2892maxresident)k
+0inputs+88outputs (0major+190minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/4/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/4/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/4/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2309 
+I7 0.2309 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.992 
+pI7 0.1417142857142857 1.0 
+ synthesis bin//synthesis/synthesis --seed 625331 --seed-error 625331 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 625331 result/TEST-SENS30-ALL4/LOCUS/4/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 3 0 0 
+timestamp:19/02/2021 03:50:12
+9.65user 0.00system 0:09.68elapsed 99%CPU (0avgtext+0avgdata 2972maxresident)k
+0inputs+80outputs (0major+191minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/4/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/4/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/4/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2755 
+I8 0.2755 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 703108 --seed-error 703108 --sample 50 --locus 320 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/4/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/4/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/4/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/4/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 703108 result/TEST-SENS30-ALL4/LOCUS/4/9/ --remove-dup false
+0 1 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 1 3 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 0 1 
+timestamp:19/02/2021 03:50:24
+10.02user 0.00system 0:10.03elapsed 99%CPU (0avgtext+0avgdata 2892maxresident)k
+0inputs+80outputs (0major+191minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/4/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/4/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/4/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/4/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.3071 
+I9 0.3071 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.16129032258064516 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=420 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:5 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 3892 --seed-error 3892 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 3892 result/TEST-SENS30-ALL4/LOCUS/5/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:50:36
+12.82user 0.00system 0:12.84elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+104outputs (0major+198minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/5/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/5/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/5/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3599 
+I0 0.3599 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.1388888888888889 1.0 
+ synthesis bin//synthesis/synthesis --seed 81669 --seed-error 81669 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 81669 result/TEST-SENS30-ALL4/LOCUS/5/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 3 
+timestamp:19/02/2021 03:50:51
+11.70user 0.00system 0:11.72elapsed 99%CPU (0avgtext+0avgdata 2916maxresident)k
+0inputs+104outputs (0major+197minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/5/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/5/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/5/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2857 
+I1 0.2857 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 159446 --seed-error 159446 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 159446 result/TEST-SENS30-ALL4/LOCUS/5/2/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:19/02/2021 03:51:05
+11.64user 0.00system 0:11.64elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+112outputs (0major+196minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/5/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/5/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/5/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2996 
+I2 0.2996 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.996 
+pI2 0.155625 1.0 
+ synthesis bin//synthesis/synthesis --seed 237223 --seed-error 237223 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 237223 result/TEST-SENS30-ALL4/LOCUS/5/3/ --remove-dup false
+1 1 0 0 0 0 0 0 0 0 3 0 0 1 0 3 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 3 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:51:20
+12.02user 0.00system 0:12.03elapsed 99%CPU (0avgtext+0avgdata 2844maxresident)k
+0inputs+104outputs (0major+189minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/5/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/5/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/5/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.2731 
+I3 0.2731 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 315000 --seed-error 315000 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 315000 result/TEST-SENS30-ALL4/LOCUS/5/4/ --remove-dup false
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 3 
+timestamp:19/02/2021 03:51:34
+11.63user 0.00system 0:11.64elapsed 99%CPU (0avgtext+0avgdata 2880maxresident)k
+0inputs+112outputs (0major+196minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/5/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/5/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/5/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2970 
+I4 0.2970 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 392777 --seed-error 392777 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 392777 result/TEST-SENS30-ALL4/LOCUS/5/5/ --remove-dup false
+0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:19/02/2021 03:51:49
+12.93user 0.00system 0:12.96elapsed 99%CPU (0avgtext+0avgdata 2996maxresident)k
+0inputs+104outputs (0major+198minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/5/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/5/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/5/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.2867 
+I5 0.2867 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.988 
+pI5 0.14529411764705882 1.0 
+ synthesis bin//synthesis/synthesis --seed 470554 --seed-error 470554 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 470554 result/TEST-SENS30-ALL4/LOCUS/5/6/ --remove-dup false
+0 0 3 0 0 3 3 3 3 0 0 0 0 0 0 3 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:52:04
+11.60user 0.00system 0:11.60elapsed 99%CPU (0avgtext+0avgdata 2916maxresident)k
+0inputs+104outputs (0major+196minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/5/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/5/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/5/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2256 
+I6 0.2256 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 548331 --seed-error 548331 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 548331 result/TEST-SENS30-ALL4/LOCUS/5/7/ --remove-dup false
+0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 3 0 0 0 
+timestamp:19/02/2021 03:52:17
+12.74user 0.00system 0:12.74elapsed 99%CPU (0avgtext+0avgdata 3012maxresident)k
+0inputs+112outputs (0major+195minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/5/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/5/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/5/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2678 
+I7 0.2678 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 626108 --seed-error 626108 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 626108 result/TEST-SENS30-ALL4/LOCUS/5/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:19/02/2021 03:52:32
+12.64user 0.00system 0:12.64elapsed 99%CPU (0avgtext+0avgdata 2976maxresident)k
+0inputs+112outputs (0major+194minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/5/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/5/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/5/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2999 
+I8 0.2999 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 703885 --seed-error 703885 --sample 50 --locus 420 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/5/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/5/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/5/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/5/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 703885 result/TEST-SENS30-ALL4/LOCUS/5/9/ --remove-dup false
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 3 0 0 0 1 0 1 1 0 1 0 0 1 0 0 0 1 1 0 1 1 3 0 0 0 1 0 0 
+timestamp:19/02/2021 03:52:46
+11.60user 0.00system 0:11.60elapsed 99%CPU (0avgtext+0avgdata 2836maxresident)k
+0inputs+104outputs (0major+190minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/5/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/5/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/5/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/5/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2962 
+I9 0.2962 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.15151515151515152 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=520 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:6 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 4669 --seed-error 4669 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 4669 result/TEST-SENS30-ALL4/LOCUS/6/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:52:59
+14.53user 0.00system 0:14.54elapsed 99%CPU (0avgtext+0avgdata 2932maxresident)k
+0inputs+136outputs (0major+218minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/6/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/6/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/6/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.4287 
+I0 0.4287 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.94 
+pI0 0.14242424242424243 1.0 
+ synthesis bin//synthesis/synthesis --seed 82446 --seed-error 82446 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 82446 result/TEST-SENS30-ALL4/LOCUS/6/1/ --remove-dup false
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 3 0 1 0 
+timestamp:19/02/2021 03:53:15
+14.25user 0.00system 0:14.26elapsed 99%CPU (0avgtext+0avgdata 2888maxresident)k
+0inputs+128outputs (0major+211minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/6/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/6/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/6/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2953 
+I1 0.2953 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.14705882352941177 1.0 
+ synthesis bin//synthesis/synthesis --seed 160223 --seed-error 160223 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 160223 result/TEST-SENS30-ALL4/LOCUS/6/2/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:53:31
+14.30user 0.00system 0:14.30elapsed 99%CPU (0avgtext+0avgdata 2992maxresident)k
+0inputs+128outputs (0major+213minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/6/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/6/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/6/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.3463 
+I2 0.3463 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 238000 --seed-error 238000 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 238000 result/TEST-SENS30-ALL4/LOCUS/6/3/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 
+timestamp:19/02/2021 03:53:47
+15.11user 0.00system 0:15.12elapsed 99%CPU (0avgtext+0avgdata 2888maxresident)k
+0inputs+136outputs (0major+214minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/6/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/6/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/6/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.4056 
+I3 0.4056 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.996 
+pI3 0.1509090909090909 1.0 
+ synthesis bin//synthesis/synthesis --seed 315777 --seed-error 315777 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 315777 result/TEST-SENS30-ALL4/LOCUS/6/4/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 
+timestamp:19/02/2021 03:54:04
+15.90user 0.00system 0:15.91elapsed 99%CPU (0avgtext+0avgdata 2896maxresident)k
+0inputs+128outputs (0major+208minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/6/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/6/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/6/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.3089 
+I4 0.3089 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.16129032258064516 1.0 
+ synthesis bin//synthesis/synthesis --seed 393554 --seed-error 393554 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 393554 result/TEST-SENS30-ALL4/LOCUS/6/5/ --remove-dup false
+0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:54:21
+14.58user 0.00system 0:14.58elapsed 99%CPU (0avgtext+0avgdata 2900maxresident)k
+0inputs+128outputs (0major+212minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/6/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/6/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/6/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.3426 
+I5 0.3426 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 471331 --seed-error 471331 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 471331 result/TEST-SENS30-ALL4/LOCUS/6/6/ --remove-dup false
+0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:54:37
+15.00user 0.00system 0:15.01elapsed 99%CPU (0avgtext+0avgdata 2976maxresident)k
+0inputs+128outputs (0major+214minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/6/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/6/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/6/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2602 
+I6 0.2602 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.992 
+pI6 0.1417142857142857 1.0 
+ synthesis bin//synthesis/synthesis --seed 549108 --seed-error 549108 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 549108 result/TEST-SENS30-ALL4/LOCUS/6/7/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 1 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:54:54
+14.29user 0.00system 0:14.30elapsed 99%CPU (0avgtext+0avgdata 2980maxresident)k
+0inputs+136outputs (0major+214minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/6/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/6/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/6/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.4247 
+I7 0.4247 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.972 
+pI7 0.135 1.0 
+ synthesis bin//synthesis/synthesis --seed 626885 --seed-error 626885 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 626885 result/TEST-SENS30-ALL4/LOCUS/6/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 1 0 0 0 3 3 0 0 0 0 0 3 0 0 0 
+timestamp:19/02/2021 03:55:10
+15.11user 0.00system 0:15.11elapsed 99%CPU (0avgtext+0avgdata 3028maxresident)k
+0inputs+128outputs (0major+211minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/6/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/6/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/6/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2512 
+I8 0.2512 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.16129032258064516 1.0 
+ synthesis bin//synthesis/synthesis --seed 704662 --seed-error 704662 --sample 50 --locus 520 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/6/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/6/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/6/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/6/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 704662 result/TEST-SENS30-ALL4/LOCUS/6/9/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 03:55:27
+14.28user 0.00system 0:14.28elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+136outputs (0major+212minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/6/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/6/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/6/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/6/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.3087 
+I9 0.3087 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.13513513513513514 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=620 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:7 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 5446 --seed-error 5446 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 5446 result/TEST-SENS30-ALL4/LOCUS/7/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 
+timestamp:19/02/2021 03:55:43
+17.71user 0.00system 0:17.80elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+152outputs (0major+219minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/7/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/7/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/7/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.2286 
+I0 0.2286 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.1388888888888889 1.0 
+ synthesis bin//synthesis/synthesis --seed 83223 --seed-error 83223 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 83223 result/TEST-SENS30-ALL4/LOCUS/7/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 03:56:03
+17.87user 0.00system 0:17.88elapsed 99%CPU (0avgtext+0avgdata 3052maxresident)k
+0inputs+152outputs (0major+227minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/7/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/7/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/7/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2807 
+I1 0.2807 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 161000 --seed-error 161000 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 161000 result/TEST-SENS30-ALL4/LOCUS/7/2/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 
+timestamp:19/02/2021 03:56:22
+17.03user 0.00system 0:17.03elapsed 99%CPU (0avgtext+0avgdata 2900maxresident)k
+0inputs+160outputs (0major+229minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/7/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/7/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/7/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2888 
+I2 0.2888 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.996 
+pI2 0.14647058823529413 1.0 
+ synthesis bin//synthesis/synthesis --seed 238777 --seed-error 238777 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 238777 result/TEST-SENS30-ALL4/LOCUS/7/3/ --remove-dup false
+0 3 1 1 0 1 1 1 0 1 0 0 0 0 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+timestamp:19/02/2021 03:56:41
+18.28user 0.00system 0:18.29elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+152outputs (0major+226minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/7/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/7/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/7/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3008 
+I3 0.3008 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.996 
+pI3 0.155625 1.0 
+ synthesis bin//synthesis/synthesis --seed 316554 --seed-error 316554 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 316554 result/TEST-SENS30-ALL4/LOCUS/7/4/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 
+timestamp:19/02/2021 03:57:01
+17.50user 0.00system 0:17.51elapsed 99%CPU (0avgtext+0avgdata 2896maxresident)k
+0inputs+152outputs (0major+222minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/7/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/7/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/7/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.3493 
+I4 0.3493 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.972 
+pI4 0.1567741935483871 1.0 
+ synthesis bin//synthesis/synthesis --seed 394331 --seed-error 394331 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 394331 result/TEST-SENS30-ALL4/LOCUS/7/5/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 3 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:57:20
+18.80user 0.00system 0:18.81elapsed 99%CPU (0avgtext+0avgdata 2884maxresident)k
+0inputs+160outputs (0major+218minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/7/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/7/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/7/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.3612 
+I5 0.3612 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.15625 1.0 
+ synthesis bin//synthesis/synthesis --seed 472108 --seed-error 472108 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 472108 result/TEST-SENS30-ALL4/LOCUS/7/6/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:57:41
+16.95user 0.00system 0:16.95elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+152outputs (0major+220minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/7/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/7/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/7/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3124 
+I6 0.3124 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.996 
+pI6 0.14647058823529413 1.0 
+ synthesis bin//synthesis/synthesis --seed 549885 --seed-error 549885 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 549885 result/TEST-SENS30-ALL4/LOCUS/7/7/ --remove-dup false
+0 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 03:57:59
+17.48user 0.00system 0:17.48elapsed 99%CPU (0avgtext+0avgdata 3040maxresident)k
+0inputs+152outputs (0major+225minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/7/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/7/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/7/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.3015 
+I7 0.3015 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.13513513513513514 1.0 
+ synthesis bin//synthesis/synthesis --seed 627662 --seed-error 627662 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 627662 result/TEST-SENS30-ALL4/LOCUS/7/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:58:18
+17.24user 0.00system 0:17.25elapsed 99%CPU (0avgtext+0avgdata 2980maxresident)k
+0inputs+152outputs (0major+219minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/7/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/7/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/7/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.3112 
+I8 0.3112 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.16129032258064516 1.0 
+ synthesis bin//synthesis/synthesis --seed 705439 --seed-error 705439 --sample 50 --locus 620 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/7/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/7/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/7/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/7/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 705439 result/TEST-SENS30-ALL4/LOCUS/7/9/ --remove-dup false
+0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:58:37
+16.97user 0.00system 0:16.98elapsed 99%CPU (0avgtext+0avgdata 2948maxresident)k
+0inputs+152outputs (0major+221minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/7/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/7/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/7/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/7/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2785 
+I9 0.2785 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.968 
+pI9 0.1423529411764706 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=720 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:8 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 6223 --seed-error 6223 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 6223 result/TEST-SENS30-ALL4/LOCUS/8/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:58:57
+19.67user 0.00system 0:19.68elapsed 99%CPU (0avgtext+0avgdata 2988maxresident)k
+0inputs+184outputs (0major+236minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/8/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/8/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/8/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.2559 
+I0 0.2559 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.13513513513513514 1.0 
+ synthesis bin//synthesis/synthesis --seed 84000 --seed-error 84000 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 84000 result/TEST-SENS30-ALL4/LOCUS/8/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 03:59:18
+19.71user 0.00system 0:19.72elapsed 99%CPU (0avgtext+0avgdata 2972maxresident)k
+0inputs+176outputs (0major+228minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/8/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/8/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/8/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2892 
+I1 0.2892 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 161777 --seed-error 161777 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 161777 result/TEST-SENS30-ALL4/LOCUS/8/2/ --remove-dup false
+0 0 3 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 3 0 3 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 03:59:39
+19.68user 0.00system 0:19.68elapsed 99%CPU (0avgtext+0avgdata 3016maxresident)k
+0inputs+184outputs (0major+230minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/8/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/8/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/8/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.4143 
+I2 0.4143 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.936 
+pI2 0.1337142857142857 1.0 
+ synthesis bin//synthesis/synthesis --seed 239554 --seed-error 239554 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 239554 result/TEST-SENS30-ALL4/LOCUS/8/3/ --remove-dup false
+0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 04:00:01
+19.68user 0.00system 0:19.69elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+184outputs (0major+226minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/8/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/8/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/8/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3200 
+I3 0.3200 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.976 
+pI3 0.1478787878787879 1.0 
+ synthesis bin//synthesis/synthesis --seed 317331 --seed-error 317331 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 317331 result/TEST-SENS30-ALL4/LOCUS/8/4/ --remove-dup false
+3 3 0 3 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 3 1 0 0 1 1 1 0 1 0 0 0 1 
+timestamp:19/02/2021 04:00:22
+19.98user 0.00system 0:19.99elapsed 99%CPU (0avgtext+0avgdata 3064maxresident)k
+0inputs+184outputs (0major+234minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/8/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/8/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/8/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2881 
+I4 0.2881 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.15151515151515152 1.0 
+ synthesis bin//synthesis/synthesis --seed 395108 --seed-error 395108 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 395108 result/TEST-SENS30-ALL4/LOCUS/8/5/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:00:44
+22.46user 0.00system 0:22.47elapsed 99%CPU (0avgtext+0avgdata 2976maxresident)k
+0inputs+184outputs (0major+231minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/8/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/8/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/8/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.3100 
+I5 0.3100 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 472885 --seed-error 472885 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 472885 result/TEST-SENS30-ALL4/LOCUS/8/6/ --remove-dup false
+0 0 0 0 1 0 0 0 0 0 3 0 1 0 1 0 1 0 0 1 1 0 0 3 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:01:09
+19.66user 0.00system 0:19.67elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+176outputs (0major+230minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/8/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/8/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/8/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3164 
+I6 0.3164 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.992 
+pI6 0.155 1.0 
+ synthesis bin//synthesis/synthesis --seed 550662 --seed-error 550662 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 550662 result/TEST-SENS30-ALL4/LOCUS/8/7/ --remove-dup false
+0 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:01:31
+19.68user 0.00system 0:19.71elapsed 99%CPU (0avgtext+0avgdata 2916maxresident)k
+0inputs+184outputs (0major+227minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/8/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/8/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/8/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.3867 
+I7 0.3867 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.968 
+pI7 0.1423529411764706 1.0 
+ synthesis bin//synthesis/synthesis --seed 628439 --seed-error 628439 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 628439 result/TEST-SENS30-ALL4/LOCUS/8/8/ --remove-dup false
+1 1 0 3 0 0 0 0 0 1 0 3 1 1 0 0 0 0 3 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 0 0 0 0 1 0 
+timestamp:19/02/2021 04:01:53
+19.74user 0.00system 0:19.77elapsed 99%CPU (0avgtext+0avgdata 3068maxresident)k
+0inputs+184outputs (0major+234minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/8/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/8/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/8/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.3158 
+I8 0.3158 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.16129032258064516 1.0 
+ synthesis bin//synthesis/synthesis --seed 706216 --seed-error 706216 --sample 50 --locus 720 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/8/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/8/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/8/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/8/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 706216 result/TEST-SENS30-ALL4/LOCUS/8/9/ --remove-dup false
+0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:02:15
+19.70user 0.00system 0:19.71elapsed 99%CPU (0avgtext+0avgdata 2988maxresident)k
+0inputs+184outputs (0major+227minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/8/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/8/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/8/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/8/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.4451 
+I9 0.4451 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.96 
+pI9 0.12631578947368421 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=820 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:9 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 7000 --seed-error 7000 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 7000 result/TEST-SENS30-ALL4/LOCUS/9/0/ --remove-dup false
+0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 
+timestamp:19/02/2021 04:02:37
+22.42user 0.00system 0:22.44elapsed 99%CPU (0avgtext+0avgdata 3100maxresident)k
+0inputs+208outputs (0major+243minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/9/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/9/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/9/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.2958 
+I0 0.2958 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.992 
+pI0 0.14588235294117646 1.0 
+ synthesis bin//synthesis/synthesis --seed 84777 --seed-error 84777 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 84777 result/TEST-SENS30-ALL4/LOCUS/9/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:19/02/2021 04:03:02
+22.41user 0.00system 0:22.41elapsed 99%CPU (0avgtext+0avgdata 3056maxresident)k
+0inputs+208outputs (0major+240minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/9/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/9/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/9/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.3058 
+I1 0.3058 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.984 
+pI1 0.15375 1.0 
+ synthesis bin//synthesis/synthesis --seed 162554 --seed-error 162554 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 162554 result/TEST-SENS30-ALL4/LOCUS/9/2/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:03:27
+22.52user 0.00system 0:22.52elapsed 99%CPU (0avgtext+0avgdata 3084maxresident)k
+0inputs+208outputs (0major+246minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/9/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/9/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/9/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2992 
+I2 0.2992 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.996 
+pI2 0.13833333333333334 1.0 
+ synthesis bin//synthesis/synthesis --seed 240331 --seed-error 240331 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 240331 result/TEST-SENS30-ALL4/LOCUS/9/3/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:03:51
+22.40user 0.00system 0:22.41elapsed 99%CPU (0avgtext+0avgdata 3000maxresident)k
+0inputs+208outputs (0major+238minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/9/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/9/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/9/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3531 
+I3 0.3531 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.964 
+pI3 0.150625 1.0 
+ synthesis bin//synthesis/synthesis --seed 318108 --seed-error 318108 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 318108 result/TEST-SENS30-ALL4/LOCUS/9/4/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:04:15
+23.20user 0.00system 0:23.22elapsed 99%CPU (0avgtext+0avgdata 3064maxresident)k
+0inputs+208outputs (0major+243minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/9/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/9/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/9/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.4053 
+I4 0.4053 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.952 
+pI4 0.15354838709677418 1.0 
+ synthesis bin//synthesis/synthesis --seed 395885 --seed-error 395885 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 395885 result/TEST-SENS30-ALL4/LOCUS/9/5/ --remove-dup false
+0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 
+timestamp:19/02/2021 04:04:41
+22.42user 0.00system 0:22.43elapsed 99%CPU (0avgtext+0avgdata 3056maxresident)k
+0inputs+208outputs (0major+244minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/9/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/9/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/9/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.3886 
+I5 0.3886 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.98 
+pI5 0.14411764705882352 1.0 
+ synthesis bin//synthesis/synthesis --seed 473662 --seed-error 473662 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 473662 result/TEST-SENS30-ALL4/LOCUS/9/6/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 
+timestamp:19/02/2021 04:05:05
+22.74user 0.00system 0:22.74elapsed 99%CPU (0avgtext+0avgdata 3000maxresident)k
+0inputs+208outputs (0major+237minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/9/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/9/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/9/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3318 
+I6 0.3318 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.96 
+pI6 0.16551724137931034 1.0 
+ synthesis bin//synthesis/synthesis --seed 551439 --seed-error 551439 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 551439 result/TEST-SENS30-ALL4/LOCUS/9/7/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+timestamp:19/02/2021 04:05:30
+22.51user 0.00system 0:22.51elapsed 99%CPU (0avgtext+0avgdata 2948maxresident)k
+0inputs+208outputs (0major+240minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/9/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/9/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/9/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.3419 
+I7 0.3419 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.988 
+pI7 0.14529411764705882 1.0 
+ synthesis bin//synthesis/synthesis --seed 629216 --seed-error 629216 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 629216 result/TEST-SENS30-ALL4/LOCUS/9/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 3 0 
+timestamp:19/02/2021 04:05:54
+22.42user 0.00system 0:22.42elapsed 99%CPU (0avgtext+0avgdata 3064maxresident)k
+0inputs+208outputs (0major+243minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/9/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/9/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/9/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2699 
+I8 0.2699 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.16666666666666666 1.0 
+ synthesis bin//synthesis/synthesis --seed 706993 --seed-error 706993 --sample 50 --locus 820 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/9/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/9/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/9/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/9/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 706993 result/TEST-SENS30-ALL4/LOCUS/9/9/ --remove-dup false
+0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:06:19
+22.42user 0.00system 0:22.46elapsed 99%CPU (0avgtext+0avgdata 3056maxresident)k
+0inputs+208outputs (0major+241minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/9/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/9/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/9/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/9/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.3707 
+I9 0.3707 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.968 
+pI9 0.15612903225806452 1.0 
+DIR=result/TEST-SENS30-ALL4/LOCUS SAMPLE=50 LOCUS=920 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:20.0 CLONE:20 ALLCNT:10 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin//synthesis/synthesis --seed 7777 --seed-error 7777 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/0//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/0//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/0//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/0//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 7777 result/TEST-SENS30-ALL4/LOCUS/10/0/ --remove-dup false
+0 1 1 0 1 0 0 0 0 0 3 0 0 1 0 1 1 0 1 0 1 1 3 1 0 0 0 1 0 1 0 0 1 0 0 0 0 1 1 3 0 0 0 0 0 0 0 0 1 1 
+timestamp:19/02/2021 04:06:43
+25.10user 0.00system 0:25.10elapsed 99%CPU (0avgtext+0avgdata 3016maxresident)k
+0inputs+232outputs (0major+246minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/0//true-distance-matrix True0  result/TEST-SENS30-ALL4/LOCUS/10/0//impute-distance-matrix I0  result/TEST-SENS30-ALL4/LOCUS/10/0//true-part pTrue0  result/TEST-SENS30-ALL4/LOCUS/10/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3292 
+I0 0.3292 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.972 
+pI0 0.14727272727272728 1.0 
+ synthesis bin//synthesis/synthesis --seed 85554 --seed-error 85554 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/1//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/1//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/1//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/1//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 85554 result/TEST-SENS30-ALL4/LOCUS/10/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:07:10
+25.06user 0.00system 0:25.07elapsed 99%CPU (0avgtext+0avgdata 3032maxresident)k
+0inputs+232outputs (0major+245minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/1//true-distance-matrix True1  result/TEST-SENS30-ALL4/LOCUS/10/1//impute-distance-matrix I1  result/TEST-SENS30-ALL4/LOCUS/10/1//true-part pTrue1  result/TEST-SENS30-ALL4/LOCUS/10/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.4243 
+I1 0.4243 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.944 
+pI1 0.14303030303030304 1.0 
+ synthesis bin//synthesis/synthesis --seed 163331 --seed-error 163331 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/2//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/2//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/2//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/2//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 163331 result/TEST-SENS30-ALL4/LOCUS/10/2/ --remove-dup false
+3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:07:37
+26.30user 0.00system 0:26.30elapsed 99%CPU (0avgtext+0avgdata 3068maxresident)k
+0inputs+232outputs (0major+255minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/2//true-distance-matrix True2  result/TEST-SENS30-ALL4/LOCUS/10/2//impute-distance-matrix I2  result/TEST-SENS30-ALL4/LOCUS/10/2//true-part pTrue2  result/TEST-SENS30-ALL4/LOCUS/10/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.3960 
+I2 0.3960 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.964 
+pI2 0.1377142857142857 1.0 
+ synthesis bin//synthesis/synthesis --seed 241108 --seed-error 241108 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/3//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/3//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/3//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/3//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 241108 result/TEST-SENS30-ALL4/LOCUS/10/3/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 3 1 3 0 0 0 0 0 0 1 0 0 
+timestamp:19/02/2021 04:08:05
+25.04user 0.00system 0:25.04elapsed 99%CPU (0avgtext+0avgdata 3044maxresident)k
+0inputs+232outputs (0major+250minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/3//true-distance-matrix True3  result/TEST-SENS30-ALL4/LOCUS/10/3//impute-distance-matrix I3  result/TEST-SENS30-ALL4/LOCUS/10/3//true-part pTrue3  result/TEST-SENS30-ALL4/LOCUS/10/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3249 
+I3 0.3249 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.952 
+pI3 0.14875 1.0 
+ synthesis bin//synthesis/synthesis --seed 318885 --seed-error 318885 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/4//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/4//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/4//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/4//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 318885 result/TEST-SENS30-ALL4/LOCUS/10/4/ --remove-dup false
+0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:08:32
+25.02user 0.00system 0:25.02elapsed 99%CPU (0avgtext+0avgdata 3008maxresident)k
+0inputs+232outputs (0major+249minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/4//true-distance-matrix True4  result/TEST-SENS30-ALL4/LOCUS/10/4//impute-distance-matrix I4  result/TEST-SENS30-ALL4/LOCUS/10/4//true-part pTrue4  result/TEST-SENS30-ALL4/LOCUS/10/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.4867 
+I4 0.4867 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.908 
+pI4 0.141875 1.0 
+ synthesis bin//synthesis/synthesis --seed 396662 --seed-error 396662 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/5//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/5//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/5//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/5//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 396662 result/TEST-SENS30-ALL4/LOCUS/10/5/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:08:59
+25.16user 0.00system 0:25.17elapsed 99%CPU (0avgtext+0avgdata 3024maxresident)k
+0inputs+232outputs (0major+249minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/5//true-distance-matrix True5  result/TEST-SENS30-ALL4/LOCUS/10/5//impute-distance-matrix I5  result/TEST-SENS30-ALL4/LOCUS/10/5//true-part pTrue5  result/TEST-SENS30-ALL4/LOCUS/10/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.4242 
+I5 0.4242 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.944 
+pI5 0.1388235294117647 1.0 
+ synthesis bin//synthesis/synthesis --seed 474439 --seed-error 474439 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/6//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/6//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/6//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/6//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 474439 result/TEST-SENS30-ALL4/LOCUS/10/6/ --remove-dup false
+0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:09:26
+25.10user 0.00system 0:25.11elapsed 99%CPU (0avgtext+0avgdata 3000maxresident)k
+0inputs+232outputs (0major+245minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/6//true-distance-matrix True6  result/TEST-SENS30-ALL4/LOCUS/10/6//impute-distance-matrix I6  result/TEST-SENS30-ALL4/LOCUS/10/6//true-part pTrue6  result/TEST-SENS30-ALL4/LOCUS/10/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3271 
+I6 0.3271 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.96 
+pI6 0.14545454545454545 1.0 
+ synthesis bin//synthesis/synthesis --seed 552216 --seed-error 552216 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/7//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/7//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/7//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/7//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 552216 result/TEST-SENS30-ALL4/LOCUS/10/7/ --remove-dup false
+0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 3 3 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:09:53
+27.52user 0.00system 0:27.53elapsed 99%CPU (0avgtext+0avgdata 3016maxresident)k
+0inputs+232outputs (0major+250minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/7//true-distance-matrix True7  result/TEST-SENS30-ALL4/LOCUS/10/7//impute-distance-matrix I7  result/TEST-SENS30-ALL4/LOCUS/10/7//true-part pTrue7  result/TEST-SENS30-ALL4/LOCUS/10/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2896 
+I7 0.2896 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.14285714285714285 1.0 
+ synthesis bin//synthesis/synthesis --seed 629993 --seed-error 629993 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/8//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/8//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/8//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/8//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 629993 result/TEST-SENS30-ALL4/LOCUS/10/8/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:19/02/2021 04:10:23
+29.55user 0.00system 0:29.56elapsed 99%CPU (0avgtext+0avgdata 2980maxresident)k
+0inputs+232outputs (0major+246minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/8//true-distance-matrix True8  result/TEST-SENS30-ALL4/LOCUS/10/8//impute-distance-matrix I8  result/TEST-SENS30-ALL4/LOCUS/10/8//true-part pTrue8  result/TEST-SENS30-ALL4/LOCUS/10/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.4653 
+I8 0.4653 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.916 
+pI8 0.13470588235294118 1.0 
+ synthesis bin//synthesis/synthesis --seed 707770 --seed-error 707770 --sample 50 --locus 920 --aic 1 --adc 2 --akc 10 --step 5 --ais 0.1 --ads 0.1 --fclone result/TEST-SENS30-ALL4/LOCUS/10/9//true-clones.txt --fseq result/TEST-SENS30-ALL4/LOCUS/10/9//input-scite.txt --ftree result/TEST-SENS30-ALL4/LOCUS/10/9//true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-SENS30-ALL4/LOCUS/10/9//true-seq.txt  --step-mutation-rate 20.0 --remove-dup false  
+Gen Synthesis seed: 707770 result/TEST-SENS30-ALL4/LOCUS/10/9/ --remove-dup false
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 3 0 1 0 0 0 1 0 0 0 0 0 3 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+timestamp:19/02/2021 04:10:55
+29.67user 0.00system 0:29.69elapsed 99%CPU (0avgtext+0avgdata 2992maxresident)k
+0inputs+232outputs (0major+252minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL4/LOCUS/10/9//true-distance-matrix True9  result/TEST-SENS30-ALL4/LOCUS/10/9//impute-distance-matrix I9  result/TEST-SENS30-ALL4/LOCUS/10/9//true-part pTrue9  result/TEST-SENS30-ALL4/LOCUS/10/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2894 
+I9 0.2894 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.992 
+pI9 0.16 1.0 
+Done TEST-GEN-ALL
+"echo "Done TEST-GEN-ALL"" command filed with exit code 0.

@@ -1,0 +1,1554 @@
+parameters: RM:false SERVER:false STEP_MIN:5 STEP_MAX:5 STEP_INC:1 CLONE_MIN:20 CLONE_MAX:20 CLONE_INC:5 SAMPLE_MIN:50 SAMPLE_MAX:50 SAMPLE_INC:1 LOCUS_MIN:200 LOCUS_MAX:200 LOCUS_INC:1 MISSING_VALUE_RATE_MIN:0.0 MISSING_VALUE_RATE_MAX:1.01 MISSING_VALUE_RATE_INC:0.1 ZORATE_MIN:0.000000 ZORATE_MAX:0.0000651 ZORATE_INC:0.2 OZRATE_MIN:0.00 OZRATE_MAX:0.031 OZRATE_INC:0.1 REPEAT_COUNT:10 STEPMUTATIONRATE_MIN:20 STEPMUTATIONRATE_MAX:20.1 STEPMUTATIONRATE_INC:1 SDIR:result/TEST-SENS30-ALL2/MV ZORATE_RANGE: 0.0 OZRATE_RANGE: 0.0 MISSING_VALUE_RATE_RANGE: 0.0 0.1 0.2 0.30000000000000004 0.4 0.5 0.6000000000000001 0.7000000000000001 0.8 0.9 1.0 MISSING_VALUE_RATE_RANGE: 0.0 0.1 0.2 0.30000000000000004 0.4 0.5 0.6000000000000001 0.7000000000000001 0.8 0.9 1.0 RUN: I RUN2:  EXIT_ON_ERROR: 1
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.0 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:1 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/1/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:02
+5.48user 0.00system 0:05.48elapsed 99%CPU (0avgtext+0avgdata 2860maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/1/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/1/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/1/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.0581 
+I0 0.0581 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.8333333333333334 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/1/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:09
+5.50user 0.00system 0:05.52elapsed 99%CPU (0avgtext+0avgdata 2824maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/1/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/1/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/1/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.1226 
+I1 0.1226 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.8333333333333334 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/1/2/ --remove-dup false
+1 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 0 0 0 1 0 0 0 0 
+timestamp:17/02/2021 22:33:16
+5.46user 0.00system 0:05.46elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/1/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/1/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/1/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.0937 
+I2 0.0937 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.8333333333333334 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/1/3/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:23
+5.51user 0.00system 0:05.52elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/1/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/1/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/1/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.0953 
+I3 0.0953 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.7142857142857143 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/1/4/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:30
+5.47user 0.00system 0:05.48elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/1/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/1/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/1/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.0656 
+I4 0.0656 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.7142857142857143 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/1/5/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:37
+5.55user 0.00system 0:05.56elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/1/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/1/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/1/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.1678 
+I5 0.1678 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.8333333333333334 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/1/6/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:44
+5.51user 0.00system 0:05.52elapsed 99%CPU (0avgtext+0avgdata 2808maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/1/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/1/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/1/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.0686 
+I6 0.0686 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.8333333333333334 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/1/7/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:33:50
+5.56user 0.00system 0:05.57elapsed 99%CPU (0avgtext+0avgdata 2860maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/1/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/1/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/1/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.1132 
+I7 0.1132 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.7142857142857143 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/1/8/ --remove-dup false
+0 1 0 1 0 1 1 0 1 1 0 0 0 1 1 0 1 0 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0 1 1 0 0 0 1 0 1 0 1 1 1 0 1 0 0 0 
+timestamp:17/02/2021 22:33:57
+5.48user 0.00system 0:05.48elapsed 99%CPU (0avgtext+0avgdata 2884maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/1/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/1/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/1/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.1180 
+I8 0.1180 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.8333333333333334 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/1/9/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:34:05
+5.50user 0.00system 0:05.51elapsed 99%CPU (0avgtext+0avgdata 2928maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/1/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/1/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/1/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/1/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.1321 
+I9 0.1321 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.8333333333333334 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.1 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:2 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/2/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 3 0 0 3 3 0 0 0 0 0 0 0 3 0 0 
+timestamp:17/02/2021 22:34:12
+6.39user 0.00system 0:06.40elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/2/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/2/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/2/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.2786 
+I0 0.2786 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.16129032258064516 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/2/1/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:34:20
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+175minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/2/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/2/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/2/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2672 
+I1 0.2672 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.15151515151515152 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/2/2/ --remove-dup false
+1 0 0 0 0 1 0 1 0 0 0 0 1 0 0 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 3 1 0 0 1 1 0 0 0 1 0 0 0 0 
+timestamp:17/02/2021 22:34:27
+5.60user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/2/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/2/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/2/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.3350 
+I2 0.3350 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.14705882352941177 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/2/3/ --remove-dup false
+0 3 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 
+timestamp:17/02/2021 22:34:34
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2912maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/2/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/2/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/2/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.2532 
+I3 0.2532 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.15151515151515152 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/2/4/ --remove-dup false
+0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:34:41
+5.59user 0.00system 0:05.59elapsed 99%CPU (0avgtext+0avgdata 2832maxresident)k
+0inputs+56outputs (0major+177minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/2/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/2/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/2/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2137 
+I4 0.2137 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.14285714285714285 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/2/5/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 3 3 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:34:48
+5.61user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2804maxresident)k
+0inputs+56outputs (0major+172minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/2/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/2/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/2/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.2533 
+I5 0.2533 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.15151515151515152 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/2/6/ --remove-dup false
+0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 3 0 
+timestamp:17/02/2021 22:34:55
+5.60user 0.00system 0:05.64elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/2/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/2/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/2/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2984 
+I6 0.2984 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.16129032258064516 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/2/7/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:35:02
+5.60user 0.00system 0:05.66elapsed 99%CPU (0avgtext+0avgdata 2952maxresident)k
+0inputs+56outputs (0major+176minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/2/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/2/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/2/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2236 
+I7 0.2236 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.15625 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/2/8/ --remove-dup false
+0 1 0 1 0 1 1 0 1 1 3 0 0 1 1 0 1 0 1 0 3 1 1 1 0 1 1 1 0 0 3 1 0 1 1 0 0 0 1 0 1 0 1 1 1 0 1 0 0 0 
+timestamp:17/02/2021 22:35:09
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2960maxresident)k
+0inputs+56outputs (0major+174minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/2/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/2/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/2/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2403 
+I8 0.2403 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.16129032258064516 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/2/9/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 
+timestamp:17/02/2021 22:35:16
+5.58user 0.00system 0:05.58elapsed 99%CPU (0avgtext+0avgdata 2816maxresident)k
+0inputs+56outputs (0major+171minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/2/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/2/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/2/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/2/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2325 
+I9 0.2325 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.16666666666666666 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.2 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:3 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/3/0/ --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 3 3 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:35:23
+5.59user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2888maxresident)k
+0inputs+56outputs (0major+176minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/3/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/3/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/3/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.2640 
+I0 0.2640 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.15151515151515152 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/3/1/ --remove-dup false
+0 3 3 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 3 0 3 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:35:30
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+171minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/3/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/3/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/3/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2915 
+I1 0.2915 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.15151515151515152 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/3/2/ --remove-dup false
+1 0 0 0 0 1 3 1 0 3 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 3 0 3 0 0 0 0 3 1 3 0 0 1 1 0 0 0 1 0 0 0 0 
+timestamp:17/02/2021 22:35:37
+5.59user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2832maxresident)k
+0inputs+56outputs (0major+168minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/3/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/3/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/3/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.3351 
+I2 0.3351 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.16666666666666666 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/3/3/ --remove-dup false
+0 0 0 0 3 0 3 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 3 3 3 0 3 0 0 0 0 3 3 0 0 0 
+timestamp:17/02/2021 22:35:44
+5.65user 0.00system 0:05.66elapsed 99%CPU (0avgtext+0avgdata 2796maxresident)k
+0inputs+56outputs (0major+175minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/3/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/3/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/3/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3267 
+I3 0.3267 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.15625 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/3/4/ --remove-dup false
+0 0 0 3 0 0 0 0 0 0 0 3 0 0 3 3 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 3 
+timestamp:17/02/2021 22:35:51
+5.60user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/3/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/3/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/3/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2587 
+I4 0.2587 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.16129032258064516 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/3/5/ --remove-dup false
+3 0 0 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 
+timestamp:17/02/2021 22:35:58
+5.62user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/3/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/3/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/3/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.5030 
+I5 0.5030 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.952 
+pI5 0.14 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/3/6/ --remove-dup false
+0 0 0 0 0 3 0 0 0 3 3 3 0 3 3 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 3 0 3 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:36:05
+5.60user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2876maxresident)k
+0inputs+56outputs (0major+192minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/3/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/3/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/3/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2536 
+I6 0.2536 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.13513513513513514 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/3/7/ --remove-dup false
+0 0 0 3 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 0 0 3 
+timestamp:17/02/2021 22:36:12
+5.62user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2876maxresident)k
+0inputs+56outputs (0major+171minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/3/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/3/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/3/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2559 
+I7 0.2559 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.15625 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/3/8/ --remove-dup false
+0 1 0 1 0 1 3 3 1 3 0 0 3 3 1 0 3 0 1 0 3 3 1 1 3 1 1 1 0 0 0 1 0 1 1 3 0 0 1 0 1 0 1 1 1 0 1 0 0 3 
+timestamp:17/02/2021 22:36:19
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+176minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/3/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/3/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/3/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.2658 
+I8 0.2658 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.16129032258064516 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/3/9/ --remove-dup false
+3 3 0 0 0 0 0 0 3 0 0 3 0 3 3 3 0 0 3 3 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:17/02/2021 22:36:25
+5.62user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2796maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/3/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/3/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/3/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/3/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2661 
+I9 0.2661 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.16129032258064516 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.30000000000000004 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:4 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/4/0/ --remove-dup false
+0 0 3 0 3 3 0 3 0 0 0 0 0 0 3 3 0 0 0 3 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 3 3 3 0 0 0 0 3 3 0 0 3 
+timestamp:17/02/2021 22:36:33
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/4/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/4/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/4/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3697 
+I0 0.3697 0.0000 
+pTrue0 pI0
+pTrue0 1.0 1.0 
+pI0 0.16129032258064516 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/4/1/ --remove-dup false
+0 3 0 0 3 3 3 0 0 0 3 0 3 3 3 3 0 0 0 0 0 0 3 3 3 0 3 3 0 3 0 3 3 3 0 0 3 0 3 0 0 0 3 3 0 0 0 3 0 3 
+timestamp:17/02/2021 22:36:40
+5.62user 0.00system 0:05.65elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+56outputs (0major+171minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/4/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/4/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/4/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.2661 
+I1 0.2661 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.15151515151515152 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/4/2/ --remove-dup false
+1 3 0 0 3 1 0 3 3 0 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 3 0 3 0 3 0 3 3 1 3 0 1 3 0 3 0 3 0 0 0 0 
+timestamp:17/02/2021 22:36:46
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+175minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/4/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/4/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/4/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.3064 
+I2 0.3064 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.15151515151515152 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/4/3/ --remove-dup false
+0 0 0 0 0 0 0 3 0 0 3 3 0 0 0 0 0 3 0 3 0 0 0 3 0 3 3 3 0 3 0 0 0 3 0 3 3 3 3 3 3 3 0 3 0 0 0 3 0 3 
+timestamp:17/02/2021 22:36:53
+5.62user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2812maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/4/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/4/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/4/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3310 
+I3 0.3310 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.992 
+pI3 0.155 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/4/4/ --remove-dup false
+0 0 3 0 3 0 0 0 3 0 0 3 3 0 3 3 0 0 0 0 0 3 3 0 0 0 0 0 3 3 0 0 3 0 0 3 0 0 0 3 3 0 3 0 0 3 3 0 0 3 
+timestamp:17/02/2021 22:37:00
+5.62user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/4/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/4/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/4/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2476 
+I4 0.2476 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.15151515151515152 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/4/5/ --remove-dup false
+3 3 0 0 0 0 3 0 3 0 0 0 0 0 0 3 0 3 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 
+timestamp:17/02/2021 22:37:07
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/4/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/4/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/4/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.4267 
+I5 0.4267 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.948 
+pI5 0.1529032258064516 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/4/6/ --remove-dup false
+3 3 0 0 0 0 0 0 3 3 0 3 0 3 3 0 3 3 0 0 0 3 0 3 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 3 3 3 0 0 3 0 0 0 
+timestamp:17/02/2021 22:37:14
+5.60user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2892maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/4/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/4/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/4/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.2814 
+I6 0.2814 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.14705882352941177 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/4/7/ --remove-dup false
+3 0 0 0 0 3 0 0 3 3 0 0 0 0 0 0 3 0 0 0 0 3 3 0 0 0 0 3 3 0 0 0 3 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 3 3 
+timestamp:17/02/2021 22:37:21
+5.60user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2884maxresident)k
+0inputs+56outputs (0major+176minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/4/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/4/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/4/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2548 
+I7 0.2548 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.14705882352941177 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/4/8/ --remove-dup false
+0 3 0 1 3 1 1 0 1 1 0 3 3 1 1 0 3 3 1 0 0 3 1 1 3 3 1 1 0 0 3 1 0 1 1 0 3 0 3 3 1 3 1 1 3 0 3 3 3 3 
+timestamp:17/02/2021 22:37:28
+5.60user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/4/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/4/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/4/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.3097 
+I8 0.3097 0.0000 
+pTrue8 pI8
+pTrue8 1.0 1.0 
+pI8 0.15625 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/4/9/ --remove-dup false
+3 3 0 0 0 3 0 0 0 0 3 0 0 3 0 3 3 0 0 3 0 0 0 3 0 0 0 3 0 0 0 0 0 3 3 0 0 3 0 0 3 0 0 0 3 0 0 0 3 0 
+timestamp:17/02/2021 22:37:35
+5.62user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+56outputs (0major+177minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/4/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/4/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/4/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/4/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.3245 
+I9 0.3245 0.0000 
+pTrue9 pI9
+pTrue9 1.0 1.0 
+pI9 0.15151515151515152 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.4 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:5 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/5/0/ --remove-dup false
+0 0 3 3 0 0 3 3 3 0 3 0 3 0 3 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 3 3 3 3 3 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:17/02/2021 22:37:42
+5.69user 0.00system 0:05.71elapsed 99%CPU (0avgtext+0avgdata 2816maxresident)k
+0inputs+56outputs (0major+174minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/5/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/5/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/5/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.3268 
+I0 0.3268 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.988 
+pI0 0.1703448275862069 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/5/1/ --remove-dup false
+0 3 0 0 3 0 3 3 3 3 3 3 3 0 3 0 0 3 3 3 0 3 0 0 0 0 0 3 3 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 3 
+timestamp:17/02/2021 22:37:49
+5.63user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2884maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/5/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/5/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/5/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.3136 
+I1 0.3136 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.16666666666666666 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/5/2/ --remove-dup false
+3 0 0 0 0 1 0 3 3 0 3 0 1 3 3 3 0 3 3 0 0 0 0 0 0 0 3 0 0 3 3 0 0 0 3 3 1 3 0 0 1 1 0 0 0 1 0 3 3 0 
+timestamp:17/02/2021 22:37:56
+5.60user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2848maxresident)k
+0inputs+56outputs (0major+169minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/5/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/5/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/5/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.2623 
+I2 0.2623 0.0000 
+pTrue2 pI2
+pTrue2 1.0 1.0 
+pI2 0.1388888888888889 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/5/3/ --remove-dup false
+0 3 3 0 3 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 3 3 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 
+timestamp:17/02/2021 22:38:03
+5.60user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/5/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/5/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/5/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.2839 
+I3 0.2839 0.0000 
+pTrue3 pI3
+pTrue3 1.0 1.0 
+pI3 0.15151515151515152 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/5/4/ --remove-dup false
+0 0 3 3 3 0 3 3 0 3 0 3 0 0 0 3 0 0 3 3 0 3 0 0 0 0 0 0 0 0 3 0 3 3 0 0 3 3 3 0 0 3 3 0 3 0 3 0 3 3 
+timestamp:17/02/2021 22:38:10
+5.59user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2884maxresident)k
+0inputs+56outputs (0major+171minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/5/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/5/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/5/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2709 
+I4 0.2709 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.1724137931034483 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/5/5/ --remove-dup false
+3 0 3 3 0 3 3 3 3 0 0 3 0 0 3 0 3 0 0 3 0 0 3 0 3 3 0 3 0 3 0 0 0 0 0 0 3 3 0 0 0 3 3 0 0 3 3 0 0 3 
+timestamp:17/02/2021 22:38:17
+5.59user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2788maxresident)k
+0inputs+56outputs (0major+166minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/5/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/5/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/5/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.3373 
+I5 0.3373 0.0000 
+pTrue5 pI5
+pTrue5 1.0 1.0 
+pI5 0.16129032258064516 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/5/6/ --remove-dup false
+3 3 3 0 0 0 3 0 0 3 0 0 0 0 0 3 0 3 3 0 0 0 0 0 0 3 0 0 0 3 0 0 3 0 0 0 3 0 0 0 0 0 0 3 0 0 0 3 0 0 
+timestamp:17/02/2021 22:38:24
+5.61user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/5/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/5/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/5/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3363 
+I6 0.3363 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.15625 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/5/7/ --remove-dup false
+3 0 3 3 0 0 0 0 0 0 3 3 0 3 0 3 0 3 3 0 3 3 3 3 3 0 3 3 0 0 3 3 3 3 0 0 0 0 3 3 0 0 0 0 0 0 0 0 3 0 
+timestamp:17/02/2021 22:38:31
+5.60user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/5/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/5/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/5/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2437 
+I7 0.2437 0.0000 
+pTrue7 pI7
+pTrue7 1.0 1.0 
+pI7 0.15151515151515152 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/5/8/ --remove-dup false
+0 3 0 1 0 3 3 0 1 1 3 0 0 1 1 0 3 0 3 0 0 1 3 3 0 3 3 3 0 3 3 3 0 1 1 0 0 0 3 0 1 3 1 3 3 3 1 3 3 0 
+timestamp:17/02/2021 22:38:38
+5.60user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2880maxresident)k
+0inputs+56outputs (0major+173minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/5/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/5/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/5/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.4281 
+I8 0.4281 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.968 
+pI8 0.15125 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/5/9/ --remove-dup false
+3 3 0 3 0 0 3 0 0 0 0 3 3 0 0 3 0 0 3 0 0 0 3 3 0 3 0 0 3 3 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 
+timestamp:17/02/2021 22:38:45
+5.60user 0.00system 0:05.60elapsed 99%CPU (0avgtext+0avgdata 2912maxresident)k
+0inputs+56outputs (0major+172minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/5/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/5/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/5/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/5/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.2923 
+I9 0.2923 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.992 
+pI9 0.16 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.5 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:6 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/6/0/ --remove-dup false
+0 0 0 3 0 0 3 0 0 0 3 0 0 3 3 0 3 3 0 3 0 0 3 3 3 3 0 3 0 0 3 0 0 0 3 3 3 3 0 0 3 3 3 0 0 3 3 3 0 3 
+timestamp:17/02/2021 22:38:52
+5.54user 0.00system 0:05.55elapsed 99%CPU (0avgtext+0avgdata 2904maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/6/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/6/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/6/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.4143 
+I0 0.4143 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.96 
+pI0 0.192 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/6/1/ --remove-dup false
+0 0 0 3 0 3 3 3 3 0 3 3 0 3 3 0 3 0 0 0 0 3 3 0 3 3 0 3 0 3 0 3 3 3 3 3 0 0 0 3 0 0 3 0 3 0 3 0 3 0 
+timestamp:17/02/2021 22:38:58
+5.57user 0.00system 0:05.57elapsed 99%CPU (0avgtext+0avgdata 2836maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/6/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/6/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/6/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.3223 
+I1 0.3223 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.992 
+pI1 0.2361904761904762 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/6/2/ --remove-dup false
+3 3 3 0 0 3 0 1 0 3 3 3 3 0 3 3 0 0 0 0 3 0 0 3 3 0 1 0 3 0 3 3 0 3 3 3 1 3 3 3 1 1 0 0 0 1 3 3 3 0 
+timestamp:17/02/2021 22:39:05
+5.61user 0.00system 0:05.64elapsed 99%CPU (0avgtext+0avgdata 2912maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/6/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/6/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/6/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.3061 
+I2 0.3061 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.984 
+pI2 0.18923076923076923 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/6/3/ --remove-dup false
+3 0 3 0 0 0 3 0 0 3 3 3 0 3 3 3 3 0 0 3 3 3 3 0 0 3 3 0 0 0 0 3 3 3 3 3 3 0 0 3 3 0 3 0 3 3 0 3 3 0 
+timestamp:17/02/2021 22:39:12
+5.62user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2892maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/6/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/6/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/6/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3747 
+I3 0.3747 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.972 
+pI3 0.21130434782608695 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/6/4/ --remove-dup false
+0 3 3 0 0 0 3 0 0 0 3 0 3 0 3 3 0 0 0 3 3 0 0 0 0 0 0 0 0 0 3 0 0 3 3 3 0 0 3 0 3 0 3 0 3 0 3 0 3 3 
+timestamp:17/02/2021 22:39:19
+5.56user 0.00system 0:05.57elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/6/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/6/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/6/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.2694 
+I4 0.2694 0.0000 
+pTrue4 pI4
+pTrue4 1.0 1.0 
+pI4 0.23809523809523808 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/6/5/ --remove-dup false
+3 0 3 3 3 3 0 3 3 0 0 3 0 0 0 3 0 3 0 0 3 3 0 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 3 3 0 0 0 3 3 0 0 3 3 
+timestamp:17/02/2021 22:39:26
+5.64user 0.00system 0:05.65elapsed 99%CPU (0avgtext+0avgdata 2920maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/6/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/6/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/6/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.4946 
+I5 0.4946 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.912 
+pI5 0.19826086956521738 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/6/6/ --remove-dup false
+3 0 0 3 0 3 3 0 3 3 3 3 3 3 3 3 3 3 0 0 0 3 3 0 3 0 0 3 3 3 0 3 3 0 0 0 3 0 0 3 0 0 0 3 0 0 3 3 0 0 
+timestamp:17/02/2021 22:39:33
+5.57user 0.00system 0:05.57elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/6/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/6/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/6/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3144 
+I6 0.3144 0.0000 
+pTrue6 pI6
+pTrue6 1.0 1.0 
+pI6 0.21739130434782608 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/6/7/ --remove-dup false
+3 3 3 3 3 3 0 0 3 3 3 3 3 3 0 3 3 3 3 3 3 3 0 0 3 0 3 3 3 0 0 0 0 3 0 0 0 3 0 3 0 3 3 3 0 0 0 3 0 3 
+timestamp:17/02/2021 22:39:40
+5.61user 0.00system 0:05.61elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/6/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/6/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/6/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.2756 
+I7 0.2756 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.988 
+pI7 0.17642857142857143 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/6/8/ --remove-dup false
+0 3 3 3 0 1 1 3 3 3 0 0 0 3 1 3 3 3 1 3 3 1 3 3 0 3 1 1 3 3 3 1 3 1 3 0 0 0 3 3 3 3 3 3 3 0 1 3 3 3 
+timestamp:17/02/2021 22:39:47
+5.58user 0.00system 0:05.63elapsed 99%CPU (0avgtext+0avgdata 2820maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/6/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/6/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/6/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.3586 
+I8 0.3586 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.968 
+pI8 0.20166666666666666 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/6/9/ --remove-dup false
+3 0 0 0 0 3 0 0 0 0 3 3 0 3 0 3 3 3 3 3 0 3 3 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 3 0 3 0 0 3 0 0 3 3 0 
+timestamp:17/02/2021 22:39:54
+5.56user 0.00system 0:05.57elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+48outputs (0major+164minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/6/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/6/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/6/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/6/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.3983 
+I9 0.3983 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.98 
+pI9 0.16896551724137931 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.6000000000000001 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:7 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/7/0/ --remove-dup false
+0 0 3 0 3 3 3 0 3 3 3 3 3 0 3 3 0 3 0 3 3 0 3 3 0 3 0 0 0 3 3 3 3 3 3 3 3 3 0 0 3 3 3 3 3 3 3 0 3 3 
+timestamp:17/02/2021 22:40:01
+5.52user 0.00system 0:05.53elapsed 99%CPU (0avgtext+0avgdata 2824maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/7/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/7/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/7/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.4803 
+I0 0.4803 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.908 
+pI0 0.23894736842105263 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/7/1/ --remove-dup false
+3 3 0 0 3 3 0 3 3 0 0 3 3 3 0 3 3 0 3 0 3 3 3 0 3 3 0 3 3 3 0 3 0 3 0 3 0 0 3 3 0 3 3 0 3 3 0 3 0 3 
+timestamp:17/02/2021 22:40:07
+5.50user 0.00system 0:05.51elapsed 99%CPU (0avgtext+0avgdata 2884maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/7/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/7/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/7/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.4345 
+I1 0.4345 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.928 
+pI1 0.22095238095238096 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/7/2/ --remove-dup false
+3 0 3 0 3 1 3 1 3 0 0 3 1 3 3 0 3 3 0 3 0 0 0 3 0 0 1 0 3 3 3 3 3 0 0 1 1 1 3 3 1 3 0 0 3 3 3 3 3 3 
+timestamp:17/02/2021 22:40:14
+5.53user 0.00system 0:05.54elapsed 99%CPU (0avgtext+0avgdata 2880maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/7/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/7/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/7/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.4147 
+I2 0.4147 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.94 
+pI2 0.24736842105263157 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/7/3/ --remove-dup false
+3 0 3 0 3 3 0 3 3 3 3 3 0 3 3 3 3 0 3 0 3 3 3 0 3 0 0 0 3 0 0 0 0 3 3 0 3 3 0 3 0 0 3 0 0 3 0 0 3 3 
+timestamp:17/02/2021 22:40:21
+5.49user 0.00system 0:05.50elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/7/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/7/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/7/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.3902 
+I3 0.3902 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.956 
+pI3 0.239 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/7/4/ --remove-dup false
+0 3 3 0 0 0 0 3 3 3 3 3 3 3 3 3 3 3 0 3 3 0 0 3 3 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 0 3 3 3 0 3 3 
+timestamp:17/02/2021 22:40:28
+5.50user 0.00system 0:05.50elapsed 99%CPU (0avgtext+0avgdata 2800maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/7/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/7/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/7/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.4326 
+I4 0.4326 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.96 
+pI4 0.22857142857142856 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/7/5/ --remove-dup false
+3 0 3 0 3 3 3 0 3 3 0 0 3 0 0 3 0 3 3 0 3 0 0 0 0 3 0 3 3 0 0 3 3 0 3 3 0 0 0 3 3 3 0 3 0 3 3 0 3 3 
+timestamp:17/02/2021 22:40:35
+5.50user 0.00system 0:05.50elapsed 99%CPU (0avgtext+0avgdata 2868maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/7/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/7/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/7/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.3798 
+I5 0.3798 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.948 
+pI5 0.2788235294117647 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/7/6/ --remove-dup false
+3 0 3 0 0 3 3 0 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 0 0 3 3 3 3 0 0 3 3 3 3 0 0 3 0 3 0 3 3 3 0 3 0 
+timestamp:17/02/2021 22:40:41
+5.54user 0.00system 0:05.54elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/7/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/7/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/7/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.3871 
+I6 0.3871 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.976 
+pI6 0.27111111111111114 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/7/7/ --remove-dup false
+3 3 3 0 3 0 3 0 0 3 3 0 0 3 0 0 3 3 3 3 3 0 3 0 3 3 0 3 0 0 3 3 3 0 3 3 0 0 3 3 3 3 3 3 0 3 3 3 0 0 
+timestamp:17/02/2021 22:40:48
+5.50user 0.00system 0:05.50elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/7/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/7/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/7/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.3730 
+I7 0.3730 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.968 
+pI7 0.22 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/7/8/ --remove-dup false
+0 3 0 1 3 3 1 3 3 1 3 0 3 3 3 0 3 3 1 3 3 3 3 1 0 1 1 3 3 0 0 3 0 3 3 3 3 0 3 0 3 3 3 3 1 3 3 0 3 0 
+timestamp:17/02/2021 22:40:56
+5.51user 0.00system 0:05.51elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/7/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/7/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/7/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.4609 
+I8 0.4609 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.924 
+pI8 0.28875 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/7/9/ --remove-dup false
+3 3 0 0 3 3 0 3 3 3 3 3 3 0 0 0 0 0 3 0 0 3 0 3 0 3 3 3 3 0 3 3 0 0 0 3 0 0 3 0 3 0 0 3 3 3 3 3 3 0 
+timestamp:17/02/2021 22:41:04
+5.59user 0.00system 0:05.62elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/7/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/7/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/7/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/7/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.4633 
+I9 0.4633 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.94 
+pI9 0.21363636363636362 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.7000000000000001 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:8 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/8/0/ --remove-dup false
+3 3 0 0 3 0 3 3 3 3 3 3 3 0 0 3 3 3 3 0 0 0 0 3 3 3 3 3 3 3 3 3 3 3 0 0 0 0 3 3 3 0 3 0 3 0 0 3 0 3 
+timestamp:17/02/2021 22:41:12
+5.48user 0.00system 0:05.48elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/8/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/8/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/8/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.5230 
+I0 0.5230 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.932 
+pI0 0.233 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/8/1/ --remove-dup false
+3 3 3 3 3 3 0 3 3 0 3 3 0 3 3 3 3 0 3 3 3 3 3 3 3 0 3 3 3 0 3 3 3 3 0 3 0 3 3 3 3 0 3 0 3 0 0 3 3 0 
+timestamp:17/02/2021 22:41:22
+5.47user 0.00system 0:05.47elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/8/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/8/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/8/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.4701 
+I1 0.4701 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.904 
+pI1 0.19652173913043477 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/8/2/ --remove-dup false
+3 3 3 3 3 1 3 3 3 3 3 0 1 3 3 3 3 0 0 3 3 3 3 3 0 3 1 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 0 3 0 3 0 0 3 0 
+timestamp:17/02/2021 22:41:30
+5.44user 0.00system 0:05.46elapsed 99%CPU (0avgtext+0avgdata 2788maxresident)k
+0inputs+48outputs (0major+157minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/8/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/8/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/8/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.4250 
+I2 0.4250 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.932 
+pI2 0.233 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/8/3/ --remove-dup false
+3 3 3 3 3 3 3 3 3 0 3 3 0 0 3 0 0 3 3 3 3 3 3 3 3 3 3 0 0 0 3 3 0 3 3 0 3 3 3 0 0 0 0 0 3 3 3 3 3 3 
+timestamp:17/02/2021 22:41:38
+5.43user 0.00system 0:05.45elapsed 99%CPU (0avgtext+0avgdata 2828maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/8/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/8/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/8/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.4569 
+I3 0.4569 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.928 
+pI3 0.2577777777777778 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/8/4/ --remove-dup false
+0 3 0 3 3 3 0 3 3 3 3 0 3 0 3 3 3 3 0 3 3 3 0 0 0 3 0 0 3 3 3 3 3 0 3 3 3 0 0 0 3 3 3 3 3 3 3 0 0 0 
+timestamp:17/02/2021 22:41:46
+5.45user 0.00system 0:05.46elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/8/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/8/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/8/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.5687 
+I4 0.5687 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.864 
+pI4 0.24 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/8/5/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 0 3 0 3 3 3 3 3 3 0 3 0 3 3 3 3 3 3 0 0 0 3 3 3 3 3 3 3 0 3 0 0 0 3 3 3 3 3 3 
+timestamp:17/02/2021 22:41:53
+5.46user 0.00system 0:05.53elapsed 98%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+158minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/8/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/8/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/8/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.4975 
+I5 0.4975 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.896 
+pI5 0.2986666666666667 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/8/6/ --remove-dup false
+3 3 3 3 0 0 3 3 3 3 3 0 3 0 3 0 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 0 0 3 3 3 3 0 3 3 3 3 3 3 0 3 0 3 3 3 
+timestamp:17/02/2021 22:42:01
+5.48user 0.00system 0:05.55elapsed 98%CPU (0avgtext+0avgdata 2860maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/8/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/8/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/8/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.4728 
+I6 0.4728 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.88 
+pI6 0.25882352941176473 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/8/7/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 0 3 3 3 3 3 3 3 3 0 3 3 3 3 0 3 3 0 3 3 3 3 3 0 3 3 3 3 3 3 
+timestamp:17/02/2021 22:42:09
+5.43user 0.00system 0:05.45elapsed 99%CPU (0avgtext+0avgdata 2788maxresident)k
+0inputs+48outputs (0major+158minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/8/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/8/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/8/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.5037 
+I7 0.5037 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.908 
+pI7 0.227 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/8/8/ --remove-dup false
+0 1 3 1 3 3 3 3 3 3 3 3 3 1 1 3 1 3 3 3 3 3 1 3 0 3 3 1 3 0 3 3 3 3 3 3 3 0 1 0 3 3 3 3 1 3 3 3 0 0 
+timestamp:17/02/2021 22:42:17
+5.53user 0.00system 0:05.53elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/8/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/8/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/8/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.3510 
+I8 0.3510 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.948 
+pI8 0.2257142857142857 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/8/9/ --remove-dup false
+3 3 0 3 3 3 3 3 0 3 0 0 3 0 0 3 3 3 0 3 3 0 0 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 0 3 0 0 3 3 0 3 
+timestamp:17/02/2021 22:42:24
+5.42user 0.00system 0:05.46elapsed 99%CPU (0avgtext+0avgdata 2860maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/8/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/8/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/8/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/8/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.4990 
+I9 0.4990 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.92 
+pI9 0.21904761904761905 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.8 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:9 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/9/0/ --remove-dup false
+3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 0 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:42:32
+5.47user 0.00system 0:05.60elapsed 97%CPU (0avgtext+0avgdata 2836maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/9/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/9/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/9/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.5612 
+I0 0.5612 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.864 
+pI0 0.22736842105263158 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/9/1/ --remove-dup false
+3 3 0 3 3 0 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 0 0 0 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:42:40
+5.36user 0.00system 0:05.36elapsed 99%CPU (0avgtext+0avgdata 2908maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/9/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/9/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/9/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.5686 
+I1 0.5686 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.864 
+pI1 0.19636363636363635 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/9/2/ --remove-dup false
+3 3 0 3 3 1 3 1 3 0 3 3 3 3 3 3 3 3 0 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 1 3 3 3 3 3 1 0 3 3 3 3 3 0 3 
+timestamp:17/02/2021 22:42:47
+5.35user 0.00system 0:05.35elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/9/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/9/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/9/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.5017 
+I2 0.5017 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.856 
+pI2 0.19454545454545455 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/9/3/ --remove-dup false
+3 3 3 3 3 3 0 0 0 3 3 3 3 3 3 3 3 0 0 3 3 3 0 3 3 0 3 3 3 3 3 3 3 3 3 0 3 3 0 3 3 3 3 3 3 0 3 0 0 3 
+timestamp:17/02/2021 22:42:53
+5.36user 0.00system 0:05.37elapsed 99%CPU (0avgtext+0avgdata 2960maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/9/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/9/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/9/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.5799 
+I3 0.5799 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.856 
+pI3 0.22526315789473683 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/9/4/ --remove-dup false
+0 3 0 3 3 0 0 3 3 3 3 3 0 3 3 0 0 3 0 3 0 3 3 3 3 0 0 3 3 3 3 3 3 0 3 0 3 3 0 0 3 3 3 3 3 3 0 3 3 0 
+timestamp:17/02/2021 22:43:00
+5.38user 0.00system 0:05.39elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+160minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/9/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/9/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/9/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.6147 
+I4 0.6147 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.824 
+pI4 0.18727272727272729 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/9/5/ --remove-dup false
+3 0 3 3 3 3 3 3 3 3 3 3 3 3 0 3 0 3 3 3 3 3 3 3 0 3 3 0 0 3 3 3 3 0 3 0 0 3 3 3 3 0 0 3 3 0 0 3 0 3 
+timestamp:17/02/2021 22:43:07
+5.35user 0.00system 0:05.36elapsed 99%CPU (0avgtext+0avgdata 2888maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/9/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/9/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/9/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.5712 
+I5 0.5712 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.828 
+pI5 0.24352941176470588 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/9/6/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 0 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 0 3 3 0 0 3 3 3 3 0 0 3 3 3 3 
+timestamp:17/02/2021 22:43:13
+5.37user 0.00system 0:05.37elapsed 99%CPU (0avgtext+0avgdata 2924maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/9/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/9/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/9/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.6172 
+I6 0.6172 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.848 
+pI6 0.19272727272727272 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/9/7/ --remove-dup false
+3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 0 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 0 3 3 3 3 0 3 0 3 
+timestamp:17/02/2021 22:43:20
+5.36user 0.00system 0:05.37elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/9/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/9/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/9/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.6702 
+I7 0.6702 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.78 
+pI7 0.21666666666666667 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/9/8/ --remove-dup false
+0 3 3 3 0 3 3 3 3 3 0 3 3 3 3 3 3 0 3 0 3 3 3 1 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 0 3 3 1 3 1 0 3 0 0 3 
+timestamp:17/02/2021 22:43:27
+5.36user 0.00system 0:05.37elapsed 99%CPU (0avgtext+0avgdata 2960maxresident)k
+0inputs+48outputs (0major+164minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/9/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/9/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/9/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.5103 
+I8 0.5103 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.876 
+pI8 0.20857142857142857 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/9/9/ --remove-dup false
+3 3 0 3 3 0 3 3 3 3 3 0 3 0 3 0 3 0 3 3 0 3 3 0 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:43:34
+5.44user 0.00system 0:05.44elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/9/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/9/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/9/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/9/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.6298 
+I9 0.6298 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.86 
+pI9 0.215 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=0.9 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:10 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/10/0/ --remove-dup false
+3 3 0 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 0 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:43:40
+5.33user 0.00system 0:05.33elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/10/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/10/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/10/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.6790 
+I0 0.6790 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.82 
+pI0 0.205 1.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/10/1/ --remove-dup false
+3 3 3 3 0 3 3 3 3 3 3 3 3 0 3 0 0 0 3 3 3 3 0 3 3 3 3 3 3 0 3 3 3 3 0 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:43:47
+5.28user 0.00system 0:05.28elapsed 99%CPU (0avgtext+0avgdata 2852maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/10/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/10/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/10/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.5525 
+I1 0.5525 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.844 
+pI1 0.1918181818181818 1.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/10/2/ --remove-dup false
+3 3 3 3 3 3 3 3 0 3 3 3 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:43:53
+5.33user 0.00system 0:05.34elapsed 99%CPU (0avgtext+0avgdata 2892maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/10/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/10/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/10/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.5754 
+I2 0.5754 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.82 
+pI2 0.1782608695652174 1.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/10/3/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 0 3 3 3 3 3 0 0 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:44:00
+5.27user 0.00system 0:05.28elapsed 99%CPU (0avgtext+0avgdata 2912maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/10/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/10/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/10/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.6414 
+I3 0.6414 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.816 
+pI3 0.21473684210526317 1.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/10/4/ --remove-dup false
+3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 0 3 3 3 3 3 3 
+timestamp:17/02/2021 22:44:07
+5.30user 0.00system 0:05.30elapsed 99%CPU (0avgtext+0avgdata 2836maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/10/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/10/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/10/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.6247 
+I4 0.6247 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.792 
+pI4 0.18857142857142858 1.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/10/5/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 0 3 3 0 3 3 3 0 3 3 3 0 3 3 3 3 3 0 3 3 0 3 0 3 
+timestamp:17/02/2021 22:44:14
+5.28user 0.00system 0:05.28elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+158minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/10/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/10/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/10/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.6163 
+I5 0.6163 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.824 
+pI5 0.206 1.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/10/6/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 0 3 3 3 3 3 3 3 3 3 0 3 
+timestamp:17/02/2021 22:44:20
+5.31user 0.00system 0:05.31elapsed 99%CPU (0avgtext+0avgdata 2928maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/10/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/10/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/10/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.6549 
+I6 0.6549 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.808 
+pI6 0.2376470588235294 1.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/10/7/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:44:27
+5.28user 0.00system 0:05.42elapsed 97%CPU (0avgtext+0avgdata 2824maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/10/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/10/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/10/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.6673 
+I7 0.6673 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.744 
+pI7 0.1957894736842105 1.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/10/8/ --remove-dup false
+3 3 3 3 0 1 3 3 3 3 0 3 3 3 3 0 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 3 0 3 3 
+timestamp:17/02/2021 22:44:34
+5.28user 0.00system 0:05.28elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/10/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/10/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/10/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.6685 
+I8 0.6685 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.752 
+pI8 0.19789473684210526 1.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/10/9/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 3 3 0 3 3 3 3 3 3 3 3 3 0 3 0 3 0 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:44:40
+5.28user 0.00system 0:05.30elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/10/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/10/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/10/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/10/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.6797 
+I9 0.6797 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.828 
+pI9 0.18818181818181817 1.0 
+DIR=result/TEST-SENS30-ALL2/MV SAMPLE=50 LOCUS=200 STEP=5 MVR=1.0 0->1=0.0 1->0:0.0 STEPMUT:20.0 CLONE:20 ALLCNT:11 DIV_RATE=1.5 DEATH_RATE=0.5 
+Seed: 7&7 92076 sample:50 loc:200
+Gen Synthesis seed: 7 result/TEST-SENS30-ALL2/MV/11/0/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:44:47
+5.24user 0.00system 0:05.24elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/0//true-distance-matrix True0  result/TEST-SENS30-ALL2/MV/11/0//impute-distance-matrix I0  result/TEST-SENS30-ALL2/MV/11/0//true-part pTrue0  result/TEST-SENS30-ALL2/MV/11/0//impute-part pI0 
+True0 I0 
+True0 0.0000 0.5648 
+I0 0.5648 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.0 
+pI0 0.0 0.0 
+Seed: 77784&77784 64186 sample:50 loc:200
+Gen Synthesis seed: 77784 result/TEST-SENS30-ALL2/MV/11/1/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:44:54
+5.23user 0.00system 0:05.24elapsed 99%CPU (0avgtext+0avgdata 2812maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/1//true-distance-matrix True1  result/TEST-SENS30-ALL2/MV/11/1//impute-distance-matrix I1  result/TEST-SENS30-ALL2/MV/11/1//true-part pTrue1  result/TEST-SENS30-ALL2/MV/11/1//impute-part pI1 
+True1 I1 
+True1 0.0000 0.5251 
+I1 0.5251 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.0 
+pI1 0.0 0.0 
+Seed: 155561&155561 14986 sample:50 loc:200
+Gen Synthesis seed: 155561 result/TEST-SENS30-ALL2/MV/11/2/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:00
+5.25user 0.00system 0:05.26elapsed 99%CPU (0avgtext+0avgdata 2924maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/2//true-distance-matrix True2  result/TEST-SENS30-ALL2/MV/11/2//impute-distance-matrix I2  result/TEST-SENS30-ALL2/MV/11/2//true-part pTrue2  result/TEST-SENS30-ALL2/MV/11/2//impute-part pI2 
+True2 I2 
+True2 0.0000 0.5417 
+I2 0.5417 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.0 
+pI2 0.0 0.0 
+Seed: 233338&233338 50448 sample:50 loc:200
+Gen Synthesis seed: 233338 result/TEST-SENS30-ALL2/MV/11/3/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:07
+5.24user 0.00system 0:05.28elapsed 99%CPU (0avgtext+0avgdata 2792maxresident)k
+0inputs+48outputs (0major+158minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/3//true-distance-matrix True3  result/TEST-SENS30-ALL2/MV/11/3//impute-distance-matrix I3  result/TEST-SENS30-ALL2/MV/11/3//true-part pTrue3  result/TEST-SENS30-ALL2/MV/11/3//impute-part pI3 
+True3 I3 
+True3 0.0000 0.5939 
+I3 0.5939 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.0 
+pI3 0.0 0.0 
+Seed: 311115&311115 37895 sample:50 loc:200
+Gen Synthesis seed: 311115 result/TEST-SENS30-ALL2/MV/11/4/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:13
+5.24user 0.00system 0:05.26elapsed 99%CPU (0avgtext+0avgdata 2856maxresident)k
+0inputs+48outputs (0major+161minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/4//true-distance-matrix True4  result/TEST-SENS30-ALL2/MV/11/4//impute-distance-matrix I4  result/TEST-SENS30-ALL2/MV/11/4//true-part pTrue4  result/TEST-SENS30-ALL2/MV/11/4//impute-part pI4 
+True4 I4 
+True4 0.0000 0.6004 
+I4 0.6004 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.0 
+pI4 0.0 0.0 
+Seed: 388892&388892 99350 sample:50 loc:200
+Gen Synthesis seed: 388892 result/TEST-SENS30-ALL2/MV/11/5/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:20
+5.27user 0.00system 0:05.28elapsed 99%CPU (0avgtext+0avgdata 2824maxresident)k
+0inputs+48outputs (0major+159minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/5//true-distance-matrix True5  result/TEST-SENS30-ALL2/MV/11/5//impute-distance-matrix I5  result/TEST-SENS30-ALL2/MV/11/5//true-part pTrue5  result/TEST-SENS30-ALL2/MV/11/5//impute-part pI5 
+True5 I5 
+True5 0.0000 0.5598 
+I5 0.5598 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.0 
+pI5 0.0 0.0 
+Seed: 466669&466669 11855 sample:50 loc:200
+Gen Synthesis seed: 466669 result/TEST-SENS30-ALL2/MV/11/6/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:26
+5.23user 0.00system 0:05.27elapsed 99%CPU (0avgtext+0avgdata 2956maxresident)k
+0inputs+48outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/6//true-distance-matrix True6  result/TEST-SENS30-ALL2/MV/11/6//impute-distance-matrix I6  result/TEST-SENS30-ALL2/MV/11/6//true-part pTrue6  result/TEST-SENS30-ALL2/MV/11/6//impute-part pI6 
+True6 I6 
+True6 0.0000 0.5982 
+I6 0.5982 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.0 
+pI6 0.0 0.0 
+Seed: 544446&544446 22260 sample:50 loc:200
+Gen Synthesis seed: 544446 result/TEST-SENS30-ALL2/MV/11/7/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:33
+5.26user 0.00system 0:05.29elapsed 99%CPU (0avgtext+0avgdata 2788maxresident)k
+0inputs+48outputs (0major+157minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/7//true-distance-matrix True7  result/TEST-SENS30-ALL2/MV/11/7//impute-distance-matrix I7  result/TEST-SENS30-ALL2/MV/11/7//true-part pTrue7  result/TEST-SENS30-ALL2/MV/11/7//impute-part pI7 
+True7 I7 
+True7 0.0000 0.5899 
+I7 0.5899 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.0 
+pI7 0.0 0.0 
+Seed: 622223&622223 66103 sample:50 loc:200
+Gen Synthesis seed: 622223 result/TEST-SENS30-ALL2/MV/11/8/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:39
+5.30user 0.00system 0:05.31elapsed 99%CPU (0avgtext+0avgdata 2940maxresident)k
+0inputs+48outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/8//true-distance-matrix True8  result/TEST-SENS30-ALL2/MV/11/8//impute-distance-matrix I8  result/TEST-SENS30-ALL2/MV/11/8//true-part pTrue8  result/TEST-SENS30-ALL2/MV/11/8//impute-part pI8 
+True8 I8 
+True8 0.0000 0.5619 
+I8 0.5619 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.0 
+pI8 0.0 0.0 
+Seed: 700000&700000 45170 sample:50 loc:200
+Gen Synthesis seed: 700000 result/TEST-SENS30-ALL2/MV/11/9/ --remove-dup false
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+timestamp:17/02/2021 22:45:46
+5.29user 0.00system 0:05.30elapsed 99%CPU (0avgtext+0avgdata 2864maxresident)k
+0inputs+48outputs (0major+157minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-SENS30-ALL2/MV/11/9//true-distance-matrix True9  result/TEST-SENS30-ALL2/MV/11/9//impute-distance-matrix I9  result/TEST-SENS30-ALL2/MV/11/9//true-part pTrue9  result/TEST-SENS30-ALL2/MV/11/9//impute-part pI9 
+True9 I9 
+True9 0.0000 0.5867 
+I9 0.5867 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.0 
+pI9 0.0 0.0 
+Done TEST-GEN-ALL
+"echo "Done TEST-GEN-ALL"" command filed with exit code 0.

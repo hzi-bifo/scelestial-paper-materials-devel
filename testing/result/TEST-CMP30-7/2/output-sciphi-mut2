@@ -1,0 +1,88 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	8 [label="P117, P118,
+P120, P121,
+P123, P127,
+P132, P140,
+P141, M3143,
+M3145, M3146,
+M3147, M3148,
+M3149, M3151,
+M3154, M3159,
+M2164, M2168,
+M2169, MP1176,
+MP1178" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	13 [label="M3156,
+M3157,
+M2167,
+M2170,
+MP1174" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label=MP1181 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 [label="P119, P124,
+P125, P126,
+P128, P129,
+P134, P135,
+P136, P137,
+P138, P139,
+P142, M3150,
+M3155, M3158,
+M3162, M2165,
+M2166, MP1173" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	32 [label="M2163,
+MP1179,
+MP1180" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	12 [label=P122 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	47 [label="" color="#C2C2C2" fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	7 [label=MP1172 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	15 [label=M3153 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	0 [label="M3144,
+M3160,
+M3161,
+MP1171" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	145 [label="" color="#C2C2C2" fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	3 [label=P133 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	127 [label="" color="#C2C2C2" fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	11 [label="" color="#C2C2C2" fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="N78, N79,
+N80, N96,
+N112, P131" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	361 [label="I1, I2, I3, I4, I5, I6,
+I7, I8, N9, N10, N11, N12,
+N13, N14, N15, N16, N17,
+N18, N19, N20, N21, N22,
+N23, N24, N25, N26, N27,
+N28, N29, N30, N31, N32,
+N33, N34, N35, N36, N37,
+N38, N39, N40, N41, N42,
+N43, N44, N45, N46, N47,
+N48, N49, N50, N51, N52,
+N53, N54, N55, N56, N57,
+N58, N59, N60, N61, N62,
+N63, N64, N65, N66, N67,
+N68, N69, N70, N71, N72,
+N73, N74, N75, N76, N77,
+N81, N82, N83, N84, N85,
+N86, N87, N88, N89, N90,
+N91, N92, N93, N94, N95,
+N97, N98, N99, N100, N101,
+N102, N103, N104, N105,
+N106, N107, N108, N109,
+N110, N111, N113, P114,
+P115, P116, P130, M3152,
+MP1175, MP1177" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 -> 13 [label="" color="#A2A2A2" fontname=Arial len=14.0]
+	32 -> 1 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+	12 -> 32 [label="" color="#A2A2A2" fontname=Arial len=3.0]
+	47 -> 2 [label="" color="#A2A2A2" fontname=Arial len=2.0]
+	47 -> 12 [label="" color="#A2A2A2" fontname=Arial len=4.0]
+	145 -> 15 [label="" color="#A2A2A2" fontname=Arial len=7.0]
+	145 -> 0 [label="" color="#A2A2A2" fontname=Arial len=8.0]
+	3 -> 145 [label="" color="#A2A2A2" fontname=Arial len=2.0]
+	127 -> 7 [label="" color="#A2A2A2" fontname=Arial len=3.0]
+	127 -> 3 [label="" color="#A2A2A2" fontname=Arial len=4.0]
+	11 -> 47 [label="" color="#A2A2A2" fontname=Arial len=4.0]
+	11 -> 127 [label="" color="#A2A2A2" fontname=Arial len=3.0]
+	5 -> 8 [label="" color="#A2A2A2" fontname=Arial len=3.0]
+	5 -> 11 [label="" color="#A2A2A2" fontname=Arial len=4.0]
+	361 -> 5 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+}

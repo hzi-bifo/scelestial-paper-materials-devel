@@ -1,0 +1,96 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	3 [label="I3, I5,
+I6, I7" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label="I1, I4" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 [label="N81, N82,
+N84, N112,
+N113" color="#f57433" fillcolor="#f57433" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	8 [label="P124, P125,
+P126, P127,
+P128, P129,
+P131, P132,
+P135, P136,
+P137, P138" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	6 [label="P119,
+P121,
+P122,
+P134" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="P115,
+P116,
+P120,
+P130" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	7 [label="P114, P118,
+P123, P141,
+M2166" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	9 [label="M3154,
+M3161" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	10 [label="M3145, M3147,
+M3150, M3152,
+M3153, M3155,
+M3157" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	11 [label=M2164 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	15 [label="M3162,
+M2169,
+M2170" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	12 [label="M2163,
+M2165" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	13 [label="M3149,
+M3151,
+M3156,
+M3159,
+M2167" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	18 [label="P117,
+M3160,
+MP1180" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	14 [label="P133, M3148,
+M2168, MP1172,
+MP1173,
+MP1179,
+MP1181" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	17 [label="P139, P140,
+P142, M3143,
+M3144, M3146,
+M3158, MP1171,
+MP1176" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	16 [label=MP1174 color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 [label="I2, I8, N9, N10, N11, N12,
+N13, N14, N15, N16, N17,
+N18, N19, N20, N21, N22,
+N23, N24, N25, N26, N27,
+N28, N29, N30, N31, N32,
+N33, N34, N35, N36, N37,
+N38, N39, N40, N41, N42,
+N43, N44, N45, N46, N47,
+N48, N49, N50, N51, N52,
+N53, N54, N55, N56, N57,
+N58, N59, N60, N61, N62,
+N63, N64, N65, N66, N67,
+N68, N69, N70, N71, N72,
+N73, N74, N75, N76, N77,
+N78, N79, N80, N83, N85,
+N86, N87, N88, N89, N90,
+N91, N92, N93, N94, N95,
+N96, N97, N98, N99, N100,
+N101, N102, N103, N104,
+N105, N106, N107, N108,
+N109, N110, N111, MP1175,
+MP1177, MP1178" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 -> 3 [label="" color="#A2A2A2" fontname=Arial len=1.76574]
+	6 -> 8 [label="" color="#A2A2A2" fontname=Arial len=1.75979]
+	5 -> 6 [label="" color="#A2A2A2" fontname=Arial len=1.239717]
+	7 -> 5 [label="" color="#A2A2A2" fontname=Arial len=1.00044]
+	10 -> 9 [label="" color="#A2A2A2" fontname=Arial len=3.10255]
+	12 -> 15 [label="" color="#A2A2A2" fontname=Arial len=2.05505]
+	13 -> 10 [label="" color="#A2A2A2" fontname=Arial len=3.005313]
+	13 -> 11 [label="" color="#A2A2A2" fontname=Arial len=2.519219]
+	13 -> 12 [label="" color="#A2A2A2" fontname=Arial len=3.318752]
+	18 -> 7 [label="" color="#A2A2A2" fontname=Arial len=1.000155]
+	18 -> 13 [label="" color="#A2A2A2" fontname=Arial len=1.000195]
+	14 -> 18 [label="" color="#A2A2A2" fontname=Arial len=1.998464]
+	17 -> 14 [label="" color="#A2A2A2" fontname=Arial len=2.000771]
+	16 -> 17 [label="" color="#A2A2A2" fontname=Arial len=2.823598]
+	1 -> 2 [label="" color="#A2A2A2" fontname=Arial len=3.233211]
+	1 -> 4 [label="" color="#A2A2A2" fontname=Arial len=0.9999738]
+	1 -> 16 [label="" color="#A2A2A2" fontname=Arial len=3.177062]
+}

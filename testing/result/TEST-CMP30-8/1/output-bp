@@ -1,0 +1,56 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	n0 [label=46 color=aquamarine fillcolor=aquamarine fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n1 [label="" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n2 [label="57, 50,
+52, 48" color=aquamarine fillcolor=aquamarine fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n3 [label="35, 6, 9,
+10, 15, 24,
+28, 30" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n4 [label="2, 54,
+8" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n5 [label="41, 12,
+27, 20,
+40" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n6 [label="34, 42, 44,
+16, 17, 56,
+26" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n7 [label="21, 38" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n8 [label="45, 3,
+37, 7" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n9 [label="" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n10 [label="19, 22" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n11 [label="5, 55, 11,
+13, 53, 23,
+25, 29" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n12 [label="18, 4,
+36" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n13 [label="33, 39" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n14 [label="31, 32" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n15 [label=51 color=aquamarine fillcolor=aquamarine fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n16 [label="43, 14" color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n17 [label="" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n18 [label="" color=gray fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n19 [label=1 color=azure fillcolor=azure fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n20 [label="49, 47" color=aquamarine fillcolor=aquamarine fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n0 -> n1 [label=0.5 color=black fontname=Arial len=0.473903]
+	n1 -> n2 [label=0.2 color=black fontname=Arial len=0.165284]
+	n2 -> n3 [label=0.4 color=black fontname=Arial len=0.358969]
+	n2 -> n4 [label=0.4 color=black fontname=Arial len=0.43541]
+	n2 -> n5 [label=0.5 color=black fontname=Arial len=0.457805]
+	n2 -> n6 [label=0.8 color=black fontname=Arial len=0.803183]
+	n2 -> n7 [label=0.9 color=black fontname=Arial len=0.926603]
+	n1 -> n8 [label=1.0 color=black fontname=Arial len=0.978643]
+	n1 -> n9 [label=0.3 color=black fontname=Arial len=0.258911]
+	n9 -> n10 [label=0.6 color=black fontname=Arial len=0.626734]
+	n9 -> n11 [label=0.4 color=black fontname=Arial len=0.35565]
+	n1 -> n12 [label=0.5 color=black fontname=Arial len=0.460175]
+	n1 -> n13 [label=0.8 color=black fontname=Arial len=0.765953]
+	n1 -> n14 [label=0.9 color=black fontname=Arial len=0.921443]
+	n1 -> n15 [label=0.4 color=black fontname=Arial len=0.44107]
+	n0 -> n16 [label=0.9 color=black fontname=Arial len=0.945731]
+	n0 -> n17 [label=0.1 color=black fontname=Arial len=0.119195]
+	n0 -> n18 [label=0.1 color=black fontname=Arial len=0.0527942]
+	n18 -> n19 [label=0.5 color=black fontname=Arial len=0.45032]
+	n0 -> n20 [label=0.2 color=black fontname=Arial len=0.247553]
+}

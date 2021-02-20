@@ -1,0 +1,443 @@
+1,1411704,1,G/C	G/C	8/108	0.07 	3	37	0.43 	-	intron	-	-	ATAD3B	ATPase family, AAA domain containing 3B 
+1,7756132,1,C/T	C/T	24/110	0.22 	5	38	0.83 	Q16*	EXON CDS	Nonsynonymous	N/A	VAMP3	Vesicle-associated membrane protein 3 (VAMP-3)(Synaptobrevin-3)(Cellubrevin)(CEB) [Source:UniProtKB/Swiss-Prot;Acc:Q15836]
+1,9958226,1,T/C	T/C	30/76	0.39 	32	7	0.86 	-	intron	-	-	NMNAT1	nicotinamide nucleotide adenylyltransferase 1 
+1,11109449,1,A/G	A/G	86/157	0.55 	20	22	0.91 	-	intron	-	-	MTOR	mechanistic target of rapamycin (serine/threonine kinase)
+1,12627344,1,C/T	C/T	107/255	0.42 	22	20	0.92 	-	intron	-	-	AADACL4	arylacetamide deacetylase-like 4 
+1,12776317,1,C/T	C/T	22/188	0.12 	9	14	0.30 	-	intron	-	-	PRAMEF1	PRAME family member 1 
+1,12842269,1,C/T	C/T	5/255	0.02 	7	8	0.19 	T141M	EXON CDS	Nonsynonymous	TOLERATED	PRAMEF2	PRAME family member 2  [Source:UniProtKB/Swiss-Prot;Acc:O60811]
+1,12842550,1,T/G	T/-	0/255	0.00 	3	4	0.08 	C235G	EXON CDS	Nonsynonymous	TOLERATED	PRAMEF2	PRAME family member 2  [Source:UniProtKB/Swiss-Prot;Acc:O60811]
+1,12864760,1,C/G	C/G	1/253	0.00 	3	14	0.10 	C126S	EXON CDS	Nonsynonymous	TOLERATED	PRAMEF4	PRAME family member 4  [Source:UniProtKB/Swiss-Prot;Acc:O60810]
+1,12864937,1,C/G	C/G	3/121	0.02 	6	8	0.17 	-	intron	-	-	PRAMEF4	PRAME family member 4  [Source:UniProtKB/Swiss-Prot;Acc:O60810]
+1,12959093,1,G/A	G/A	2/127	0.02 	4	7	0.11 	S191N	EXON CDS	Nonsynonymous	DAMAGING	PRAMEF22	PRAME family member 22  [Source:UniProtKB/Swiss-Prot;Acc:A3QJZ6]
+1,13320938,1,C/T	C/T	2/224	0.01 	4	15	0.14 	R327H	EXON CDS	Nonsynonymous	Not scored	PRAMEF14	PRAME family member 14 
+1,13978987,1,G/C	G/C	3/93	0.03 	3	26	0.17 	A704P	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	PRDM2	PR domain containing 2, with ZNF domain 
+1,24160780,1,G/C	G/C	4/47	0.09 	4	13	0.13 	R82S	EXON CDS	Nonsynonymous	TOLERATED	PNRC2	Proline-rich nuclear receptor coactivator 2  [Source:UniProtKB/Swiss-Prot;Acc:Q9NPJ4]
+1,28177652,1,A/C	A/C	2/14	0.14 	3	32	0.25 	-	intron	-	-	EYA3	eyes absent homolog 3 (Drosophila) 
+1,39595619,1,A/T	A/T	3/75	0.04 	4	31	0.31 	-	intron	-	-	MACF1	microtubule-actin crosslinking factor 1 
+1,47173844,1,C/G	C/G	37/253	0.15 	10	16	0.36 	L191F	EXON CDS	Nonsynonymous	DAMAGING	CYP4A11	cytochrome P450, family 4, subfamily A, polypeptide 11 
+1,57310693,1,G/A	G/A	9/59	0.15 	3	22	0.14 	-	intron	-	-	DAB1	disabled homolog 1 (Drosophila) 
+1,62505168,1,C/T	C/-	0/4	0.00 	4	40	1.00 	-	intron	-	-	KANK4	KN motif and ankyrin repeat domains 4 
+1,74945359,1,G/A	G/A	1/31	0.03 	3	31	0.23 	-	intron	-	-	CRYZ	crystallin, zeta (quinone reductase) 
+1,84121216,1,G/C	G/C	32/89	0.36 	22	20	0.92 	-	intron	-	-	TTLL7	tubulin tyrosine ligase-like family, member 7 
+1,85267306,1,G/A	G/A	4/8	0.50 	8	34	0.80 	-	intron	-	-	MCOLN3	mucolipin 3 
+1,109279013,1,G/A	G/A	89/249	0.36 	16	24	0.80 	S365S	EXON CDS	Synonymous	TOLERATED	CLCC1	Chloride channel CLIC-like protein 1 Precursor (Mid-1-related chloride channel protein 1) [Source:UniProtKB/Swiss-Prot;Acc:Q96S66]
+1,110102794,1,C/T	C/T	40/76	0.53 	12	30	0.86 	G159D	EXON CDS	Nonsynonymous	TOLERATED	EPS8L3	Epidermal growth factor receptor kinase substrate 8-like protein 3 (Epidermal growth factor receptor pathway substrate 8-related protein 3)(EPS8-like protein 3) [Source:UniProtKB/Swiss-Prot;Acc:Q8TE67]
+1,115402998,1,G/C	G/C	14/163	0.09 	6	23	0.29 	-	intron	-	-	TSPAN2	tetraspanin 2 
+1,120641362,1,T/C	T/-	0/47	0.00 	3	4	0.08 	S2S	EXON CDS	Synonymous	TOLERATED	FAM72B	Protein FAM72B  [Source:UniProtKB/Swiss-Prot;Acc:Q86X60]
+1,143568174,1,T/C	T/C	11/120	0.09 	13	21	0.57 	E2117G	EXON CDS	Nonsynonymous	TOLERATED	PDE4DIP	Myomegalin (Phosphodiesterase 4D-interacting protein)(Cardiomyopathy-associated protein 2) [Source:UniProtKB/Swiss-Prot;Acc:Q5VU43]
+1,143568353,1,T/C	T/C	9/255	0.04 	6	12	0.19 	L2057L	EXON CDS	Synonymous	TOLERATED	PDE4DIP	Myomegalin (Phosphodiesterase 4D-interacting protein)(Cardiomyopathy-associated protein 2) [Source:UniProtKB/Swiss-Prot;Acc:Q5VU43]
+1,143568446,1,T/C	T/C	2/64	0.03 	4	32	0.33 	-	intron	-	-	PDE4DIP	Myomegalin (Phosphodiesterase 4D-interacting protein)(Cardiomyopathy-associated protein 2) [Source:UniProtKB/Swiss-Prot;Acc:Q5VU43]
+1,143960168,1,A/G	A/-	0/27	0.00 	5	13	0.16 	-	intron	-	-	NOTCH2NL	notch 2 N-terminal like 
+1,143984421,1,C/A	C/A	1/4	0.25 	4	23	0.19 	-	intron	-	-	NOTCH2NL	notch 2 N-terminal like 
+1,143992575,1,G/T	G/T	2/48	0.04 	3	20	0.13 	-	intron	-	-	NOTCH2NL	notch 2 N-terminal like 
+1,144768777,1,G/A	G/A	17/195	0.09 	13	9	0.37 	S10S	EXON CDS	Synonymous	TOLERATED	NBPF11	Neuroblastoma breakpoint family member 8  [Source:UniProtKB/Swiss-Prot;Acc:Q3BBV2]
+1,146047255,1,C/T	C/T	1/24	0.04 	3	9	0.09 	-	intron	-	-	NBPF11	Neuroblastoma breakpoint family member 8  [Source:UniProtKB/Swiss-Prot;Acc:Q3BBV2]
+1,146421992,1,T/C	T/C	2/78	0.03 	4	15	0.14 	-	five_prime_UTR	-	-	PPIAL4A	PPIAL4A
+1,146422002,1,A/G	A/G	1/79	0.01 	3	35	0.33 	-	five_prime_UTR	-	-	PPIAL4A	PPIAL4A
+1,146471940,1,A/G	A/-	0/15	0.00 	4	7	0.11 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146476010,1,T/C	T/-	0/255	0.00 	8	8	0.22 	I641V	EXON CDS	Nonsynonymous	TOLERATED	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146476197,1,T/C	T/G	1/96	0.01 	8	13	0.26 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146479283,1,G/C	G/-	0/74	0.00 	3	5	0.08 	L434V	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146479343,1,G/C	G/-	0/17	0.00 	6	10	0.18 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI26]
+1,146481299,1,A/T	A/T	1/18	0.06 	5	11	0.15 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI27]
+1,146481561,1,T/G	T/-	0/6	0.00 	3	10	0.09 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI28]
+1,146482895,1,C/A	C/-	0/15	0.00 	5	13	0.16 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI29]
+1,146482923,1,G/T	G/T	1/23	0.04 	3	20	0.13 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI30]
+1,146483187,1,G/A	G/-	0/36	0.00 	6	20	0.25 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI31]
+1,146490042,1,G/A	G/A	1/27	0.04 	8	10	0.24 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI32]
+1,146492310,1,G/A	G/A	4/100	0.04 	3	20	0.13 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI33]
+1,146492327,1,C/T	C/T	6/129	0.05 	5	25	0.26 	-	intron	-	-	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI34]
+1,146492405,1,G/C	G/C	2/255	0.01 	10	10	0.29 	L27L	EXON CDS	Synonymous	TOLERATED	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146492414,1,T/C	T/-	0/255	0.00 	5	8	0.14 	A24A	EXON CDS	Synonymous	TOLERATED	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146492439,1,C/A	C/-	0/255	0.00 	5	25	0.26 	R16L	EXON CDS	Nonsynonymous	TOLERATED	NBPF14	Neuroblastoma breakpoint family member 14  [Source:UniProtKB/Swiss-Prot;Acc:Q5TI25]
+1,146492510,1,G/A	G/A	12/170	0.07 	8	25	0.42 	-	not in genes	-	-	-	-
+1,146492547,1,G/C	G/C	6/108	0.06 	9	18	0.35 	-	not in genes	-	-	-	-
+1,146846296,1,A/T	A/T	5/177	0.03 	6	12	0.19 	K81M	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	NBPF15	Neuroblastoma breakpoint family, member 9 Fragment  [Source:UniProtKB/TrEMBL;Acc:Q5TB04]
+1,146849105,1,A/G	A/G	9/117	0.08 	6	6	0.16 	T239A	EXON CDS	Nonsynonymous	Not scored	NBPF15	Neuroblastoma breakpoint family member 15  [Source:UniProtKB/Swiss-Prot;Acc:Q8N660]
+1,146855515,1,C/T	C/T	5/54	0.09 	18	8	0.50 	-	intron	-	-	NBPF16	Neuroblastoma breakpoint family member 16  [Source:UniProtKB/Swiss-Prot;Acc:Q5SXJ2]
+1,147021475,1,C/G	C/G	2/126	0.02 	3	6	0.08 	L503V	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	NBPF16	Neuroblastoma breakpoint family member 16  [Source:UniProtKB/Swiss-Prot;Acc:Q5SXJ2]
+1,147023148,1,A/T	A/T	3/115	0.03 	3	7	0.08 	Y618F	EXON CDS	Nonsynonymous	TOLERATED	NBPF16	Neuroblastoma breakpoint family member 16  [Source:UniProtKB/Swiss-Prot;Acc:Q5SXJ2]
+1,150453501,1,C/G	C/G	30/255	0.12 	5	12	0.16 	G2410R	EXON CDS	Nonsynonymous	TOLERATED	HRNR	Hornerin  [Source:UniProtKB/Swiss-Prot;Acc:Q86YZ3]
+1,150547315,1,A/T	A/C	13/255	0.05 	3	11	0.09 	L257Q	EXON CDS	Nonsynonymous	TOLERATED	FLG	Filaggrin  [Source:UniProtKB/Swiss-Prot;Acc:P20930]
+1,150551918,1,T/C	T/C	3/255	0.01 	3	5	0.08 	S690G	EXON CDS	Nonsynonymous	TOLERATED	FLG	Filaggrin  [Source:UniProtKB/Swiss-Prot;Acc:P20930]
+1,152241066,1,G/C	G/C	12/204	0.06 	8	15	0.28 	I1650M	EXON CDS	Nonsynonymous	TOLERATED	NUP210L	Nuclear pore membrane glycoprotein 210-like Precursor (Nucleoporin 210 kDa-like) [Source:UniProtKB/Swiss-Prot;Acc:Q5VU65]
+1,157437420,1,C/T	C/T	2/7	0.29 	5	39	1.00 	-	three_prime_UTR	-	-	CADM3	cell adhesion molecule 3 
+1,159450715,1,A/G	A/G	4/9	0.44 	3	40	0.75 	-	three_prime_UTR	-	-	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2, 49kDa (NADH-coenzyme Q reductase) 
+1,159750347,1,G/A	G/A	4/255	0.02 	11	15	0.38 	-	intron	-	-	FCGR2A	Fc fragment of IgG, low affinity IIa, receptor (CD32) 
+1,159784910,1,C/T	C/T	1/255	0.00 	3	5	0.08 	D82N	EXON CDS	Nonsynonymous	TOLERATED	FCGR3A	Low affinity immunoglobulin gamma Fc region receptor III-A Precursor (IgG Fc receptor III-2)(Fc-gamma RIII-alpha)(Fc-gamma RIIIa)(FcRIIIa)(Fc-gamma RIII)(FcRIII)(FcR-10)(CD16a antigen)(CD16a antigen) [Source:UniProtKB/Swiss-Prot;Acc:P08637]
+1,161040020,1,G/A	G/A	3/27	0.11 	7	27	0.41 	-	intron	-	-	HSD17B7	hydroxysteroid (17-beta) dehydrogenase 7 
+1,174411783,1,A/G	A/G	1/63	0.02 	3	25	0.16 	-	intron	-	-	RFWD2	ring finger and WD repeat domain 2 
+1,175400230,1,G/T	G/T	59/236	0.25 	17	24	0.85 	S69*	EXON CDS	Nonsynonymous	N/A	ASTN1	Astrotactin-1 Precursor  [Source:UniProtKB/Swiss-Prot;Acc:O14525]
+1,179061077,1,T/C	T/-	0/166	0.00 	3	16	0.11 	S370P	EXON CDS	Nonsynonymous	DAMAGING	XPR1	Xenotropic and polytropic retrovirus receptor 1 (Protein SYG1 homolog)(Xenotropic and polytropic murine leukemia virus receptor X3)(X-receptor) [Source:UniProtKB/Swiss-Prot;Acc:Q9UBH6]
+1,184593385,1,A/C	A/C	1/69	0.01 	4	30	0.29 	-	intron	-	-	TPR	translocated promoter region (to activated MET oncogene) 
+1,194979200,1,T/C	T/C	12/165	0.07 	14	12	0.44 	-	intron	-	-	CFH	complement factor H 
+1,195185281,1,A/G	A/G	1/92	0.01 	3	20	0.13 	Q44Q	EXON CDS	Synonymous	TOLERATED	CFHR2	Complement factor H-related protein 2 Precursor (FHR-2)(H factor-like protein 2)(H factor-like 3)(DDESK59) [Source:UniProtKB/Swiss-Prot;Acc:P36980]
+1,200981876,1,T/A	T/-	0/70	0.00 	3	22	0.14 	-	intron	-	-	KDM5B	lysine (K)-specific demethylase 5B 
+1,202088119,1,T/C	T/C	1/125	0.01 	3	28	0.19 	L801P	EXON CDS	Nonsynonymous	TOLERATED	ZC3H11A	Zinc finger CCCH domain-containing protein 11A  [Source:UniProtKB/Swiss-Prot;Acc:O75152]
+1,202500837,1,C/T	C/T	11/76	0.14 	3	26	0.17 	-	intron	-	-	PLEKHA6	pleckstrin homology domain containing, family A member 6 
+1,204083641,1,C/T	C/T	8/92	0.09 	4	18	0.15 	R84H	EXON CDS	Nonsynonymous	Not scored	PM20D1	peptidase M20 domain containing 1 
+1,204840327,1,C/T	C/T	86/253	0.34 	13	28	0.81 	-	intron	-	-	EIF2D	eukaryotic translation initiation factor 2D 
+1,207945884,1,C/T	C/T	6/253	0.02 	4	30	0.29 	A65V	EXON CDS	Nonsynonymous	DAMAGING	HSD11B1	Corticosteroid 11-beta-dehydrogenase isozyme 1 (EC 1.1.1.146)(11-beta-hydroxysteroid dehydrogenase 1)(11-beta-HSD1)(11-DH) [Source:UniProtKB/Swiss-Prot;Acc:P28845]
+1,218422339,1,G/C	G/C	15/39	0.38 	22	21	0.96 	-	intron	-	-	RAB3GAP2	RAB3 GTPase activating protein subunit 2 (non-catalytic) 
+1,218422423,1,G/A	G/-	0/5	0.00 	15	29	1.00 	-	intron	-	-	RAB3GAP2	RAB3 GTPase activating protein subunit 2 (non-catalytic) 
+1,218422907,1,G/C	G/C	17/68	0.25 	26	17	0.96 	-	intron	-	-	RAB3GAP2	RAB3 GTPase activating protein subunit 2 (non-catalytic) 
+1,232586075,1,C/T	C/-	0/2	0.00 	6	38	1.00 	-	intron	-	-	C1orf31	chromosome 1 open reading frame 31 
+1,232660067,1,G/T	G/T	28/75	0.37 	13	28	0.81 	S564Y	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	TARBP1	Probable methyltransferase TARBP1 (EC 2.1.1.-)(TAR RNA-binding protein 1)(TAR RNA-binding protein of 185 kDa)(TRP-185) [Source:UniProtKB/Swiss-Prot;Acc:Q13395]
+1,246503548,1,A/G	A/G	1/255	0.00 	9	12	0.28 	L64L	EXON CDS	Synonymous	TOLERATED	OR2T33	Olfactory receptor 2T33 (Olfactory receptor OR1-56) [Source:UniProtKB/Swiss-Prot;Acc:Q8NG76]
+1,246703822,1,T/C	T/C	2/78	0.03 	6	12	0.19 	F183S	EXON CDS	Nonsynonymous	DAMAGING	OR2T3	Olfactory receptor 2T3  [Source:UniProtKB/Swiss-Prot;Acc:Q8NH03]
+1,246704014,1,C/T	C/T	5/254	0.02 	10	15	0.34 	S247F	EXON CDS	Nonsynonymous	DAMAGING	OR2T3	Olfactory receptor 2T3  [Source:UniProtKB/Swiss-Prot;Acc:Q8NH03]
+1,246879915,1,T/C	T/C	7/248	0.03 	3	21	0.13 	T298T	EXON CDS	Synonymous	TOLERATED	OR2T27	Olfactory receptor 2T27 (Olfactory receptor OR1-67) [Source:UniProtKB/Swiss-Prot;Acc:Q8NH04]
+2,9505952,1,C/T	C/T	10/79	0.13 	3	34	0.30 	-	intron	-	-	CPSF3	cleavage and polyadenylation specific factor 3, 73kDa 
+2,24047657,1,G/A	G/A	3/17	0.18 	10	31	0.77 	E17K	EXON CDS	Nonsynonymous	TOLERATED	UBXN2A	UBX domain-containing protein 2A (UBX domain-containing protein 4) [Source:UniProtKB/Swiss-Prot;Acc:P68543]
+2,27319904,1,C/T	C/T	4/27	0.15 	3	40	0.75 	-	three_prime_UTR	-	-	CAD	carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase 
+2,38887207,1,G/A	G/A	90/255	0.35 	33	9	0.94 	Q1272*	EXON CDS	Nonsynonymous	N/A	DHX57	Putative ATP-dependent RNA helicase DHX57 (EC 3.6.1.-)(DEAH box protein 57) [Source:UniProtKB/Swiss-Prot;Acc:Q6P158]
+2,69901238,1,C/G	C/G	28/61	0.46 	23	21	1.00 	-	intron	-	-	ANXA4	annexin A4 
+2,86197673,1,C/A	C/A	12/21	0.57 	20	19	0.80 	-	intron	-	-	PTCD3	Pentatricopeptide repeat domain 3 
+2,87864812,1,T/C	T/C	8/54	0.15 	4	24	0.20 	N941S	EXON CDS	Nonsynonymous	Not scored	RGPD1	RANBP2-like and GRIP domain-containing protein 2  [Source:UniProtKB/Swiss-Prot;Acc:P0C839]
+2,87864876,1,T/C	T/C	12/42	0.29 	16	22	0.73 	K920E	EXON CDS	Nonsynonymous	Not scored	RGPD1	RANBP2-like and GRIP domain-containing protein 2  [Source:UniProtKB/Swiss-Prot;Acc:P0C839]
+2,94906164,1,C/G	C/G	6/254	0.02 	3	27	0.18 	L411V	EXON CDS	Nonsynonymous	DAMAGING	TEKT4	Tektin-4  [Source:UniProtKB/Swiss-Prot;Acc:Q8WW24]
+2,99373336,1,T/A	T/A	2/65	0.03 	3	29	0.20 	-	intron	-	-	EIF5B	eukaryotic translation initiation factor 5B 
+2,99445587,1,T/A	T/-	0/20	0.00 	5	22	0.23 	-	intron	-	-	REV1	REV1 homolog (S. cerevisiae) 
+2,102008990,1,G/T	G/-	0/32	0.00 	3	26	0.17 	-	intron	-	-	IL1R2	interleukin 1 receptor, type II 
+2,134818924,1,A/T	A/T	4/34	0.12 	6	31	0.46 	-	intron	-	-	MGAT5	mannosyl (alpha-1,6-)-glycoprotein beta-1,6-N-acetyl-glucosaminyltransferase 
+2,165510239,1,A/T	A/-	0/3	0.00 	3	41	1.00 	-	intron	-	-	SLC38A11	solute carrier family 38, member 11 
+2,169857282,1,A/T	A/-	0/3	0.00 	3	41	1.00 	-	intron	-	-	LRP2	low density lipoprotein receptor-related protein 2 
+2,178958409,1,T/C	T/C	1/21	0.05 	3	34	0.30 	-	intron	-	-	OSBPL6	oxysterol binding protein-like 6 
+2,178958410,1,T/C	T/C	1/23	0.04 	4	37	0.57 	-	intron	-	-	OSBPL6	oxysterol binding protein-like 6 
+2,197973698,1,C/T	C/T	25/74	0.34 	15	26	0.83 	E902K	EXON CDS	Nonsynonymous	DAMAGING	SF3B1	Splicing factor 3B subunit 1 (Pre-mRNA-splicing factor SF3b 155 kDa subunit)(SF3b155)(Spliceosome-associated protein 155)(SAP 155) [Source:UniProtKB/Swiss-Prot;Acc:O75533]
+2,202053066,1,T/C	T/C	2/242	0.01 	3	19	0.12 	S394P	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	STRADB	STE20-related kinase adapter protein beta (STRAD beta)(Pseudokinase ALS2CR2)(Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 2 protein)(ILP-interacting protein)(CALS-21) [Source:UniProtKB/Swiss-Prot;Acc:Q9C0K7]
+2,219032824,1,C/T	C/T	24/147	0.16 	8	31	0.62 	G859E	EXON CDS	Nonsynonymous	TOLERATED	USP37	Ubiquitin carboxyl-terminal hydrolase 37 (EC 3.1.2.15)(Ubiquitin thioesterase 37)(Ubiquitin-specific-processing protease 37)(Deubiquitinating enzyme 37) [Source:UniProtKB/Swiss-Prot;Acc:Q86T82]
+2,230775638,1,G/A	G/A	106/141	0.75 	26	18	1.00 	Q317*	EXON CDS	Nonsynonymous	N/A	SP110	Sp110 nuclear body protein (Transcriptional coactivator Sp110)(Speckled 110 kDa)(Interferon-induced protein 41/75) [Source:UniProtKB/Swiss-Prot;Acc:Q9HB58]
+2,237914310,1,C/G	C/G	26/156	0.17 	4	39	0.80 	R2663T	EXON CDS	Nonsynonymous	Not scored	COL6A3	Collagen alpha-3(VI) chain Precursor  [Source:UniProtKB/Swiss-Prot;Acc:P12111]
+2,241683945,1,T/C	T/C	2/3	0.67 	4	39	0.80 	-	three_prime_UTR	-	-	MTERFD2	MTERF domain containing 2 
+3,14460314,1,C/G	C/G	12/93	0.13 	3	33	0.27 	G56G	EXON CDS	Synonymous	TOLERATED	SLC6A6	Sodium- and chloride-dependent taurine transporter (Solute carrier family 6 member 6) [Source:UniProtKB/Swiss-Prot;Acc:P31641]
+3,31700679,1,A/G	A/G	5/72	0.07 	3	34	0.30 	-	intron	-	-	OSBPL10	oxysterol binding protein-like 10 
+3,39428519,1,A/G	A/G	27/255	0.11 	10	20	0.42 	V252V	EXON CDS	Synonymous	TOLERATED	RPSA	40S ribosomal protein SA (Laminin receptor 1)(34/67 kDa laminin receptor)(LamR)(p40)(Colon carcinoma laminin-binding protein)(NEM/1CHD4)(Multidrug resistance-associated protein MGr1-Ag) [Source:UniProtKB/Swiss-Prot;Acc:P08865]
+3,44738567,1,G/C	G/C	6/40	0.15 	9	27	0.53 	Q418H	EXON CDS	Nonsynonymous	TOLERATED	ZNF502	Zinc finger protein 502  [Source:UniProtKB/Swiss-Prot;Acc:Q8TBZ5]
+3,44738927,1,G/C	G/C	53/255	0.21 	10	24	0.50 	Q538H	EXON CDS	Nonsynonymous	TOLERATED	ZNF502	Zinc finger protein 502  [Source:UniProtKB/Swiss-Prot;Acc:Q8TBZ5]
+3,49296977,1,C/T	C/T	26/84	0.31 	17	27	1.00 	K772K	EXON CDS	Synonymous	TOLERATED	USP4	Ubiquitin carboxyl-terminal hydrolase 4 (EC 3.1.2.15)(Ubiquitin thioesterase 4)(Ubiquitin-specific-processing protease 4)(Deubiquitinating enzyme 4)(Ubiquitous nuclear protein homolog) [Source:UniProtKB/Swiss-Prot;Acc:Q13107]
+3,52786731,1,C/T	C/T	44/97	0.45 	16	27	0.94 	L20L	EXON CDS	Synonymous	TOLERATED	ITIH1	inter-alpha (globulin) inhibitor H1 
+3,52788129,1,C/T	C/T	70/133	0.53 	17	25	0.89 	-	intron	-	-	ITIH1	inter-alpha (globulin) inhibitor H1 
+3,62179493,1,G/C	G/C	17/84	0.20 	3	36	0.38 	-	intron	-	-	PTPRG	protein tyrosine phosphatase, receptor type, G 
+3,75762696,1,T/C	T/C	41/255	0.16 	7	30	0.50 	-	five_prime_UTR	-	-	MIR1324	microRNA 1324 
+3,75762775,1,G/A	G/A	3/72	0.04 	6	36	0.75 	-	not in genes	-	-	-	-
+3,99334688,1,A/C	A/C	3/255	0.01 	4	25	0.21 	I153L	EXON CDS	Nonsynonymous	TOLERATED	OR5H1	Olfactory receptor 5H1 (HTPCRX14) [Source:UniProtKB/Swiss-Prot;Acc:A6NKK0]
+3,109809740,1,T/C	T/-	0/31	0.00 	5	33	0.45 	-	intron	-	-	DZIP3	DAZ interacting protein 3, zinc finger 
+3,115132228,1,C/A	C/A	22/135	0.16 	10	28	0.63 	-	intron	-	-	GRAMD1C	GRAM domain containing 1C 
+3,120392545,1,G/C	G/C	25/59	0.42 	17	25	0.89 	Q124H	EXON CDS	Nonsynonymous	DAMAGING	UPK1B	Uroplakin-1b (Uroplakin Ib)(UPIb)(Tetraspanin-20)(Tspan-20) [Source:UniProtKB/Swiss-Prot;Acc:O75841]
+3,120933910,1,T/A	T/A	51/137	0.37 	30	12	0.94 	D366E	EXON CDS	Nonsynonymous	TOLERATED	C3orf15	AMY-1-associating protein expressed in testis 1 (AAT-1) [Source:UniProtKB/Swiss-Prot;Acc:Q7Z4T9]
+3,121911505,1,C/G	C/G	4/21	0.19 	11	29	0.73 	-	intron	-	-	RABL3	RAB, member of RAS oncogene family-like 3 
+3,122972132,1,A/C	A/C	3/140	0.02 	3	31	0.23 	-	intron	-	-	IQCB1	IQ motif containing B1 
+3,125678931,1,T/G	T/G	1/28	0.04 	3	33	0.27 	-	intron	-	-	KALRN	kalirin, RhoGEF kinase 
+3,130638090,1,C/G	C/G	53/159	0.33 	29	14	0.97 	E363Q	EXON CDS	Nonsynonymous	TOLERATED	MBD4	Methyl-CpG-binding domain protein 4 (EC 3.2.2.-)(Methyl-CpG-binding protein MBD4)(Methyl-CpG-binding endonuclease 1)(Mismatch-specific DNA N-glycosylase) [Source:UniProtKB/Swiss-Prot;Acc:O95243]
+3,132669584,1,A/C	A/C	2/12	0.17 	3	36	0.38 	-	intron	-	-	MRPL3	mitochondrial ribosomal protein L3 
+3,133648838,1,A/T	A/T	1/78	0.01 	5	35	0.56 	-	intron	-	-	DNAJC13	DnaJ (Hsp40) homolog, subfamily C, member 13 
+3,152399889,1,T/A	T/A	6/25	0.24 	13	29	0.87 	-	five_prime_UTR	-	-	MED12L	mediator complex subunit 12-like 
+3,159891787,1,C/A	C/-	0/33	0.00 	3	34	0.30 	-	intron	-	-	GFM1	G elongation factor, mitochondrial 1 
+3,173543691,1,C/T	C/T	11/24	0.46 	6	38	1.00 	-	intron	-	-	FNDC3B	fibronectin type III domain containing 3B 
+3,187992143,1,G/A	G/A	4/45	0.09 	6	34	0.60 	-	intron	-	-	RFC4	replication factor C (activator 1) 4, 37kDa 
+4,39183676,1,C/G	C/G	60/140	0.43 	27	12	0.84 	A332P	EXON CDS	Nonsynonymous	DAMAGING	UGDH	UDP-glucose 6-dehydrogenase (UDP-Glc dehydrogenase)(UDP-GlcDH)(UDPGDH)(EC 1.1.1.22) [Source:UniProtKB/Swiss-Prot;Acc:O60701]
+4,39183688,1,C/A	C/A	56/140	0.40 	20	24	1.00 	D328Y	EXON CDS	Nonsynonymous	DAMAGING	UGDH	UDP-glucose 6-dehydrogenase (UDP-Glc dehydrogenase)(UDP-GlcDH)(UDPGDH)(EC 1.1.1.22) [Source:UniProtKB/Swiss-Prot;Acc:O60701]
+4,54021789,1,C/T	C/T	4/49	0.08 	3	32	0.25 	-	three_prime_UTR	-	-	LNX1	ligand of numb-protein X 1 
+4,70104875,1,A/G	A/G	7/255	0.03 	3	18	0.12 	V391A	EXON CDS	Nonsynonymous	DAMAGING	UGT2B11	UDP-glucuronosyltransferase 2B11 Precursor (UDPGT 2B11)(EC 2.4.1.17) [Source:UniProtKB/Swiss-Prot;Acc:O75310]
+4,70182978,1,A/G	A/G	4/255	0.02 	3	21	0.13 	-	intron	-	-	UGT2B28	UDP glucuronosyltransferase 2 family, polypeptide B28
+4,99519426,1,G/C	G/C	7/11	0.64 	19	24	0.95 	-	intron	-	-	RAP1GDS1	RAP1, GTP-GDP dissociation stimulator 1 
+4,99577106,1,A/T	A/T	4/45	0.09 	3	33	0.27 	-	intron	-	-	RAP1GDS1	RAP1, GTP-GDP dissociation stimulator 1 
+4,100761370,1,C/G	C/G	30/255	0.12 	5	22	0.23 	F824L	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	MTTP	Microsomal triglyceride transfer protein large subunit Precursor  [Source:UniProtKB/Swiss-Prot;Acc:P55157]
+4,104041702,1,A/C	A/C	2/83	0.02 	4	11	0.12 	-	three_prime_UTR	-	-	NHEDC1	solute carrier family 9, subfamily B (cation proton antiporter 2), member 1 
+4,104046312,1,C/T	C/T	5/39	0.13 	9	22	0.41 	-	intron	-	-	NHEDC1	solute carrier family 9, subfamily B (cation proton antiporter 2), member 1 
+4,104089826,1,T/A	T/A	1/50	0.02 	3	10	0.09 	-	intron	-	-	NHEDC1	solute carrier family 9, subfamily B (cation proton antiporter 2), member 1 
+4,110825853,1,A/T	A/T	2/73	0.03 	5	27	0.29 	-	intron	-	-	CCDC109B	coiled-coil domain containing 109B 
+4,110854937,1,G/T	G/T	7/99	0.07 	3	30	0.21 	-	three_prime_UTR	-	-	PLA2G12A	phospholipase A2, group XIIA 
+4,119850753,1,G/C	G/C	6/105	0.06 	9	25	0.47 	D407H	EXON CDS	Nonsynonymous	TOLERATED	METTL14	Methyltransferase-like protein KIAA1627 (EC 2.1.1.-) [Source:UniProtKB/Swiss-Prot;Acc:Q9HCE5]
+4,146278491,1,A/G	A/G	2/255	0.01 	4	26	0.22 	H896H	EXON CDS	Synonymous	TOLERATED	OTUD4	OTU domain-containing protein 4 (HIV-1-induced protein HIN-1) [Source:UniProtKB/Swiss-Prot;Acc:Q01804]
+4,155400131,1,A/C	A/C	4/105	0.04 	4	31	0.31 	-	intron	-	-	DCHS2	dachsous 2 (Drosophila) 
+4,164612757,1,G/A	G/A	105/255	0.41 	19	24	0.95 	S527F	EXON CDS	Nonsynonymous	DAMAGING	TKTL2	Transketolase-like protein 2 (EC 2.2.1.1) [Source:UniProtKB/Swiss-Prot;Acc:Q9H0I9]
+4,170314419,1,A/G	A/G	1/22	0.05 	5	35	0.56 	-	intron	-	-	SH3RF1	SH3 domain containing ring finger 1 
+4,191110346,1,T/C	T/C	2/115	0.02 	6	19	0.24 	S57P	EXON CDS	Nonsynonymous	DAMAGING	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191110361,1,A/T	A/T	2/132	0.02 	3	35	0.33 	I62F	EXON CDS	Nonsynonymous	DAMAGING	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191115598,1,G/A	G/-	0/255	0.00 	8	9	0.23 	A162T	EXON CDS	Nonsynonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191115602,1,G/A	G/A	1/255	0.00 	3	20	0.13 	G163E	EXON CDS	Nonsynonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191115619,1,A/G	A/-	0/255	0.00 	11	14	0.37 	S169G	EXON CDS	Nonsynonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191118875,1,G/A	G/A	3/96	0.03 	6	7	0.16 	-	intron	-	-	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191118943,1,C/T	C/T	15/248	0.06 	9	19	0.36 	P195L	EXON CDS	Nonsynonymous	DAMAGING	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191118950,1,A/G	A/G	17/255	0.07 	16	18	0.62 	E197E	EXON CDS	Synonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191118956,1,A/G	A/G	4/255	0.02 	3	22	0.14 	K199K	EXON CDS	Synonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191119953,1,A/T	A/-	0/25	0.00 	5	13	0.16 	-	intron	-	-	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191119992,1,A/G	A/G	1/37	0.03 	5	19	0.20 	Q217Q	EXON CDS	Synonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+4,191120001,1,A/G	A/G	3/41	0.07 	5	25	0.26 	K220K	EXON CDS	Synonymous	TOLERATED	FRG1	Protein FRG1 (FSHD region gene 1 protein) [Source:UniProtKB/Swiss-Prot;Acc:Q14331]
+5,10455546,1,C/G	C/G	17/135	0.13 	10	24	0.50 	V368V	EXON CDS	Synonymous	TOLERATED	40608	E3 ubiquitin-protein ligase MARCH6 (EC 6.3.2.-)(Membrane-associated RING finger protein 6)(Membrane-associated RING-CH protein VI)(MARCH-VI)(RING finger protein 176)(Protein TEB-4)(Doa10 homolog) [Source:UniProtKB/Swiss-Prot;Acc:O60337]
+5,23553687,1,G/C	G/C	22/42	0.52 	27	15	0.93 	-	intron	-	-	PRDM9	PR domain containing 9 
+5,37036306,1,G/A	G/A	89/231	0.39 	24	18	0.92 	D1127N	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	NIPBL	Nipped-B-like protein (Delangin)(SCC2 homolog) [Source:UniProtKB/Swiss-Prot;Acc:Q6KC79]
+5,38967603,1,G/C	G/C	3/3	1.00 	7	36	0.88 	-	intron	-	-	OSMR	oncostatin M receptor 
+5,68436355,1,A/T	A/T	4/19	0.21 	4	34	0.40 	-	intron	-	-	SLC30A5	solute carrier family 30 (zinc transporter), member 5 
+5,68534650,1,C/T	C/T	5/9	0.56 	14	28	0.88 	-	intron	-	-	CENPH	centromere protein H 
+5,68600633,1,G/A	G/-	0/0	NA	6	38	1.00 	-	intron	-	-	CDK7	cyclin-dependent kinase 7 
+5,80196355,1,T/A	T/-	0/10	0.00 	5	25	0.26 	-	intron	-	-	MSH3	mutS homolog 3 (E. coli) 
+5,89850360,1,G/C	G/C	4/83	0.05 	7	32	0.58 	-	three_prime_UTR	-	-	LYSMD3	LysM, putative peptidoglycan-binding, domain containing 3
+5,89851068,1,G/A	G/A	1/35	0.03 	3	35	0.33 	-	intron	-	-	LYSMD3	LysM, putative peptidoglycan-binding, domain containing 3
+5,115233728,1,A/T	A/T	7/63	0.11 	9	28	0.56 	-	intron	-	-	AP3S1	adaptor-related protein complex 3, sigma 1 subunit 
+5,133354731,1,G/C	G/C	101/255	0.40 	26	15	0.90 	S44*	EXON CDS	Nonsynonymous	N/A	VDAC1	Voltage-dependent anion-selective channel protein 1 (VDAC-1)(hVDAC1)(Outer mitochondrial membrane protein porin 1)(Plasmalemmal porin)(Porin 31HL)(Porin 31HM) [Source:UniProtKB/Swiss-Prot;Acc:P21796]
+5,137534842,1,C/T	C/T	7/13	0.54 	20	21	0.87 	-	intron	-	-	BRD8	bromodomain containing 8 
+5,140456814,1,G/A	G/A	8/152	0.05 	3	20	0.13 	Q752Q	EXON CDS	Synonymous	TOLERATED	PCDHB2	Protocadherin beta-2 Precursor (PCDH-beta-2) [Source:UniProtKB/Swiss-Prot;Acc:Q9Y5E7]
+5,140574366,1,G/A	G/A	1/255	0.00 	3	25	0.16 	V163I	EXON CDS	Nonsynonymous	TOLERATED	PCDHB13	Protocadherin beta-13 Precursor (PCDH-beta-13) [Source:UniProtKB/Swiss-Prot;Acc:Q9Y5F0]
+5,154256030,1,C/G	C/G	24/175	0.14 	5	32	0.42 	E1138Q	EXON CDS	Nonsynonymous	TOLERATED	GEMIN5	Gem-associated protein 5 (Gemin5) [Source:UniProtKB/Swiss-Prot;Acc:Q8TEQ6]
+5,158459127,1,A/G	A/G	4/26	0.15 	6	25	0.32 	-	five_prime_UTR	-	-	EBF1	early B-cell factor 1 
+5,158563219,1,C/T	C/T	6/47	0.13 	11	30	0.79 	K23K	EXON CDS	Synonymous	TOLERATED	RNF145	RING finger protein 145  [Source:UniProtKB/Swiss-Prot;Acc:Q96MT1]
+5,176653349,1,C/G	C/G	31/71	0.44 	4	40	1.00 	-	intron	-	-	NSD1	nuclear receptor binding SET domain protein 1
+6,30760582,1,G/C	G/C	45/81	0.56 	16	28	1.00 	S398C	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	KIAA1949	Phostensin (Protein phosphatase 1 F-actin cytoskeleton-targeting subunit) [Source:UniProtKB/Swiss-Prot;Acc:Q6NYC8]
+6,43604936,1,C/T	C/T	35/115	0.30 	20	22	0.91 	-	intron	-	-	XPO5	exportin 5 
+6,43604942,1,C/T	C/T	33/108	0.31 	5	38	0.83 	-	intron	-	-	XPO5	exportin 5 
+6,88372465,1,A/T	A/-	0/55	0.00 	3	28	0.19 	-	intron	-	-	ORC3	origin recognition complex, subunit 3 
+6,107195582,1,A/T	A/-	0/5	0.00 	4	32	0.33 	-	intron	-	-	QRSL1	glutaminyl-tRNA synthase (glutamine-hydrolyzing)-like 1 
+6,110060758,1,C/G	C/G	1/4	0.25 	3	41	1.00 	-	three_prime_UTR	-	-	AKD1	adenylate kinase domain containing 1 
+6,111387165,1,T/G	T/G	10/51	0.20 	4	33	0.36 	-	intron	-	-	GTF3C6	general transcription factor IIIC, polypeptide 6, alpha 35kDa 
+6,112545606,1,A/G	A/G	2/102	0.02 	4	25	0.21 	-	intron	-	-	LAMA4	laminin, alpha 4 
+6,136624094,1,A/T	A/T	15/78	0.19 	7	22	0.32 	-	intron	-	-	BCLAF1	Bcl-2-associated transcription factor 1 (Btf) [Source:UniProtKB/Swiss-Prot;Acc:Q9NYF8]
+6,150282390,1,A/G	A/G	3/255	0.01 	3	11	0.09 	I114T	EXON CDS	Nonsynonymous	TOLERATED	RAET1G	Retinoic acid early transcript 1G protein Precursor  [Source:UniProtKB/Swiss-Prot;Acc:Q6H3X3]
+6,150282528,1,C/T	C/T	3/251	0.01 	4	8	0.11 	S68N	EXON CDS	Nonsynonymous	TOLERATED	RAET1G	Retinoic acid early transcript 1G protein Precursor  [Source:UniProtKB/Swiss-Prot;Acc:Q6H3X3]
+6,151399898,1,C/T	C/T	22/239	0.09 	3	29	0.20 	D185D	EXON CDS	Synonymous	TOLERATED	MTHFD1L	Monofunctional C1-tetrahydrofolate synthase, mitochondrial Precursor (EC 6.3.4.3)(Formyltetrahydrofolate synthetase) [Source:UniProtKB/Swiss-Prot;Acc:Q6UB35]
+6,155150873,1,G/T	G/T	7/85	0.08 	7	31	0.54 	-	intron	-	-	SCAF8	SR-related CTD-associated factor 8 
+7,5054338,1,C/T	C/-	0/48	0.00 	4	30	0.29 	-	intron	-	-	RBAK-LOC389458	RBAK-LOC389458 readthrough 
+7,5199175,1,C/T	C/T	3/8	0.38 	6	34	0.60 	-	intron	-	-	WIPI2	WD repeat domain, phosphoinositide interacting 2 
+7,25956203,1,A/C	A/C	21/37	0.57 	6	38	1.00 	-	not in genes	-	-	-	-
+7,30296051,1,C/T	C/T	5/132	0.04 	6	30	0.43 	-	intron	-	-	ZNRF2	zinc and ring finger 2 
+7,32982512,1,T/G	T/G	14/255	0.05 	6	14	0.20 	Y193*	EXON CDS	Nonsynonymous	N/A	FKBP9	FK506-binding protein 9 Precursor (EC 5.2.1.8)(Peptidyl-prolyl cis-trans isomerase)(PPIase)(Rotamase) [Source:UniProtKB/Swiss-Prot;Acc:O95302]
+7,34975620,1,C/A	C/A	1/118	0.01 	8	26	0.44 	V249L	EXON CDS	Nonsynonymous	Not scored	DPY19L1	Protein dpy-19 homolog 1 (Dpy-19-like protein 1) [Source:UniProtKB/Swiss-Prot;Acc:Q2PZI1]
+7,34975645,1,G/A	G/A	2/118	0.02 	3	34	0.30 	S240S	EXON CDS	Synonymous	Not scored	DPY19L1	Protein dpy-19 homolog 1 (Dpy-19-like protein 1) [Source:UniProtKB/Swiss-Prot;Acc:Q2PZI1]
+7,44539848,1,C/T	C/T	67/131	0.51 	9	34	0.90 	-	intron	-	-	NPC1L1	NPC1 (Niemann-Pick disease, type C1, gene)-like 1
+7,74201688,1,C/T	C/T	1/50	0.02 	3	11	0.09 	S500L	EXON CDS	Nonsynonymous	TOLERATED	GTF2IRD2B	General transcription factor II-I repeat domain-containing protein 2B (GTF2I repeat domain-containing protein 2B)(Transcription factor GTF2IRD2-beta) [Source:UniProtKB/Swiss-Prot;Acc:Q6EKJ0]
+7,76848516,1,G/A	G/-	0/6	0.00 	5	34	0.50 	-	intron	-	-	PION	pigeon homolog (Drosophila) 
+7,87297339,1,G/C	G/C	1/22	0.05 	9	24	0.45 	-	three_prime_UTR	-	-	RUNDC3B	RUN domain containing 3B 
+7,91937068,1,T/C	T/C	2/183	0.01 	5	24	0.25 	-	not in genes	-	-	-	-
+7,99524828,1,C/T	C/T	84/181	0.46 	20	23	0.95 	-	intron	-	-	COPS6	COP9 constitutive photomorphogenic homolog subunit 6 (Arabidopsis) 
+7,99526377,1,C/G	C/G	10/28	0.36 	18	22	0.82 	-	intron	-	-	COPS6	COP9 constitutive photomorphogenic homolog subunit 6 (Arabidopsis) 
+7,100464236,1,A/G	A/G	24/253	0.09 	11	13	0.35 	E940G	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100464243,1,A/C	A/C	10/254	0.04 	5	24	0.25 	R942S	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100466837,1,T/C	T/C	12/255	0.05 	6	23	0.29 	M1807T	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100467251,1,C/G	C/G	1/255	0.00 	3	26	0.17 	T1945S	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100468023,1,T/C	T/-	0/255	0.00 	5	24	0.25 	P2202P	EXON CDS	Synonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100468180,1,A/G	A/-	0/255	0.00 	5	22	0.23 	T2255A	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100468414,1,T/C	T/-	0/255	0.00 	5	16	0.18 	S2333P	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100468427,1,A/G	A/-	0/255	0.00 	4	20	0.17 	N2337S	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100468837,1,G/A	G/A	1/255	0.00 	5	23	0.24 	G2474S	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,100468876,1,A/G	A/G	27/254	0.11 	4	26	0.22 	M2487V	EXON CDS	Nonsynonymous	Not scored	MUC17	Mucin-17 Precursor (MUC-17)(Small intestinal mucin-3)(MUC-3) [Source:UniProtKB/Swiss-Prot;Acc:Q685J3]
+7,102022810,1,T/C	T/C	9/38	0.24 	9	31	0.69 	-	intron	-	-	POLR2J3	polymerase (RNA) II (DNA directed) polypeptide J3 
+7,117054876,1,C/T	C/T	64/144	0.44 	21	19	0.84 	S1178L	EXON CDS	Nonsynonymous	TOLERATED	CFTR	Cystic fibrosis transmembrane conductance regulator (CFTR)(cAMP-dependent chloride channel)(ATP-binding cassette transporter sub-family C member 7) [Source:UniProtKB/Swiss-Prot;Acc:P13569]
+7,122556628,1,G/C	G/-	0/22	0.00 	3	40	0.75 	-	intron	-	-	SLC13A1	solute carrier family 13 (sodium/sulfate symporters), member 1
+7,134923084,1,A/T	A/-	0/32	0.00 	4	27	0.24 	-	intron	-	-	NUP205	nucleoporin 205kDa 
+7,150799351,1,T/C	T/C	3/25	0.12 	5	30	0.36 	-	intron	-	-	RHEB	Ras homolog enriched in brain 
+7,151563825,1,C/G	C/G	5/254	0.02 	4	23	0.19 	-	intron	-	-	MLL3	Histone-lysine N-methyltransferase MLL3 (EC 2.1.1.43)(Myeloid/lymphoid or mixed-lineage leukemia protein 3)(Homologous to ALR protein)(Lysine N-methyltransferase 2C) [Source:UniProtKB/Swiss-Prot;Acc:Q8NEZ4]
+7,151566552,1,G/T	G/-	0/1	0.00 	3	34	0.30 	-	intron	-	-	MLL3	Histone-lysine N-methyltransferase MLL3 (EC 2.1.1.43)(Myeloid/lymphoid or mixed-lineage leukemia protein 3)(Homologous to ALR protein)(Lysine N-methyltransferase 2C) [Source:UniProtKB/Swiss-Prot;Acc:Q8NEZ4]
+7,151566821,1,T/A	T/A	8/57	0.14 	6	30	0.43 	T852T	EXON CDS	Synonymous	TOLERATED	MLL3	Histone-lysine N-methyltransferase MLL3 (EC 2.1.1.43)(Myeloid/lymphoid or mixed-lineage leukemia protein 3)(Homologous to ALR protein)(Lysine N-methyltransferase 2C) [Source:UniProtKB/Swiss-Prot;Acc:Q8NEZ4]
+7,151601620,1,A/C	A/-	0/48	0.00 	3	25	0.16 	-	intron	-	-	MLL3	Histone-lysine N-methyltransferase MLL3 (EC 2.1.1.43)(Myeloid/lymphoid or mixed-lineage leukemia protein 3)(Homologous to ALR protein)(Lysine N-methyltransferase 2C) [Source:UniProtKB/Swiss-Prot;Acc:Q8NEZ4]
+8,12033545,1,G/C	G/C	17/172	0.10 	4	22	0.18 	S45C	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	USP17L2	ubiquitin specific peptidase 17-like 2 
+8,39066802,1,C/T	C/T	13/153	0.08 	8	20	0.33 	I716I	EXON CDS	Synonymous	TOLERATED	ADAM9	ADAM 9 Precursor (EC 3.4.24.-)(A disintegrin and metalloproteinase domain 9)(Metalloprotease/disintegrin/cysteine-rich protein 9)(Myeloma cell metalloproteinase)(Meltrin-gamma)(Cellular disintegrin-related protein) [Source:UniProtKB/Swiss-Prot;Acc:Q13443]
+8,48369246,1,G/T	G/T	2/33	0.06 	14	25	0.74 	-	intron	-	-	KIAA0146	KIAA0146
+8,52895762,1,A/G	A/G	2/255	0.01 	4	27	0.24 	I259T	EXON CDS	Nonsynonymous	TOLERATED	PCMTD1	Protein-L-isoaspartate O-methyltransferase domain-containing protein 1  [Source:UniProtKB/Swiss-Prot;Acc:Q96MG8]
+8,52895767,1,A/C	A/C	2/255	0.01 	3	29	0.20 	N257K	EXON CDS	Nonsynonymous	TOLERATED	PCMTD1	Protein-L-isoaspartate O-methyltransferase domain-containing protein 1  [Source:UniProtKB/Swiss-Prot;Acc:Q96MG8]
+8,95821275,1,A/C	A/C	4/39	0.10 	3	30	0.21 	-	intron	-	-	DPY19L4	dpy-19-like 4 (C. elegans)
+8,101312755,1,A/G	A/-	0/4	0.00 	3	29	0.20 	-	intron	-	-	SPAG1	sperm associated antigen 1
+8,117944527,1,A/C	A/-	0/51	0.00 	4	30	0.29 	-	intron	-	-	RAD21	RAD21 homolog
+9,161997,1,C/A	C/G	1/26	0.04 	3	19	0.12 	-	intron	-	-	CBWD1	COBW domain-containing protein 1 (Cobalamin synthetase W domain-containing protein 1)(COBP)(NPC-A-6 COBW domain-containing protein 1)(NPC-A-6) [Source:UniProtKB/Swiss-Prot;Acc:Q9BRT8]
+9,162167,1,C/T	C/T	5/166	0.03 	3	9	0.09 	S115N	EXON CDS	Nonsynonymous	TOLERATED	CBWD1	COBW domain-containing protein 1 (Cobalamin synthetase W domain-containing protein 1)(COBP)(NPC-A-6 COBW domain-containing protein 1)(NPC-A-6) [Source:UniProtKB/Swiss-Prot;Acc:Q9BRT8]
+9,15459955,1,C/T	C/T	5/38	0.13 	7	33	0.64 	K338K	EXON CDS	Synonymous	TOLERATED	PSIP1	PC4 and SFRS1-interacting protein (Lens epithelium-derived growth factor)(Transcriptional coactivator p75/p52)(Dense fine speckles 70 kDa protein)(DFS 70)(CLL-associated antigen KW-7) [Source:UniProtKB/Swiss-Prot;Acc:O75475]
+9,34603832,1,C/T	C/T	40/51	0.78 	18	26	1.00 	E170K	EXON CDS	Nonsynonymous	DAMAGING	DCTN3	Dynactin subunit 3 (Dynactin complex subunit 22 kDa subunit)(p22) [Source:UniProtKB/Swiss-Prot;Acc:O75935]
+9,39168337,1,C/G	C/G	42/50	0.84 	30	14	1.00 	D187H	EXON CDS	Nonsynonymous	DAMAGING	CNTNAP3	Contactin-associated protein-like 3 Precursor (Cell recognition molecule Caspr3) [Source:UniProtKB/Swiss-Prot;Acc:Q9BZ76]
+9,67528453,1,G/T	G/T	1/53	0.02 	4	31	0.31 	K256N	EXON CDS	Nonsynonymous	TOLERATED	ANKRD20A1	Ankyrin repeat domain-containing protein 20A1  [Source:UniProtKB/Swiss-Prot;Acc:Q5TYW2]
+9,68710283,1,G/T	G/T	19/143	0.13 	11	24	0.55 	-	intron	-	-	ANKRD20A4	ankyrin repeat domain 20 family, member A4
+9,68713470,1,C/A	C/A	4/82	0.05 	5	27	0.29 	A649D	EXON CDS	Nonsynonymous	TOLERATED	ANKRD20A4	Ankyrin repeat domain-containing protein 20A4  [Source:UniProtKB/Swiss-Prot;Acc:Q4UJ75]
+9,70061770,1,T/G	T/G	1/9	0.11 	3	27	0.18 	-	intron	-	-	CBWD3	COBW domain containing 3
+9,114376732,1,C/T	C/T	38/138	0.28 	7	33	0.64 	S184L	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	KIAA1958	Uncharacterized protein KIAA1958  [Source:UniProtKB/Swiss-Prot;Acc:Q8N8K9]
+9,114376902,1,C/T	C/T	28/99	0.28 	4	39	0.80 	H241Y	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	KIAA1958	Uncharacterized protein KIAA1958  [Source:UniProtKB/Swiss-Prot;Acc:Q8N8K9]
+9,118009507,1,T/G	T/G	1/4	0.25 	4	40	1.00 	-	intron	-	-	PAPPA	pregnancy-associated plasma protein A, pappalysin 1
+9,124526832,1,T/C	T/C	15/250	0.06 	3	38	0.50 	V248A	EXON CDS	Nonsynonymous	TOLERATED	OR1L4	Olfactory receptor 1L4 (Olfactory receptor OR9-29)(Olfactory receptor 9-E)(OR9-E)(OST046) [Source:UniProtKB/Swiss-Prot;Acc:Q8NGR5]
+10,920416,1,G/A	G/A	46/93	0.49 	20	21	0.87 	Q38*	EXON CDS	Nonsynonymous	N/A	LARP4B	La-related protein 5 (La ribonucleoprotein domain family member 5) [Source:UniProtKB/Swiss-Prot;Acc:Q92615]
+10,17853273,1,T/G	T/G	6/27	0.22 	5	31	0.38 	-	intron	-	-	TMEM236	transmembrane protein 236
+10,28236484,1,C/G	C/G	2/3	0.67 	6	38	1.00 	-	intron	-	-	ARMC4	armadillo repeat containing 4
+10,35025203,1,C/A	C/A	2/43	0.05 	3	25	0.16 	-	intron	-	-	PARD3	par-3 partitioning defective 3 homolog (C. elegans)
+10,35477245,1,A/T	A/-	0/39	0.00 	7	31	0.54 	-	intron	-	-	CREM	cAMP responsive element modulator
+10,37495589,1,G/A	G/-	0/20	0.00 	3	18	0.12 	A649A	EXON CDS	Synonymous	TOLERATED	ANKRD30A	Ankyrin repeat domain-containing protein 30A (Serologically defined breast cancer antigen NY-BR-1) [Source:UniProtKB/Swiss-Prot;Acc:Q9BXX3]
+10,42635771,1,A/G	A/G	2/255	0.01 	4	12	0.13 	I888V	EXON CDS	Nonsynonymous	TOLERATED	BMS1	Ribosome biogenesis protein BMS1 homolog (Ribosome assembly protein BMS1 homolog) [Source:UniProtKB/Swiss-Prot;Acc:Q14692]
+10,51290367,1,G/C	G/C	5/34	0.15 	6	20	0.25 	S43C	EXON CDS	Nonsynonymous	DAMAGING	TIMM23	Mitochondrial import inner membrane translocase subunit Tim23  [Source:UniProtKB/Swiss-Prot;Acc:O14925]
+10,72206982,1,T/C	T/C	29/105	0.28 	9	31	0.69 	Q208R	EXON CDS	Nonsynonymous	TOLERATED	C10orf27	Protein SPATIAL (Stromal protein associated with thymii and lymph node homolog) [Source:UniProtKB/Swiss-Prot;Acc:Q96M53]
+10,88669050,1,C/T	C/T	113/245	0.46 	20	22	0.91 	S337L	EXON CDS	Nonsynonymous	DAMAGING	BMPR1A	Bone morphogenetic protein receptor type-1A Precursor (EC 2.7.11.30)(Serine/threonine-protein kinase receptor R5)(SKR5)(Activin receptor-like kinase 3)(ALK-3)(CD292 antigen) [Source:UniProtKB/Swiss-Prot;Acc:P36894]
+10,88824240,1,T/A	T/-	0/30	0.00 	3	25	0.16 	-	intron	-	-	GLUD1	glutamate dehydrogenase 1
+10,99188328,1,G/A	G/A	6/14	0.43 	6	37	0.86 	-	intron	-	-	EXOSC1	exosome component 1
+10,101949812,1,G/A	G/A	63/135	0.47 	22	21	0.96 	-	intron	-	-	CHUK	conserved helix-loop-helix ubiquitous kinase
+10,104856368,1,G/C	G/C	38/77	0.49 	20	22	0.91 	L87L	EXON CDS	Synonymous	TOLERATED	NT5C2	Cytosolic purine 5'-nucleotidase (EC 3.1.3.5)(5'-nucleotidase cytosolic II) [Source:UniProtKB/Swiss-Prot;Acc:P49902]
+11,1576080,1,G/T	G/T	11/238	0.05 	3	34	0.30 	-	five_prime_UTR	-	-	MOB2	Mps one binder kinase activator-like 2
+11,5231006,1,T/C	T/C	3/33	0.09 	3	38	0.50 	-	three_prime_UTR	-	-	HBG2	hemoglobin, gamma G
+11,49161259,1,G/T	G/T	1/91	0.01 	5	19	0.20 	-	intron	-	-	FOLH1	folate hydrolase (prostate-specific membrane antigen) 1
+11,49161308,1,T/C	T/C	5/178	0.03 	9	24	0.45 	I297V	EXON CDS	Nonsynonymous	DAMAGING	FOLH1	folate hydrolase (prostate-specific membrane antigen) 1
+11,56224409,1,T/C	T/C	12/67	0.18 	20	23	0.95 	-	intron	-	-	OR8U8	olfactory receptor, family 8, subfamily U, member 8
+11,56225393,1,G/T	G/T	5/34	0.15 	10	26	0.56 	-	intron	-	-	OR8U8	olfactory receptor, family 8, subfamily U, member 8
+11,71346012,1,T/A	T/A	9/64	0.14 	3	30	0.21 	-	intron	-	-	RNF121	ring finger protein 121
+11,76992433,1,T/C	T/C	34/64	0.53 	27	10	0.79 	-	intron	-	-	AQP11	aquaporin 11
+11,77290107,1,C/T	C/T	1/255	0.00 	3	18	0.12 	-	intron	-	-	INTS4	integrator complex subunit 4
+11,88746259,1,C/T	C/A	1/159	0.01 	4	17	0.15 	G375E	EXON CDS	Nonsynonymous	DAMAGING	NOX4	NADPH oxidase 4 (EC 1.6.3.-)(Kidney superoxide-producing NADPH oxidase)(KOX-1)(Renal NAD(P)H-oxidase) [Source:UniProtKB/Swiss-Prot;Acc:Q9NPH5]
+11,101774712,1,T/A	T/-	0/9	0.00 	4	33	0.36 	-	three_prime_UTR	-	-	TMEM123	transmembrane protein 123
+11,107611693,1,G/C	G/C	17/154	0.11 	11	20	0.46 	D140H	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	ATM	Serine-protein kinase ATM (EC 2.7.11.1)(Ataxia telangiectasia mutated)(A-T, mutated) [Source:UniProtKB/Swiss-Prot;Acc:Q13315]
+11,123391927,1,G/A	G/A	3/250	0.01 	3	18	0.12 	G146S	EXON CDS	Nonsynonymous	TOLERATED	OR10G4	Olfactory receptor 10G4 (Olfactory receptor OR11-278) [Source:UniProtKB/Swiss-Prot;Acc:Q8NGN3]
+11,123405705,1,A/C	A/C	10/255	0.04 	3	20	0.13 	T56P	EXON CDS	Nonsynonymous	TOLERATED	OR10G8	Olfactory receptor 10G8 (Olfactory receptor OR11-282) [Source:UniProtKB/Swiss-Prot;Acc:Q8NGN5]
+11,123758192,1,C/T	C/T	3/254	0.01 	3	12	0.09 	V86V	EXON CDS	Synonymous	TOLERATED	OR8B2	Olfactory receptor 8B2  [Source:UniProtKB/Swiss-Prot;Acc:Q96RD0]
+11,123994416,1,G/T	G/T	90/255	0.35 	19	22	0.86 	R185L	EXON CDS	Nonsynonymous	TOLERATED	PANX3	Pannexin-3  [Source:UniProtKB/Swiss-Prot;Acc:Q96QZ0]
+12,6925289,1,G/T	G/T	24/61	0.39 	6	38	1.00 	P108P	EXON CDS	Synonymous	TOLERATED	C12orf57	Protein C10  [Source:UniProtKB/Swiss-Prot;Acc:Q99622]
+12,8219163,1,A/T	A/T	4/252	0.02 	6	18	0.23 	E71V	EXON CDS	Nonsynonymous	TOLERATED	ZNF705A	Zinc finger protein 705A  [Source:UniProtKB/Swiss-Prot;Acc:Q6ZN79]
+12,9283438,1,A/T	A/-	0/38	0.00 	5	19	0.20 	-	not in genes	-	-	-	-
+12,9283486,1,C/T	C/-	0/11	0.00 	3	25	0.16 	-	not in genes	-	-	-	-
+12,9776980,1,A/T	A/T	7/77	0.09 	7	31	0.54 	Y50N	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	CLECL1	C-type lectin-like domain family 1 (Dendritic cell-associated lectin 1)(DC-associated lectin-1)(DCAL-1) [Source:UniProtKB/Swiss-Prot;Acc:Q8IZS7]
+12,15633595,1,A/G	A/G	1/48	0.02 	3	33	0.27 	-	intron	-	-	PTPRO	protein tyrosine phosphatase, receptor type, O
+12,21514394,1,A/G	A/G	3/92	0.03 	3	26	0.17 	-	three_prime_UTR	-	-	RECQL	RecQ protein-like (DNA helicase Q1-like)
+12,38362662,1,T/G	T/G	21/43	0.49 	22	21	0.96 	-	intron	-	-	C12orf40	chromosome 12 open reading frame 40
+12,40799177,1,T/A	T/A	11/163	0.07 	5	26	0.28 	R95S	EXON CDS	Nonsynonymous	DAMAGING	GXYLT1	Glycosyltransferase 8 domain-containing protein 3 (EC 2.4.1.-) [Source:UniProtKB/Swiss-Prot;Acc:Q4G148]
+12,41144544,1,G/A	G/A	4/209	0.02 	4	23	0.19 	S520F	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	PRICKLE1	Prickle-like protein 1 (REST/NRSF-interacting LIM domain protein 1) [Source:UniProtKB/Swiss-Prot;Acc:Q96MT3]
+12,48435878,1,T/C	T/C	1/71	0.01 	10	23	0.48 	-	intron	-	-	TMBIM6	transmembrane BAX inhibitor motif containing 6
+12,51129848,1,A/G	A/G	6/216	0.03 	5	25	0.26 	L291L	EXON CDS	Synonymous	TOLERATED	KRT6B	Keratin, type II cytoskeletal 6B (Cytokeratin-6B)(CK 6B)(K6b keratin) [Source:UniProtKB/Swiss-Prot;Acc:P04259]
+12,51130142,1,G/A	G/A	11/233	0.05 	3	20	0.13 	-	intron	-	-	KRT6B	Keratin, type II cytoskeletal 6B (Cytokeratin-6B)(CK 6B)(K6b keratin) [Source:UniProtKB/Swiss-Prot;Acc:P04259]
+12,51130151,1,T/A	T/A	2/202	0.01 	5	37	0.71 	-	intron	-	-	KRT6B	Keratin, type II cytoskeletal 6B (Cytokeratin-6B)(CK 6B)(K6b keratin) [Source:UniProtKB/Swiss-Prot;Acc:P04259]
+12,53706824,1,C/T	C/T	43/110	0.39 	14	26	0.78 	R112*	EXON CDS	Nonsynonymous	N/A	NEUROD4	Neurogenic differentiation factor 4 (NeuroD4)(Protein atonal homolog 3)(Atoh3)(ATH-3) [Source:UniProtKB/Swiss-Prot;Acc:Q9HD90]
+12,54000673,1,C/A	C/A	3/57	0.05 	5	32	0.42 	T8K	EXON CDS	Nonsynonymous	DAMAGING	OR6C1	Olfactory receptor 6C1 (OST267) [Source:UniProtKB/Swiss-Prot;Acc:Q96RD1]
+12,56281450,1,T/G	T/-	0/38	0.00 	3	30	0.21 	-	intron	-	-	PIP4K2C	phosphatidylinositol-5-phosphate 4-kinase, type II, gamma
+12,62250866,1,T/C	T/C	6/254	0.02 	4	25	0.21 	I647V	EXON CDS	Nonsynonymous	Not scored	DPY19L2	dpy-19-like 2 (C. elegans)
+12,64818125,1,G/A	G/A	152/254	0.60 	21	21	0.91 	S247L	EXON CDS	Nonsynonymous	TOLERATED	TMBIM4	Transmembrane BAX inhibitor motif-containing protein 4 (Z-protein)(Protein S1R) [Source:UniProtKB/Swiss-Prot;Acc:Q9HC24]
+12,68495390,1,C/A	C/A	8/50	0.16 	3	37	0.43 	-	intron	-	-	RAB3IP	RAB3A interacting protein (rabin3)
+12,118699065,1,G/A	G/A	31/52	0.60 	21	22	0.95 	-	intron	-	-	CIT	citron (rho-interacting, serine/threonine kinase 21)
+12,120581426,1,G/A	G/A	9/83	0.11 	3	33	0.27 	-	intron	-	-	MORN3	MORN repeat containing 3
+12,121392262,1,C/T	C/T	5/25	0.20 	4	35	0.44 	-	intron	-	-	CLIP1	CAP-GLY domain containing linker protein 1
+12,122360193,1,A/G	A/-	0/45	0.00 	3	21	0.13 	-	intron	-	-	SBNO1	strawberry notch homolog 1 (Drosophila)
+12,122455445,1,A/C	A/C	5/253	0.02 	3	11	0.09 	D240A	EXON CDS	Nonsynonymous	DAMAGING	SETD8	Histone-lysine N-methyltransferase SETD8 (EC 2.1.1.43)(H4-K20-HMTase SETD8)(SET domain-containing protein 8)(PR/SET domain-containing protein 07)(PR/SET07)(PR-Set7)(Lysine N-methyltransferase 5A) [Source:UniProtKB/Swiss-Prot;Acc:Q9NQR1]
+12,123963149,1,C/T	C/-	0/255	0.00 	3	11	0.09 	V269V	EXON CDS	Synonymous	TOLERATED	UBC	Ubiquitin  [Source:UniProtKB/Swiss-Prot;Acc:P62988]
+12,123963251,1,G/A	G/A	4/254	0.02 	4	12	0.13 	I235I	EXON CDS	Synonymous	TOLERATED	UBC	Ubiquitin  [Source:UniProtKB/Swiss-Prot;Acc:P62988]
+12,123963263,1,G/A	G/A	1/255	0.00 	4	16	0.14 	D231D	EXON CDS	Synonymous	TOLERATED	UBC	Ubiquitin  [Source:UniProtKB/Swiss-Prot;Acc:P62988]
+12,123963746,1,G/A	G/A	13/255	0.05 	6	15	0.21 	I70I	EXON CDS	Synonymous	TOLERATED	UBC	Ubiquitin  [Source:UniProtKB/Swiss-Prot;Acc:P62988]
+12,123963758,1,G/C	G/C	7/255	0.03 	6	17	0.22 	P66P	EXON CDS	Synonymous	TOLERATED	UBC	Ubiquitin  [Source:UniProtKB/Swiss-Prot;Acc:P62988]
+12,131120256,1,T/C	T/C	12/21	0.57 	7	37	1.00 	-	intron	-	-	EP400	E1A binding protein p400
+13,18904719,1,C/G	C/-	0/35	0.00 	6	30	0.43 	-	intron	-	-	TPTE2	Phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase TPTE2 (EC 3.1.3.67)(TPTE and PTEN homologous inositol lipid phosphatase)(Lipid phosphatase TPIP) [Source:UniProtKB/Swiss-Prot;Acc:Q6XPS3]
+13,18936599,1,A/G	A/G	3/167	0.02 	3	26	0.17 	I115I	EXON CDS	Synonymous	TOLERATED	TPTE2	Phosphatidylinositol-3,4,5-trisphosphate 3-phosphatase TPTE2 (EC 3.1.3.67)(TPTE and PTEN homologous inositol lipid phosphatase)(Lipid phosphatase TPIP) [Source:UniProtKB/Swiss-Prot;Acc:Q6XPS3]
+13,19223356,1,C/T	C/T	2/154	0.01 	5	22	0.23 	-	intron	-	-	PSPC1	paraspeckle component 1 
+13,19223405,1,A/G	A/T	1/254	0.00 	10	12	0.31 	-	intron	-	-	PSPC1	paraspeckle component 1 
+13,23788219,1,G/A	G/A	13/254	0.05 	3	14	0.10 	G26G	EXON CDS	Synonymous	TOLERATED	C1QTNF9	Complement C1q tumor necrosis factor-related protein 9 Precursor  [Source:UniProtKB/Swiss-Prot;Acc:P0C862]
+13,23914723,1,C/T	C/T	2/42	0.05 	3	30	0.21 	-	intron	-	-	PARP4	poly (ADP-ribose) polymerase family, member 4
+13,27041156,1,C/T	C/T	69/174	0.40 	22	22	1.00 	-	intron	-	-	LNX2	ligand of numb-protein X 2
+13,72534930,1,C/G	C/G	16/134	0.12 	3	35	0.33 	-	intron	-	-	KLF5	Kruppel-like factor 5 (intestinal)
+13,102218672,1,T/A	T/A	1/18	0.06 	5	35	0.56 	-	intron	-	-	C13orf27	chromosome 13 open reading frame 27
+14,18447614,1,G/T	G/-	0/93	0.00 	3	13	0.10 	Q7H	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	OR11H12	Olfactory receptor 11H12  [Source:UniProtKB/Swiss-Prot;Acc:B2RN74]
+14,18447795,1,T/C	T/C	5/193	0.03 	4	15	0.14 	W68R	EXON CDS	Nonsynonymous	TOLERATED	OR11H12	Olfactory receptor 11H12  [Source:UniProtKB/Swiss-Prot;Acc:B2RN74]
+14,18633657,1,T/G	T/G	1/106	0.01 	3	17	0.11 	-	intron	-	-	POTEG	POTE ankyrin domain family, member G 
+14,18643084,1,G/T	G/-	0/71	0.00 	6	16	0.21 	-	intron	-	-	POTEG	POTE ankyrin domain family, member G 
+14,23753107,1,A/C	A/-	0/91	0.00 	3	34	0.30 	L165W	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	MDP1	Magnesium-dependent phosphatase 1 (MDP-1)(EC 3.1.3.-)(EC 3.1.3.48) [Source:UniProtKB/Swiss-Prot;Acc:Q86V88]
+14,30678890,1,G/C	G/C	73/155	0.47 	22	20	0.92 	L980V	EXON CDS	Nonsynonymous	Not scored	HECTD1	HECT domain containing 1 
+14,30678979,1,G/C	G/C	13/29	0.45 	14	30	1.00 	-	intron	-	-	HECTD1	HECT domain containing 1 
+14,61086140,1,C/T	C/T	4/83	0.05 	6	32	0.50 	-	intron	-	-	PRKCH	protein kinase C, eta
+14,64564045,1,G/C	G/C	56/180	0.31 	18	25	0.95 	E166Q	EXON CDS	Nonsynonymous	TOLERATED	CHURC1-FNTB	Protein farnesyltransferase subunit beta (FTase-beta)(EC 2.5.1.58)(CAAX farnesyltransferase subunit beta)(RAS proteins prenyltransferase beta) [Source:UniProtKB/Swiss-Prot;Acc:P49356]
+14,70570379,1,G/T	G/T	3/9	0.33 	4	29	0.27 	-	intron	-	-	PCNX	pecanex homolog (Drosophila)
+14,73508185,1,G/C	G/C	1/10	0.10 	7	32	0.58 	-	intron	-	-	ENTPD5	ectonucleoside triphosphate diphosphohydrolase 5
+14,76913649,1,G/C	G/C	13/80	0.16 	4	39	0.80 	S45S	EXON CDS	Synonymous	TOLERATED	SAMD15	SAM domain-containing protein C14orf174  [Source:UniProtKB/Swiss-Prot;Acc:Q9P1V8]
+14,76913830,1,G/C	G/C	5/55	0.09 	6	33	0.55 	E106Q	EXON CDS	Nonsynonymous	DAMAGING *Warning! Low confidence.	SAMD15	SAM domain-containing protein C14orf174  [Source:UniProtKB/Swiss-Prot;Acc:Q9P1V8]
+14,76914219,1,G/C	G/C	2/33	0.06 	7	31	0.54 	M235I	EXON CDS	Nonsynonymous	TOLERATED	SAMD15	SAM domain-containing protein C14orf174  [Source:UniProtKB/Swiss-Prot;Acc:Q9P1V8]
+14,76914539,1,G/C	G/C	4/51	0.08 	10	24	0.50 	R342T	EXON CDS	Nonsynonymous	TOLERATED	SAMD15	SAM domain-containing protein C14orf174  [Source:UniProtKB/Swiss-Prot;Acc:Q9P1V8]
+14,76914601,1,G/A	G/A	5/54	0.09 	11	21	0.48 	E363K	EXON CDS	Nonsynonymous	TOLERATED	SAMD15	SAM domain-containing protein C14orf174  [Source:UniProtKB/Swiss-Prot;Acc:Q9P1V8]
+14,91259313,1,C/A	C/-	0/24	0.00 	3	33	0.27 	-	intron	-	-	CATSPERB	cation channel, sperm-associated, beta
+15,19330811,1,T/G	T/-	0/1	0.00 	4	31	0.31 	-	intron	-	-	POTEB	ANKRD26-like family B member 1 (Prostate, ovary, testis-expressed protein on chromosome 15)(POTE-15) [Source:UniProtKB/Swiss-Prot;Acc:Q6S5H4]
+15,19331018,1,A/G	A/G	3/255	0.01 	7	8	0.19 	Y248H	EXON CDS	Nonsynonymous	TOLERATED	POTEB	ANKRD26-like family B member 1 (Prostate, ovary, testis-expressed protein on chromosome 15)(POTE-15) [Source:UniProtKB/Swiss-Prot;Acc:Q6S5H4]
+15,19335787,1,G/C	G/C	3/253	0.01 	3	16	0.11 	Q172E	EXON CDS	Nonsynonymous	TOLERATED	POTEB	ANKRD26-like family B member 1 (Prostate, ovary, testis-expressed protein on chromosome 15)(POTE-15) [Source:UniProtKB/Swiss-Prot;Acc:Q6S5H4]
+15,24417810,1,A/C	A/C	4/32	0.13 	3	35	0.33 	-	intron	-	-	GABRB3	gamma-aminobutyric acid (GABA) A receptor, beta 3
+15,26157460,1,G/A	G/A	9/59	0.15 	3	34	0.30 	R1211C	EXON CDS	Nonsynonymous	DAMAGING	HERC2	Probable E3 ubiquitin-protein ligase HERC2 (EC 6.3.2.-)(HECT domain and RCC1-like domain-containing protein 2) [Source:UniProtKB/Swiss-Prot;Acc:O95714]
+15,30717159,1,C/G	C/G	32/80	0.40 	18	23	0.86 	L965V	EXON CDS	Nonsynonymous	TOLERATED	ARHGAP11A	Rho GTPase-activating protein 11A (Rho-type GTPase-activating protein 11A) [Source:UniProtKB/Swiss-Prot;Acc:Q6P4F7]
+15,38108932,1,G/A	G/A	18/127	0.14 	6	34	0.60 	L1512L	EXON CDS	Synonymous	TOLERATED	EIF2AK4	Eukaryotic translation initiation factor 2-alpha kinase 4 (EC 2.7.11.1)(GCN2-like protein) [Source:UniProtKB/Swiss-Prot;Acc:Q9P2K8]
+15,38443110,1,C/G	C/G	28/57	0.49 	7	34	0.70 	-	intron	-	-	DISP2	dispatched homolog 2 (Drosophila)
+15,49080456,1,G/T	G/T	1/5	0.20 	4	34	0.40 	-	intron	-	-	AP4E1	epsilon-adaptin
+15,63410917,1,G/A	G/A	40/95	0.42 	10	33	0.91 	R428C	EXON CDS	Nonsynonymous	DAMAGING	IGDCC3	Putative neuronal cell adhesion molecule Precursor  [Source:UniProtKB/Swiss-Prot;Acc:Q8IVU1]
+15,65283476,1,C/T	C/T	31/75	0.41 	22	22	1.00 	E260E	EXON CDS	Synonymous	TOLERATED	AAGAB	Alpha- and gamma-adaptin-binding protein p34  [Source:UniProtKB/Swiss-Prot;Acc:Q6PD74]
+16,2266659,1,G/A	G/A	2/68	0.03 	3	37	0.43 	-	three_prime_UTR	-	-	ABCA3	ATP-binding cassette, sub-family A (ABC1), member 3 
+16,3059021,1,A/G	A/G	4/42	0.10 	3	23	0.14 	R77R	EXON CDS	Synonymous	TOLERATED	IL32	Interleukin-32 Precursor (IL-32)(Natural killer cells protein 4)(Tumor necrosis factor alpha-inducing factor) [Source:UniProtKB/Swiss-Prot;Acc:P24001]
+16,3307869,1,G/A	G/A	5/105	0.05 	9	29	0.60 	-	EXON CDS	Synonymous	-	ZNF75A	zinc finger protein 75a
+16,5074780,1,C/A	C/A	7/162	0.04 	3	31	0.23 	A431V	EXON CDS	Nonsynonymous	TOLERATED	ALG1	asparagine-linked glycosylation 1, beta-1,4-mannosyltransferase homolog (S. cerevisiae) 
+16,15409171,1,C/T	C/-	0/43	0.00 	3	29	0.20 	-	intron	-	-	MPV17L	MPV17 mitochondrial membrane protein-like
+16,15799981,1,A/C	A/C	1/36	0.03 	3	34	0.30 	-	intron	-	-	MYH11	myosin, heavy chain 11, smooth muscle
+16,20461796,1,T/C	T/C	3/255	0.01 	5	21	0.22 	K484E	EXON CDS	Nonsynonymous	TOLERATED	ACSM2B	acyl-CoA synthetase medium-chain family member 2B
+16,20461893,1,G/A	G/A	5/255	0.02 	8	15	0.28 	-	intron	-	-	ACSM2B	acyl-CoA synthetase medium-chain family member 2B
+16,24669683,1,T/A	T/-	0/7	0.00 	3	36	0.38 	-	intron	-	-	TNRC6A	trinucleotide repeat containing 6A 
+16,24669693,1,T/A	T/-	0/7	0.00 	4	39	0.80 	-	intron	-	-	TNRC6A	trinucleotide repeat containing 6A 
+16,29283933,1,G/T	G/T	1/36	0.03 	4	34	0.40 	-	intron	-	-	RUNDC2C	RUN domain containing 2C
+16,55274040,1,C/G	C/G	111/254	0.44 	26	18	1.00 	-	intron	-	-	MT1X	metallothionein 1X
+16,65821134,1,G/C	G/C	18/255	0.07 	10	24	0.50 	-	intron	-	-	FHOD1	formin homology 2 domain containing 1
+16,66713316,1,C/G	C/G	12/40	0.30 	12	20	0.50 	-	intron	-	-	NFATC3	Nuclear factor of activated T-cells, cytoplasmic 3 (NF-ATc3)(NFATc3)(T-cell transcription factor NFAT4)(NF-AT4)(NFATx) [Source:UniProtKB/Swiss-Prot;Acc:Q12968]
+16,66713912,1,C/T	C/T	16/136	0.12 	13	21	0.57 	L209L	EXON CDS	Synonymous	TOLERATED	NFATC3	Nuclear factor of activated T-cells, cytoplasmic 3 (NF-ATc3)(NFATc3)(T-cell transcription factor NFAT4)(NF-AT4)(NFATx) [Source:UniProtKB/Swiss-Prot;Acc:Q12968]
+16,66714069,1,C/G	C/G	34/205	0.17 	9	22	0.41 	S261*	EXON CDS	Nonsynonymous	N/A	NFATC3	Nuclear factor of activated T-cells, cytoplasmic 3 (NF-ATc3)(NFATc3)(T-cell transcription factor NFAT4)(NF-AT4)(NFATx) [Source:UniProtKB/Swiss-Prot;Acc:Q12968]
+16,68873820,1,C/G	C/-	0/2	0.00 	5	38	0.83 	-	intron	-	-	AARS	alanyl-tRNA synthetase 
+16,68873904,1,C/T	C/T	10/23	0.43 	7	37	1.00 	-	intron	-	-	AARS	alanyl-tRNA synthetase 
+16,68873966,1,C/A	C/A	44/104	0.42 	30	12	0.94 	-	intron	-	-	AARS	alanyl-tRNA synthetase 
+16,69463419,1,A/T	A/T	12/255	0.05 	5	23	0.24 	-	intron	-	-	HYDIN	hydrocephalus inducing homolog (mouse)
+17,3791447,1,G/A	G/A	1/130	0.01 	4	29	0.27 	-	intron	-	-	ATP2A3	ATPase, Ca++ transporting, ubiquitous
+17,4822356,1,C/T	C/T	6/18	0.33 	10	33	0.91 	-	intron	-	-	CAMTA2	calmodulin binding transcription activator 2 
+17,4822500,1,C/G	C/G	100/219	0.46 	25	16	0.89 	-	intron	-	-	CAMTA2	calmodulin binding transcription activator 2 
+17,4974338,1,C/T	C/T	38/96	0.40 	11	30	0.79 	-	intron	-	-	USP6	ubiquitin specific peptidase 6 (Tre-2 oncogene) 
+17,4974716,1,C/G	C/G	81/213	0.38 	19	24	0.95 	-	intron	-	-	USP6	ubiquitin specific peptidase 6 (Tre-2 oncogene) 
+17,5209081,1,A/T	A/-	0/1	0.00 	3	32	0.25 	-	intron	-	-	RABEP1	rabaptin, RAB GTPase binding effector protein 1
+17,7342958,1,C/T	C/T	33/63	0.52 	10	33	0.91 	-	intron	-	-	POLR2A	polymerase (RNA) II (DNA directed) polypeptide A, 220kDa
+17,15581540,1,A/G	A/-	0/255	0.00 	3	36	0.38 	H59R	EXON CDS	Nonsynonymous	TOLERATED	TBC1D26	TBC1 domain family member 26  [Source:UniProtKB/Swiss-Prot;Acc:Q86UD7]
+17,18608950,1,G/A	G/A	4/90	0.04 	3	19	0.12 	-	intron	-	-	FBXW10	F-box and WD repeat domain containing 10
+17,31605586,1,T/G	T/G	1/5	0.20 	3	26	0.17 	Q526P	EXON CDS	Nonsynonymous	TOLERATED	TBC1D3F	TBC1 domain family member 3C-like protein ENSP00000341742  [Source:UniProtKB/Swiss-Prot;Acc:A6NI40]
+17,39831667,1,C/G	C/G	13/111	0.12 	6	33	0.55 	V1102L	EXON CDS	Nonsynonymous	TOLERATED	GPATCH8	G patch domain-containing protein 8  [Source:UniProtKB/Swiss-Prot;Acc:Q9UKJ3]
+17,42569697,1,C/G	C/G	4/106	0.04 	4	35	0.44 	S578T	EXON CDS	Nonsynonymous	DAMAGING	CDC27	Cell division cycle protein 27 homolog (CDC27Hs)(H-NUC) [Source:UniProtKB/Swiss-Prot;Acc:P30260]
+17,42589724,1,T/C	T/C	13/131	0.10 	5	29	0.33 	T167T	EXON CDS	Synonymous	TOLERATED	CDC27	Cell division cycle protein 27 homolog (CDC27Hs)(H-NUC) [Source:UniProtKB/Swiss-Prot;Acc:P30260]
+17,50347129,1,A/T	A/T	7/104	0.07 	3	29	0.20 	-	intron	-	-	TOM1L1	target of myb1 (chicken)-like 1
+17,52420557,1,T/A	T/A	5/53	0.09 	3	32	0.25 	-	intron	-	-	SCPEP1	serine carboxypeptidase 1
+17,60282377,1,G/A	G/-	0/64	0.00 	4	18	0.15 	-	intron	-	-	LRRC37A3	leucine rich repeat containing 37, member A3
+17,60282467,1,G/T	G/T	2/194	0.01 	7	13	0.23 	I1604I	EXON CDS	Synonymous	TOLERATED	LRRC37A3	Leucine-rich repeat-containing protein 37A3 Precursor  [Source:UniProtKB/Swiss-Prot;Acc:O60309]
+17,63472410,1,T/G	T/G	4/102	0.04 	4	13	0.13 	L470V	EXON CDS	Nonsynonymous	DAMAGING	KPNA2	Importin subunit alpha-2 (Karyopherin subunit alpha-2)(SRP1-alpha)(RAG cohort protein 1) [Source:UniProtKB/Swiss-Prot;Acc:P52292]
+17,64498533,1,G/T	G/T	7/43	0.16 	11	17	0.41 	-	intron	-	-	ABCA9	ATP-binding cassette sub-family A member 9  [Source:UniProtKB/Swiss-Prot;Acc:Q8IUA7]
+17,64499978,1,G/C	G/C	7/50	0.14 	6	29	0.40 	L1217V	EXON CDS	Nonsynonymous	TOLERATED	ABCA9	ATP-binding cassette sub-family A member 9  [Source:UniProtKB/Swiss-Prot;Acc:Q8IUA7]
+18,14173979,1,G/A	G/A	23/255	0.09 	3	40	0.75 	-	not in genes	-	-	-	-
+18,17599869,1,G/T	G/T	88/255	0.35 	20	20	0.83 	R123L	EXON CDS	Nonsynonymous	TOLERATED	MIB1	E3 ubiquitin-protein ligase MIB1 (EC 6.3.2.-)(Mind bomb homolog 1)(DAPK-interacting protein 1)(DIP-1)(Zinc finger ZZ type with ankyrin repeat domain protein 2) [Source:UniProtKB/Swiss-Prot;Acc:Q86YT6]
+18,48843629,1,A/C	A/C	6/145	0.04 	3	25	0.16 	-	intron	-	-	DCC	deleted in colorectal carcinoma
+18,59778346,1,G/T	G/T	5/42	0.12 	10	24	0.50 	-	intron	-	-	HMSD	histocompatibility (minor) serpin domain containing
+19,12815346,1,G/A	G/A	58/153	0.38 	16	27	0.94 	A84A	EXON CDS	Synonymous	TOLERATED	MAST1	Microtubule-associated serine/threonine-protein kinase 1 (EC 2.7.11.1)(Syntrophin-associated serine/threonine-protein kinase) [Source:UniProtKB/Swiss-Prot;Acc:Q9Y2H9]
+19,12945069,1,C/G	C/G	8/18	0.44 	3	40	0.75 	-	intron	-	-	DAND5	DAN domain family, member 5 
+19,12945154,1,C/G	C/G	47/120	0.39 	15	28	0.94 	-	intron	-	-	DAND5	DAN domain family, member 5 
+19,14852304,1,A/G	A/G	2/164	0.01 	4	27	0.24 	F288F	EXON CDS	Synonymous	TOLERATED	OR7A17	Olfactory receptor 7A17  [Source:UniProtKB/Swiss-Prot;Acc:O14581]
+19,20599365,1,C/T	C/T	12/173	0.07 	3	23	0.14 	T386T	EXON CDS	Synonymous	TOLERATED	ZNF626	Zinc finger protein 626  [Source:UniProtKB/Swiss-Prot;Acc:Q68DY1]
+19,21007943,1,C/G	C/-	0/0	NA	5	27	0.29 	-	intron	-	-	ZNF430	zinc finger protein 430
+19,38162969,1,G/A	G/A	6/245	0.02 	8	13	0.26 	Q612*	EXON CDS	Nonsynonymous	N/A	RHPN2	Rhophilin-2 (GTP-Rho-binding protein 2)(76 kDa RhoB effector protein)(p76RBE) [Source:UniProtKB/Swiss-Prot;Acc:Q8IUC4]
+19,43292745,1,G/A	G/A	56/169	0.33 	12	28	0.75 	T724T	EXON CDS	Synonymous	TOLERATED	SIPA1L3	Signal-induced proliferation-associated 1-like protein 3 (SPA-1-like protein 3) [Source:UniProtKB/Swiss-Prot;Acc:O60292]
+19,45060409,1,C/A	C/A	4/140	0.03 	3	20	0.13 	R4260L	EXON CDS	Nonsynonymous	TOLERATED	FCGBP	IgGFc-binding protein Precursor (Fcgamma-binding protein antigen)(FcgammaBP) [Source:UniProtKB/Swiss-Prot;Acc:Q9Y6R7]
+19,46047544,1,C/A	C/A	2/255	0.01 	3	21	0.13 	-	intron	-	-	CYP2A6	cytochrome P450, family 2, subfamily A, polypeptide 6
+19,46883827,1,C/G	C/G	11/142	0.08 	9	26	0.50 	-	intron	-	-	CEACAM7	carcinoembryonic antigen-related cell adhesion molecule 7
+19,48112017,1,G/C	G/C	5/94	0.05 	3	32	0.25 	-	intron	-	-	PSG6	pregnancy specific beta-1-glycoprotein 6
+19,48277298,1,G/T	G/T	5/220	0.02 	7	25	0.37 	-	intron	-	-	PSG2	pregnancy specific beta-1-glycoprotein 2
+19,49583042,1,C/G	C/G	6/221	0.03 	6	25	0.32 	C402S	EXON CDS	Nonsynonymous	DAMAGING	ZNF285	Zinc finger protein 285A  [Source:UniProtKB/Swiss-Prot;Acc:Q96NJ3]
+19,49583973,1,C/T	C/T	2/223	0.01 	3	23	0.14 	V92M	EXON CDS	Nonsynonymous	DAMAGING	ZNF285	Zinc finger protein 285A  [Source:UniProtKB/Swiss-Prot;Acc:Q96NJ3]
+19,54336657,1,A/G	A/G	12/46	0.26 	3	40	0.75 	-	intron	-	-	PPFIA3	protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 3
+19,57770953,1,C/A	C/A	1/19	0.05 	3	13	0.10 	-	intron	-	-	ZNF701	zinc finger protein 701-like
+19,58343657,1,T/C	T/-	0/49	0.00 	3	29	0.20 	-	intron	-	-	ZNF347	zinc finger protein 347
+19,59086591,1,G/A	G/A	8/23	0.35 	18	24	0.90 	-	intron	-	-	PRKCG	protein kinase C, gamma
+19,59417894,1,C/T	C/T	2/104	0.02 	6	23	0.29 	-	intron	-	-	LILRB3	leukocyte immunoglobulin-like receptor, subfamily B (with TM and ITIM domains), member 3
+19,59777121,1,C/T	C/-	0/255	0.00 	4	26	0.22 	-	five_prime_UTR	-	-	LILRA2	leukocyte immunoglobulin-like receptor, subfamily A (with TM domain), member 2 
+19,59777249,1,A/G	A/G	21/245	0.09 	8	21	0.35 	-	intron	-	-	LILRA2	leukocyte immunoglobulin-like receptor, subfamily A (with TM domain), member 2 
+19,59950527,1,A/T	A/T	1/186	0.01 	3	20	0.13 	-	intron	-	-	KIR2DL3	killer cell immunoglobulin-like receptor
+19,60023121,1,G/A	G/A	98/255	0.38 	9	30	0.64 	R166H	EXON CDS	Nonsynonymous	TOLERATED	KIR3DL1	killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 1 
+19,60058946,1,A/G	A/G	11/254	0.04 	5	12	0.16 	N239S	EXON CDS	Nonsynonymous	TOLERATED	KIR3DL2	killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2
+19,60062216,1,A/G	A/G	1/70	0.01 	3	12	0.09 	-	intron	-	-	KIR3DL2	killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2
+20,2584261,1,G/C	G/C	16/117	0.14 	9	29	0.60 	D260H	EXON CDS	Nonsynonymous	DAMAGING	NOP56	Nucleolar protein 5A (Nucleolar protein Nop56) [Source:UniProtKB/Swiss-Prot;Acc:O00567]
+20,2585638,1,G/A	G/A	42/255	0.16 	12	16	0.43 	-	five_prime_UTR	-	-	NOP56	nucleolar protein, component of C/D snoRNPs
+20,6013772,1,C/A	C/A	90/214	0.42 	24	17	0.89 	D512Y	EXON CDS	Nonsynonymous	DAMAGING	FERMT1	Fermitin family homolog 1 (Unc-112-related protein 1)(Kindlin-1)(Kindlerin)(Kindlin syndrome protein) [Source:UniProtKB/Swiss-Prot;Acc:Q9BQL6]
+20,23615794,1,G/T	G/T	1/255	0.00 	3	11	0.09 	R91R	EXON CDS	Synonymous	TOLERATED	CST4	Cystatin-S Precursor (Cystatin-4)(Salivary acidic protein 1)(Cystatin-SA-III) [Source:UniProtKB/Swiss-Prot;Acc:P01036]
+20,32141430,1,C/G	C/G	39/82	0.48 	20	22	0.91 	-	intron	-	-	EIF2S2	eukaryotic translation initiation factor 2, subunit 2 beta, 38kDa
+20,39467262,1,G/A	G/A	98/222	0.44 	19	24	0.95 	V2511V	EXON CDS	Synonymous	TOLERATED	CHD6	Chromodomain-helicase-DNA-binding protein 6 (CHD-6)(EC 3.6.1.-)(ATP-dependent helicase CHD6)(Radiation-induced gene B protein) [Source:UniProtKB/Swiss-Prot;Acc:Q8TD26]
+20,47067413,1,A/T	A/T	9/126	0.07 	4	27	0.24 	-	intron	-	-	ARFGEF2	ADP-ribosylation factor guanine nucleotide-exchange factor 2 (brefeldin A-inhibited)
+20,49726170,1,G/A	G/A	5/47	0.11 	4	31	0.31 	-	intron	-	-	ATP9A	F1F0 ATP synthase subunit 9, isoform A
+21,9991028,1,C/A	C/A	2/158	0.01 	3	19	0.12 	-	intron	-	-	TPTE	transmembrane phosphatase with tensin homology
+21,13904698,1,T/C	T/C	15/254	0.06 	3	29	0.20 	M93T	EXON CDS	Nonsynonymous	TOLERATED	POTED	ANKRD26-like family B member 3 (Ankyrin repeat domain-containing protein 21)(Protein POTE)(Prostate, ovary, testis-expressed protein) [Source:UniProtKB/Swiss-Prot;Acc:Q86YR6]
+21,13922701,1,A/G	A/-	0/13	0.00 	4	19	0.16 	-	intron	-	-	POTED	ANKRD26-like family B member 3 (Ankyrin repeat domain-containing protein 21)(Protein POTE)(Prostate, ovary, testis-expressed protein) [Source:UniProtKB/Swiss-Prot;Acc:Q86YR6]
+21,13933644,1,C/T	C/-	0/11	0.00 	3	28	0.19 	-	intron	-	-	POTED	ANKRD26-like family B member 3 (Ankyrin repeat domain-containing protein 21)(Protein POTE)(Prostate, ovary, testis-expressed protein) [Source:UniProtKB/Swiss-Prot;Acc:Q86YR6]
+21,17846060,1,A/G	A/G	9/100	0.09 	3	23	0.14 	Q111Q	EXON CDS	Synonymous	TOLERATED	CXADR	Coxsackievirus and adenovirus receptor Precursor (Coxsackievirus B-adenovirus receptor)(HCVADR)(hCAR)(CVB3-binding protein) [Source:UniProtKB/Swiss-Prot;Acc:P78310]
+21,44835825,1,A/G	A/G	3/253	0.01 	3	14	0.10 	-	EXON CDS	Synonymous	-	KRTAP10-6	keratin associated protein 10-6
+22,14829536,1,G/A	G/A	4/171	0.02 	6	6	0.16 	S90F	EXON CDS	Nonsynonymous	TOLERATED	OR11H1	Olfactory receptor 11H1 (Olfactory receptor OR22-1) [Source:UniProtKB/Swiss-Prot;Acc:Q8NG94]
+22,21172518,1,G/A	G/A	2/255	0.01 	8	14	0.27 	P402P	EXON CDS	Synonymous	TOLERATED	ZNF280B	Zinc finger protein 280B (Suppressor of hairy wing homolog 2)(5'OY11.1)(Zinc finger protein 632)(Zinc finger protein 279) [Source:UniProtKB/Swiss-Prot;Acc:Q86YH2]
+22,21986859,1,T/C	T/C	10/189	0.05 	5	35	0.56 	P1228P	EXON CDS	Synonymous	TOLERATED	BCR	Breakpoint cluster region protein (EC 2.7.11.1)(Renal carcinoma antigen NY-REN-26) [Source:UniProtKB/Swiss-Prot;Acc:P11274]
+22,30919088,1,G/A	G/A	7/255	0.03 	3	20	0.13 	A119A	EXON CDS	Synonymous	TOLERATED	RFPL2	Ret finger protein-like 2 (RING finger protein 79) [Source:UniProtKB/Swiss-Prot;Acc:O75678]
+22,38040769,1,C/G	C/G	37/255	0.15 	4	35	0.44 	K239N	EXON CDS	Nonsynonymous	DAMAGING	RPL3	60S ribosomal protein L3 (HIV-1 TAR RNA-binding protein B)(TARBP-B) [Source:UniProtKB/Swiss-Prot;Acc:P39023]
+22,38043570,1,C/G	C/G	8/64	0.13 	3	41	1.00 	K69N	EXON CDS	Nonsynonymous	DAMAGING	RPL3	60S ribosomal protein L3 (HIV-1 TAR RNA-binding protein B)(TARBP-B) [Source:UniProtKB/Swiss-Prot;Acc:P39023]
+22,43953006,1,A/G	A/G	8/208	0.04 	7	9	0.20 	K188K	EXON CDS	Synonymous	TOLERATED	NUP50	Nucleoporin 50 kDa (Nuclear pore-associated protein 60 kDa-like) [Source:UniProtKB/Swiss-Prot;Acc:Q9UKX7]

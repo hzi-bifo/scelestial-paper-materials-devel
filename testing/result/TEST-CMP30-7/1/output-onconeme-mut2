@@ -1,0 +1,72 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	6 [label="P132, P136,
+P146, P147,
+P149, P150" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	10 [label="M152, M163,
+M164, M165,
+M166, M167,
+M168, M169,
+M170, M171,
+M172, M173,
+M174, M175,
+M177, M178" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	8 [label="M156,
+M157,
+M160,
+M161" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	9 [label="M151,
+M159,
+M162,
+M176" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	3 [label="P124, P125,
+P126, P127,
+P129, P130,
+P137, P148" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	2 [label="P118, P119,
+P120, P121,
+P122, P123,
+P133, P134,
+P144, P145" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	4 [label="P128, P131,
+P138, P139,
+P140, P142,
+P143, M158" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	5 [label="P135,
+P141" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	7 [label="M154,
+M155" color="#69c5f0" fillcolor="#69c5f0" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	1 [label="N1, N2, N3, N4, N5, N6,
+N7, N8, N9, N10, N11, N12,
+N13, N14, N15, N16, N17,
+N18, N19, N20, N21, N22,
+N23, N24, N25, N26, N27,
+N28, N29, N30, N31, N32,
+N33, N34, N35, N36, N37,
+N38, N39, N40, N41, N42,
+N43, N44, N45, N46, N47,
+N48, N49, N50, E51, E52,
+E53, N54, N55, N56, N57,
+N58, N59, N60, N61, N62,
+N63, N64, N65, N66, N67,
+N68, N69, N70, N71, N72,
+N73, N74, N75, N76, N77,
+N78, N79, N80, N81, N82,
+N83, N84, N85, N86, N87,
+N88, N89, N90, N91, N92,
+N93, N94, N95, N96, N97,
+N98, N99, N100, N101, N102,
+N103, N104, N105, N106,
+N107, N108, N109, N110,
+N111, N112, N113, N114,
+N115, N116, N117, M153" color="#af9d92" fillcolor="#af9d92" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	8 -> 10 [label="" color="#A2A2A2" fontname=Arial len=1.01165]
+	9 -> 8 [label="" color="#A2A2A2" fontname=Arial len=1.752227]
+	3 -> 6 [label="" color="#A2A2A2" fontname=Arial len=1.0]
+	3 -> 9 [label="" color="#A2A2A2" fontname=Arial len=2.236123]
+	2 -> 3 [label="" color="#A2A2A2" fontname=Arial len=1.000095]
+	4 -> 2 [label="" color="#A2A2A2" fontname=Arial len=1.992559]
+	5 -> 4 [label="" color="#A2A2A2" fontname=Arial len=1.451105]
+	7 -> 5 [label="" color="#A2A2A2" fontname=Arial len=2.49111]
+	1 -> 7 [label="" color="#A2A2A2" fontname=Arial len=3.065132]
+}
