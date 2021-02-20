@@ -123,14 +123,38 @@ python src/clone-tree-to-mu-tree-imput.py data/synth01-scelestial-tree.txt data/
 
 ## Reproducing results of paper
 
-install 
+All the codes and scripts generating results appearing in the paper are in the "testing" folder. To perform the tests, some installations should be done.
+
+### Preparation
+
+To reproduce results in the paper, following applications should be installed for R:
+```
 library(oncoNEM)
 library(igraph)
+```
 
-conda py2 (for biopython)
+Following command should switch to conda environment with python 2 (for biopython):
+```
+conda py2 
+```
 
-install java
-install boost
-configure makefile variables
-install graphviz
+Also install java, boost-devel and graphviz for python. Makefile variables in the testing folder should be filled correctly.
+
+
+### Test scripts
+
+Testing scripts perform tests and put outputs to folders defined at the beggining of bash script files with name DIR. Several scripts run bin/test-gen-eval-all.sh with various parameters. Detail of tests are as follows:
+
+
+
+| Script name | Location in paper | Output file |
+| :--- | :--- | :--- |
+| run-cmp30-1.sh | Fig. 7 (a) | result/TEST-CMP30-1/run-cmp30-1-avg.txt, result/TEST-CMP30-1/run-cmp30-1.txt |
+| run-cmp30-17.sh | Table 1 | result/TEST-CMP30-17/run-cmp30-17-avg.txt, result/TEST-CMP30-17/run-cmp30-17.txt |
+| run-cmp30-3b.sh  | Fig. 7 (b) | result/TEST-CMP30-3bs/run-cmp30-3b.txt, result/TEST-CMP30-3bs/run-cmp30-3b-avg.txt
+| run-cmp30-5e3.sh | Fig. 1 | result/TEST-CMP30-5E3/run-cmp30-5e3.txt
+| run-cmp30-7.sh | Fig. 4 | result/TEST-CMP30-7/[12]/*.pdf
+| run-cmp30-8.sh | Fig. 5 | result/TEST-CMP30-8/1/*.pdf
+| run-sens30-all4.sh | Fig. 2, Fig. 3 | result/TEST-SENS30-ALL4/LOCUS2.txt, <br/> result/TEST-SENS30-ALL4/MV2.txt, <br/> result/TEST-SENS30-ALL4/ZO2.txt, <br/> result/TEST-SENS30-ALL4/OZ2.txt, <br/> result/TEST-SENS30-ALL4/SAMPLE2.txt |
+
 
