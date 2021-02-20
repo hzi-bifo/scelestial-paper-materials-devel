@@ -10,3 +10,5 @@ $(SCRIPT)/scelestial: $(SCELESTIALSRC)/scelestial.cc $(SCELESTIALSRC)/scelestial
 $(SCRIPT)/synthesis: $(SCELESTIALSRC)/synthesis.cc $(SCELESTIALSRC)/synthesis.h
 	g++ -std=c++11 $(SCELESTIALSRC)/synthesis.cc -o $(SCRIPT)/synthesis -I$(BOOSTINCLUDE) -lboost_program_options
 
+clean:
+	rm -rf result $(ALL)
