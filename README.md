@@ -56,7 +56,7 @@ The output consists of four files:
 A sample simulation could be
 ```bash
 # Running the simulator
-bin/synth --sample 5 --step 10 --locus 15 --aic 1 --adc 1 --akc 10 --ais 1 --ads 1 --seed 7 --fclone data/synth01-clone.txt --fseq data/synth01-seq.txt --fseqtrue data/synth01-seq-true.txt --ftree data/synth01-tree.txt --mvrate 0.5 --zorate 0.1 --ozrate 0.2 
+bin/synthesis --sample 5 --step 10 --locus 15 --aic 1 --adc 1 --akc 10 --ais 1 --ads 1 --seed 7 --fclone data/synth01-clone.txt --fseq data/synth01-seq.txt --fseqtrue data/synth01-seq-true.txt --ftree data/synth01-tree.txt --mvrate 0.5 --zorate 0.1 --ozrate 0.2 
 # Converting simulated data to scelestial's format
 python src/convert-input.py data/synth01-seq.txt data/synth01-scelestial.txt /dev/null
 # Generating some names for cells
