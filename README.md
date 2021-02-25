@@ -1,4 +1,26 @@
 # Scelestial: Single Cell Lineage Tree Inference based on a Steiner Tree Approximation Algorithm
+
+Scelestial is a fast application for phylogeny reconstruction on single-cell data. The algorithm is based on an approxmation algorithm for the Steiner problem and could be considered as a generalization of neighbor-joining method in which more than two samples are chosen for merge. 
+
+Table of Contents
+=================
+   * [Scelestial: Single Cell Lineage Tree Inference based on a Steiner Tree Approximation Algorithm](#scelestial-single-cell-lineage-tree-inference-based-on-a-steiner-tree-approximation-algorithm)
+      * [Running Scelestial (short version):](#running-scelestial-short-version)
+         * [Sample input &amp; output:](#sample-input--output)
+      * [Running Scelestial (longer version):](#running-scelestial-longer-version)
+         * [Input format:](#input-format)
+         * [Output format:](#output-format)
+      * [Generating simulated data:](#generating-simulated-data)
+         * [Running Scelestial:](#running-scelestial)
+         * [Evaluating the results:](#evaluating-the-results)
+            * [Comparing sample distances](#comparing-sample-distances)
+            * [Comparing partition similarity](#comparing-partition-similarity)
+         * [Generating PDF](#generating-pdf)
+      * [Reproducing results of paper](#reproducing-results-of-paper)
+         * [Preparation](#preparation)
+         * [Test scripts](#test-scripts)
+
+
 To make
 ```bash
 make
