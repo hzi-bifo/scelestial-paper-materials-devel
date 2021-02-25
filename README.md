@@ -4,29 +4,27 @@ Scelestial is a fast application for phylogeny reconstruction on single-cell dat
 
 Table of Contents
 =================
-   * [Scelestial: Single Cell Lineage Tree Inference based on a Steiner Tree Approximation Algorithm](#scelestial-single-cell-lineage-tree-inference-based-on-a-steiner-tree-approximation-algorithm)
-      * [Running Scelestial (short version):](#running-scelestial-short-version)
-         * [Sample input &amp; output:](#sample-input--output)
-      * [Running Scelestial (longer version):](#running-scelestial-longer-version)
-         * [Input format:](#input-format)
-         * [Output format:](#output-format)
-      * [Generating simulated data:](#generating-simulated-data)
-         * [Running Scelestial:](#running-scelestial)
-         * [Evaluating the results:](#evaluating-the-results)
-            * [Comparing sample distances](#comparing-sample-distances)
-            * [Comparing partition similarity](#comparing-partition-similarity)
-         * [Generating PDF](#generating-pdf)
-      * [Reproducing results of paper](#reproducing-results-of-paper)
-         * [Preparation](#preparation)
-         * [Test scripts](#test-scripts)
+   * [Running Scelestial (short version):](#running-scelestial-short-version)
+      * [Sample input &amp; output:](#sample-input--output)
+   * [Running Scelestial (longer version):](#running-scelestial-longer-version)
+      * [Input format:](#input-format)
+      * [Output format:](#output-format)
+   * [Generating simulated data:](#generating-simulated-data)
+      * [Running Scelestial:](#running-scelestial)
+      * [Evaluating the results:](#evaluating-the-results)
+         * [Comparing sample distances](#comparing-sample-distances)
+         * [Comparing partition similarity](#comparing-partition-similarity)
+      * [Generating PDF](#generating-pdf)
+   * [Reproducing results of paper](#reproducing-results-of-paper)
+      * [Preparation](#preparation)
+      * [Test scripts](#test-scripts)
 
-
-To make
+## Running Scelestial (short version):
+in short, to make run
 ```bash
 make
 ```
-## Running Scelestial (short version):
-In short, to run scelestial
+and to run scelestial
 ```
 bin/scelestial <[input-file] >[output-file]
 ```
