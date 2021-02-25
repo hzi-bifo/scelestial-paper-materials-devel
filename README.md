@@ -12,34 +12,35 @@ The detail of input/output formats and how to
 generate synthetic data follows.
 
 ### Sample input & output:
-Input:
+Input (`data/sample.txt`):
 ```
-1 A/A ./. ./. C/C A/A
-2 C/C C/C C/C C/C ./.
-3 C/C C/C ./. ./. ./.
-4 C/C ./. A/A C/C C/C
+1 G/G ./. ./. C/C G/G
+2 C/G C/G C/G C/G ./.
+3 C/G C/G ./. ./. ./.
+4 G/G ./. A/A G/G G/G
 5 C/C A/A ./. ./. A/A
-6 A/A C/C ./. ./. ./.
-7 ./. C/C ./. ./. A/A
+6 A/A T/T ./. ./. ./.
+7 ./. T/T ./. ./. A/A
 8 ./. A/A A/A C/C ./.
 9 ./. C/C ./. ./. ./.
-10 C/C C/C A/A ./. ./.
-11 ./. A/A A/A ./. ./.
-12 A/A ./. ./. ./. ./.
+10 T/T T/T G/G ./. ./.
+11 ./. G/G G/G ./. ./.
+12 C/C ./. ./. ./. ./.
 13 ./. ./. A/A C/C C/C
-14 ./. ./. C/C A/A A/A
-15 ./. A/A ./. A/A ./.
+14 ./. ./. G/G C/C C/C
+15 ./. T/T ./. T/T ./.
 ```
+The input consists of 5 samples with 15 sites. 
 
 Output:
 ```
 6
-0 1 ACCCCAXXXCXAXXX ACCCCAAACCAACAA
-1 1 XCCXACCACCAXXXA ACCCACCACCAACAA
-2 1 XCXAXXXAXAAXACX ACAAAAAAAAAAACA
-3 1 CCXCXXXCXXXXCAA CCCCAAACCCAACAA
-4 1 AXXCAXAXXXXXCAX ACCCAAAACCAACAA
-5 0 ACCCAAAACCAACAA -
+0 1 GNNGCAXXXTXCXXX GNNGCAAACTGCCCT
+1 1 XNNXATTACTGXXXT GNNGATTACTGCCCT
+2 1 XNXAXXXAXGGXAGX ANAAAAAAAGGAAGA
+3 1 CNXGXXXCXXXXCCT CNNGAAACCTGCCCT
+4 1 GXXGAXAXXXXXCCX GNNGAAAACTGCCCT
+5 0 GNNGAAAACTGCCCT -
 5
 4 5 4.50009
 3 5 6.00008
@@ -47,6 +48,10 @@ Output:
 0 5 4.50007
 1 2 6.50013
 ```
+
+The output represents a tree with 6 nodes. The first 5 nodes are the input nodes (specified by second column, 1: input samples, 0: new nodes). Imputed sequences are shown as the 4th column. For example sample 0 is imputed as `GNNGCAAACTGCCCT`. In this sequence we use folloing coding to represent duplets `"A":"A/A", "T":"T/T", "C":"C/C", "G":"G/G", "K":"A/C", "L":"A/G", "M":"C/T", "N":"C/G", "O":"T/G", "P":"T/A", "X":"./."`.
+
+
 
 ## Running Scelestial (longer version):
 
