@@ -11,6 +11,28 @@ bin/scelestial <[input-file] >[output-file]
 The detail of input/output formats and how to 
 generate synthetic data follows.
 
+### Sample input:
+```
+1 A/A ./. ./. C/C A/A
+2 C/C C/C C/C C/C ./.
+3 C/C C/C ./. ./. ./.
+4 C/C ./. A/A C/C C/C
+5 C/C A/A ./. ./. A/A
+6 A/A C/C ./. ./. ./.
+7 ./. C/C ./. ./. A/A
+8 ./. A/A A/A C/C ./.
+9 ./. C/C ./. ./. ./.
+10 C/C C/C A/A ./. ./.
+11 ./. A/A A/A ./. ./.
+12 A/A ./. ./. ./. ./.
+13 ./. ./. A/A C/C C/C
+14 ./. ./. C/C A/A A/A
+15 ./. A/A ./. A/A ./.
+```
+
+### Sample output:
+
+
 ### Input format:
 Input consists of a matrix with cells as columns and loci as rows. Each row starts with the name of the locus. Elements of the matrix represent sequencing results for one locus and one cell in a 10-state representation. Thus matrix elements are one of the following cases
 A/A, T/T, C/C, G/G, A/T, A/C, A/G, T/C, T/G, C/G
