@@ -48,6 +48,7 @@ Output:
 1 2 6.50013
 ```
 
+## Running Scelestial (longer version):
 
 ### Input format:
 Input consists of a matrix with cells as columns and loci as rows. Each row starts with the name of the locus. Elements of the matrix represent sequencing results for one locus and one cell in a 10-state representation. Thus matrix elements are one of the following cases
