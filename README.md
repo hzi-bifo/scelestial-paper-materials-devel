@@ -11,7 +11,8 @@ bin/scelestial <[input-file] >[output-file]
 The detail of input/output formats and how to 
 generate synthetic data follows.
 
-### Sample input:
+### Sample input & output:
+Input:
 ```
 1 A/A ./. ./. C/C A/A
 2 C/C C/C C/C C/C ./.
@@ -30,7 +31,22 @@ generate synthetic data follows.
 15 ./. A/A ./. A/A ./.
 ```
 
-### Sample output:
+Output:
+```
+6
+0 1 ACCCCAXXXCXAXXX ACCCCAAACCAACAA
+1 1 XCCXACCACCAXXXA ACCCACCACCAACAA
+2 1 XCXAXXXAXAAXACX ACAAAAAAAAAAACA
+3 1 CCXCXXXCXXXXCAA CCCCAAACCCAACAA
+4 1 AXXCAXAXXXXXCAX ACCCAAAACCAACAA
+5 0 ACCCAAAACCAACAA -
+5
+4 5 4.50009
+3 5 6.00008
+1 5 4.50005
+0 5 4.50007
+1 2 6.50013
+```
 
 
 ### Input format:
