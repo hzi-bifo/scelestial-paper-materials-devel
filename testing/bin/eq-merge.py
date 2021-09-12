@@ -22,8 +22,9 @@ for lv in lines:
 	while len(mergedLines) <= l: 
 		mergedLines.append({})
 	for k, v in lv.items():
-#print('{} {} {} {}'.format(l, k, k.replace('0', lv[args.mergeOn]), len(mergedLines)), file=sys.stderr)
-		mergedLines[l][k.replace('0', lv[args.mergeOn], 0)] = v
+		#print('add to merged lines l={} k={} k-replaced={} lml={}'.format(l, k, k.replace('0', lv[args.mergeOn], 1), len(mergedLines)), file=sys.stderr)
+		mergedLines[l][k.replace('0', lv[args.mergeOn], 1)] = v
+		#print('  new line={}'.format(mergedLines[l]), file=sys.stderr)
 	onValueObserved[lv[args.mergeOn]] += 1
 
 for l in mergedLines:

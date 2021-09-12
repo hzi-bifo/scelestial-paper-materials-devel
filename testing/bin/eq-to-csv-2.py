@@ -6,6 +6,7 @@ parser.add_argument('--len', dest='length', action='store', required = True, typ
 parser.add_argument('--time', dest='time', action='store', required = False, nargs='*')
 parser.add_argument('-by-alg', '--byAlg', action='store_true')
 parser.add_argument('-mean-na', dest='meanNA', default=0)
+parser.add_argument('-ignore-missing', dest='ignoreMissing', default=False, action='store_const', const=True)
 args = parser.parse_args()
 
 def msq(x):
@@ -27,6 +28,8 @@ for l in sys.stdin:
 	ll = {}
 	for xx in x:
 		#print(xx)
+		if len(xx.split(':')) != 2:
+			print('Invalid number of arguments: l={}, xx={}, x={}'.format(l, xx, x), file=sys.stderr)
 		vr, vl = xx.split(':')
 		ll[vr] = vl
 	lines.append(ll)
@@ -71,6 +74,7 @@ if args.byAlg:
 else:
 	print("\t".join(vars))
 	for ll in lines:
+		#print('processing line={}'.format(ll), file=sys.stderr)
 		for v in vars:
 			for dlist, meth in merges:
 				if dlist is not None and v == dlist[0]:
@@ -79,6 +83,11 @@ else:
 			if v in varTime:
 				m = re.match("(\d+)m(\d+\.\d+)s", ll[v])
 				ll[v] = int(m[1]) * 60 + float(m[2])
+			if v not in ll:
+				print('invalid line:{} v={}'.format(ll, v), file=sys.stderr)
+			if v not in ll and args.ignoreMissing: 
+				print('Warning: ignored invalid line:{} v={}'.format(ll, v), file=sys.stderr)
+				ll[v] = 'NA'
 			print(ll[v], end="\t")
 		print()
 	

@@ -35,6 +35,10 @@ def treeNodeDescColor(treeNode, cells):
 	#col, fillcol = "grey", "white"
 	col, fillcol = classColor['general-col'], classColor['general-fill']
 	if args.typeFile != None:
+		for cell in cells[0:]:
+			if int(cell)-1 >= len(headerClasses):
+				print('Invalid cell classe, cell={}'.format(cell), file=sys.stderr)
+				print(headerClasses, file=sys.stderr)
 		desc = ','.join(["{}/{}:{}".format(treeNode, cell, headerClasses[int(cell)-1]) for cell in cells[0:]])
 		#if len(cells) == 1:
 		if len(cells) == 0:

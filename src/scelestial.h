@@ -134,7 +134,8 @@ long long power(int a, int b, int mod) {
 }
 
 const double IMPUTATION_COST = 0.50001;
-const double IMPUTATION_X_X_FACTOR = 2 * IMPUTATION_COST;
+//const double IMPUTATION_X_X_FACTOR = 2 * IMPUTATION_COST;
+const double IMPUTATION_X_X_FACTOR = IMPUTATION_COST;
 const int MAX_SEQUENCE = 1000;
 int kRestrictionSteinerTreeMax = 4, kRestrictionSteinerTreeMin = 3;
 // We know that MST/2 < Stiener-tree, thus by setting this to 0.5, this is only a valid bound,
