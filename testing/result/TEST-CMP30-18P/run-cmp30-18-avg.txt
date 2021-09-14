@@ -1,7 +1,7 @@
-\begin{tabular}{l|l|l|l|l|l|}
-&\multicolumn{2}{|c|}{150 samples} & \multicolumn{2}{|c|}{200 samples} & \multicolumn{2}{|c|}{250 samples} \
-& \multicolumn{1}{|c|}{5 clones} & \multicolumn{1}{|c|}{10 clones} & \multicolumn{1}{|c|}{5 clones} & \multicolumn{1}{|c|}{10 clones} & \multicolumn{1}{|c|}{5 clones} & \multicolumn{1}{|c|}{10 clones} \
-Method & 50 sites & 50 sites & 50 sites & 50 sites & 50 sites & 50 sites\ \hline 
+\begin{tabular}{l|l|l|l|l|l|l|}
+&\multicolumn{2}{|c|}{150 samples} & \multicolumn{2}{|c|}{200 samples} & \multicolumn{2}{|c|}{250 samples} \\
+& \multicolumn{1}{|c|}{5 clones} & \multicolumn{1}{|c|}{10 clones} & \multicolumn{1}{|c|}{5 clones} & \multicolumn{1}{|c|}{10 clones} & \multicolumn{1}{|c|}{5 clones} & \multicolumn{1}{|c|}{10 clones} \\
+Method & 50 sites & 50 sites & 50 sites & 50 sites & 50 sites & 50 sites\\ \hline 
 onco&0.91&0.75&0.81&0.83&0.98&0.82\\
 impt&{\bf 0.82}&0.68&{\bf 0.74}&{\bf 0.70}&0.91&0.76\\
 bphl&0.93&1.04&0.95&0.94&{\bf 0.90}&0.96\\

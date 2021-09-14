@@ -1,0 +1,10 @@
+general-col	black
+general-fill	white
+mix-col	black
+mix-fill	#9F8C80
+0	#E65D28
+1	#E65D28
+2	#59B8EC
+3	pink
+4	pink
+5	pink

@@ -1,0 +1,203 @@
+parameters: RM:false SERVER:false STEP_MIN:5 STEP_MAX:5 STEP_INC:1 CLONE_MIN:5 CLONE_MAX:10 CLONE_INC:5 SAMPLE_MIN:50 SAMPLE_MAX:100 SAMPLE_INC:50 LOCUS_MIN:20 LOCUS_MAX:50 LOCUS_INC:30 MISSING_VALUE_RATE_MIN:0.07 MISSING_VALUE_RATE_MAX:0.071 MISSING_VALUE_RATE_INC:1 ZORATE_MIN:0.015 ZORATE_MAX:0.0151 ZORATE_INC:0.2 OZRATE_MIN:0.10 OZRATE_MAX:0.101 OZRATE_INC:0.1 REPEAT_COUNT:1 STEPMUTATIONRATE_MIN:2 STEPMUTATIONRATE_MAX:2.1 STEPMUTATIONRATE_INC:1 SDIR:result/TEST-CMP30-17-OS ZORATE_RANGE: 0.015 OZRATE_RANGE: 0.1 MISSING_VALUE_RATE_RANGE: 0.07 MISSING_VALUE_RATE_RANGE: 0.07 RUN:  RUN2: ,,steiner,, EXIT_ON_ERROR: 1
+DIR=result/TEST-CMP30-17-OS SAMPLE=50 LOCUS=20 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:5 ALLCNT:1 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:17
+0.32user 0.00system 0:00.34elapsed 93%CPU (0avgtext+0avgdata 3272maxresident)k
+0inputs+8outputs (0major+164minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/1-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/1-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/1-0/true-part pTrue0  result/TEST-CMP30-17-OS/1-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.8839 
+I0 0.8839 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.78 
+pI0 0.0975 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=50 LOCUS=50 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:5 ALLCNT:2 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:20
+0.66user 0.00system 0:00.67elapsed 98%CPU (0avgtext+0avgdata 3092maxresident)k
+0inputs+16outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/2-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/2-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/2-0/true-part pTrue0  result/TEST-CMP30-17-OS/2-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.6833 
+I0 0.6833 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.795 
+pI0 0.09085714285714286 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=100 LOCUS=20 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:5 ALLCNT:3 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:23
+2.88user 0.00system 0:03.31elapsed 87%CPU (0avgtext+0avgdata 3288maxresident)k
+0inputs+16outputs (0major+243minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/3-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/3-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/3-0/true-part pTrue0  result/TEST-CMP30-17-OS/3-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.9232 
+I0 0.9232 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.85 
+pI0 0.06666666666666667 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=100 LOCUS=50 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:5 ALLCNT:4 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:30
+5.69user 0.00system 0:05.70elapsed 99%CPU (0avgtext+0avgdata 3112maxresident)k
+0inputs+32outputs (0major+244minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/4-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/4-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/4-0/true-part pTrue0  result/TEST-CMP30-17-OS/4-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.8865 
+I0 0.8865 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.82 
+pI0 0.05046153846153846 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=50 LOCUS=20 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:10 ALLCNT:5 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:39
+0.31user 0.00system 0:00.35elapsed 88%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+8outputs (0major+162minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/5-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/5-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/5-0/true-part pTrue0  result/TEST-CMP30-17-OS/5-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.6684 
+I0 0.6684 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.81 
+pI0 0.2817391304347826 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=50 LOCUS=50 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:10 ALLCNT:6 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:41
+0.66user 0.00system 0:00.67elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+16outputs (0major+163minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/6-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/6-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/6-0/true-part pTrue0  result/TEST-CMP30-17-OS/6-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.7315 
+I0 0.7315 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.775 
+pI0 0.17714285714285713 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=100 LOCUS=20 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:10 ALLCNT:7 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:44
+2.90user 0.00system 0:02.91elapsed 99%CPU (0avgtext+0avgdata 3184maxresident)k
+0inputs+16outputs (0major+238minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/7-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/7-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/7-0/true-part pTrue0  result/TEST-CMP30-17-OS/7-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.7901 
+I0 0.7901 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.7722222222222223 
+pI0 0.14479166666666668 1.0 
+DIR=result/TEST-CMP30-17-OS SAMPLE=100 LOCUS=50 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:10 ALLCNT:8 DIV_RATE=1.5 DEATH_RATE=0.5 
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+timestamp:31/08/2021 07:02:49
+5.74user 0.00system 0:05.74elapsed 99%CPU (0avgtext+0avgdata 3108maxresident)k
+0inputs+32outputs (0major+244minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-17-OS/8-0/true-distance-matrix True0  result/TEST-CMP30-17-OS/8-0/impute-distance-matrix I0  result/TEST-CMP30-17-OS/8-0/true-part pTrue0  result/TEST-CMP30-17-OS/8-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.8858 
+I0 0.8858 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.8485714285714285 
+pI0 0.10067796610169491 1.0 
+Done TEST-GEN-ALL
+"echo "Done TEST-GEN-ALL"" command filed with exit code 0.

@@ -1,0 +1,25 @@
+digraph G {
+node [color=deeppink4, style=filled, fontcolor=white];
+3 -> 1;
+18 -> 2;
+11 -> 3;
+13 -> 4;
+3 -> 5;
+4 -> 6;
+19 -> 7;
+5 -> 8;
+21 -> 9;
+21 -> 10;
+7 -> 11;
+16 -> 12;
+8 -> 13;
+12 -> 14;
+9 -> 15;
+18 -> 16;
+4 -> 17;
+15 -> 18;
+14 -> 19;
+17 -> 20;
+node [color=lightgrey, style=filled, fontcolor=black];
+20 -> s0;
+}

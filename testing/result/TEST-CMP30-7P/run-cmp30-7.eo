@@ -1,0 +1,3401 @@
+PARAMETERS: result/TEST-CMP30-7P/1 data/Luang/Luang-1.txt data/Luang/Luang-1-types.txt
+timestamp:04/09/2021 19:26:49
+RUN_END ONCONEM
+timestamp:04/09/2021 19:26:50
+RUN_END STEINER
+timestamp:04/09/2021 19:26:51
+RUN_END BP
+timestamp:04/09/2021 19:26:51
+RUN_END SCITE
+timestamp:04/09/2021 19:26:52
+RUN_END SASC
+timestamp:04/09/2021 19:26:52
+RUN_END SCIPHI
+timestamp:04/09/2021 19:26:52
+RUN_END SIFIT
+timestamp:04/09/2021 19:26:53
+RUN_END SICLONEFIT
+waiting for semaphores ... 
+
+real	0m19.467s
+user	0m19.424s
+sys	0m0.008s
+
+real	0m34.193s
+user	0m50.140s
+sys	0m3.624s
+178 16
+Starting MCMC run...input-bp.txt
+successful swap!!!
+input-bp.txt 0 7 [-1878.8269667] [2.22169804] [3.65476535] big nodes: 6 [-1.43589744  0.        ] 0.15922675644803985 2.0 0.3 0.1
+	-12.537058 is best per-data complete data likelihood so far.
+	-10.956390 is best per-data complete data likelihood so far.
+	-9.007841 is best per-data complete data likelihood so far.
+	-8.382636 is best per-data complete data likelihood so far.
+	-7.122297 is best per-data complete data likelihood so far.
+	-6.056886 is best per-data complete data likelihood so far.
+	-5.385114 is best per-data complete data likelihood so far.
+	-5.184918 is best per-data complete data likelihood so far.
+	-5.011216 is best per-data complete data likelihood so far.
+	-4.758316 is best per-data complete data likelihood so far.
+input-bp.txt 50 7 [-494.65722592] [2.08070366] [2.93045711] big nodes: 7 [-1.43589744  0.        ] 0.3643114160777548 2.0 0.3 0.1
+	-4.519320 is best per-data complete data likelihood so far.
+	-4.428056 is best per-data complete data likelihood so far.
+	-4.332942 is best per-data complete data likelihood so far.
+	-4.216701 is best per-data complete data likelihood so far.
+	-4.111837 is best per-data complete data likelihood so far.
+input-bp.txt 100 10 [-361.45704658] [2.09394955] [2.82309008] big nodes: 9 [-1.68421053  0.        ] 0.22787557457258065 2.0 0.3 0.1
+	-4.089357 is best per-data complete data likelihood so far.
+	-4.026860 is best per-data complete data likelihood so far.
+	-3.960179 is best per-data complete data likelihood so far.
+successful swap!!!
+input-bp.txt 150 17 [-262.54869864] [2.41228931] [2.87267305] big nodes: 9 [-1.62025316  0.        ] 0.27906100915409615 2.0 0.3 0.1
+
+real	0m46.262s
+user	0m44.432s
+sys	0m7.012s
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.31545 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -0.00080002 and best beta 0.31545 and best overall score -0.00080002
+best log score for tree:	-0.00080002000066660352
+#optimal steps after burn-in:	150000
+total #steps after burn-in:	150000
+%optimal steps after burn-in:	1
+samples from posterior written to: result/TEST-CMP30-7P/1/temp/scite-.samples
+182776 opt trees 
+Time elapsed: 62055.438999999998 ms
+
+real	1m2.241s
+user	1m2.036s
+sys	0m0.024s
+SCIPhI v0.1.6-dev
+Reading the config file: ... done!
+Reading the mpileup file: num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.227977315689981 SD: 0.01 count: 0 trails: 0
+normal     - overDis: 100 SD: 5 count: 0 trails: 0
+normal     - alpha:   22.7977315689981 beta: 77.2022684310019
+mutation   - overDis: 2 SD: 0.1 count: 0 trails: 0
+mutation   - alpha: 0.696030245746692 beta: 1.45595463137996
+drop: 0.1 SD: 0.01 count: 0 trails: 0
+lambda: 0 SD: 0.01 count: 0 trails: 0
+seq1
+done!
+newDataSize: 0 0
+The new best score is: -1418.6710758292
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.227977315689981 SD: 0.01 count: 0 trails: 0
+normal     - overDis: 100 SD: 5 count: 0 trails: 0
+normal     - alpha:   22.7977315689981 beta: 77.2022684310019
+mutation   - overDis: 2 SD: 0.1 count: 0 trails: 0
+mutation   - alpha: 0.696030245746692 beta: 1.45595463137996
+drop: 0.1 SD: 0.01 count: 0 trails: 0
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 0
+score: -1418.6710758292
+bestScore: -1418.6710758292
+num trees: 1
+The new best score is: -1418.67000886068
+The new best score is: -1418.67000886062
+The new best score is: -1418.67000886051
+The new best score is: -1418.67000886045
+The new best score is: -1418.6700088603
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.232230897829523 SD: 0.01 count: 319 trails: 472
+normal     - overDis: 44.3287106179614 SD: 5 count: 445 trails: 445
+normal     - alpha:   10.2944962664343 beta: 34.0342143515272
+mutation   - overDis: 2.8368281998091 SD: 0.1 count: 476 trails: 508
+mutation   - alpha: 0.979214660018034 beta: 2.07721325973433
+drop: 0.00805538908201064 SD: 0.01 count: 433 trails: 467
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 10000
+score: -1418.82986489109
+bestScore: -1418.6700088603
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22672011955157 SD: 0.01 count: 617 trails: 941
+normal     - overDis: 35.6919038515992 SD: 5 count: 913 trails: 913
+normal     - alpha:   8.09207270825772 beta: 27.5998311433415
+mutation   - overDis: 2.44578832771271 SD: 0.1 count: 894 trails: 965
+mutation   - alpha: 0.853221215818449 beta: 1.77740358591322
+drop: 0.135057593424851 SD: 0.01 count: 839 trails: 913
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 20000
+score: -1418.67582606301
+bestScore: -1418.6700088603
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.232602321143926 SD: 0.0101562074805831 count: 272 trails: 403
+normal     - overDis: 99.9637757551896 SD: 5.25635548188012 count: 366 trails: 366
+normal     - alpha:   23.251806270968 beta: 76.7119694842216
+mutation   - overDis: 3.4922770207686 SD: 0.104352040319657 count: 397 trails: 418
+mutation   - alpha: 1.20459734964539 beta: 2.55845025149267
+drop: 0.0989963809530715 SD: 0.0104299877341328 count: 356 trails: 386
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 30000
+score: -1418.85639314596
+bestScore: -1418.6700088603
+num trees: 1
+The new best score is: -1418.67000187734
+The new best score is: -1418.67000187688
+The new best score is: -1418.67000187571
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229985660071506 SD: 0.0101562074805831 count: 569 trails: 870
+normal     - overDis: 297.618551450145 SD: 5.25635548188012 count: 829 trails: 829
+normal     - alpha:   68.4479990047871 beta: 229.170552445358
+mutation   - overDis: 4.31326575477136 SD: 0.104352040319657 count: 859 trails: 910
+mutation   - alpha: 1.49530669626907 beta: 3.1486221490606
+drop: 0.272249752885814 SD: 0.0104299877341328 count: 788 trails: 861
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 40000
+score: -1418.71263446151
+bestScore: -1418.67000187571
+num trees: 1
+The new best score is: -1418.67000150592
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.210820828350196 SD: 0.0103148550388652 count: 247 trails: 361
+normal     - overDis: 478.617984180553 SD: 5.52585459037824 count: 286 trails: 286
+normal     - alpha:   100.902639888245 beta: 377.715344292308
+mutation   - overDis: 2.2768845547888 SD: 0.109078759550461 count: 393 trails: 422
+mutation   - alpha: 0.818432485462173 beta: 1.61845696529274
+drop: 0.0687401250251941 SD: 0.0108773766213653 count: 315 trails: 331
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 50000
+score: -1420.86604529361
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.219423261959364 SD: 0.0103148550388652 count: 580 trails: 838
+normal     - overDis: 246.476079347651 SD: 5.52585459037824 count: 752 trails: 752
+normal     - alpha:   54.0825853254168 beta: 192.393494022235
+mutation   - overDis: 2.01887702897551 SD: 0.109078759550461 count: 852 trails: 913
+mutation   - alpha: 0.714112792359329 beta: 1.45242709768039
+drop: 0.592054317201441 SD: 0.0108773766213653 count: 792 trails: 848
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 60000
+score: -1419.18163750405
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22030703266238 SD: 0.0105116597452257 count: 216 trails: 327
+normal     - overDis: 408.301094867308 SD: 5.80917121364142 count: 214 trails: 214
+normal     - alpha:   89.9516026430178 beta: 318.34949222429
+mutation   - overDis: 4.73866202214325 SD: 0.113905617177937 count: 390 trails: 413
+mutation   - alpha: 1.67335729847943 beta: 3.41329157995992
+drop: 0.58495202813895 SD: 0.011357576939857 count: 314 trails: 328
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 70000
+score: -1419.07623250726
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23165230286124 SD: 0.0105116597452257 count: 544 trails: 818
+normal     - overDis: 367.664284515994 SD: 5.80917121364142 count: 681 trails: 681
+normal     - alpha:   85.1702781879601 beta: 282.494006328034
+mutation   - overDis: 4.7886765693062 SD: 0.113905617177937 count: 827 trails: 871
+mutation   - alpha: 1.65479964802814 beta: 3.50364623959055
+drop: 0.777512923772042 SD: 0.011357576939857 count: 752 trails: 795
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 80000
+score: -1418.79256181079
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23501891707525 SD: 0.0106865409332239 count: 211 trails: 322
+normal     - overDis: 431.017847012663 SD: 6.10701379080085 count: 173 trails: 173
+normal     - alpha:   101.297347645022 beta: 329.720499367641
+mutation   - overDis: 7.41178480102579 SD: 0.119148448968219 count: 332 trails: 352
+mutation   - alpha: 2.54461930882498 beta: 5.44780203804477
+drop: 0.686417011129498 SD: 0.0118767783321391 count: 243 trails: 266
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 90000
+score: -1419.86922756
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.227719235030911 SD: 0.0106865409332239 count: 526 trails: 811
+normal     - overDis: 525.242000116194 SD: 6.10701379080085 count: 656 trails: 656
+normal     - alpha:   119.607706472566 beta: 405.634293643628
+mutation   - overDis: 6.29542847178333 SD: 0.119148448968219 count: 772 trails: 826
+mutation   - alpha: 2.19198746536745 beta: 4.58130439167798
+drop: 0.913358340574251 SD: 0.0118767783321391 count: 670 trails: 720
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 100000
+score: -1418.67010965277
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.236637597744085 SD: 0.010846962566373 count: 169 trails: 255
+normal     - overDis: 529.835866907485 SD: 6.42012708343871 count: 141 trails: 141
+normal     - alpha:   125.379086743642 beta: 404.456780163843
+mutation   - overDis: 3.55986113365047 SD: 0.124396019970636 count: 288 trails: 316
+mutation   - alpha: 1.21833257551218 beta: 2.62232755379482
+drop: 0.754414891455378 SD: 0.0124035794092703 count: 153 trails: 172
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 110000
+score: -1419.27345313811
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.238226407991818 SD: 0.010846962566373 count: 464 trails: 724
+normal     - overDis: 451.878000987307 SD: 6.42012708343871 count: 590 trails: 590
+normal     - alpha:   107.649273025729 beta: 344.228727961577
+mutation   - overDis: 5.73040519894772 SD: 0.124396019970636 count: 717 trails: 778
+mutation   - alpha: 1.95511336821856 beta: 4.23033644635682
+drop: 0.845697964319295 SD: 0.0124035794092703 count: 606 trails: 667
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 120000
+score: -1419.50166047062
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22575363608819 SD: 0.0109987880889177 count: 123 trails: 197
+normal     - overDis: 473.724026800706 SD: 6.74929403788002 count: 81 trails: 81
+normal     - alpha:   106.944921552598 beta: 366.779105248108
+mutation   - overDis: 4.72176162457563 SD: 0.129757871385239 count: 247 trails: 263
+mutation   - alpha: 1.6502442419614 beta: 3.42683566777744
+drop: 0.879646378454356 SD: 0.0129239876579968 count: 114 trails: 125
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 130000
+score: -1418.69572457736
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.215444051059575 SD: 0.0109987880889177 count: 454 trails: 703
+normal     - overDis: 659.770313128826 SD: 6.74929403788002 count: 524 trails: 524
+normal     - alpha:   142.143589029318 beta: 517.626724099507
+mutation   - overDis: 7.02773970554274 SD: 0.129757871385239 count: 699 trails: 743
+mutation   - alpha: 2.5044800448018 beta: 5.02795456472572
+drop: 0.737547827090294 SD: 0.0129239876579968 count: 509 trails: 565
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 140000
+score: -1419.81071486569
+bestScore: -1418.67000150592
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.227751998842046 SD: 0.0111694803827139 count: 142 trails: 217
+normal     - overDis: 1011.59953232583 SD: 7.09533774296629 count: 11 trails: 11
+normal     - alpha:   230.393815514886 beta: 781.205716810941
+mutation   - overDis: 8.77144970018396 SD: 0.135608246152055 count: 227 trails: 247
+mutation   - alpha: 3.0539147154524 beta: 6.38344005205134
+drop: 0.717317182296802 SD: 0.0134716178787955 count: 40 trails: 44
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 150000
+score: -1418.67017685024
+bestScore: -1418.67000150592
+num trees: 1
+The new best score is: -1418.67000144895
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.224412220333786 SD: 0.0111694803827139 count: 443 trails: 671
+normal     - overDis: 1024.6733101775 SD: 7.09533774296629 count: 472 trails: 472
+normal     - alpha:   229.949212653703 beta: 794.724097523796
+mutation   - overDis: 10.897764613546 SD: 0.135608246152055 count: 670 trails: 731
+mutation   - alpha: 3.81848793770577 beta: 7.8944738603738
+drop: 0.700310415006819 SD: 0.0134716178787955 count: 487 trails: 524
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 160000
+score: -1418.89031475266
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.234853540418575 SD: 0.0113235552670628 count: 89 trails: 153
+normal     - overDis: 1005.23117339944 SD: 7.09533774296629 count: 968 trails: 968
+normal     - alpha:   236.082100011977 beta: 769.149073387465
+mutation   - overDis: 9.05259461441148 SD: 0.141368532461078 count: 174 trails: 191
+mutation   - alpha: 3.1089413770933 beta: 6.6523312023744
+drop: 0.0295546911574617 SD: 0.0140579081205908 count: 22 trails: 25
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 170000
+score: -1419.06011187197
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.237483839900898 SD: 0.0113235552670628 count: 387 trails: 652
+normal     - overDis: 1064.78789496019 SD: 7.45912348820636 count: 487 trails: 487
+normal     - alpha:   252.86991797514 beta: 811.91797698505
+mutation   - overDis: 9.40263048435729 SD: 0.141368532461078 count: 617 trails: 682
+mutation   - alpha: 3.21266671378237 beta: 6.93428803477306
+drop: 0.119308237653798 SD: 0.0140579081205908 count: 461 trails: 506
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 180000
+score: -1419.39054373577
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229324920618652 SD: 0.0114499469064021 count: 99 trails: 158
+normal     - overDis: 747.995933616877 SD: 7.45912348820636 count: 965 trails: 965
+normal     - alpha:   171.534108099765 beta: 576.461825517113
+mutation   - overDis: 11.4109051710924 SD: 0.147388238867962 count: 125 trails: 141
+mutation   - alpha: 3.96091597051438 beta: 8.32225750809392
+drop: 0.578425074949192 SD: 0.0146477258743537 count: 24 trails: 26
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 190000
+score: -1418.69232473423
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.233019541685167 SD: 0.0114499469064021 count: 407 trails: 667
+normal     - overDis: 788.957758554594 SD: 7.84156092745085 count: 429 trails: 429
+normal     - alpha:   183.842575307348 beta: 605.115183247245
+mutation   - overDis: 8.48625544070244 SD: 0.147388238867962 count: 592 trails: 654
+mutation   - alpha: 2.92481881807406 beta: 6.22059107376696
+drop: 0.534867176475177 SD: 0.0146477258743537 count: 444 trails: 500
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 200000
+score: -1418.88859348334
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.230318119457622 SD: 0.0115974482213405 count: 70 trails: 124
+normal     - overDis: 684.537648384432 SD: 7.84156092745085 count: 876 trails: 876
+normal     - alpha:   157.661423873845 beta: 526.876224510587
+mutation   - overDis: 6.45576388960081 SD: 0.153664274350307 count: 106 trails: 119
+mutation   - alpha: 2.23662901232355 beta: 4.71476134351569
+drop: 0.348953979469787 SD: 0.0146477258743537 count: 897 trails: 998
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 210000
+score: -1418.72530311914
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.218083059802259 SD: 0.0115974482213405 count: 351 trails: 574
+normal     - overDis: 486.78533881642 SD: 8.24360635350065 count: 335 trails: 335
+normal     - alpha:   106.159636155964 beta: 380.625702660456
+mutation   - overDis: 10.3055167155682 SD: 0.153664274350307 count: 532 trails: 582
+mutation   - alpha: 3.65445261233446 beta: 7.40021697595851
+drop: 0.277195683898987 SD: 0.0152439864325782 count: 418 trails: 453
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 220000
+score: -1419.365134796
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.231735566540065 SD: 0.0117292426222073 count: 34 trails: 51
+normal     - overDis: 535.318123535854 SD: 8.24360635350065 count: 765 trails: 765
+normal     - alpha:   124.052248636746 beta: 411.265874899108
+mutation   - overDis: 9.72750859634701 SD: 0.160127470070664 count: 39 trails: 40
+mutation   - alpha: 3.36094782110829 beta: 7.11796401377134
+drop: 0.179374672447536 SD: 0.0152439864325782 count: 862 trails: 956
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 230000
+score: -1418.79762767376
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.216792239856295 SD: 0.0117292426222073 count: 329 trails: 505
+normal     - overDis: 427.540264123706 SD: 8.66626508933699 count: 244 trails: 244
+normal     - alpha:   92.6874114881302 beta: 334.852852635576
+mutation   - overDis: 12.6222644808461 SD: 0.160127470070664 count: 462 trails: 496
+mutation   - alpha: 4.48685958118228 beta: 9.04754122928426
+drop: 0.429660668417354 SD: 0.0158708658663123 count: 390 trails: 439
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 240000
+score: -1419.56903620036
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22230334671963 SD: 0.0118969860269776 count: 3 trails: 3
+normal     - overDis: 643.570397653885 SD: 8.66626508933699 count: 699 trails: 699
+normal     - alpha:   143.067853248141 beta: 500.502544405744
+mutation   - overDis: 13.1767287347209 SD: 0.160127470070664 count: 864 trails: 947
+mutation   - alpha: 4.63554376966367 beta: 9.51759526390562
+drop: 0.187603553429973 SD: 0.0158708658663123 count: 825 trails: 930
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 250000
+score: -1418.88334566857
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.224082465144122 SD: 0.0118969860269776 count: 317 trails: 514
+normal     - overDis: 820.376100900198 SD: 9.11059400195255 count: 191 trails: 191
+normal     - alpha:   183.831899035039 beta: 636.544201865159
+mutation   - overDis: 14.8640360211535 SD: 0.166895886853642 count: 397 trails: 437
+mutation   - alpha: 5.21150478816934 beta: 10.7627878441878
+drop: 0.0232082716763597 SD: 0.0165037081660632 count: 386 trails: 427
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 260000
+score: -1418.76372682442
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.230953267674602 SD: 0.0118969860269776 count: 614 trails: 981
+normal     - overDis: 918.514752383946 SD: 9.11059400195255 count: 644 trails: 644
+normal     - alpha:   212.1339834704 beta: 706.380768913546
+mutation   - overDis: 19.484890660008 SD: 0.166895886853642 count: 828 trails: 904
+mutation   - alpha: 6.74237921786323 beta: 14.2425444982152
+drop: 0.332808578944045 SD: 0.0165037081660632 count: 831 trails: 918
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 270000
+score: -1418.75405021454
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22086788672122 SD: 0.0120454270862598 count: 291 trails: 458
+normal     - overDis: 805.078429904006 SD: 9.57770414506949 count: 105 trails: 105
+normal     - alpha:   177.815971457735 beta: 627.262458446271
+mutation   - overDis: 22.4551189791455 SD: 0.173967793279637 count: 345 trails: 379
+mutation   - alpha: 7.92114970624113 beta: 16.1871741645701
+drop: 0.708178327455694 SD: 0.0171858280395147 count: 370 trails: 410
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 280000
+score: -1419.01573167806
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.231284053504003 SD: 0.0120454270862598 count: 589 trails: 932
+normal     - overDis: 900.555940429048 SD: 9.57770414506949 count: 572 trails: 572
+normal     - alpha:   208.28422830954 beta: 692.271712119508
+mutation   - overDis: 23.4159784422811 SD: 0.173967793279637 count: 811 trails: 892
+mutation   - alpha: 8.09749428054513 beta: 17.1237316320337
+drop: 0.189822713245786 SD: 0.0171858280395147 count: 823 trails: 905
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 290000
+score: -1421.8254389649
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.221960703085317 SD: 0.0122176923395624 count: 255 trails: 395
+normal     - overDis: 924.7592388001 SD: 9.57770414506949 count: 992 trails: 992
+normal     - alpha:   205.260210828713 beta: 719.499027971387
+mutation   - overDis: 29.7895558606399 SD: 0.181266837502937 count: 277 trails: 302
+mutation   - alpha: 10.4867040880353 beta: 21.5068886937469
+drop: 0.457620904223528 SD: 0.0179122545975606 count: 328 trails: 360
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 300000
+score: -1418.91202178245
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.225869867456063 SD: 0.0122176923395624 count: 556 trails: 881
+normal     - overDis: 1105.06568078757 SD: 10.0687635373524 count: 456 trails: 456
+normal     - alpha:   249.601038849732 beta: 855.464641937835
+mutation   - overDis: 25.2401774732376 SD: 0.181266837502937 count: 703 trails: 779
+mutation   - alpha: 8.81942504298702 beta: 18.3210842770665
+drop: 0.132775922230351 SD: 0.0179122545975606 count: 780 trails: 862
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 310000
+score: -1418.6925811649
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.230716396114074 SD: 0.0123763215292319 count: 225 trails: 353
+normal     - overDis: 1253.16133237587 SD: 10.0687635373524 count: 903 trails: 903
+normal     - alpha:   289.124866355273 beta: 964.0364660206
+mutation   - overDis: 22.5368588106805 SD: 0.188853236318005 count: 236 trails: 253
+mutation   - alpha: 7.80201417565231 beta: 16.4680522498722
+drop: 0.713428458697146 SD: 0.018665652924832 count: 292 trails: 318
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 320000
+score: -1418.74263276046
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.233442201143689 SD: 0.0123763215292319 count: 527 trails: 839
+normal     - overDis: 1411.61830427207 SD: 10.5850000830634 count: 347 trails: 347
+normal     - alpha:   329.531284123994 beta: 1082.08702014808
+mutation   - overDis: 26.3558241483406 SD: 0.188853236318005 count: 676 trails: 736
+mutation   - alpha: 9.07620433940722 beta: 19.3304736763149
+drop: 0.595745723077216 SD: 0.018665652924832 count: 714 trails: 782
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 330000
+score: -1418.9237978211
+bestScore: -1418.67000144895
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.223997955941154 SD: 0.0125294903411639 count: 206 trails: 327
+normal     - overDis: 1340.08965025954 SD: 10.5850000830634 count: 846 trails: 846
+normal     - alpha:   300.177342436031 beta: 1039.9123078235
+mutation   - overDis: 27.1443082566886 SD: 0.196737467166555 count: 191 trails: 208
+mutation   - alpha: 9.51864108505443 beta: 19.6524236932791
+drop: 0.0726763417549616 SD: 0.0194332417696233 count: 222 trails: 243
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 340000
+score: -1418.76830294285
+bestScore: -1418.67000144895
+num trees: 1
+The new best score is: -1418.67000136711
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229040812266339 SD: 0.0125294903411639 count: 498 trails: 793
+normal     - overDis: 1746.98012156643 SD: 11.1277046424624 count: 294 trails: 294
+normal     - alpha:   400.129746056724 beta: 1346.85037550971
+mutation   - overDis: 29.1651380677112 SD: 0.196737467166555 count: 622 trails: 688
+mutation   - alpha: 10.1292310919299 beta: 21.2625759467441
+drop: 0.589300672182439 SD: 0.0194332417696233 count: 644 trails: 718
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 350000
+score: -1418.68558843088
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.230498381056654 SD: 0.0126807499679072 count: 168 trails: 276
+normal     - overDis: 1514.44573418746 SD: 11.1277046424624 count: 781 trails: 781
+normal     - alpha:   349.077289928365 beta: 1165.3684442591
+mutation   - overDis: 28.2430084866697 SD: 0.204705054785187 count: 100 trails: 112
+mutation   - alpha: 9.78152575510371 beta: 20.6314719756815
+drop: 0.85868929749679 SD: 0.0201919718651984 count: 180 trails: 205
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 360000
+score: -1418.73285616506
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.222334355190598 SD: 0.0126807499679072 count: 447 trails: 755
+normal     - overDis: 1493.50485609982 SD: 11.69823425963 count: 219 trails: 219
+normal     - alpha:   332.057439154981 beta: 1161.44741694484
+mutation   - overDis: 19.047486561238 SD: 0.204705054785187 count: 518 trails: 566
+mutation   - alpha: 6.70046951888939 beta: 13.7586539232135
+drop: 0.930325950720467 SD: 0.0201919718651984 count: 668 trails: 766
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 370000
+score: -1418.88084073866
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.220601101571246 SD: 0.0128030713709066 count: 146 trails: 255
+normal     - overDis: 1554.58876559314 SD: 11.69823425963 count: 672 trails: 672
+normal     - alpha:   342.94399418013 beta: 1211.64477141301
+mutation   - overDis: 17.7890264624561 SD: 0.213101842658845 count: 51 trails: 57
+mutation   - alpha: 6.27832734222946 beta: 12.8187920647259
+drop: 0.587303941866742 SD: 0.0209467833037862 count: 224 trails: 245
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 380000
+score: -1419.04389330154
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.232731364992121 SD: 0.0128030713709066 count: 448 trails: 754
+normal     - overDis: 1605.21014651074 SD: 12.2980155557848 count: 142 trails: 142
+normal     - alpha:   373.582748496649 beta: 1231.6273980141
+mutation   - overDis: 10.7695410821595 SD: 0.213101842658845 count: 480 trails: 536
+mutation   - alpha: 3.71383054348661 beta: 7.89118053746945
+drop: 0.54672753577429 SD: 0.0209467833037862 count: 660 trails: 726
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 390000
+score: -1418.86608141422
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.238051776570306 SD: 0.0129188190967148 count: 133 trails: 225
+normal     - overDis: 1541.60080079485 SD: 12.2980155557848 count: 605 trails: 605
+normal     - alpha:   366.98080939142 beta: 1174.61999140343
+mutation   - overDis: 16.6376164161999 SD: 0.221466245197633 count: 8 trails: 8
+mutation   - alpha: 5.67839877758549 beta: 12.2794223538716
+drop: 0.955187256005515 SD: 0.0218103601467164 count: 199 trails: 211
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 400000
+score: -1420.72757139895
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.225396591491821 SD: 0.0129188190967148 count: 418 trails: 707
+normal     - overDis: 1045.86673733497 SD: 12.9285482965793 count: 79 trails: 79
+normal     - alpha:   235.734797749974 beta: 810.131939584997
+mutation   - overDis: 16.1502372597554 SD: 0.221466245197633 count: 421 trails: 486
+mutation   - alpha: 5.64831300978899 beta: 11.7153270600108
+drop: 0.355508546817997 SD: 0.0218103601467164 count: 623 trails: 678
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 410000
+score: -1418.70666724941
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.234059456895045 SD: 0.0130408285422229 count: 115 trails: 183
+normal     - overDis: 973.053918577793 SD: 12.9285482965793 count: 577 trails: 577
+normal     - alpha:   227.752471711914 beta: 745.30144686588
+mutation   - overDis: 15.4807757048732 SD: 0.221466245197633 count: 837 trails: 948
+mutation   - alpha: 5.32477321657219 beta: 11.3638098062332
+drop: 0.741753153864504 SD: 0.0227390814287866 count: 147 trails: 157
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 420000
+score: -1418.97987010178
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.237478322408798 SD: 0.0130408285422229 count: 386 trails: 635
+normal     - overDis: 1644.48135292789 SD: 13.5914091422952 count: 29 trails: 29
+normal     - alpha:   390.528672925866 beta: 1253.95268000203
+mutation   - overDis: 16.1071715857334 SD: 0.230228014673525 count: 372 trails: 418
+mutation   - alpha: 5.50351640157961 beta: 11.8786898797973
+drop: 0.873767998582337 SD: 0.0227390814287866 count: 566 trails: 622
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 430000
+score: -1419.38974733981
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.209523424893631 SD: 0.0131547787150522 count: 75 trails: 133
+normal     - overDis: 1532.00543851176 SD: 13.5914091422952 count: 499 trails: 499
+normal     - alpha:   320.991026432651 beta: 1211.0144120791
+mutation   - overDis: 13.0000025269657 SD: 0.230228014673525 count: 754 trails: 865
+mutation   - alpha: 4.68413122809904 beta: 9.22380631655854
+drop: 0.742010669587944 SD: 0.0236434256949697 count: 99 trails: 107
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 440000
+score: -1421.33346061957
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229365810683721 SD: 0.0131547787150522 count: 335 trails: 582
+normal     - overDis: 1816.51902069847 SD: 13.5914091422952 count: 983 trails: 983
+normal     - alpha:   416.647357804903 beta: 1399.87166289356
+mutation   - overDis: 12.2553414089113 SD: 0.239049390642241 count: 341 trails: 362
+mutation   - alpha: 4.25369982614851 beta: 8.93862702191638
+drop: 0.883336865141818 SD: 0.0236434256949697 count: 567 trails: 619
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 450000
+score: -1418.69339321763
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.218007344022034 SD: 0.0132485099962281 count: 55 trails: 77
+normal     - overDis: 1266.85568555621 SD: 14.2882555903158 count: 428 trails: 428
+normal     - alpha:   276.183843267323 beta: 990.671842288886
+mutation   - overDis: 8.38818965326256 SD: 0.239049390642241 count: 765 trails: 841
+mutation   - alpha: 2.97497019499069 beta: 6.02278177409216
+drop: 0.66904642623482 SD: 0.0245960311115695 count: 66 trails: 72
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 460000
+score: -1419.37635681744
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.223518609590503 SD: 0.0132485099962281 count: 332 trails: 559
+normal     - overDis: 930.387703242525 SD: 14.2882555903158 count: 894 trails: 894
+normal     - alpha:   207.958965808871 beta: 722.428737433654
+mutation   - overDis: 13.8768422404733 SD: 0.249079017626392 count: 264 trails: 287
+mutation   - alpha: 4.87059946483842 beta: 10.040153603334
+drop: 0.862117703130572 SD: 0.0245960311115695 count: 502 trails: 558
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 470000
+score: -1418.98891086658
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.224904746544418 SD: 0.0133682847641713 count: 2 trails: 2
+normal     - overDis: 1414.26625814943 SD: 15.0208301197322 count: 344 trails: 344
+normal     - alpha:   318.075194335421 beta: 1096.19106381401
+mutation   - overDis: 11.0759246191334 SD: 0.249079017626392 count: 683 trails: 757
+mutation   - alpha: 3.87727696342584 beta: 8.02899032877794
+drop: 0.588412953882436 SD: 0.0255665560473267 count: 22 trails: 26
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 480000
+score: -1418.7249267191
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.221609434650986 SD: 0.0133682847641713 count: 283 trails: 479
+normal     - overDis: 1830.55712704286 SD: 15.0208301197322 count: 813 trails: 813
+normal     - alpha:   405.668730020302 beta: 1424.88839702256
+mutation   - overDis: 2.77346417741795 SD: 0.259373779644307 count: 181 trails: 195
+mutation   - alpha: 0.976981536454071 beta: 2.00135791709133
+drop: 0.83368968510474 SD: 0.0255665560473267 count: 469 trails: 512
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 490000
+score: -1418.94332028765
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.228780760867986 SD: 0.0133682847641713 count: 589 trails: 975
+normal     - overDis: 2230.8085574873 SD: 15.7909645484489 count: 245 trails: 245
+normal     - alpha:   510.366079132758 beta: 1720.44247835454
+mutation   - overDis: 2.3512228729028 SD: 0.259373779644307 count: 622 trails: 689
+mutation   - alpha: 0.817001731229456 beta: 1.71352599428431
+drop: 0.484312708482315 SD: 0.0255665560473267 count: 867 trails: 981
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 500000
+score: -1420.13992698445
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.228504048276332 SD: 0.0135093912669209 count: 277 trails: 480
+normal     - overDis: 2232.68520099393 SD: 15.7909645484489 count: 702 trails: 702
+normal     - alpha:   510.17760695377 beta: 1722.50759404016
+mutation   - overDis: 8.26269557074885 SD: 0.269608305681639 count: 153 trails: 171
+mutation   - alpha: 2.8726415269804 beta: 6.01940717296546
+drop: 0.850631617080547 SD: 0.026567405120436 count: 364 trails: 411
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 510000
+score: -1420.91967233688
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.224121527487972 SD: 0.0135093912669209 count: 552 trails: 952
+normal     - overDis: 2414.78531257893 SD: 16.6005846136828 count: 201 trails: 201
+normal     - alpha:   541.205372810709 beta: 1873.57993976822
+mutation   - overDis: 16.6544998259716 SD: 0.269608305681639 count: 581 trails: 639
+mutation   - alpha: 5.8388286192892 beta: 12.0598818535307
+drop: 0.937483089046255 SD: 0.026567405120436 count: 807 trails: 903
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 520000
+score: -1418.76164874812
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.233581626693276 SD: 0.0136151765450568 count: 279 trails: 458
+normal     - overDis: 2820.18021467089 SD: 16.6005846136828 count: 627 trails: 627
+normal     - alpha:   658.74228211102 beta: 2161.43793255987
+mutation   - overDis: 20.803636503843 SD: 0.280891980946965 count: 112 trails: 121
+mutation   - alpha: 7.16225341478599 beta: 15.2611655076248
+drop: 0.732779963687711 SD: 0.0276350554830889 count: 371 trails: 416
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 530000
+score: -1418.93598033485
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23121761346371 SD: 0.0136151765450568 count: 567 trails: 961
+normal     - overDis: 2997.24866168702 SD: 17.4517147873092 count: 48 trails: 48
+normal     - alpha:   693.01668251257 beta: 2304.23197917445
+mutation   - overDis: 19.8609661870349 SD: 0.280891980946965 count: 516 trails: 584
+mutation   - alpha: 6.86901295828434 beta: 14.5226882963671
+drop: 0.410328288803479 SD: 0.0276350554830889 count: 812 trails: 911
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 540000
+score: -1418.767768409
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.223018599302064 SD: 0.0137355188280908 count: 271 trails: 469
+normal     - overDis: 2992.40592890845 SD: 17.4517147873092 count: 531 trails: 531
+normal     - alpha:   667.362178808354 beta: 2325.0437501001
+mutation   - overDis: 20.5436119660198 SD: 0.291946388968264 count: 57 trails: 58
+mutation   - alpha: 7.21740093949867 beta: 14.8534135482768
+drop: 0.284622894002985 SD: 0.028739862403072 count: 324 trails: 381
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 550000
+score: -1420.86551187119
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.235428987853496 SD: 0.0137355188280908 count: 553 trails: 925
+normal     - overDis: 3306.47925846119 SD: 17.4517147873092 count: 982 trails: 982
+normal     - alpha:   778.441065178096 beta: 2528.0381932831
+mutation   - overDis: 14.1519421750065 SD: 0.291946388968264 count: 503 trails: 540
+mutation   - alpha: 4.85478613922127 beta: 10.4077485099262
+drop: 0.76913711821814 SD: 0.028739862403072 count: 752 trails: 846
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 560000
+score: -1419.89242663318
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.245335464836217 SD: 0.013868014771803 count: 257 trails: 439
+normal     - overDis: 2886.10183947703 SD: 18.3464833380963 count: 440 trails: 440
+normal     - alpha:   708.06313635276 beta: 2178.03870312427
+mutation   - overDis: 19.310962292513 SD: 0.303952119083979 count: 22 trails: 24
+mutation   - alpha: 6.49703853927761 beta: 14.3931450567248
+drop: 0.181581671032539 SD: 0.0298589639023424 count: 271 trails: 306
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 570000
+score: -1420.95514347451
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22733148486217 SD: 0.013868014771803 count: 534 trails: 942
+normal     - overDis: 3680.40286827685 SD: 18.3464833380963 count: 907 trails: 907
+normal     - alpha:   836.671448936366 beta: 2843.73141934049
+mutation   - overDis: 26.8269497520176 SD: 0.303952119083979 count: 475 trails: 549
+mutation   - alpha: 9.3477346617095 beta: 19.5120851974578
+drop: 0.867064791399218 SD: 0.0298589639023424 count: 720 trails: 807
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 580000
+score: -1418.67054101937
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.237858817145071 SD: 0.0139612424346959 count: 242 trails: 430
+normal     - overDis: 2988.30479235905 SD: 19.2871276534849 count: 332 trails: 332
+normal     - alpha:   710.794643179469 beta: 2277.51014917958
+mutation   - overDis: 31.7712682916966 SD: 0.315062233502998 count: 18 trails: 21
+mutation   - alpha: 10.8475832824739 beta: 23.4427104409099
+drop: 0.403472202173642 SD: 0.031012336997988 count: 252 trails: 294
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 590000
+score: -1419.44567900524
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.219687472509304 SD: 0.0139612424346959 count: 509 trails: 914
+normal     - overDis: 3100.99391938973 SD: 19.2871276534849 count: 830 trails: 830
+normal     - alpha:   681.24951641745 beta: 2419.74440297228
+mutation   - overDis: 28.6172246340293 SD: 0.315062233502998 count: 449 trails: 506
+mutation   - alpha: 10.1173818169607 beta: 20.5954580670956
+drop: 0.988410505905685 SD: 0.031012336997988 count: 687 trails: 786
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 600000
+score: -1419.94968775114
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.223048832382803 SD: 0.014042452923575 count: 226 trails: 401
+normal     - overDis: 3314.19059091407 SD: 20.2759998342234 count: 343 trails: 343
+normal     - alpha:   739.226341597453 beta: 2574.96424931661
+mutation   - overDis: 28.99843870263 SD: 0.315062233502998 count: 855 trails: 967
+mutation   - alpha: 10.1871740889511 beta: 20.9672872448609
+drop: 0.673360428718371 SD: 0.0322070409919814 count: 250 trails: 275
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 610000
+score: -1418.82726073854
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.232206945750127 SD: 0.014042452923575 count: 492 trails: 899
+normal     - overDis: 3828.76382829011 SD: 20.2759998342234 count: 826 trails: 826
+normal     - alpha:   889.065554565809 beta: 2939.6982737243
+mutation   - overDis: 37.7564644715026 SD: 0.327526898978541 count: 395 trails: 434
+mutation   - alpha: 13.0333567042508 beta: 27.6455455330021
+drop: 0.865858624141379 SD: 0.0322070409919814 count: 661 trails: 734
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 620000
+score: -1418.82822335909
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.218174842449003 SD: 0.0141100187258072 count: 211 trails: 370
+normal     - overDis: 4161.13272750635 SD: 21.3155725758441 count: 297 trails: 297
+normal     - alpha:   907.854477233089 beta: 3253.27825027326
+mutation   - overDis: 51.2588080631511 SD: 0.327526898978541 count: 794 trails: 888
+mutation   - alpha: 18.1738157827078 beta: 36.8127864048772
+drop: 0.0348666268239981 SD: 0.033481233672769 count: 197 trails: 221
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 630000
+score: -1419.35165445586
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.219004336818009 SD: 0.0141100187258072 count: 490 trails: 850
+normal     - overDis: 3155.07472060357 SD: 21.3155725758441 count: 798 trails: 798
+normal     - alpha:   690.975046797049 beta: 2464.09967380652
+mutation   - overDis: 51.7949221214897 SD: 0.340825353407044 count: 327 trails: 356
+mutation   - alpha: 18.3352526809067 beta: 37.2407736305021
+drop: 0.183865642029339 SD: 0.033481233672769 count: 636 trails: 702
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 640000
+score: -1419.23592385893
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.219417139148769 SD: 0.0142190852371858 count: 192 trails: 330
+normal     - overDis: 3240.92633861233 SD: 22.4084453516904 count: 292 trails: 292
+normal     - alpha:   711.114785410213 beta: 2529.81155320212
+mutation   - overDis: 44.5883146265257 SD: 0.340825353407044 count: 760 trails: 828
+mutation   - alpha: 15.7718636900512 beta: 32.0775977480804
+drop: 0.118506904848323 SD: 0.034847628739871 count: 143 trails: 160
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 650000
+score: -1419.18241085987
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229807008835043 SD: 0.0142190852371858 count: 436 trails: 780
+normal     - overDis: 3097.57724830139 SD: 22.4084453516904 count: 751 trails: 751
+normal     - alpha:   711.844962067625 beta: 2385.73228623376
+mutation   - overDis: 39.2733909663429 SD: 0.355054104884593 count: 282 trails: 318
+mutation   - alpha: 13.6198284799818 beta: 28.6619959879559
+drop: 0.253700602907952 SD: 0.034847628739871 count: 575 trails: 649
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 660000
+score: -1418.70650351006
+bestScore: -1418.67000136711
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.233690718076449 SD: 0.0143218320957182 count: 141 trails: 237
+normal     - overDis: 3851.59459632916 SD: 23.5573509129538 count: 261 trails: 261
+normal     - alpha:   900.081906955533 beta: 2951.51268937363
+mutation   - overDis: 36.5509509589995 SD: 0.355054104884593 count: 683 trails: 771
+mutation   - alpha: 12.5810634955093 beta: 26.8170934554855
+drop: 0.541209249133267 SD: 0.0362154235494596 count: 127 trails: 143
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 670000
+score: -1419.59925787047
+bestScore: -1418.67000136711
+num trees: 1
+The new best score is: -1418.67000135658
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.216618833309293 SD: 0.0143218320957182 count: 433 trails: 729
+normal     - overDis: 3839.90322032393 SD: 23.5573509129538 count: 726 trails: 726
+normal     - alpha:   831.795355607167 beta: 3008.10786471676
+mutation   - overDis: 35.4230513140314 SD: 0.369100950785159 count: 227 trails: 255
+mutation   - alpha: 12.5959922917485 beta: 25.3848257049164
+drop: 0.647335597998924 SD: 0.0362154235494596 count: 561 trails: 629
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 680000
+score: -1419.59847174885
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.223314103386071 SD: 0.0144686623443465 count: 123 trails: 208
+normal     - overDis: 4514.79723193063 SD: 24.7651621219756 count: 186 trails: 186
+normal     - alpha:   1008.2178958185 beta: 3506.57933611213
+mutation   - overDis: 30.7502454161838 SD: 0.369100950785159 count: 639 trails: 709
+mutation   - alpha: 10.7971470520807 beta: 22.2420861921086
+drop: 0.168998880546957 SD: 0.0376105686867482 count: 49 trails: 56
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 690000
+score: -1418.80938174557
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23473047791885 SD: 0.0144686623443465 count: 400 trails: 719
+normal     - overDis: 4577.64787475276 SD: 24.7651621219756 count: 664 trails: 664
+normal     - alpha:   1074.51347338493 beta: 3503.13440136784
+mutation   - overDis: 17.9505439672989 SD: 0.384010611372353 count: 173 trails: 187
+mutation   - alpha: 6.16624547408451 beta: 13.1888117479968
+drop: 0.0469793525867893 SD: 0.0376105686867482 count: 462 trails: 518
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 700000
+score: -1419.04708068282
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.236380197361113 SD: 0.0145542797752375 count: 112 trails: 212
+normal     - overDis: 4144.67274406687 SD: 26.0348991358993 count: 127 trails: 127
+normal     - alpha:   979.718561239754 beta: 3164.95418282712
+mutation   - overDis: 10.158082664045 SD: 0.384010611372353 count: 578 trails: 649
+mutation   - alpha: 3.47826160873088 beta: 7.48021091696
+drop: 0.628595260981429 SD: 0.0376105686867482 count: 870 trails: 989
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 710000
+score: -1419.23986055973
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22921778446775 SD: 0.0145542797752375 count: 368 trails: 670
+normal     - overDis: 3372.78892594297 SD: 26.0348991358993 count: 648 trails: 648
+normal     - alpha:   773.103205082012 beta: 2599.68572086096
+mutation   - overDis: 3.10068977979603 SD: 0.399642415480725 count: 89 trails: 112
+mutation   - alpha: 1.07652272880025 beta: 2.26107813154466
+drop: 0.372223501192445 SD: 0.0390711793038284 count: 405 trails: 457
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 720000
+score: -1418.68964326969
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.202748276578668 SD: 0.0146506557125026 count: 83 trails: 151
+normal     - overDis: 3714.50516560173 SD: 27.3697369586361 count: 135 trails: 135
+normal     - alpha:   753.109520668309 beta: 2961.39564493342
+mutation   - overDis: 2.16422748405221 SD: 0.399642415480725 count: 505 trails: 576
+mutation   - alpha: 0.789584813682256 beta: 1.52090713454187
+drop: 0.823815230767635 SD: 0.0390711793038284 count: 836 trails: 943
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 730000
+score: -1423.57840157635
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.225870172714753 SD: 0.0146506557125026 count: 353 trails: 633
+normal     - overDis: 3498.73138211649 SD: 27.3697369586361 count: 607 trails: 607
+normal     - alpha:   790.259061561177 beta: 2708.47232055532
+mutation   - overDis: 3.45280083412202 SD: 0.414913550294848 count: 24 trails: 26
+mutation   - alpha: 1.20647726989249 beta: 2.5062851378138
+drop: 0.807629095418532 SD: 0.0406047515493091 count: 360 trails: 411
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 740000
+score: -1418.69257316956
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23849699878941 SD: 0.0147609487120969 count: 72 trails: 127
+normal     - overDis: 3185.51517180937 SD: 28.7730133800287 count: 105 trails: 105
+normal     - alpha:   759.735808074669 beta: 2425.7793637347
+mutation   - overDis: 11.6636442449998 SD: 0.414913550294848 count: 444 trails: 502
+mutation   - alpha: 3.97732602424667 beta: 8.61356626987971
+drop: 0.290731660859275 SD: 0.0406047515493091 count: 777 trails: 879
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 750000
+score: -1419.5440896018
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.235303268776505 SD: 0.0147609487120969 count: 338 trails: 582
+normal     - overDis: 2556.46054808551 SD: 28.7730133800287 count: 618 trails: 618
+normal     - alpha:   601.543523462698 beta: 1954.91702462281
+mutation   - overDis: 5.27376380336795 SD: 0.414913550294848 count: 886 trails: 1000
+mutation   - alpha: 1.80959266055884 beta: 3.87781576337167
+drop: 0.167997249003886 SD: 0.0421521247737745 count: 307 trails: 326
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 760000
+score: -1419.10958809268
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.220813662774622 SD: 0.0148527508867807 count: 1 trails: 4
+normal     - overDis: 2230.70072394682 SD: 30.2482373220648 count: 67 trails: 67
+normal     - alpha:   492.569197408699 beta: 1738.13152653813
+mutation   - overDis: 15.5130610065196 SD: 0.43124233142652 count: 451 trails: 511
+mutation   - alpha: 5.47286662212928 beta: 11.1820263249555
+drop: 0.926792430123266 SD: 0.0421521247737745 count: 734 trails: 812
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 770000
+score: -1419.02136493794
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.220305524432767 SD: 0.0148527508867807 count: 263 trails: 467
+normal     - overDis: 2190.82297321873 SD: 30.2482373220648 count: 545 trails: 545
+normal     - alpha:   482.650404054306 beta: 1708.17256916443
+mutation   - overDis: 5.24238192177632 SD: 0.43124233142652 count: 883 trails: 992
+mutation   - alpha: 1.85124049518563 beta: 3.77611665944195
+drop: 0.491038027939801 SD: 0.0438416856959395 count: 271 trails: 304
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 780000
+score: -1419.07640187786
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.207371209134862 SD: 0.0148527508867807 count: 505 trails: 939
+normal     - overDis: 4500.78216622043 SD: 31.7990976130092 count: 18 trails: 18
+normal     - alpha:   933.332639861751 beta: 3567.44952635868
+mutation   - overDis: 5.72683456625126 SD: 0.448393047517775 count: 393 trails: 463
+mutation   - alpha: 2.0716968774464 beta: 4.05099789164447
+drop: 0.333175826242792 SD: 0.0438416856959395 count: 701 trails: 791
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 790000
+score: -1421.88713654693
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.238229054410484 SD: 0.0149107897173946 count: 248 trails: 437
+normal     - overDis: 4084.19435881334 SD: 31.7990976130092 count: 471 trails: 471
+normal     - alpha:   972.973760128736 beta: 3111.2205986846
+mutation   - overDis: 17.1137023668862 SD: 0.448393047517775 count: 797 trails: 922
+mutation   - alpha: 5.8388637618926 beta: 12.6338323157689
+drop: 0.447969803966548 SD: 0.0455761745936022 count: 245 trails: 275
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 800000
+score: -1419.50207041782
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22515053926622 SD: 0.0149107897173946 count: 509 trails: 896
+normal     - overDis: 4877.7420550999 SD: 31.7990976130092 count: 937 trails: 937
+normal     - alpha:   1098.22625410726 beta: 3779.51580099263
+mutation   - overDis: 27.6688947718599 SD: 0.465108255485731 count: 359 trails: 400
+mutation   - alpha: 9.68133633340692 beta: 20.0641139647145
+drop: 0.968658748159349 SD: 0.0455761745936022 count: 640 trails: 716
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 810000
+score: -1419.83829573743
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.242563800586006 SD: 0.0150185348202718 count: 194 trails: 349
+normal     - overDis: 5112.08295742699 SD: 33.4294722113964 count: 439 trails: 439
+normal     - alpha:   1240.00627106444 beta: 3872.07668636255
+mutation   - overDis: 16.3474682056636 SD: 0.465108255485731 count: 771 trails: 870
+mutation   - alpha: 5.53019809088202 beta: 12.1390381207564
+drop: 0.583593389836605 SD: 0.0474598975807864 count: 140 trails: 167
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 820000
+score: -1420.30531321566
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.22946011657544 SD: 0.0150185348202718 count: 452 trails: 808
+normal     - overDis: 4764.3112624993 SD: 33.4294722113964 count: 947 trails: 947
+normal     - alpha:   1093.21941769477 beta: 3671.09184480453
+mutation   - overDis: 7.89896367753247 SD: 0.483364093278857 count: 305 trails: 337
+mutation   - alpha: 2.74115042125173 beta: 5.761978965038
+drop: 0.312934774315228 SD: 0.0474598975807864 count: 549 trails: 625
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 830000
+score: -1420.1692654691
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.221712557626679 SD: 0.0150968346043403 count: 163 trails: 292
+normal     - overDis: 3778.54079526013 SD: 35.1434379029466 count: 405 trails: 405
+normal     - alpha:   837.749943813869 beta: 2940.79085144626
+mutation   - overDis: 2.34506882815818 SD: 0.483364093278857 count: 692 trails: 777
+mutation   - alpha: 0.825913608944723 beta: 1.69246562178064
+drop: 0.976228144406928 SD: 0.0493868943774705 count: 112 trails: 129
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 840000
+score: -1418.93393209709
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.228666267427386 SD: 0.0150968346043403 count: 393 trails: 769
+normal     - overDis: 5020.33452880237 SD: 35.1434379029466 count: 880 trails: 880
+normal     - alpha:   1147.98115793806 beta: 3872.35337086431
+mutation   - overDis: 8.83069010757796 SD: 0.502185807659229 count: 210 trails: 248
+mutation   - alpha: 3.06915775665045 beta: 6.43462599949678
+drop: 0.527543828411768 SD: 0.0493868943774705 count: 481 trails: 563
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 850000
+score: -1422.36730346888
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.220409027698474 SD: 0.0151134502593399 count: 133 trails: 235
+normal     - overDis: 4916.00088157376 SD: 36.9452804946534 count: 362 trails: 362
+normal     - alpha:   1083.53097447251 beta: 3832.46990710125
+mutation   - overDis: 6.45917964691255 SD: 0.502185807659229 count: 602 trails: 702
+mutation   - alpha: 2.28048215298577 beta: 4.65325132916204
+drop: 0.0868718375912745 SD: 0.0512381869541495 count: 36 trails: 41
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 860000
+score: -1419.06486170115
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.226669344004195 SD: 0.0151134502593399 count: 395 trails: 723
+normal     - overDis: 3831.62715152801 SD: 36.9452804946534 count: 842 trails: 842
+normal     - alpha:   868.512412905514 beta: 2963.11473862249
+mutation   - overDis: 19.7729687788506 SD: 0.520489745175183 count: 145 trails: 166
+mutation   - alpha: 6.89853381468031 beta: 14.3684102515428
+drop: 0.606161502919611 SD: 0.0512381869541495 count: 445 trails: 510
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 870000
+score: -1418.67651899854
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23364844884907 SD: 0.0151952836420186 count: 91 trails: 168
+normal     - overDis: 4472.42737515283 SD: 38.839505531534 count: 307 trails: 307
+normal     - alpha:   1044.97571879458 beta: 3427.45165635825
+mutation   - overDis: 7.51595250780613 SD: 0.520489745175183 count: 543 trails: 619
+mutation   - alpha: 2.58724915718828 beta: 5.51406689897525
+drop: 0.474355399681934 SD: 0.0531748262194783 count: 7 trails: 8
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 880000
+score: -1418.94191901517
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.216427681199397 SD: 0.0151952836420186 count: 370 trails: 668
+normal     - overDis: 3729.49826782486 SD: 38.839505531534 count: 791 trails: 791
+normal     - alpha:   807.166662142501 beta: 2922.33160568236
+mutation   - overDis: 9.01419879888697 SD: 0.540108575986118 count: 75 trails: 90
+mutation   - alpha: 3.20648463683449 beta: 6.45802154335698
+drop: 0.922609333544497 SD: 0.0531748262194783 count: 425 trails: 491
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 890000
+score: -1419.63148263659
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.220374662783633 SD: 0.0152668695702898 count: 81 trails: 141
+normal     - overDis: 4510.33634987293 SD: 40.8308495628384 count: 258 trails: 258
+normal     - alpha:   993.963852144011 beta: 3516.37249772892
+mutation   - overDis: 14.1839723958501 SD: 0.540108575986118 count: 439 trails: 527
+mutation   - alpha: 5.0081274421465 beta: 10.2177743315929
+drop: 0.0188863438452692 SD: 0.0531748262194783 count: 833 trails: 962
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 900000
+score: -1419.06867451891
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.232661008760308 SD: 0.0152668695702898 count: 330 trails: 587
+normal     - overDis: 4882.60282942001 SD: 40.8308495628384 count: 752 trails: 752
+normal     - alpha:   1135.99129966879 beta: 3746.61152975122
+mutation   - overDis: 33.3326679830444 SD: 0.540108575986118 count: 853 trails: 996
+mutation   - alpha: 11.4961925531172 beta: 24.4215461491297
+drop: 0.654576678362845 SD: 0.0551570788075567 count: 386 trails: 440
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 910000
+score: -1418.86076911884
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229830466079987 SD: 0.0153664274350307 count: 27 trails: 50
+normal     - overDis: 5097.86142422558 SD: 42.9242919858896 count: 196 trails: 196
+normal     - alpha:   1171.64386714095 beta: 3926.21755708463
+mutation   - overDis: 25.5345686875015 SD: 0.559626829656055 count: 405 trails: 468
+mutation   - alpha: 8.85486979535082 beta: 18.6359061663507
+drop: 0.655652876524256 SD: 0.0551570788075567 count: 798 trails: 898
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 920000
+score: -1418.70728152532
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.227824998138277 SD: 0.0153664274350307 count: 285 trails: 512
+normal     - overDis: 5908.76334719797 SD: 42.9242919858896 count: 681 trails: 681
+normal     - alpha:   1346.1639985749 beta: 4562.59934862307
+mutation   - overDis: 13.3551147689286 SD: 0.559626829656055 count: 783 trails: 901
+mutation   - alpha: 4.64913805288588 beta: 9.72018638183194
+drop: 0.935846460190308 SD: 0.0573277668149043 count: 342 trails: 389
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 930000
+score: -1418.97731042103
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.230323647857732 SD: 0.0153664274350307 count: 531 trails: 945
+normal     - overDis: 6667.05663919613 SD: 45.1250674971708 count: 151 trails: 151
+normal     - alpha:   1535.58080561376 beta: 5131.47583358236
+mutation   - overDis: 4.46197585540331 SD: 0.580430567558178 count: 324 trails: 350
+mutation   - alpha: 1.54585555725525 beta: 3.25868648337127
+drop: 0.0634135192808094 SD: 0.0573277668149043 count: 809 trails: 897
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 940000
+score: -1418.72552759585
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.219589023676068 SD: 0.0154604491169689 count: 204 trails: 397
+normal     - overDis: 7809.78613696344 SD: 45.1250674971708 count: 613 trails: 613
+normal     - alpha:   1714.9433129347 beta: 6094.84282402874
+mutation   - overDis: 2.47072598845687 SD: 0.580430567558178 count: 692 trails: 785
+mutation   - alpha: 0.873666789177545 beta: 1.77790730180477
+drop: 0.339972209872554 SD: 0.0596852602538492 count: 333 trails: 383
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 950000
+score: -1419.16092612087
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.222924246908569 SD: 0.0154604491169689 count: 430 trails: 840
+normal     - overDis: 7254.79393001812 SD: 47.4386791817928 count: 54 trails: 54
+normal     - alpha:   1617.26947332615 beta: 5637.52445669198
+mutation   - overDis: 5.92523694852519 SD: 0.603092259581509 count: 229 trails: 275
+mutation   - alpha: 2.08203248459272 beta: 4.2834974587674
+drop: 0.909637923491222 SD: 0.0596852602538492 count: 730 trails: 844
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 960000
+score: -1418.83603361274
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229759836068985 SD: 0.0154960490741951 count: 162 trails: 313
+normal     - overDis: 8554.16545142403 SD: 47.4386791817928 count: 520 trails: 520
+normal     - alpha:   1965.40365182616 beta: 6588.76179959787
+mutation   - overDis: 18.4116286673138 SD: 0.603092259581509 count: 636 trails: 745
+mutation   - alpha: 6.38564581074687 beta: 13.4360671180219
+drop: 0.897590838001977 SD: 0.0619287848241917 count: 300 trails: 345
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 970000
+score: -1418.70496367985
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.244224387123426 SD: 0.0154960490741951 count: 405 trails: 771
+normal     - overDis: 8365.86037208399 SD: 47.4386791817928 count: 998 trails: 998
+normal     - alpha:   2043.14712213237 beta: 6322.71324995162
+mutation   - overDis: 40.7116104806597 SD: 0.625636909459932 count: 201 trails: 221
+mutation   - alpha: 13.7272931613653 beta: 30.2985733587767
+drop: 0.506786211695375 SD: 0.0619287848241917 count: 737 trails: 851
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 980000
+score: -1420.68202278076
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.229786780149279 SD: 0.015516207037829 count: 141 trails: 251
+normal     - overDis: 7225.65324456482 SD: 49.8709122740738 count: 473 trails: 473
+normal     - alpha:   1660.35959354374 beta: 5565.29365102108
+mutation   - overDis: 43.0033818548675 SD: 0.625636909459932 count: 600 trails: 672
+mutation   - alpha: 14.9139518261271 beta: 31.3832995793937
+drop: 0.710962216409116 SD: 0.0642502164726672 count: 301 trails: 343
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 990000
+score: -1418.70583917317
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.237578355251015 SD: 0.015516207037829 count: 395 trails: 730
+normal     - overDis: 7845.27233786723 SD: 49.8709122740738 count: 972 trails: 972
+normal     - alpha:   1863.86689852678 beta: 5981.40543934045
+mutation   - overDis: 62.3488747900628 SD: 0.651169636098325 count: 121 trails: 143
+mutation   - alpha: 21.299275312115 beta: 45.987180519406
+drop: 0.143914437013902 SD: 0.0642502164726672 count: 747 trails: 840
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1000000
+score: -1423.73917071742
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.225541190993113 SD: 0.0155550460840026 count: 87 trails: 160
+normal     - overDis: 7277.11537583163 SD: 52.4278486236381 count: 454 trails: 454
+normal     - alpha:   1641.28926885936 beta: 5635.82610697227
+mutation   - overDis: 49.7264456841774 SD: 0.651169636098325 count: 546 trails: 637
+mutation   - alpha: 17.3863149864462 beta: 36.0785846255524
+drop: 0.918632123317149 SD: 0.0668121595383167 count: 253 trails: 304
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1010000
+score: -1422.19684918257
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.235335736975675 SD: 0.0155550460840026 count: 376 trails: 660
+normal     - overDis: 7071.53787953252 SD: 52.4278486236381 count: 942 trails: 942
+normal     - alpha:   1664.18557843119 beta: 5407.35230110133
+mutation   - overDis: 41.7172867496699 SD: 0.674836329049309 count: 71 trails: 76
+mutation   - alpha: 14.3135977602622 beta: 30.676211796694
+drop: 0.269296963912576 SD: 0.0668121595383167 count: 675 trails: 779
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1020000
+score: -1419.11327260674
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.23400488358758 SD: 0.0156502218560959 count: 74 trails: 140
+normal     - overDis: 7340.31838214957 SD: 55.1158819032082 count: 420 trails: 420
+normal     - alpha:   1717.67034851068 beta: 5622.64803363889
+mutation   - overDis: 37.9858820597703 SD: 0.674836329049309 count: 463 trails: 535
+mutation   - alpha: 13.0670197569731 beta: 27.8818229392532
+drop: 0.530972288870035 SD: 0.0693443791490714 count: 204 trails: 231
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1030000
+score: -1418.97469009102
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.233215526541668 SD: 0.0156502218560959 count: 329 trails: 614
+normal     - overDis: 8420.92814023095 SD: 55.1158819032082 count: 895 trails: 895
+normal     - alpha:   1963.89119019351 beta: 6457.03695003743
+mutation   - overDis: 26.643997231527 SD: 0.699573025933439 count: 17 trails: 18
+mutation   - alpha: 9.17946938674661 beta: 19.5357924592888
+drop: 0.68973032716472 SD: 0.0693443791490714 count: 605 trails: 691
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1040000
+score: -1418.90459454893
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.224971133213303 SD: 0.0157113768961488 count: 46 trails: 86
+normal     - overDis: 7143.79122322663 SD: 57.9417335961172 count: 382 trails: 382
+normal     - alpha:   1607.14680692854 beta: 5536.64441629809
+mutation   - overDis: 20.8693234634442 SD: 0.699573025933439 count: 426 trails: 489
+mutation   - alpha: 7.30466483241143 beta: 15.1296570806881
+drop: 0.758026715556993 SD: 0.072015767852727 count: 145 trails: 161
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1050000
+score: -1418.7222462965
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.230925533780523 SD: 0.0157113768961488 count: 305 trails: 589
+normal     - overDis: 6954.00735933407 SD: 57.9417335961172 count: 856 trails: 856
+normal     - alpha:   1605.8578613679 beta: 5348.14949796617
+mutation   - overDis: 5.27163575983889 SD: 0.699573025933439 count: 832 trails: 954
+mutation   - alpha: 1.82424767876126 beta: 3.85317318165673
+drop: 0.82076196368424 SD: 0.072015767852727 count: 559 trails: 656
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1060000
+score: -1418.92919139995
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.238034626632967 SD: 0.015741256889256 count: 52 trails: 88
+normal     - overDis: 8417.67362295751 SD: 60.9124698035176 count: 342 trails: 342
+normal     - alpha:   2003.69779795887 beta: 6413.97582499865
+mutation   - overDis: 6.28456700460255 SD: 0.725869456002692 count: 357 trails: 410
+mutation   - alpha: 2.14498712864099 beta: 4.63822806279171
+drop: 0.435394783904002 SD: 0.0746630327140312 count: 93 trails: 110
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1070000
+score: -1419.47221508223
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.236289669818998 SD: 0.015741256889256 count: 299 trails: 562
+normal     - overDis: 10162.1935619104 SD: 60.9124698035176 count: 797 trails: 797
+normal     - alpha:   2401.22136138055 beta: 7760.97220052984
+mutation   - overDis: 25.8697650845111 SD: 0.725869456002692 count: 731 trails: 839
+mutation   - alpha: 8.85971037551278 beta: 19.0476407923697
+drop: 0.500869003903153 SD: 0.0746630327140312 count: 443 trails: 529
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1080000
+score: -1419.22827082235
+bestScore: -1418.67000135658
+num trees: 1
+num Samples:	178
+total # mut:	0	currently used:	0
+normal     - freq:    0.224884054125186 SD: 0.015766463059838 count: 33 trails: 63
+normal     - overDis: 8716.40101684341 SD: 64.0355189133154 count: 242 trails: 242
+normal     - alpha:   1960.17959804864 beta: 6756.22141879477
+mutation   - overDis: 46.1513312839468 SD: 0.753380329532887 count: 312 trails: 356
+mutation   - alpha: 16.1565333203677 beta: 33.4543641243818
+drop: 0.3866057992033 SD: 0.0746630327140312 count: 813 trails: 958
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1090000
+score: -1418.72577599029
+bestScore: -1418.67000135658
+num trees: 1
+
+real	1m7.029s
+user	1m6.260s
+sys	0m0.056s
+
+real	3m41.204s
+user	3m41.052s
+sys	0m0.092s
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+
+real	7m14.684s
+user	292m7.392s
+sys	0m19.640s
+time java  -jar bin//SiCloneFit/SiCloneFiTComplete.jar -n 16 -m 178 -iter 1 -ipMat result/TEST-CMP30-7P/1/input-siclonefit.txt -cellNames result/TEST-CMP30-7P/1/siclonefit-cellNames.txt -outDir result/TEST-CMP30-7P/1/siclonefit
+Run 0
+start sample posterior = -2668.654112641429
+MAP value = -733.7406363071293
+ML value = -387.91368766682643
+Clone C0, ID = 0
+[152, 153, 154]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0]
+[153, 154, 155]
+Clone C1, ID = 1
+[117, 118, 120, 121, 132, 133, 143, 175]
+[0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1]
+[118, 119, 121, 122, 133, 134, 144, 176]
+Clone C2, ID = 2
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
+Clone C3, ID = 3
+[150, 151, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 176, 177]
+[1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[151, 152, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 177, 178]
+Clone C4, ID = 4
+[122, 130, 131, 134, 135, 137, 138, 139, 144, 145, 146, 148, 149]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[123, 131, 132, 135, 136, 138, 139, 140, 145, 146, 147, 149, 150]
+Clone C5, ID = 5
+[119, 123, 124, 125, 126, 127, 128, 129, 136, 140, 141, 142, 147]
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[120, 124, 125, 126, 127, 128, 129, 130, 137, 141, 142, 143, 148]
+(((153:1.0E-15,154:1.0E-15,155:1.0E-15)C0:0.9658059088676683,(1:1.0E-15,2:1.0E-15,3:1.0E-15,4:1.0E-15,5:1.0E-15,6:1.0E-15,7:1.0E-15,8:1.0E-15,9:1.0E-15,10:1.0E-15,11:1.0E-15,12:1.0E-15,13:1.0E-15,14:1.0E-15,15:1.0E-15,16:1.0E-15,17:1.0E-15,18:1.0E-15,19:1.0E-15,20:1.0E-15,21:1.0E-15,22:1.0E-15,23:1.0E-15,24:1.0E-15,25:1.0E-15,26:1.0E-15,27:1.0E-15,28:1.0E-15,29:1.0E-15,30:1.0E-15,31:1.0E-15,32:1.0E-15,33:1.0E-15,34:1.0E-15,35:1.0E-15,36:1.0E-15,37:1.0E-15,38:1.0E-15,39:1.0E-15,40:1.0E-15,41:1.0E-15,42:1.0E-15,43:1.0E-15,44:1.0E-15,45:1.0E-15,46:1.0E-15,47:1.0E-15,48:1.0E-15,49:1.0E-15,50:1.0E-15,51:1.0E-15,52:1.0E-15,53:1.0E-15,54:1.0E-15,55:1.0E-15,56:1.0E-15,57:1.0E-15,58:1.0E-15,59:1.0E-15,60:1.0E-15,61:1.0E-15,62:1.0E-15,63:1.0E-15,64:1.0E-15,65:1.0E-15,66:1.0E-15,67:1.0E-15,68:1.0E-15,69:1.0E-15,70:1.0E-15,71:1.0E-15,72:1.0E-15,73:1.0E-15,74:1.0E-15,75:1.0E-15,76:1.0E-15,77:1.0E-15,78:1.0E-15,79:1.0E-15,80:1.0E-15,81:1.0E-15,82:1.0E-15,83:1.0E-15,84:1.0E-15,85:1.0E-15,86:1.0E-15,87:1.0E-15,88:1.0E-15,89:1.0E-15,90:1.0E-15,91:1.0E-15,92:1.0E-15,93:1.0E-15,94:1.0E-15,95:1.0E-15,96:1.0E-15,97:1.0E-15,98:1.0E-15,99:1.0E-15,100:1.0E-15,101:1.0E-15,102:1.0E-15,103:1.0E-15,104:1.0E-15,105:1.0E-15,106:1.0E-15,107:1.0E-15,108:1.0E-15,109:1.0E-15,110:1.0E-15,111:1.0E-15,112:1.0E-15,113:1.0E-15,114:1.0E-15,115:1.0E-15,116:1.0E-15,117:1.0E-15)C2:0.05498357005611752):0.06411919864252895,((((120:1.0E-15,124:1.0E-15,125:1.0E-15,126:1.0E-15,127:1.0E-15,128:1.0E-15,129:1.0E-15,130:1.0E-15,137:1.0E-15,141:1.0E-15,142:1.0E-15,143:1.0E-15,148:1.0E-15)C5:0.052474735941982244,(151:1.0E-15,152:1.0E-15,156:1.0E-15,157:1.0E-15,158:1.0E-15,159:1.0E-15,160:1.0E-15,161:1.0E-15,162:1.0E-15,163:1.0E-15,164:1.0E-15,165:1.0E-15,166:1.0E-15,167:1.0E-15,168:1.0E-15,169:1.0E-15,170:1.0E-15,171:1.0E-15,172:1.0E-15,173:1.0E-15,174:1.0E-15,175:1.0E-15,177:1.0E-15,178:1.0E-15)C3:1.95544966315816):0.14298634688222756,(118:1.0E-15,119:1.0E-15,121:1.0E-15,122:1.0E-15,133:1.0E-15,134:1.0E-15,144:1.0E-15,176:1.0E-15)C1:0.3798747862638127):0.7241509181683075,(123:1.0E-15,131:1.0E-15,132:1.0E-15,135:1.0E-15,136:1.0E-15,138:1.0E-15,139:1.0E-15,140:1.0E-15,145:1.0E-15,146:1.0E-15,147:1.0E-15,149:1.0E-15,150:1.0E-15)C4:0.12928974028436982):0.9245117391271161):0.11576132708815348;
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 5, 1, 1, 4, 5, 5, 5, 5, 5, 5, 5, 4, 4, 1, 1, 4, 4, 5, 4, 4, 4, 5, 5, 5, 1, 4, 4, 4, 5, 4, 4, 3, 3, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 3, 3]
+Run 1
+start sample posterior = -2779.7974773613378
+MAP value = -747.7456768209269
+ML value = -359.2269028260548
+Clone C0, ID = 0
+[122, 124, 130, 131, 134, 135, 137, 138, 139, 140, 143, 144, 145, 146, 148, 149]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[123, 125, 131, 132, 135, 136, 138, 139, 140, 141, 144, 145, 146, 147, 149, 150]
+Clone C1, ID = 1
+[152, 153, 154]
+[0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0]
+[153, 154, 155]
+Clone C2, ID = 2
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
+Clone C3, ID = 3
+[155]
+[1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+[156]
+Clone C4, ID = 4
+[156]
+[1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[157]
+Clone C5, ID = 5
+[117, 118, 119, 120, 121, 123, 125, 126, 127, 128, 129, 132, 133, 136, 141, 142, 147]
+[0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[118, 119, 120, 121, 122, 124, 126, 127, 128, 129, 130, 133, 134, 137, 142, 143, 148]
+Clone C6, ID = 6
+[169, 170, 171, 173, 174, 175]
+[1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1]
+[170, 171, 172, 174, 175, 176]
+Clone C7, ID = 7
+[158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 172, 176, 177]
+[1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 173, 177, 178]
+Clone C8, ID = 8
+[150, 151]
+[1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1]
+[151, 152]
+Clone C9, ID = 9
+[157]
+[1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[158]
+((1:1.0E-15,2:1.0E-15,3:1.0E-15,4:1.0E-15,5:1.0E-15,6:1.0E-15,7:1.0E-15,8:1.0E-15,9:1.0E-15,10:1.0E-15,11:1.0E-15,12:1.0E-15,13:1.0E-15,14:1.0E-15,15:1.0E-15,16:1.0E-15,17:1.0E-15,18:1.0E-15,19:1.0E-15,20:1.0E-15,21:1.0E-15,22:1.0E-15,23:1.0E-15,24:1.0E-15,25:1.0E-15,26:1.0E-15,27:1.0E-15,28:1.0E-15,29:1.0E-15,30:1.0E-15,31:1.0E-15,32:1.0E-15,33:1.0E-15,34:1.0E-15,35:1.0E-15,36:1.0E-15,37:1.0E-15,38:1.0E-15,39:1.0E-15,40:1.0E-15,41:1.0E-15,42:1.0E-15,43:1.0E-15,44:1.0E-15,45:1.0E-15,46:1.0E-15,47:1.0E-15,48:1.0E-15,49:1.0E-15,50:1.0E-15,51:1.0E-15,52:1.0E-15,53:1.0E-15,54:1.0E-15,55:1.0E-15,56:1.0E-15,57:1.0E-15,58:1.0E-15,59:1.0E-15,60:1.0E-15,61:1.0E-15,62:1.0E-15,63:1.0E-15,64:1.0E-15,65:1.0E-15,66:1.0E-15,67:1.0E-15,68:1.0E-15,69:1.0E-15,70:1.0E-15,71:1.0E-15,72:1.0E-15,73:1.0E-15,74:1.0E-15,75:1.0E-15,76:1.0E-15,77:1.0E-15,78:1.0E-15,79:1.0E-15,80:1.0E-15,81:1.0E-15,82:1.0E-15,83:1.0E-15,84:1.0E-15,85:1.0E-15,86:1.0E-15,87:1.0E-15,88:1.0E-15,89:1.0E-15,90:1.0E-15,91:1.0E-15,92:1.0E-15,93:1.0E-15,94:1.0E-15,95:1.0E-15,96:1.0E-15,97:1.0E-15,98:1.0E-15,99:1.0E-15,100:1.0E-15,101:1.0E-15,102:1.0E-15,103:1.0E-15,104:1.0E-15,105:1.0E-15,106:1.0E-15,107:1.0E-15,108:1.0E-15,109:1.0E-15,110:1.0E-15,111:1.0E-15,112:1.0E-15,113:1.0E-15,114:1.0E-15,115:1.0E-15,116:1.0E-15,117:1.0E-15)C2:0.020259489521349348,((153:1.0E-15,154:1.0E-15,155:1.0E-15)C1:0.0019886374292751446,(((((118:1.0E-15,119:1.0E-15,120:1.0E-15,121:1.0E-15,122:1.0E-15,124:1.0E-15,126:1.0E-15,127:1.0E-15,128:1.0E-15,129:1.0E-15,130:1.0E-15,133:1.0E-15,134:1.0E-15,137:1.0E-15,142:1.0E-15,143:1.0E-15,148:1.0E-15)C5:0.09187990970210053,(((151:1.0E-15,152:1.0E-15)C8:0.5798779764476419,((158:1.0E-15)C9:0.01582639238832575,(157:1.0E-15)C4:0.006167052076314719):0.3071420988920307):0.06119945985589158,(156:1.0E-15)C3:0.45351110924801413):0.5519964148932391):0.009563461051700355,(159:1.0E-15,160:1.0E-15,161:1.0E-15,162:1.0E-15,163:1.0E-15,164:1.0E-15,165:1.0E-15,166:1.0E-15,167:1.0E-15,168:1.0E-15,169:1.0E-15,173:1.0E-15,177:1.0E-15,178:1.0E-15)C7:0.7506948073898534):0.5523054801481908,(170:1.0E-15,171:1.0E-15,172:1.0E-15,174:1.0E-15,175:1.0E-15,176:1.0E-15)C6:1.076509494032664):0.03338959062429349,(123:1.0E-15,125:1.0E-15,131:1.0E-15,132:1.0E-15,135:1.0E-15,136:1.0E-15,138:1.0E-15,139:1.0E-15,140:1.0E-15,141:1.0E-15,144:1.0E-15,145:1.0E-15,146:1.0E-15,147:1.0E-15,149:1.0E-15,150:1.0E-15)C0:0.19805137348879032):0.3763626191770612):0.32550503371693745);
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5, 5, 0, 5, 0, 5, 5, 5, 5, 5, 0, 0, 5, 5, 0, 0, 5, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 5, 0, 0, 8, 8, 1, 1, 1, 3, 4, 9, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 7, 6, 6, 6, 7, 7]
+Run 2
+start sample posterior = -2757.9803659262607
+MAP value = -713.0858367861941
+ML value = -458.76321438564446
+Clone C0, ID = 0
+[152, 153, 154]
+[0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0]
+[153, 154, 155]
+Clone C1, ID = 1
+[150, 151, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177]
+[1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[151, 152, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
+Clone C2, ID = 2
+[117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+Clone C3, ID = 3
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
+(((1:1.0E-15,2:1.0E-15,3:1.0E-15,4:1.0E-15,5:1.0E-15,6:1.0E-15,7:1.0E-15,8:1.0E-15,9:1.0E-15,10:1.0E-15,11:1.0E-15,12:1.0E-15,13:1.0E-15,14:1.0E-15,15:1.0E-15,16:1.0E-15,17:1.0E-15,18:1.0E-15,19:1.0E-15,20:1.0E-15,21:1.0E-15,22:1.0E-15,23:1.0E-15,24:1.0E-15,25:1.0E-15,26:1.0E-15,27:1.0E-15,28:1.0E-15,29:1.0E-15,30:1.0E-15,31:1.0E-15,32:1.0E-15,33:1.0E-15,34:1.0E-15,35:1.0E-15,36:1.0E-15,37:1.0E-15,38:1.0E-15,39:1.0E-15,40:1.0E-15,41:1.0E-15,42:1.0E-15,43:1.0E-15,44:1.0E-15,45:1.0E-15,46:1.0E-15,47:1.0E-15,48:1.0E-15,49:1.0E-15,50:1.0E-15,51:1.0E-15,52:1.0E-15,53:1.0E-15,54:1.0E-15,55:1.0E-15,56:1.0E-15,57:1.0E-15,58:1.0E-15,59:1.0E-15,60:1.0E-15,61:1.0E-15,62:1.0E-15,63:1.0E-15,64:1.0E-15,65:1.0E-15,66:1.0E-15,67:1.0E-15,68:1.0E-15,69:1.0E-15,70:1.0E-15,71:1.0E-15,72:1.0E-15,73:1.0E-15,74:1.0E-15,75:1.0E-15,76:1.0E-15,77:1.0E-15,78:1.0E-15,79:1.0E-15,80:1.0E-15,81:1.0E-15,82:1.0E-15,83:1.0E-15,84:1.0E-15,85:1.0E-15,86:1.0E-15,87:1.0E-15,88:1.0E-15,89:1.0E-15,90:1.0E-15,91:1.0E-15,92:1.0E-15,93:1.0E-15,94:1.0E-15,95:1.0E-15,96:1.0E-15,97:1.0E-15,98:1.0E-15,99:1.0E-15,100:1.0E-15,101:1.0E-15,102:1.0E-15,103:1.0E-15,104:1.0E-15,105:1.0E-15,106:1.0E-15,107:1.0E-15,108:1.0E-15,109:1.0E-15,110:1.0E-15,111:1.0E-15,112:1.0E-15,113:1.0E-15,114:1.0E-15,115:1.0E-15,116:1.0E-15,117:1.0E-15)C3:0.17523297507559044,((118:1.0E-15,119:1.0E-15,120:1.0E-15,121:1.0E-15,122:1.0E-15,123:1.0E-15,124:1.0E-15,125:1.0E-15,126:1.0E-15,127:1.0E-15,128:1.0E-15,129:1.0E-15,130:1.0E-15,131:1.0E-15,132:1.0E-15,133:1.0E-15,134:1.0E-15,135:1.0E-15,136:1.0E-15,137:1.0E-15,138:1.0E-15,139:1.0E-15,140:1.0E-15,141:1.0E-15,142:1.0E-15,143:1.0E-15,144:1.0E-15,145:1.0E-15,146:1.0E-15,147:1.0E-15,148:1.0E-15,149:1.0E-15,150:1.0E-15)C2:1.6440561732365842,(153:1.0E-15,154:1.0E-15,155:1.0E-15)C0:0.3039926049471099):0.2637201672175466):0.003289766781329997,(151:1.0E-15,152:1.0E-15,156:1.0E-15,157:1.0E-15,158:1.0E-15,159:1.0E-15,160:1.0E-15,161:1.0E-15,162:1.0E-15,163:1.0E-15,164:1.0E-15,165:1.0E-15,166:1.0E-15,167:1.0E-15,168:1.0E-15,169:1.0E-15,170:1.0E-15,171:1.0E-15,172:1.0E-15,173:1.0E-15,174:1.0E-15,175:1.0E-15,176:1.0E-15,177:1.0E-15,178:1.0E-15)C1:1.33346458351047);
+[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+MAP delProb = 0.099133
+MAP LOHProb = 0.097773
+
+real	8m36.052s
+user	9m30.268s
+sys	0m2.404s
+waiting for semaphores done
+impute:
+
+python bin//visualize-tree.py impute result/TEST-CMP30-7P/1/impute-tree.txt result/TEST-CMP30-7P/1/impute-clones.txt result/TEST-CMP30-7P/1/output-impute --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['178', '171', '182', '167', '186', '161', '210', '166', '190', '136', '194', '145', '206', '198', '141', '202', '124', '117', '214', '218', '102', '230', '222', '52', '83', '226', '0', '36', '37', '56', '69', '92', '104', '106', '119', '162', '67', '109', '123', '129', '170', '62', '85', '65', '81', '74', '147', '148', '155', '165', '157', '156', '172', '176', '54', '96', '77', '139', '80', '87', '160'])
+bp:
+
+python bin//visualize-tree.py bp result/TEST-CMP30-7P/1/bp-tree.txt result/TEST-CMP30-7P/1/bp-clones.txt result/TEST-CMP30-7P/1/output-bp --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['n0', 'n1', 'n3', 'n10'])
+onconeme:
+
+python bin//visualize-tree.py onconeme result/TEST-CMP30-7P/1/onconeme-tree.txt result/TEST-CMP30-7P/1/onconeme-clones.txt result/TEST-CMP30-7P/1/output-onconeme --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['4', '2', '5', '7', '3', '1', '9', '8'])
+sasc:
+
+python bin//visualize-tree.py sasc result/TEST-CMP30-7P/1/sasc-tree.txt result/TEST-CMP30-7P/1/sasc-clones.txt result/TEST-CMP30-7P/1/output-sasc --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['187', '185', '184', '182', '181', '180', '179', '176', '175', '173', '172', '171', '170', '167', '166', '164', '160', '158', '157', '156', '152', '150', '148', '146', '142', '141', '139', '138', '135', '134', '132', '131', '130', '129', '128', '125', '124', '121', '120', '119', '116', '115', '112', '111', '110', '109', '106', '101', '100', '98', '95', '93', '92', '90', '89', '87', '85', '84', '80', '76', '74', '73', '72', '71', '69', '68', '67', '66', '65', '63', '62', '60', '58', '57', '56', '53', '52', '51', '50', '49', '48', '47', '45', '44', '43', '42', '41', '40', '39', '38', '37', '36', '35', '34', '33', '32', '31', '30', '29', '28', '27', '26', '25', '24', '23', '22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1', '0'])
+sciphi:
+
+python bin//visualize-tree.py sciphi result/TEST-CMP30-7P/1/sciphi-tree.txt result/TEST-CMP30-7P/1/sciphi-clones.txt result/TEST-CMP30-7P/1/output-sciphi --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['52', '151', '83', '108', '81', '73', '101', '64', '135', '79', '21', '94', '48', '128', '77', '89', '42', '123', '25', '90', '9', '92', '145', '130', '162', '60', '27', '156', '149', '39', '109', '26', '11', '47', '49', '76', '31', '7', '124', '153', '88', '125', '43', '131', '146', '68', '40', '355', '148', '45', '172', '174', '8', '20', '6', '155', '85', '126', '61', '160', '37', '23', '84', '105', '117', '167', '136', '113', '152', '144', '78', '12', '99', '10', '132', '169', '17', '63', '120', '100', '65', '86', '170', '154', '119', '143', '158', '69', '58', '74', '147', '138', '142', '16', '121', '97', '141', '107', '166', '110', '22', '18', '157', '71', '67', '1', '150', '102', '38', '175', '51', '165', '118', '0', '168', '137', '82', '140', '72', '171', '139', '53', '55', '41', '103', '93', '133', '70', '24', '54', '2', '56', '32', '66', '122', '35', '87', '19', '96', '80', '91', '33', '129', '3', '173', '50', '75', '62', '104', '13', '116', '176', '28', '134', '95', '34', '115', '4', '29', '112', '5', '30', '159', '127', '36', '14', '46', '106', '98', '57', '114', '111', '59', '163', '44', '164', '15', '161'])
+scite:
+
+python bin//visualize-tree.py scite result/TEST-CMP30-7P/1/scite-tree.txt result/TEST-CMP30-7P/1/scite-clones.txt result/TEST-CMP30-7P/1/output-scite --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['3', '13', '2', '17', '1', '12', '8', '11', '7', '10', '5', '6', '4'])
+siclonefit:
+
+python bin//visualize-tree.py siclonefit result/TEST-CMP30-7P/1/siclonefit-tree.txt result/TEST-CMP30-7P/1/siclonefit-clones.txt result/TEST-CMP30-7P/1/output-siclonefit --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['180', '179', '182', '181', '183', '178', '184'])
+sifit:
+
+python bin//visualize-tree.py sifit result/TEST-CMP30-7P/1/sifit-tree.txt result/TEST-CMP30-7P/1/sifit-clones.txt result/TEST-CMP30-7P/1/output-sifit --type-file data/Luang/Luang-1-types.txt --cell-name result/TEST-CMP30-7P/1/cell-names.txt --color result/TEST-CMP30-7P/1/colors.txt
+dict_keys(['182', '181', '180', '185', '186', '184', '188', '195', '194', '197', '196', '193', '201', '200', '199', '203', '213', '223', '222', '221', '220', '219', '218', '217', '216', '215', '228', '227', '226', '225', '224', '214', '212', '233', '237', '244', '249', '248', '247', '246', '245', '243', '242', '241', '251', '250', '240', '239', '238', '236', '235', '253', '252', '234', '232', '254', '231', '260', '259', '258', '262', '261', '257', '256', '255', '230', '229', '211', '210', '209', '208', '207', '206', '205', '204', '202', '198', '192', '267', '272', '271', '270', '269', '274', '273', '268', '266', '284', '289', '288', '287', '286', '290', '285', '283', '282', '281', '293', '292', '291', '280', '279', '296', '299', '298', '297', '295', '306', '305', '304', '303', '302', '301', '300', '294', '278', '309', '308', '307', '277', '312', '311', '310', '276', '275', '265', '318', '319', '317', '316', '334', '333', '332', '331', '330', '329', '328', '336', '338', '337', '335', '327', '326', '341', '340', '344', '343', '342', '339', '325', '345', '324', '323', '322', '321', '320', '315', '346', '314', '351', '350', '349', '348', '347', '313', '264', '263', '191', '190', '189', '187', '183', '179', '354', '353', '352', '178'])
+PARAMETERS: result/TEST-CMP30-7P/2 data/Luang/Luang-2.txt data/Luang/Luang-2-types.txt
+timestamp:04/09/2021 19:35:48
+RUN_END ONCONEM
+timestamp:04/09/2021 19:35:49
+RUN_END STEINER
+timestamp:04/09/2021 19:35:49
+RUN_END BP
+timestamp:04/09/2021 19:35:49
+RUN_END SCITE
+timestamp:04/09/2021 19:35:50
+RUN_END SASC
+timestamp:04/09/2021 19:35:50
+RUN_END SCIPHI
+timestamp:04/09/2021 19:35:51
+RUN_END SIFIT
+timestamp:04/09/2021 19:35:51
+RUN_END SICLONEFIT
+waiting for semaphores ... 
+
+real	0m35.582s
+user	0m34.980s
+sys	0m0.004s
+182 36
+Starting MCMC run...input-bp.txt
+input-bp.txt 0 7 [-6981.89239363] [4.29451889] [2.50735382] big nodes: 7 [-1.22330097  0.        ] 0.055324551755623355 2.0 0.3 0.1
+	-42.730450 is best per-data complete data likelihood so far.
+	-40.064895 is best per-data complete data likelihood so far.
+	-39.137081 is best per-data complete data likelihood so far.
+	-36.630177 is best per-data complete data likelihood so far.
+	-35.847266 is best per-data complete data likelihood so far.
+	-34.381352 is best per-data complete data likelihood so far.
+	-31.138480 is best per-data complete data likelihood so far.
+	-30.078139 is best per-data complete data likelihood so far.
+	-28.968143 is best per-data complete data likelihood so far.
+	-28.032648 is best per-data complete data likelihood so far.
+input-bp.txt 50 13 [-3560.90603816] [2.53296054] [2.932695] big nodes: 8 [-1.49112426  0.        ] 0.17674510833490845 2.0 0.3 0.1
+	-27.255855 is best per-data complete data likelihood so far.
+	-26.691794 is best per-data complete data likelihood so far.
+	-26.469858 is best per-data complete data likelihood so far.
+	-26.113612 is best per-data complete data likelihood so far.
+	-25.699682 is best per-data complete data likelihood so far.
+	-25.019006 is best per-data complete data likelihood so far.
+	-24.503814 is best per-data complete data likelihood so far.
+	-23.706400 is best per-data complete data likelihood so far.
+successful swap!!!
+input-bp.txt 100 19 [-2558.87734459] [2.14396321] [3.08924567] big nodes: 7 [-1.5175644  0.       ] 0.1258715258776398 2.0 0.3 0.1
+	-23.392357 is best per-data complete data likelihood so far.
+	-23.115122 is best per-data complete data likelihood so far.
+	-22.659243 is best per-data complete data likelihood so far.
+	-22.216798 is best per-data complete data likelihood so far.
+	-21.929975 is best per-data complete data likelihood so far.
+	-21.150145 is best per-data complete data likelihood so far.
+	-20.962022 is best per-data complete data likelihood so far.
+	-20.639142 is best per-data complete data likelihood so far.
+	-20.398791 is best per-data complete data likelihood so far.
+input-bp.txt 150 16 [-1989.78697398] [2.09139943] [3.0269976] big nodes: 11 [-1.48905109  0.        ] 0.20062975784866505 2.0 0.3 0.1
+	-19.748374 is best per-data complete data likelihood so far.
+	-19.586004 is best per-data complete data likelihood so far.
+	-19.549110 is best per-data complete data likelihood so far.
+	-19.271511 is best per-data complete data likelihood so far.
+	-19.149335 is best per-data complete data likelihood so far.
+	-18.824495 is best per-data complete data likelihood so far.
+	-18.560611 is best per-data complete data likelihood so far.
+	-18.439331 is best per-data complete data likelihood so far.
+
+real	1m3.897s
+user	1m1.388s
+sys	0m7.252s
+
+real	1m7.247s
+user	1m38.680s
+sys	0m7.268s
+SCIPhI v0.1.6-dev
+Reading the config file: ... done!
+Reading the mpileup file: num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141695702671312 SD: 0.01 count: 0 trails: 0
+normal     - overDis: 100 SD: 5 count: 0 trails: 0
+normal     - alpha:   14.1695702671312 beta: 85.8304297328688
+mutation   - overDis: 2 SD: 0.1 count: 0 trails: 0
+mutation   - alpha: 0.81107239643825 beta: 1.28339140534262
+drop: 0.1 SD: 0.01 count: 0 trails: 0
+lambda: 0 SD: 0.01 count: 0 trails: 0
+seq1
+done!
+newDataSize: 0 0
+The new best score is: -2457.39418404282
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141695702671312 SD: 0.01 count: 0 trails: 0
+normal     - overDis: 100 SD: 5 count: 0 trails: 0
+normal     - alpha:   14.1695702671312 beta: 85.8304297328688
+mutation   - overDis: 2 SD: 0.1 count: 0 trails: 0
+mutation   - alpha: 0.81107239643825 beta: 1.28339140534262
+drop: 0.1 SD: 0.01 count: 0 trails: 0
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 0
+score: -2457.39418404282
+bestScore: -2457.39418404282
+num trees: 1
+The new best score is: -2457.39418404237
+The new best score is: -2457.39365064965
+The new best score is: -2457.39365064964
+The new best score is: -2457.3935702032
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139206680164766 SD: 0.01 count: 232 trails: 479
+normal     - overDis: 91.7834440071025 SD: 5 count: 447 trails: 447
+normal     - alpha:   12.7768685343174 beta: 79.0065754727851
+mutation   - overDis: 3.36002543860274 SD: 0.1 count: 410 trails: 506
+mutation   - alpha: 1.36818739491667 beta: 2.14775070587842
+drop: 0.0620389773070589 SD: 0.01 count: 367 trails: 461
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 10000
+score: -2457.52859578909
+bestScore: -2457.3935702032
+num trees: 1
+The new best score is: -2457.39354468728
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140126356193336 SD: 0.01 count: 452 trails: 934
+normal     - overDis: 104.690033233809 SD: 5 count: 900 trails: 900
+normal     - alpha:   14.6698328868129 beta: 90.0202003469959
+mutation   - overDis: 4.1049332351676 SD: 0.1 count: 786 trails: 956
+mutation   - alpha: 1.6689937264765 beta: 2.62767595424476
+drop: 0.184211224973034 SD: 0.01 count: 733 trails: 899
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 20000
+score: -2457.44262492256
+bestScore: -2457.39354468728
+num trees: 1
+The new best score is: -2457.39352189354
+The new best score is: -2457.39351686309
+The new best score is: -2457.39350769094
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.145375638266888 SD: 0.00998700844633952 count: 184 trails: 399
+normal     - overDis: 101.918526064567 SD: 5.25635548188012 count: 360 trails: 360
+normal     - alpha:   14.8164707778569 beta: 87.1020552867099
+mutation   - overDis: 3.41277228094071 SD: 0.103293059491966 count: 328 trails: 408
+mutation   - alpha: 1.37563017473615 beta: 2.20252008907166
+drop: 0.207435092820791 SD: 0.0103169182161839 count: 315 trails: 379
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 30000
+score: -2457.75491221343
+bestScore: -2457.39350769094
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134969198216512 SD: 0.00998700844633952 count: 415 trails: 867
+normal     - overDis: 201.230356218194 SD: 5.25635548188012 count: 826 trails: 826
+normal     - alpha:   27.1598998355928 beta: 174.070456382601
+mutation   - overDis: 2.84485089784661 SD: 0.103293059491966 count: 750 trails: 899
+mutation   - alpha: 1.16644728577139 beta: 1.80639269365119
+drop: 0.349521785996124 SD: 0.0103169182161839 count: 727 trails: 851
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 40000
+score: -2458.4896177217
+bestScore: -2457.39350769094
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.143428160535995 SD: 0.00996506117860415 count: 177 trails: 363
+normal     - overDis: 45.5328386261262 SD: 5.52585459037824 count: 269 trails: 269
+normal     - alpha:   6.53069128812756 beta: 39.0021473379986
+mutation   - overDis: 4.96059764313251 SD: 0.106822671716599 count: 333 trails: 404
+mutation   - alpha: 2.00597255815713 beta: 3.19178821667994
+drop: 0.189411523097803 SD: 0.0106865409332239 count: 272 trails: 327
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 50000
+score: -2457.4822257796
+bestScore: -2457.39350769094
+num trees: 1
+The new best score is: -2457.3935036071
+The new best score is: -2457.39350309153
+The new best score is: -2457.39350309147
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.131262506413124 SD: 0.00996506117860415 count: 421 trails: 842
+normal     - overDis: 35.3083695738162 SD: 5.52585459037824 count: 737 trails: 737
+normal     - alpha:   4.63466508762001 beta: 30.6737044861961
+mutation   - overDis: 3.5180464512277 SD: 0.106822671716599 count: 764 trails: 897
+mutation   - alpha: 1.45116482903655 beta: 2.2208108204798
+drop: 0.953993929524696 SD: 0.0106865409332239 count: 702 trails: 837
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 60000
+score: -2460.12002388956
+bestScore: -2457.39350309147
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139823492758234 SD: 0.00996406472230993 count: 183 trails: 332
+normal     - overDis: 266.965218840891 SD: 5.80917121364142 count: 201 trails: 201
+normal     - alpha:   37.3280093432998 beta: 229.637209497592
+mutation   - overDis: 2.78093455922675 SD: 0.110528144069349 count: 337 trails: 386
+mutation   - alpha: 1.1312406241446 beta: 1.77930726281654
+drop: 0.94781292720878 SD: 0.0110627664176342 count: 283 trails: 324
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 70000
+score: -2457.46620202079
+bestScore: -2457.39350309147
+num trees: 1
+The new best score is: -2457.39350242862
+The new best score is: -2457.39350242849
+The new best score is: -2457.39350242658
+The new best score is: -2457.39350242555
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141113587817366 SD: 0.00996406472230993 count: 421 trails: 828
+normal     - overDis: 229.531008597357 SD: 5.80917121364142 count: 660 trails: 660
+normal     - alpha:   32.3899441385118 beta: 197.141064458846
+mutation   - overDis: 4.96435092320379 SD: 0.110528144069349 count: 709 trails: 846
+mutation   - alpha: 2.01515054829673 beta: 3.18271283155963
+drop: 0.86760945400792 SD: 0.0110627664176342 count: 659 trails: 792
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 80000
+score: -2457.39780500137
+bestScore: -2457.39350242555
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141051345693615 SD: 0.00996904800038679 count: 165 trails: 333
+normal     - overDis: 175.189424071185 SD: 6.10701379080085 count: 157 trails: 157
+normal     - alpha:   24.71070401653 beta: 150.478720054655
+mutation   - overDis: 4.62319810896447 SD: 0.114350716464377 count: 283 trails: 328
+mutation   - alpha: 1.87686017803049 beta: 2.96370736915985
+drop: 0.525700745793464 SD: 0.0114316416394705 count: 229 trails: 266
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 90000
+score: -2457.39918977221
+bestScore: -2457.39350242555
+num trees: 1
+The new best score is: -2457.39350216463
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140496069832742 SD: 0.00996904800038679 count: 404 trails: 821
+normal     - overDis: 95.9544427361017 SD: 6.10701379080085 count: 643 trails: 643
+normal     - alpha:   13.4812220874132 beta: 82.4732206486885
+mutation   - overDis: 4.86411111044257 SD: 0.114350716464377 count: 676 trails: 811
+mutation   - alpha: 1.97646322572331 beta: 3.11544404946824
+drop: 0.813426867980934 SD: 0.0114316416394705 count: 593 trails: 720
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 100000
+score: -2457.42011324851
+bestScore: -2457.39350216463
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141245743757904 SD: 0.00996007989343991 count: 154 trails: 276
+normal     - overDis: 219.499238797548 SD: 6.42012708343871 count: 129 trails: 129
+normal     - alpha:   31.0033332382534 beta: 188.495905559294
+mutation   - overDis: 5.39404201595572 SD: 0.118364658558538 count: 255 trails: 295
+mutation   - alpha: 2.18909735704116 beta: 3.45890648438291
+drop: 0.955455215086808 SD: 0.0118210884477221 count: 152 trails: 176
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 110000
+score: -2457.39550495402
+bestScore: -2457.39350216463
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.137405927377908 SD: 0.00996007989343991 count: 385 trails: 749
+normal     - overDis: 111.456149960222 SD: 6.42012708343871 count: 580 trails: 580
+normal     - alpha:   15.3147356472555 beta: 96.1414143129669
+mutation   - overDis: 7.63530980547406 SD: 0.118364658558538 count: 636 trails: 754
+mutation   - alpha: 3.11823035297783 beta: 4.86679172737583
+drop: 0.565623343693081 SD: 0.0118210884477221 count: 561 trails: 675
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 120000
+score: -2457.82230087356
+bestScore: -2457.39350216463
+num trees: 1
+The new best score is: -2457.3935018015
+The new best score is: -2457.39350180113
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140665517995234 SD: 0.00995410563795972 count: 98 trails: 217
+normal     - overDis: 46.5302222747901 SD: 6.74929403788002 count: 72 trails: 72
+normal     - alpha:   6.54519781871674 beta: 39.9850244560733
+mutation   - overDis: 9.34857706734987 SD: 0.122360326298506 count: 209 trails: 245
+mutation   - alpha: 3.79760690987684 beta: 5.98931096937207
+drop: 0.630126315487094 SD: 0.0121932813739858 count: 122 trails: 140
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 130000
+score: -2457.41209139633
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141785896760881 SD: 0.00995410563795972 count: 346 trails: 723
+normal     - overDis: 327.653309009907 SD: 6.74929403788002 count: 517 trails: 517
+normal     - alpha:   46.4566182446397 beta: 281.196690765267
+mutation   - overDis: 13.1118170112199 SD: 0.122360326298506 count: 602 trails: 714
+mutation   - alpha: 5.31652801687635 beta: 8.41497923871032
+drop: 0.668634927171611 SD: 0.0121932813739858 count: 491 trails: 584
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 140000
+score: -2458.50640260021
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.137157543591779 SD: 0.00993918567227454 count: 109 trails: 240
+normal     - overDis: 268.023413163417 SD: 6.74929403788002 count: 1000 trails: 1000
+normal     - alpha:   36.7614329745789 beta: 231.261980188838
+mutation   - overDis: 13.9781084502557 SD: 0.12673143800005 count: 182 trails: 228
+mutation   - alpha: 5.71091887906346 beta: 8.9062572442244
+drop: 0.835985859350398 SD: 0.0126301282789091 count: 53 trails: 67
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 150000
+score: -2457.87599605668
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144308918769413 SD: 0.00993918567227454 count: 340 trails: 690
+normal     - overDis: 110.446574385994 SD: 7.09533774296629 count: 473 trails: 473
+normal     - alpha:   15.9384257314284 beta: 94.508148654566
+mutation   - overDis: 15.6866132735399 SD: 0.12673143800005 count: 571 trails: 708
+mutation   - alpha: 6.33416116966433 beta: 10.1070248374284
+drop: 0.871897422508882 SD: 0.0126301282789091 count: 472 trails: 555
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 160000
+score: -2457.58300441076
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141973591104264 SD: 0.00993521079303448 count: 88 trails: 164
+normal     - overDis: 120.492490293023 SD: 7.09533774296629 count: 959 trails: 959
+normal     - alpha:   17.1067515479962 beta: 103.385738745027
+mutation   - overDis: 20.8317139868056 SD: 0.130930963222615 count: 150 trails: 170
+mutation   - alpha: 8.444154831027 beta: 13.3734102369665
+drop: 0.831648726218787 SD: 0.0130682430573276 count: 45 trails: 50
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 170000
+score: -2457.39837845398
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.147814657334657 SD: 0.00993521079303448 count: 321 trails: 654
+normal     - overDis: 187.445080415332 SD: 7.45912348820636 count: 476 trails: 476
+normal     - alpha:   27.7071303306594 beta: 159.737950084672
+mutation   - overDis: 23.4335976286472 SD: 0.130930963222615 count: 574 trails: 660
+mutation   - alpha: 9.40757934525912 beta: 15.1806280179203
+drop: 0.993012826146862 SD: 0.0130682430573276 count: 461 trails: 538
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 180000
+score: -2458.34978051865
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.138761607263598 SD: 0.00994117370820596 count: 72 trails: 153
+normal     - overDis: 283.820583713485 SD: 7.45912348820636 count: 954 trails: 954
+normal     - alpha:   39.3834003705757 beta: 244.437183342909
+mutation   - overDis: 20.2439399451221 SD: 0.135784651510692 count: 100 trails: 118
+mutation   - alpha: 8.24924887647247 beta: 12.931051616694
+drop: 0.96621743129605 SD: 0.013556756977997 count: 53 trails: 55
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 190000
+score: -2457.58566081828
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.147433360482449 SD: 0.00994117370820596 count: 323 trails: 661
+normal     - overDis: 121.989494931901 SD: 7.84156092745085 count: 416 trails: 416
+normal     - alpha:   17.9853211813669 beta: 104.004173750535
+mutation   - overDis: 25.0532201315988 SD: 0.135784651510692 count: 525 trails: 633
+mutation   - alpha: 10.0641564425273 beta: 16.2202905007076
+drop: 0.65130856344845 SD: 0.013556756977997 count: 453 trails: 532
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 200000
+score: -2458.23848180424
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139335952137025 SD: 0.00994216787528431 count: 52 trails: 115
+normal     - overDis: 468.35325376726 SD: 7.84156092745085 count: 854 trails: 854
+normal     - alpha:   65.258446550135 beta: 403.094807217125
+mutation   - overDis: 19.0938782493044 SD: 0.14036837065652 count: 87 trails: 104
+mutation   - alpha: 7.77329665408201 beta: 12.2074028305074
+drop: 0.497169675097952 SD: 0.0140354334521273 count: 25 trails: 30
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 210000
+score: -2457.51391691232
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142625286707219 SD: 0.00994216787528431 count: 263 trails: 560
+normal     - overDis: 495.060615327755 SD: 8.24360635350065 count: 319 trails: 319
+normal     - alpha:   70.6081621985734 beta: 424.452453129182
+mutation   - overDis: 18.5564752950575 SD: 0.14036837065652 count: 457 trails: 560
+mutation   - alpha: 7.51382257470674 beta: 11.9248602567617
+drop: 0.214799874693122 SD: 0.0140354334521273 count: 402 trails: 485
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 220000
+score: -2457.42314055651
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.138192532023269 SD: 0.00991040378772884 count: 23 trails: 41
+normal     - overDis: 441.151182576147 SD: 8.24360635350065 count: 748 trails: 748
+normal     - alpha:   60.9637989252571 beta: 380.18738365089
+mutation   - overDis: 18.3989236955678 SD: 0.144758984844029 count: 20 trails: 21
+mutation   - alpha: 7.50439927978829 beta: 11.7420556997774
+drop: 0.123411328323982 SD: 0.0140354334521273 count: 827 trails: 991
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 230000
+score: -2457.67342876898
+bestScore: -2457.39350180113
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139490755054527 SD: 0.00991040378772884 count: 254 trails: 507
+normal     - overDis: 224.969167211265 SD: 8.66626508933699 count: 223 trails: 223
+normal     - alpha:   31.3811189982876 beta: 193.588048212977
+mutation   - overDis: 16.5898966774254 SD: 0.144758984844029 count: 415 trails: 487
+mutation   - alpha: 6.75219019617226 beta: 10.6090855525234
+drop: 0.270455175618384 SD: 0.0145106823647256 count: 396 trails: 464
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 240000
+score: -2457.49745851172
+bestScore: -2457.39350180113
+num trees: 1
+The new best score is: -2457.39350170315
+The new best score is: -2457.39350170151
+The new best score is: -2457.39350170142
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146934967060578 SD: 0.00991337735487793 count: 6 trails: 9
+normal     - overDis: 284.490329007403 SD: 8.66626508933699 count: 685 trails: 685
+normal     - alpha:   41.8015771217558 beta: 242.688751885647
+mutation   - overDis: 18.7978391059009 SD: 0.144758984844029 count: 800 trails: 942
+mutation   - alpha: 7.55754630639338 beta: 12.160979422786
+drop: 0.216882544128939 SD: 0.0145106823647256 count: 798 trails: 940
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 250000
+score: -2458.10317063476
+bestScore: -2457.39350170142
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140887323956533 SD: 0.00991337735487793 count: 246 trails: 521
+normal     - overDis: 866.492991788674 SD: 9.11059400195255 count: 195 trails: 195
+normal     - alpha:   122.077878840197 beta: 744.415112948477
+mutation   - overDis: 15.795854684495 SD: 0.149885277676862 count: 340 trails: 420
+mutation   - alpha: 6.41430354484432 beta: 10.1233630383523
+drop: 0.153107969249827 SD: 0.0150260459653117 count: 387 trails: 440
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 260000
+score: -2457.40376501692
+bestScore: -2457.39350170142
+num trees: 1
+The new best score is: -2457.39350170049
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144232099067281 SD: 0.00991337735487793 count: 472 trails: 993
+normal     - overDis: 1251.38488111897 SD: 9.11059400195255 count: 641 trails: 641
+normal     - alpha:   180.489868144849 beta: 1070.89501297412
+mutation   - overDis: 23.6874904691573 SD: 0.149885277676862 count: 752 trails: 890
+mutation   - alpha: 9.56608091991015 beta: 15.2602417065814
+drop: 0.603429878803412 SD: 0.0150260459653117 count: 836 trails: 944
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 270000
+score: -2457.57272601548
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146966882575818 SD: 0.00989060278775369 count: 241 trails: 474
+normal     - overDis: 1273.22038181083 SD: 9.57770414506949 count: 105 trails: 105
+normal     - alpha:   187.12123034673 beta: 1086.0991514641
+mutation   - overDis: 21.5787484889493 SD: 0.155301779101125 count: 306 trails: 363
+mutation   - alpha: 8.67513331426898 beta: 13.9607356397832
+drop: 0.32756052142357 SD: 0.0156189526919709 count: 366 trails: 436
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 280000
+score: -2458.11148917602
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.135450115109915 SD: 0.00989060278775369 count: 480 trails: 949
+normal     - overDis: 1449.84124426326 SD: 9.57770414506949 count: 583 trails: 583
+normal     - alpha:   196.381163426561 beta: 1253.4600808367
+mutation   - overDis: 24.9789847745517 SD: 0.155301779101125 count: 723 trails: 876
+mutation   - alpha: 10.233888145248 beta: 15.8728987503177
+drop: 0.193354305175947 SD: 0.0156189526919709 count: 775 trails: 931
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 290000
+score: -2458.33294727649
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.136742913999112 SD: 0.00989653893009096 count: 192 trails: 406
+normal     - overDis: 1563.14947177969 SD: 9.57770414506949 count: 999 trails: 999
+normal     - alpha:   213.749613787327 beta: 1349.39985799236
+mutation   - overDis: 26.0263985147217 SD: 0.160448045479355 count: 241 trails: 287
+mutation   - alpha: 10.6405822081574 beta: 16.5721248311661
+drop: 0.218254184591186 SD: 0.0161558965258831 count: 332 trails: 395
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 300000
+score: -2457.97282264856
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.143677419742745 SD: 0.00989653893009096 count: 434 trails: 890
+normal     - overDis: 1427.45236978239 SD: 10.0687635373524 count: 478 trails: 478
+normal     - alpha:   205.092673296001 beta: 1222.35969648639
+mutation   - overDis: 28.6867930863766 SD: 0.160448045479355 count: 647 trails: 767
+mutation   - alpha: 11.5956336022919 beta: 18.4650409545329
+drop: 0.242280556245253 SD: 0.0161558965258831 count: 765 trails: 894
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 310000
+score: -2457.50694480623
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134928294343428 SD: 0.009888624864995 count: 184 trails: 363
+normal     - overDis: 1424.96619422255 SD: 10.0687635373524 count: 919 trails: 919
+normal     - alpha:   192.268258083495 beta: 1232.69793613905
+mutation   - overDis: 25.6696498549981 SD: 0.165980479154708 count: 195 trails: 231
+mutation   - alpha: 10.5257835466138 beta: 16.298386998827
+drop: 0.103723120696571 SD: 0.0167363850179753 count: 294 trails: 344
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 320000
+score: -2458.50351562052
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146236009188126 SD: 0.009888624864995 count: 425 trails: 836
+normal     - overDis: 1423.45169124821 SD: 10.5850000830634 count: 368 trails: 368
+normal     - alpha:   208.159894600227 beta: 1215.29179664799
+mutation   - overDis: 32.167773078654 SD: 0.165980479154708 count: 610 trails: 714
+mutation   - alpha: 12.9478286996659 beta: 20.7879732988186
+drop: 0.0692437633322618 SD: 0.0167363850179753 count: 710 trails: 807
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 330000
+score: -2457.93292973481
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139535455608961 SD: 0.00990049833749168 count: 165 trails: 319
+normal     - overDis: 1469.00488385741 SD: 10.5850000830634 count: 849 trails: 849
+normal     - alpha:   204.978265760833 beta: 1264.02661809658
+mutation   - overDis: 33.5180762450055 SD: 0.171961426304063 count: 164 trails: 201
+mutation   - alpha: 13.6410647625143 beta: 21.4359981624855
+drop: 0.098000684350495 SD: 0.0173950397370119 count: 221 trails: 258
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 340000
+score: -2457.49293274339
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.145995443558416 SD: 0.00990049833749168 count: 380 trails: 786
+normal     - overDis: 1471.25880782967 SD: 11.1277046424624 count: 298 trails: 298
+normal     - alpha:   214.797082238319 beta: 1256.46172559135
+mutation   - overDis: 36.3771687695389 SD: 0.171961426304063 count: 560 trails: 683
+mutation   - alpha: 14.6479837914973 beta: 23.4994852746776
+drop: 0.186811141353242 SD: 0.0173950397370119 count: 607 trails: 741
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 350000
+score: -2457.87963737889
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134516463900898 SD: 0.009888624864995 count: 142 trails: 275
+normal     - overDis: 1864.80657833266 SD: 11.1277046424624 count: 778 trails: 778
+normal     - alpha:   250.847186776443 beta: 1613.95939155622
+mutation   - overDis: 35.1352423563608 SD: 0.17778415213142 count: 96 trails: 108
+mutation   - alpha: 14.4167754714612 beta: 22.2938897382591
+drop: 0.927270558017357 SD: 0.0179678687442027 count: 193 trails: 232
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 360000
+score: -2458.64846348599
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.136581197524535 SD: 0.009888624864995 count: 378 trails: 747
+normal     - overDis: 1645.60554897927 SD: 11.69823425963 count: 212 trails: 212
+normal     - alpha:   224.758776532608 beta: 1420.84677244666
+mutation   - overDis: 30.4680622686744 SD: 0.17778415213142 count: 480 trails: 556
+mutation   - alpha: 12.4597881803988 beta: 19.3953955652448
+drop: 0.607440395251101 SD: 0.0179678687442027 count: 644 trails: 790
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 370000
+score: -2458.01303449777
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144069637991728 SD: 0.00988763605194998 count: 117 trails: 258
+normal     - overDis: 1364.78600329007 SD: 11.69823425963 count: 671 trails: 671
+normal     - alpha:   196.624225430178 beta: 1168.16177785989
+mutation   - overDis: 29.5028794459285 SD: 0.184172015177171 count: 37 trails: 45
+mutation   - alpha: 11.9177936153053 beta: 19.0019088844528
+drop: 0.437537724658474 SD: 0.0185577054880472 count: 226 trails: 268
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 380000
+score: -2457.5519235451
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146582212858059 SD: 0.00988763605194998 count: 370 trails: 760
+normal     - overDis: 980.548535780541 SD: 12.2980155557848 count: 148 trails: 148
+normal     - alpha:   143.730974189441 beta: 836.8175615911
+mutation   - overDis: 18.9929281717434 SD: 0.184172015177171 count: 458 trails: 528
+mutation   - alpha: 7.64044712582616 beta: 12.28048952594
+drop: 0.333622786594816 SD: 0.0185577054880472 count: 643 trails: 759
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 390000
+score: -2458.01439457227
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134119524466245 SD: 0.00987380304684022 count: 123 trails: 231
+normal     - overDis: 659.939589008828 SD: 12.2980155557848 count: 600 trails: 600
+normal     - alpha:   88.510783854313 beta: 571.428805154515
+mutation   - overDis: 14.5116121726391 SD: 0.190789396961245 count: 10 trails: 14
+mutation   - alpha: 5.95827907043094 beta: 9.20209661015248
+drop: 0.0641017953983857 SD: 0.0192052771531224 count: 221 trails: 251
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 400000
+score: -2458.79684544559
+bestScore: -2457.39350170049
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139470035175474 SD: 0.00987380304684022 count: 369 trails: 712
+normal     - overDis: 69.5310290497561 SD: 12.9285482965793 count: 61 trails: 61
+normal     - alpha:   9.69749506735642 beta: 59.8335339823997
+mutation   - overDis: 17.4272371287691 SD: 0.190789396961245 count: 414 trails: 490
+mutation   - alpha: 7.09323364747738 beta: 11.1441959397453
+drop: 0.056856328405518 SD: 0.0192052771531224 count: 611 trails: 716
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 410000
+score: -2457.49959076386
+bestScore: -2457.39350170049
+num trees: 1
+The new best score is: -2457.39350169969
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.137227160683719 SD: 0.00987874118279475 count: 103 trails: 187
+normal     - overDis: 103.84323567486 SD: 12.9285482965793 count: 559 trails: 559
+normal     - alpha:   14.2501123878713 beta: 89.593123286989
+mutation   - overDis: 13.5701496442136 SD: 0.190789396961245 count: 807 trails: 948
+mutation   - alpha: 5.54361275162104 beta: 8.64726792783538
+drop: 0.149539262566908 SD: 0.0198774334939826 count: 179 trails: 203
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 420000
+score: -2457.86062138176
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134335898176404 SD: 0.00987874118279475 count: 342 trails: 650
+normal     - overDis: 192.175353339312 SD: 13.5914091422952 count: 11 trails: 11
+normal     - alpha:   25.8160486982042 beta: 166.359304641108
+mutation   - overDis: 20.5056773953733 SD: 0.197664309635878 count: 343 trails: 408
+mutation   - alpha: 8.41640630393797 beta: 13.0074872883097
+drop: 0.145204712637632 SD: 0.0198774334939826 count: 570 trails: 668
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 430000
+score: -2458.71490328953
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140600163848138 SD: 0.00988368178843462 count: 73 trails: 148
+normal     - overDis: 234.77207173485 SD: 13.5914091422952 count: 489 trails: 489
+normal     - alpha:   33.0089917528867 beta: 201.763079981963
+mutation   - overDis: 17.5822330350375 SD: 0.197664309635878 count: 717 trails: 857
+mutation   - alpha: 7.14307328715714 beta: 11.2631813630612
+drop: 0.440058058308032 SD: 0.0205690001028043 count: 132 trails: 147
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 440000
+score: -2457.41501469982
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.136218525177739 SD: 0.00988368178843462 count: 305 trails: 593
+normal     - overDis: 177.8805987287 SD: 13.5914091422952 count: 965 trails: 965
+normal     - alpha:   24.2306328165567 beta: 153.649965912143
+mutation   - overDis: 9.39852102983721 SD: 0.204541356229512 count: 291 trails: 345
+mutation   - alpha: 3.84575873256101 beta: 5.979513188455
+drop: 0.322918591812904 SD: 0.0205690001028043 count: 577 trails: 658
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 450000
+score: -2458.10822765538
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144398519414153 SD: 0.00987182848369374 count: 45 trails: 88
+normal     - overDis: 14.0325898771759 SD: 14.2882555903158 count: 404 trails: 404
+normal     - alpha:   2.02628520181023 beta: 12.0063046753657
+mutation   - overDis: 2.39523936802223 SD: 0.204541356229512 count: 710 trails: 838
+mutation   - alpha: 0.967040338421182 beta: 1.54348870239602
+drop: 0.601777566900709 SD: 0.0213485771407844 count: 87 trails: 108
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 460000
+score: -2457.59535092727
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.145388489565954 SD: 0.00987182848369374 count: 286 trails: 571
+normal     - overDis: 221.642617218687 SD: 14.2882555903158 count: 880 trails: 880
+normal     - alpha:   32.2242853408697 beta: 189.418331877817
+mutation   - overDis: 4.13562636075886 SD: 0.211848243541035 count: 249 trails: 289
+mutation   - alpha: 1.66696486704618 beta: 2.6690856503793
+drop: 0.631280213974454 SD: 0.0213485771407844 count: 485 trails: 581
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 470000
+score: -2457.75731371701
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.136064131496504 SD: 0.00985111939603062 count: 12 trails: 22
+normal     - overDis: 277.310091765795 SD: 15.0208301197322 count: 342 trails: 342
+normal     - alpha:   37.7319567913287 beta: 239.578134974466
+mutation   - overDis: 3.25771995396518 SD: 0.211848243541035 count: 628 trails: 758
+mutation   - alpha: 1.33335408618585 beta: 2.07211881317769
+drop: 0.550814826425428 SD: 0.0220714538589339 count: 55 trails: 65
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 480000
+score: -2458.15086236163
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.145855458625498 SD: 0.00985111939603062 count: 238 trails: 501
+normal     - overDis: 351.470912193241 SD: 15.0208301197322 count: 807 trails: 807
+normal     - alpha:   51.2639510914673 beta: 300.206961101773
+mutation   - overDis: 3.56941861671742 SD: 0.218824532233525 count: 163 trails: 196
+mutation   - alpha: 1.43762984878024 beta: 2.30532849772642
+drop: 0.285269444306358 SD: 0.0220714538589339 count: 463 trails: 549
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 490000
+score: -2457.84988101645
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144448140649197 SD: 0.00985111939603062 count: 499 trails: 988
+normal     - overDis: 499.160642541296 SD: 15.7909645484489 count: 236 trails: 236
+normal     - alpha:   72.1028267003486 beta: 427.057815840947
+mutation   - overDis: 6.94049563564303 SD: 0.218824532233525 count: 581 trails: 687
+mutation   - alpha: 2.80188669131985 beta: 4.47278950757402
+drop: 0.679916083715315 SD: 0.0228279370021024 count: 14 trails: 19
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 500000
+score: -2457.92055073943
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134676067569339 SD: 0.00985506063198368 count: 237 trails: 489
+normal     - overDis: 412.536882863427 SD: 15.7909645484489 count: 700 trails: 700
+normal     - alpha:   55.5588451113593 beta: 356.978037752068
+mutation   - overDis: 6.32758790484516 SD: 0.226437775649963 count: 159 trails: 178
+mutation   - alpha: 2.59567751494001 beta: 4.01596860864644
+drop: 0.112875423303609 SD: 0.0228279370021024 count: 389 trails: 453
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 510000
+score: -2458.59120410822
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142991026358347 SD: 0.00985506063198368 count: 476 trails: 957
+normal     - overDis: 338.769342585683 SD: 16.6005846136828 count: 188 trails: 188
+normal     - alpha:   48.4409759950692 beta: 290.328366590614
+mutation   - overDis: 10.6348796530779 SD: 0.226437775649963 count: 563 trails: 647
+mutation   - alpha: 4.30364492201153 beta: 6.83813218333004
+drop: 0.0796378919815552 SD: 0.0228279370021024 count: 808 trails: 942
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 520000
+score: -2457.44615911805
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139689357986807 SD: 0.00984521049723991 count: 216 trails: 452
+normal     - overDis: 406.74077978107 SD: 16.6005846136828 count: 618 trails: 618
+normal     - alpha:   56.8173583946708 beta: 349.923421386399
+mutation   - overDis: 13.8643790449346 SD: 0.234550328654886 count: 101 trails: 123
+mutation   - alpha: 5.64105205068554 beta: 8.86889573013996
+drop: 0.254958261356647 SD: 0.023652884956974 count: 366 trails: 453
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 530000
+score: -2457.47812673281
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141048620959107 SD: 0.00984521049723991 count: 465 trails: 950
+normal     - overDis: 511.391230119994 SD: 17.4517147873092 count: 34 trails: 34
+normal     - alpha:   72.1310277790065 beta: 439.260202340988
+mutation   - overDis: 10.5611604986112 SD: 0.234550328654886 count: 488 trails: 582
+mutation   - alpha: 4.28748883326768 beta: 6.77021737336252
+drop: 0.648434707386211 SD: 0.023652884956974 count: 776 trails: 947
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 540000
+score: -2457.39925481098
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.147066878042431 SD: 0.00983733747846952 count: 209 trails: 453
+normal     - overDis: 710.586518529478 SD: 17.4517147873092 count: 516 trails: 516
+normal     - alpha:   104.503740859171 beta: 606.082777670308
+mutation   - overDis: 5.27881691809492 SD: 0.242516605904103 count: 56 trails: 63
+mutation   - alpha: 2.12184904311293 beta: 3.41574758294925
+drop: 0.995804450763003 SD: 0.0244146922625939 count: 316 trails: 404
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 550000
+score: -2458.13785955045
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144919220846417 SD: 0.00983733747846952 count: 438 trails: 919
+normal     - overDis: 446.285388174439 SD: 17.4517147873092 count: 966 trails: 966
+normal     - alpha:   64.6753307293805 beta: 381.610057445058
+mutation   - overDis: 2.75052429759528 SD: 0.242516605904103 count: 471 trails: 553
+mutation   - alpha: 1.10952625671321 beta: 1.77386598692429
+drop: 0.540479862546374 SD: 0.0244146922625939 count: 700 trails: 866
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 560000
+score: -2457.67471165684
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142531344351315 SD: 0.00981473760208965 count: 222 trails: 432
+normal     - overDis: 829.115907313537 SD: 18.3464833380963 count: 433 trails: 433
+normal     - alpha:   118.175004892459 beta: 710.940902421078
+mutation   - overDis: 5.7644776607652 SD: 0.250778526728429 count: 19 trails: 19
+mutation   - alpha: 2.33449299673461 beta: 3.70385758085459
+drop: 0.605493956294997 SD: 0.0251859196167524 count: 257 trails: 332
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 570000
+score: -2457.41828437377
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140310300279145 SD: 0.00981473760208965 count: 465 trails: 941
+normal     - overDis: 1775.69840743372 SD: 18.3464833380963 count: 899 trails: 899
+normal     - alpha:   249.148776752224 beta: 1526.5496306815
+mutation   - overDis: 8.26249444258027 SD: 0.250778526728429 count: 458 trails: 551
+mutation   - alpha: 3.35837183709467 beta: 5.29056029758334
+drop: 0.0338571495730604 SD: 0.0251859196167524 count: 679 trails: 828
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 580000
+score: -2457.43056477403
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140009997810388 SD: 0.00981571912492519 count: 199 trails: 415
+normal     - overDis: 2407.39069863243 SD: 19.2871276534849 count: 334 trails: 334
+normal     - alpha:   337.058766444274 beta: 2070.33193218815
+mutation   - overDis: 12.2888827737495 SD: 0.259270050879586 count: 5 trails: 5
+mutation   - alpha: 4.99739708671155 beta: 7.86500783711951
+drop: 0.584165478927533 SD: 0.02605435917559 count: 258 trails: 320
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 590000
+score: -2457.45113487573
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.13246366706706 SD: 0.00981571912492519 count: 429 trails: 894
+normal     - overDis: 2614.88133828374 SD: 19.2871276534849 count: 837 trails: 837
+normal     - alpha:   346.376771014287 beta: 2268.50456726946
+mutation   - overDis: 2.82319321308232 SD: 0.259270050879586 count: 398 trails: 493
+mutation   - alpha: 1.16228292264535 beta: 1.78556713238488
+drop: 0.494218936014476 SD: 0.02605435917559 count: 652 trails: 802
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 600000
+score: -2459.50865090791
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.148023314967909 SD: 0.00979414827948058 count: 181 trails: 378
+normal     - overDis: 2809.30481745741 SD: 20.2759998342234 count: 334 trails: 334
+normal     - alpha:   415.842611835363 beta: 2393.46220562204
+mutation   - overDis: 11.3088830902483 SD: 0.259270050879586 count: 808 trails: 962
+mutation   - alpha: 4.53845596938875 beta: 7.32841990872722
+drop: 0.822990900744695 SD: 0.02690427223101 count: 245 trails: 290
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 610000
+score: -2458.41352995566
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142091488504949 SD: 0.00979414827948058 count: 442 trails: 875
+normal     - overDis: 3148.05688107632 SD: 20.2759998342234 count: 819 trails: 819
+normal     - alpha:   447.312088130381 beta: 2700.74479294593
+mutation   - overDis: 14.6539282038779 SD: 0.268317286738586 count: 371 trails: 427
+mutation   - alpha: 5.93883178798318 beta: 9.40916257287263
+drop: 0.215007970101376 SD: 0.02690427223101 count: 643 trails: 743
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 620000
+score: -2457.40131003312
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146111265895748 SD: 0.00979316891362174 count: 175 trails: 352
+normal     - overDis: 3410.19992914815 SD: 21.3155725758441 count: 298 trails: 298
+normal     - alpha:   498.268628605427 beta: 2911.93130054272
+mutation   - overDis: 18.6718646258242 SD: 0.268317286738586 count: 741 trails: 892
+mutation   - alpha: 7.51715246150328 beta: 12.0641020900253
+drop: 0.352714203552616 SD: 0.0278793171463586 count: 188 trails: 229
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 630000
+score: -2457.90495553876
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.133102464513851 SD: 0.00979316891362174 count: 394 trails: 826
+normal     - overDis: 3229.67731998013 SD: 21.3155725758441 count: 788 trails: 788
+normal     - alpha:   429.878010873846 beta: 2799.79930910628
+mutation   - overDis: 15.3738251071107 SD: 0.277541420743449 count: 294 trails: 351
+mutation   - alpha: 6.32271654638112 beta: 9.73320656431672
+drop: 0.296076167681297 SD: 0.0278793171463586 count: 597 trails: 729
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 640000
+score: -2459.21620170785
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139435283649422 SD: 0.00977262483773277 count: 139 trails: 311
+normal     - overDis: 3270.22669541979 SD: 22.4084453516904 count: 278 trails: 278
+normal     - alpha:   455.984986873771 beta: 2814.24170854602
+mutation   - overDis: 22.64948735854 SD: 0.277541420743449 count: 693 trails: 823
+mutation   - alpha: 9.21931854970199 beta: 14.482881373622
+drop: 0.130768233924745 SD: 0.0288060401618483 count: 145 trails: 174
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 650000
+score: -2457.50321598141
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144940440425026 SD: 0.00977262483773277 count: 369 trails: 759
+normal     - overDis: 2819.60117639207 SD: 22.4084453516904 count: 735 trails: 735
+normal     - alpha:   408.674236329189 beta: 2410.92694006288
+mutation   - overDis: 27.8634392439372 SD: 0.287341150053503 count: 277 trails: 319
+mutation   - alpha: 11.2393601847871 beta: 17.9702587777408
+drop: 0.911368817832103 SD: 0.0288060401618483 count: 586 trails: 675
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 660000
+score: -2457.67822047641
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139685720475537 SD: 0.00977360214908129 count: 106 trails: 227
+normal     - overDis: 2774.09750336394 SD: 23.5573509129538 count: 237 trails: 237
+normal     - alpha:   387.501808426778 beta: 2386.59569493716
+mutation   - overDis: 26.6761776233339 SD: 0.287341150053503 count: 635 trails: 759
+mutation   - alpha: 10.8539014177677 beta: 17.0643699025157
+drop: 0.919825235183075 SD: 0.0298380699413502 count: 117 trails: 150
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 670000
+score: -2458.3096706632
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.133428414883533 SD: 0.00977360214908129 count: 350 trails: 732
+normal     - overDis: 2112.3157706421 SD: 23.5573509129538 count: 705 trails: 705
+normal     - alpha:   281.842945010263 beta: 1830.47282563184
+mutation   - overDis: 35.3470823376328 SD: 0.297189560481896 count: 210 trails: 245
+mutation   - alpha: 14.5293377241044 beta: 22.3898463358845
+drop: 0.60661637472931 SD: 0.0298380699413502 count: 515 trails: 640
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 680000
+score: -2459.07564209071
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.138813187180691 SD: 0.0097609047214037 count: 114 trails: 223
+normal     - overDis: 1412.11405692777 SD: 24.7651621219756 count: 166 trails: 166
+normal     - alpha:   196.0200529048 beta: 1216.09400402297
+mutation   - overDis: 39.6397223016676 SD: 0.297189560481896 count: 592 trails: 687
+mutation   - alpha: 16.1515170230658 beta: 25.3223773424858
+drop: 0.230783391340959 SD: 0.0307744590086766 count: 50 trails: 63
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 690000
+score: -2457.57852819401
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.143233345520783 SD: 0.0097609047214037 count: 363 trails: 733
+normal     - overDis: 1117.94231655617 SD: 24.7651621219756 count: 641 trails: 641
+normal     - alpha:   160.126618099594 beta: 957.815698456574
+mutation   - overDis: 45.2336582358946 SD: 0.307960086714848 count: 141 trails: 169
+mutation   - alpha: 18.2975169851 beta: 29.0957973172182
+drop: 0.63893990412003 SD: 0.0307744590086766 count: 422 trails: 530
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 700000
+score: -2458.59905645775
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.138966782427522 SD: 0.0097589527356645 count: 101 trails: 214
+normal     - overDis: 119.866959236074 SD: 26.0348991358993 count: 110 trails: 110
+normal     - alpha:   16.657525644408 beta: 103.209433591666
+mutation   - overDis: 50.7030042493933 SD: 0.307960086714848 count: 546 trails: 637
+mutation   - alpha: 20.6541465513986 beta: 32.3975354846438
+drop: 0.862362222513342 SD: 0.0307744590086766 count: 825 trails: 996
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 710000
+score: -2458.56139142853
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142029646015951 SD: 0.0097589527356645 count: 335 trails: 671
+normal     - overDis: 307.466808445353 SD: 26.0348991358993 count: 626 trails: 626
+normal     - alpha:   43.6694019651476 beta: 263.797406480206
+mutation   - overDis: 45.0508650530308 SD: 0.319312480489073 count: 85 trails: 98
+mutation   - alpha: 18.2597269157192 beta: 28.9239909427097
+drop: 0.610693670137935 SD: 0.0318037781664364 count: 410 trails: 461
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 720000
+score: -2457.39968680521
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134621311477444 SD: 0.00975309912028332 count: 77 trails: 153
+normal     - overDis: 450.073629099026 SD: 27.3697369586361 count: 113 trails: 113
+normal     - alpha:   60.5895022107236 beta: 389.484126888302
+mutation   - overDis: 44.7326776375128 SD: 0.319312480489073 count: 472 trails: 564
+mutation   - alpha: 18.3516909991166 beta: 28.3883105482161
+drop: 0.925352666070105 SD: 0.0318037781664364 count: 821 trails: 950
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 730000
+score: -2458.6106934273
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.138966030670425 SD: 0.00975309912028332 count: 313 trails: 623
+normal     - overDis: 465.054932543443 SD: 27.3697369586361 count: 586 trails: 586
+normal     - alpha:   64.6268380192644 beta: 400.428094524179
+mutation   - overDis: 40.896826241718 SD: 0.329992585487393 count: 25 trails: 28
+mutation   - alpha: 16.6595667143059 beta: 26.1316827306886
+drop: 0.981328464700986 SD: 0.0329761671506874 count: 359 trails: 432
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 740000
+score: -2457.55819272065
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142567710124615 SD: 0.00976480986426876 count: 49 trails: 110
+normal     - overDis: 1141.32081777238 SD: 28.7730133800287 count: 86 trails: 86
+normal     - alpha:   162.71549550736 beta: 978.605322265017
+mutation   - overDis: 38.8019667637981 SD: 0.329992585487393 count: 424 trails: 509
+mutation   - alpha: 15.713045015335 beta: 24.9328909317452
+drop: 0.542309290297107 SD: 0.0329761671506874 count: 758 trails: 896
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 750000
+score: -2457.42011293027
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.133733344455941 SD: 0.00976480986426876 count: 278 trails: 557
+normal     - overDis: 1121.64267572122 SD: 28.7730133800287 count: 597 trails: 597
+normal     - alpha:   150.001026308709 beta: 971.641649412512
+mutation   - overDis: 30.7229802671727 SD: 0.34140524927967 count: 12 trails: 12
+mutation   - alpha: 12.6223655317311 beta: 19.4701770363693
+drop: 0.67619110878233 SD: 0.0341268714488736 count: 296 trails: 344
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 760000
+score: -2458.94941910288
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.143222256715795 SD: 0.00976480986426876 count: 480 trails: 986
+normal     - overDis: 2068.19770836631 SD: 30.2482373220648 count: 40 trails: 40
+normal     - alpha:   296.211943126659 beta: 1771.98576523965
+mutation   - overDis: 25.3294055707846 SD: 0.34140524927967 count: 437 trails: 523
+mutation   - alpha: 10.2462130339807 beta: 16.2924374125097
+drop: 0.861633876937091 SD: 0.0341268714488736 count: 701 trails: 837
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 770000
+score: -2457.4640793995
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.143884839485855 SD: 0.00975407447896247 count: 240 trails: 459
+normal     - overDis: 1632.44354905546 SD: 30.2482373220648 count: 513 trails: 513
+normal     - alpha:   234.883878025564 beta: 1397.5596710299
+mutation   - overDis: 15.736277194354 SD: 0.353848970816846 count: 1 trails: 2
+mutation   - alpha: 6.35866411836729 beta: 10.1323503153915
+drop: 0.733642016135398 SD: 0.035289486721512 count: 296 trails: 341
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 780000
+score: -2457.52980622058
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139657893662118 SD: 0.00975407447896247 count: 471 trails: 928
+normal     - overDis: 1456.17994899265 SD: 30.2482373220648 count: 995 trails: 995
+normal     - alpha:   203.367024469324 beta: 1252.81292452333
+mutation   - overDis: 15.6886028634969 SD: 0.353848970816846 count: 417 trails: 473
+mutation   - alpha: 6.38360994480348 beta: 10.0353386621659
+drop: 0.2200954826344 SD: 0.035289486721512 count: 708 trails: 820
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 790000
+score: -2457.48105598137
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141454133897314 SD: 0.00976383343210476 count: 191 trails: 429
+normal     - overDis: 2245.03593237182 SD: 31.7990976130092 count: 443 trails: 443
+normal     - alpha:   317.569613382004 beta: 1927.46631898982
+mutation   - overDis: 7.53694309446849 SD: 0.353848970816846 count: 817 trails: 938
+mutation   - alpha: 3.05771704212666 beta: 4.83460330489562
+drop: 0.820466490154834 SD: 0.0365867112177136 count: 248 trails: 300
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 800000
+score: -2457.39364365892
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139839423100626 SD: 0.00976383343210476 count: 427 trails: 883
+normal     - overDis: 3553.09331756611 SD: 31.7990976130092 count: 920 trails: 920
+normal     - alpha:   496.862519751136 beta: 3056.23079781498
+mutation   - overDis: 2.94747226975158 SD: 0.367003060034359 count: 366 trails: 423
+mutation   - alpha: 1.19895425367102 beta: 1.88590895668295
+drop: 0.689777531122153 SD: 0.0365867112177136 count: 619 trails: 728
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 810000
+score: -2457.46484635725
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.147264041130176 SD: 0.00974529976114671 count: 163 trails: 338
+normal     - overDis: 3327.54208383417 SD: 33.4294722113964 count: 420 trails: 420
+normal     - alpha:   490.027294296146 beta: 2837.51478953802
+mutation   - overDis: 2.37125700966482 SD: 0.367003060034359 count: 778 trails: 893
+mutation   - alpha: 0.95282791163141 beta: 1.5348293946339
+drop: 0.215407975934207 SD: 0.0378596194033922 count: 156 trails: 176
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 820000
+score: -2458.19121773643
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134137048030982 SD: 0.00974529976114671 count: 398 trails: 792
+normal     - overDis: 3380.15728941449 SD: 33.4294722113964 count: 931 trails: 931
+normal     - alpha:   453.404320682464 beta: 2926.75296873202
+mutation   - overDis: 6.37154395354193 SD: 0.38076035433732 count: 316 trails: 359
+mutation   - alpha: 2.61599857855246 beta: 4.04043207409873
+drop: 0.128181321697654 SD: 0.0378596194033922 count: 559 trails: 638
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 830000
+score: -2458.79011460405
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.145237610490052 SD: 0.00974529976114671 count: 135 trails: 285
+normal     - overDis: 2057.6992927698 SD: 35.1434379029466 count: 394 trails: 394
+normal     - alpha:   298.855328388957 beta: 1758.84396438084
+mutation   - overDis: 2.72163436347598 SD: 0.38076035433732 count: 690 trails: 816
+mutation   - alpha: 1.09729473401875 beta: 1.75610085331686
+drop: 0.758601959621336 SD: 0.0392788062796045 count: 123 trails: 146
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 840000
+score: -2457.72961344582
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142461667668135 SD: 0.00974529976114671 count: 343 trails: 749
+normal     - overDis: 1546.86718136529 SD: 35.1434379029466 count: 864 trails: 864
+normal     - alpha:   220.369278318407 beta: 1326.49790304688
+mutation   - overDis: 8.20481753977216 SD: 0.393456370403315 count: 239 trails: 283
+mutation   - alpha: 3.32316077680027 beta: 5.27128075951479
+drop: 0.278208473130294 SD: 0.0392788062796045 count: 493 trails: 587
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 850000
+score: -2460.15408967241
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.148899596265896 SD: 0.0097258286392367 count: 105 trails: 218
+normal     - overDis: 1926.78830021705 SD: 36.9452804946534 count: 332 trails: 332
+normal     - alpha:   286.897999992171 beta: 1639.89030022488
+mutation   - overDis: 6.86285952123547 SD: 0.393456370403315 count: 634 trails: 744
+mutation   - alpha: 2.75017841932338 beta: 4.45330677255926
+drop: 0.373718291065094 SD: 0.0406738383340715 count: 51 trails: 57
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 860000
+score: -2458.70309325087
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139323408258242 SD: 0.0097258286392367 count: 357 trails: 709
+normal     - overDis: 1439.43108095625 SD: 36.9452804946534 count: 817 trails: 817
+normal     - alpha:   200.546444151669 beta: 1238.88463680458
+mutation   - overDis: 11.3437218748482 SD: 0.407715727804965 count: 175 trails: 201
+mutation   - alpha: 4.61823027479915 beta: 7.25230693136153
+drop: 0.931827002411844 SD: 0.0406738383340715 count: 454 trails: 524
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 870000
+score: -2457.51530397998
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.135653365845742 SD: 0.00971707933124057 count: 75 trails: 139
+normal     - overDis: 2196.53353515012 SD: 38.839505531534 count: 295 trails: 295
+normal     - alpha:   297.967167236161 beta: 1898.56636791396
+mutation   - overDis: 9.36375925531216 SD: 0.407715727804965 count: 556 trails: 659
+mutation   - alpha: 3.83506265435454 beta: 5.95210508760839
+drop: 0.290053008380608 SD: 0.0421394810329982 count: 21 trails: 25
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 880000
+score: -2458.27045161576
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.136581217074344 SD: 0.00971707933124057 count: 331 trails: 642
+normal     - overDis: 1077.4539864669 SD: 38.839505531534 count: 777 trails: 777
+normal     - alpha:   147.159976813253 beta: 930.294009653647
+mutation   - overDis: 2.41150884704352 SD: 0.421985176224144 count: 115 trails: 135
+mutation   - alpha: 0.986176547978592 beta: 1.53512123683651
+drop: 0.722133688348274 SD: 0.0421394810329982 count: 419 trails: 493
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 890000
+score: -2458.01302957283
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.144561890658955 SD: 0.00972680127073139 count: 63 trails: 121
+normal     - overDis: 265.884488909263 SD: 40.8308495628384 count: 246 trails: 246
+normal     - alpha:   38.436764413613 beta: 227.44772449565
+mutation   - overDis: 13.2806741508916 SD: 0.421985176224144 count: 471 trails: 565
+mutation   - alpha: 5.36041749912687 beta: 8.56021643992422
+drop: 0.185500252359445 SD: 0.0421394810329982 count: 830 trails: 965
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 900000
+score: -2457.61885379013
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141082709201073 SD: 0.00972680127073139 count: 283 trails: 568
+normal     - overDis: 511.851768882401 SD: 40.8308495628384 count: 733 trails: 733
+normal     - alpha:   72.2134342632906 beta: 439.63833461911
+mutation   - overDis: 11.5915186380182 SD: 0.436273868968631 count: 21 trails: 28
+mutation   - alpha: 4.70551741687156 beta: 7.43112217221547
+drop: 0.638817289252922 SD: 0.0436928770825682 count: 352 trails: 440
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 910000
+score: -2457.39846784489
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.137428667775205 SD: 0.00971319327677078 count: 17 trails: 34
+normal     - overDis: 1176.89690127581 SD: 42.9242919858896 count: 174 trails: 174
+normal     - alpha:   161.739373251101 beta: 1015.15752802471
+mutation   - overDis: 10.8692659419757 SD: 0.436273868968631 count: 428 trails: 503
+mutation   - alpha: 4.4388004789211 beta: 6.92838170908798
+drop: 0.564423417083366 SD: 0.0436928770825682 count: 717 trails: 888
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 920000
+score: -2457.81754575816
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142941181632456 SD: 0.00971319327677078 count: 239 trails: 498
+normal     - overDis: 1592.67133984623 SD: 42.9242919858896 count: 659 trails: 659
+normal     - alpha:   227.658323269767 beta: 1365.01301657647
+mutation   - overDis: 11.0041374594044 SD: 0.436273868968631 count: 813 trails: 943
+mutation   - alpha: 4.45343912217336 beta: 7.07501314099541
+drop: 0.123013286342975 SD: 0.0450956185893302 count: 346 trails: 385
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 930000
+score: -2457.44263750804
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.134386402696507 SD: 0.00971319327677078 count: 470 trails: 926
+normal     - overDis: 1326.36024268005 SD: 45.1250674971708 count: 138 trails: 138
+normal     - alpha:   178.244781693438 beta: 1148.11546098661
+mutation   - overDis: 6.65257146804222 SD: 0.452492046408671 count: 344 trails: 390
+mutation   - alpha: 2.73027563517337 beta: 4.22030088229272
+drop: 0.701517932450313 SD: 0.0450956185893302 count: 796 trails: 902
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 940000
+score: -2458.69614223209
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141854524619722 SD: 0.00971027975583774 count: 187 trails: 374
+normal     - overDis: 231.173770095988 SD: 45.1250674971708 count: 601 trails: 601
+normal     - alpha:   32.7930452615154 beta: 198.380724834473
+mutation   - overDis: 21.0617831598212 SD: 0.452492046408671 count: 722 trails: 839
+mutation   - alpha: 8.53908542139054 beta: 13.5186008176907
+drop: 0.621440535638471 SD: 0.046856282271073 count: 335 trails: 388
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 950000
+score: -2457.39611397142
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.149707924015421 SD: 0.00971027975583774 count: 401 trails: 822
+normal     - overDis: 714.29795174738 SD: 47.4386791817928 count: 41 trails: 41
+normal     - alpha:   106.936063484568 beta: 607.361888262812
+mutation   - overDis: 12.3152048140618 SD: 0.46940699531903 count: 290 trails: 338
+mutation   - alpha: 4.92847990933898 beta: 8.00128615356883
+drop: 0.735346322671578 SD: 0.046856282271073 count: 736 trails: 847
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 960000
+score: -2459.00126795385
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139240558667256 SD: 0.00969378630365934 count: 134 trails: 302
+normal     - overDis: 1563.18267679626 SD: 47.4386791817928 count: 504 trails: 504
+normal     - alpha:   217.658429216089 beta: 1345.52424758018
+mutation   - overDis: 11.0431147229499 SD: 0.46940699531903 count: 662 trails: 801
+mutation   - alpha: 4.49645771917487 beta: 7.05920682492512
+drop: 0.888036501211048 SD: 0.04861271358008 count: 278 trails: 344
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 970000
+score: -2457.52466653954
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146765635079148 SD: 0.00969378630365934 count: 380 trails: 761
+normal     - overDis: 2438.48399281773 SD: 47.4386791817928 count: 992 trails: 992
+normal     - alpha:   357.88565183623 beta: 2080.5983409815
+mutation   - overDis: 16.8461520435851 SD: 0.485155853135625 count: 224 trails: 262
+mutation   - alpha: 6.77478521958145 beta: 10.8955122251092
+drop: 0.576759309888494 SD: 0.04861271358008 count: 711 trails: 849
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 980000
+score: -2458.05983019897
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.133417174001977 SD: 0.00969281697349629 count: 110 trails: 239
+normal     - overDis: 4036.41034090516 SD: 49.8709122740738 count: 478 trails: 478
+normal     - alpha:   538.526460795923 beta: 3497.88388010924
+mutation   - overDis: 13.7451279638117 SD: 0.485155853135625 count: 607 trails: 721
+mutation   - alpha: 5.65000656242096 beta: 8.70640011113312
+drop: 0.546734421115765 SD: 0.0502939651612337 count: 279 trails: 335
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 990000
+score: -2459.0803923927
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.145482185553157 SD: 0.00969281697349629 count: 335 trails: 706
+normal     - overDis: 5192.90113163697 SD: 49.8709122740738 count: 981 trails: 981
+normal     - alpha:   755.47460599201 beta: 4437.42652564496
+mutation   - overDis: 10.1251508066694 SD: 0.502236028751008 count: 155 trails: 200
+mutation   - alpha: 4.08055602439499 beta: 6.53560447174429
+drop: 0.391366526031476 SD: 0.0502939651612337 count: 699 trails: 823
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1000000
+score: -2457.77505926159
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.139511253429747 SD: 0.00967828864700497 count: 65 trails: 140
+normal     - overDis: 2109.81253087078 SD: 52.4278486236381 count: 467 trails: 467
+normal     - alpha:   294.342590683569 beta: 1815.46994018721
+mutation   - overDis: 6.25530792650834 SD: 0.502236028751008 count: 585 trails: 699
+mutation   - alpha: 2.5458633969767 beta: 4.00033981267038
+drop: 0.0749123000447929 SD: 0.0520593853534706 count: 243 trails: 286
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1010000
+score: -2457.49537052249
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.142768526258164 SD: 0.00967828864700497 count: 325 trails: 629
+normal     - overDis: 4410.41816296925 SD: 52.4278486236381 count: 956 trails: 956
+normal     - alpha:   629.66890130936 beta: 3780.74926165989
+mutation   - overDis: 10.8043721682536 SD: 0.518826840057822 count: 129 trails: 141
+mutation   - alpha: 4.37383655638925 beta: 6.94471037573306
+drop: 0.705945941952042 SD: 0.0520593853534706 count: 643 trails: 757
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1020000
+score: -2457.78707242405
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.141048868021659 SD: 0.0097005743296038 count: 58 trails: 110
+normal     - overDis: 5281.7106158845 SD: 55.1158819032082 count: 446 trails: 446
+normal     - alpha:   744.97930358849 beta: 4536.73131229601
+mutation   - overDis: 4.66123872341493 SD: 0.518826840057822 count: 545 trails: 602
+mutation   - alpha: 1.89231106469653 beta: 2.98808180722387
+drop: 0.0700743017864339 SD: 0.0539568737374424 count: 176 trails: 200
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1030000
+score: -2458.14198003565
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.152427952172623 SD: 0.0097005743296038 count: 299 trails: 587
+normal     - overDis: 4096.39487779604 SD: 55.1158819032082 count: 925 trails: 925
+normal     - alpha:   624.405082512875 beta: 3471.98979528317
+mutation   - overDis: 26.2232211511827 SD: 0.53859838722428 count: 57 trails: 77
+mutation   - alpha: 10.4468426426283 beta: 17.108762475036
+drop: 0.324885156697433 SD: 0.0539568737374424 count: 569 trails: 661
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1040000
+score: -2460.22011994169
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.140212343991347 SD: 0.00971805108776071 count: 25 trails: 56
+normal     - overDis: 2181.18989775252 SD: 57.9417335961172 count: 411 trails: 411
+normal     - alpha:   305.829748254128 beta: 1875.3601494984
+mutation   - overDis: 26.5402721768353 SD: 0.53859838722428 count: 468 trails: 545
+mutation   - alpha: 10.7892869070294 beta: 16.9914098605001
+drop: 0.789952805927573 SD: 0.0559067482546565 count: 108 trails: 124
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1050000
+score: -2457.43677499248
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146699159777151 SD: 0.00971805108776071 count: 266 trails: 560
+normal     - overDis: 1240.72137976771 SD: 57.9417335961172 count: 878 trails: 878
+normal     - alpha:   182.012783929471 beta: 1058.70859583824
+mutation   - overDis: 8.83555101490845 SD: 0.557002754962683 count: 14 trails: 16
+mutation   - alpha: 3.55366356741741 beta: 5.71394341750944
+drop: 0.0520486488417138 SD: 0.0559067482546565 count: 515 trails: 622
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1060000
+score: -2458.04318186013
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.146648131707313 SD: 0.00970930877641194 count: 30 trails: 59
+normal     - overDis: 401.989435564007 SD: 60.9124698035176 count: 372 trails: 372
+normal     - alpha:   58.9509996915388 beta: 343.038435872468
+mutation   - overDis: 18.7541122155139 SD: 0.557002754962683 count: 411 trails: 480
+mutation   - alpha: 7.543552428934 beta: 12.1273116259913
+drop: 0.245497081803188 SD: 0.0578576158379107 count: 61 trails: 72
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1070000
+score: -2458.03054228189
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.137937826332009 SD: 0.00970930877641194 count: 279 trails: 537
+normal     - overDis: 5915.14820126967 SD: 60.9124698035176 count: 834 trails: 834
+normal     - alpha:   815.922685314833 beta: 5099.22551595484
+mutation   - overDis: 21.7814492293839 SD: 0.557002754962683 count: 782 trails: 908
+mutation   - alpha: 8.88773410731714 beta: 13.8952103757542
+drop: 0.645688223379176 SD: 0.0578576158379107 count: 433 trails: 518
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1080000
+score: -2457.71812170284
+bestScore: -2457.39350169969
+num trees: 1
+num Samples:	182
+total # mut:	0	currently used:	0
+normal     - freq:    0.143136186692142 SD: 0.0097258286392367 count: 11 trails: 33
+normal     - overDis: 7283.25463056557 SD: 64.0355189133154 count: 289 trails: 289
+normal     - alpha:   1042.49729452704 beta: 6240.75733603853
+mutation   - overDis: 10.6135165979963 SD: 0.577304689958761 count: 360 trails: 411
+mutation   - alpha: 4.29397277017753 beta: 6.8259365922291
+drop: 0.799583907192223 SD: 0.0578576158379107 count: 782 trails: 951
+lambda: 0 SD: 0.01 count: 0 trails: 0
+iterations: 1090000
+score: -2457.45710483051
+bestScore: -2457.39350169969
+num trees: 1
+
+real	1m19.261s
+user	1m16.316s
+sys	0m0.052s
+At mcmc repetition 1/1, step 0: best tree score -1.79769e+308 and best beta 0.31545 and best overall score -1.79769e+308
+At mcmc repetition 1/1, step 100000: best tree score -0.00180005 and best beta 0.31545 and best overall score -0.00180005
+best log score for tree:	-0.0018000450014998579
+#optimal steps after burn-in:	150000
+total #steps after burn-in:	150000
+%optimal steps after burn-in:	1
+samples from posterior written to: result/TEST-CMP30-7P/2/temp/scite-.samples
+191443 opt trees 
+Time elapsed: 84860.282999999996 ms
+
+real	1m26.565s
+user	1m24.768s
+sys	0m0.096s
+
+real	8m12.038s
+user	8m7.308s
+sys	0m0.160s
+time java  -jar bin//SiCloneFit/SiCloneFiTComplete.jar -n 36 -m 182 -iter 1 -ipMat result/TEST-CMP30-7P/2/input-siclonefit.txt -cellNames result/TEST-CMP30-7P/2/siclonefit-cellNames.txt -outDir result/TEST-CMP30-7P/2/siclonefit
+Run 0
+start sample posterior = -3982.213774761035
+MAP value = -1524.1471352131196
+ML value = -1159.1395901355186
+Clone C0, ID = 0
+[115, 116, 121, 122, 123, 143, 146, 163, 164, 165, 167, 168, 169, 170, 172, 173, 174, 176, 180, 181]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[116, 117, 122, 123, 124, 144, 147, 164, 165, 166, 168, 169, 170, 171, 173, 174, 175, 177, 181, 182]
+Clone C1, ID = 1
+[114, 117, 118, 119, 120, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 148, 151, 166]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[115, 118, 119, 120, 121, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 149, 152, 167]
+Clone C2, ID = 2
+[0, 2, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 175, 177, 178]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 176, 178, 179]
+Clone C3, ID = 3
+[142, 144, 145, 147, 149, 150, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 171, 179]
+[1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+[143, 145, 146, 148, 150, 151, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 172, 180]
+Clone C4, ID = 4
+[1, 3, 4, 5, 6, 7]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2, 4, 5, 6, 7, 8]
+(((2:1.0E-15,4:1.0E-15,5:1.0E-15,6:1.0E-15,7:1.0E-15,8:1.0E-15)C4:0.05517924592756066,(((115:1.0E-15,118:1.0E-15,119:1.0E-15,120:1.0E-15,121:1.0E-15,125:1.0E-15,126:1.0E-15,127:1.0E-15,128:1.0E-15,129:1.0E-15,130:1.0E-15,131:1.0E-15,132:1.0E-15,133:1.0E-15,134:1.0E-15,135:1.0E-15,136:1.0E-15,137:1.0E-15,138:1.0E-15,139:1.0E-15,140:1.0E-15,141:1.0E-15,142:1.0E-15,149:1.0E-15,152:1.0E-15,167:1.0E-15)C1:0.2420334244246977,(143:1.0E-15,145:1.0E-15,146:1.0E-15,148:1.0E-15,150:1.0E-15,151:1.0E-15,153:1.0E-15,154:1.0E-15,155:1.0E-15,156:1.0E-15,157:1.0E-15,158:1.0E-15,159:1.0E-15,160:1.0E-15,161:1.0E-15,162:1.0E-15,163:1.0E-15,172:1.0E-15,180:1.0E-15)C3:0.7206519353888127):0.0395647832783601,(116:1.0E-15,117:1.0E-15,122:1.0E-15,123:1.0E-15,124:1.0E-15,144:1.0E-15,147:1.0E-15,164:1.0E-15,165:1.0E-15,166:1.0E-15,168:1.0E-15,169:1.0E-15,170:1.0E-15,171:1.0E-15,173:1.0E-15,174:1.0E-15,175:1.0E-15,177:1.0E-15,181:1.0E-15,182:1.0E-15)C0:0.021393063209627857):0.43569119857187766):0.04659687174720607,(1:1.0E-15,3:1.0E-15,9:1.0E-15,10:1.0E-15,11:1.0E-15,12:1.0E-15,13:1.0E-15,14:1.0E-15,15:1.0E-15,16:1.0E-15,17:1.0E-15,18:1.0E-15,19:1.0E-15,20:1.0E-15,21:1.0E-15,22:1.0E-15,23:1.0E-15,24:1.0E-15,25:1.0E-15,26:1.0E-15,27:1.0E-15,28:1.0E-15,29:1.0E-15,30:1.0E-15,31:1.0E-15,32:1.0E-15,33:1.0E-15,34:1.0E-15,35:1.0E-15,36:1.0E-15,37:1.0E-15,38:1.0E-15,39:1.0E-15,40:1.0E-15,41:1.0E-15,42:1.0E-15,43:1.0E-15,44:1.0E-15,45:1.0E-15,46:1.0E-15,47:1.0E-15,48:1.0E-15,49:1.0E-15,50:1.0E-15,51:1.0E-15,52:1.0E-15,53:1.0E-15,54:1.0E-15,55:1.0E-15,56:1.0E-15,57:1.0E-15,58:1.0E-15,59:1.0E-15,60:1.0E-15,61:1.0E-15,62:1.0E-15,63:1.0E-15,64:1.0E-15,65:1.0E-15,66:1.0E-15,67:1.0E-15,68:1.0E-15,69:1.0E-15,70:1.0E-15,71:1.0E-15,72:1.0E-15,73:1.0E-15,74:1.0E-15,75:1.0E-15,76:1.0E-15,77:1.0E-15,78:1.0E-15,79:1.0E-15,80:1.0E-15,81:1.0E-15,82:1.0E-15,83:1.0E-15,84:1.0E-15,85:1.0E-15,86:1.0E-15,87:1.0E-15,88:1.0E-15,89:1.0E-15,90:1.0E-15,91:1.0E-15,92:1.0E-15,93:1.0E-15,94:1.0E-15,95:1.0E-15,96:1.0E-15,97:1.0E-15,98:1.0E-15,99:1.0E-15,100:1.0E-15,101:1.0E-15,102:1.0E-15,103:1.0E-15,104:1.0E-15,105:1.0E-15,106:1.0E-15,107:1.0E-15,108:1.0E-15,109:1.0E-15,110:1.0E-15,111:1.0E-15,112:1.0E-15,113:1.0E-15,114:1.0E-15,176:1.0E-15,178:1.0E-15,179:1.0E-15)C2:0.0597666771173315):0.049480646127156754;
+[2, 4, 2, 4, 4, 4, 4, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 0, 3, 3, 0, 3, 1, 3, 3, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 0, 2, 0, 2, 2, 3, 0, 0]
+Run 1
+start sample posterior = -3838.4654584183136
+MAP value = -1517.682679048152
+ML value = -1036.185138288011
+Clone C0, ID = 0
+[115, 121, 123, 143, 146, 167, 168, 172, 176, 177, 178, 179, 180, 181]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[116, 122, 124, 144, 147, 168, 169, 173, 177, 178, 179, 180, 181, 182]
+Clone C1, ID = 1
+[2, 8, 9, 11, 12, 16, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 70, 72, 73, 76, 77, 79, 80, 81, 83, 84, 85, 87, 90, 91, 94, 95, 96, 99, 100, 101, 102, 104, 107, 108, 109, 110, 111, 113]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[3, 9, 10, 12, 13, 17, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 32, 33, 35, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 51, 52, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 71, 73, 74, 77, 78, 80, 81, 82, 84, 85, 86, 88, 91, 92, 95, 96, 97, 100, 101, 102, 103, 105, 108, 109, 110, 111, 112, 114]
+Clone C2, ID = 2
+[1, 3, 4, 5, 6, 7]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2, 4, 5, 6, 7, 8]
+Clone C3, ID = 3
+[114, 116, 117, 118, 119, 120, 122, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 151]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[115, 117, 118, 119, 120, 121, 123, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 152]
+Clone C4, ID = 4
+[0, 10, 13, 14, 15, 17, 18, 22, 30, 33, 35, 41, 48, 49, 52, 68, 69, 71, 74, 75, 78, 82, 86, 88, 89, 92, 93, 97, 98, 103, 105, 106, 112, 175]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 11, 14, 15, 16, 18, 19, 23, 31, 34, 36, 42, 49, 50, 53, 69, 70, 72, 75, 76, 79, 83, 87, 89, 90, 93, 94, 98, 99, 104, 106, 107, 113, 176]
+Clone C5, ID = 5
+[142, 144, 145, 147, 148, 149, 150, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 171, 173]
+[1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+[143, 145, 146, 148, 149, 150, 151, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 172, 174]
+Clone C6, ID = 6
+[162, 163, 164, 165, 166, 169, 170, 174]
+[1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+[163, 164, 165, 166, 167, 170, 171, 175]
+(((3:1.0E-15,9:1.0E-15,10:1.0E-15,12:1.0E-15,13:1.0E-15,17:1.0E-15,20:1.0E-15,21:1.0E-15,22:1.0E-15,24:1.0E-15,25:1.0E-15,26:1.0E-15,27:1.0E-15,28:1.0E-15,29:1.0E-15,30:1.0E-15,32:1.0E-15,33:1.0E-15,35:1.0E-15,37:1.0E-15,38:1.0E-15,39:1.0E-15,40:1.0E-15,41:1.0E-15,43:1.0E-15,44:1.0E-15,45:1.0E-15,46:1.0E-15,47:1.0E-15,48:1.0E-15,51:1.0E-15,52:1.0E-15,54:1.0E-15,55:1.0E-15,56:1.0E-15,57:1.0E-15,58:1.0E-15,59:1.0E-15,60:1.0E-15,61:1.0E-15,62:1.0E-15,63:1.0E-15,64:1.0E-15,65:1.0E-15,66:1.0E-15,67:1.0E-15,68:1.0E-15,71:1.0E-15,73:1.0E-15,74:1.0E-15,77:1.0E-15,78:1.0E-15,80:1.0E-15,81:1.0E-15,82:1.0E-15,84:1.0E-15,85:1.0E-15,86:1.0E-15,88:1.0E-15,91:1.0E-15,92:1.0E-15,95:1.0E-15,96:1.0E-15,97:1.0E-15,100:1.0E-15,101:1.0E-15,102:1.0E-15,103:1.0E-15,105:1.0E-15,108:1.0E-15,109:1.0E-15,110:1.0E-15,111:1.0E-15,112:1.0E-15,114:1.0E-15)C1:0.025089771443007666,((((143:1.0E-15,145:1.0E-15,146:1.0E-15,148:1.0E-15,149:1.0E-15,150:1.0E-15,151:1.0E-15,153:1.0E-15,154:1.0E-15,155:1.0E-15,156:1.0E-15,157:1.0E-15,158:1.0E-15,159:1.0E-15,160:1.0E-15,161:1.0E-15,162:1.0E-15,172:1.0E-15,174:1.0E-15)C5:0.44167734668123004,(163:1.0E-15,164:1.0E-15,165:1.0E-15,166:1.0E-15,167:1.0E-15,170:1.0E-15,171:1.0E-15,175:1.0E-15)C6:0.3594983478445707):0.001783139159736185,(115:1.0E-15,117:1.0E-15,118:1.0E-15,119:1.0E-15,120:1.0E-15,121:1.0E-15,123:1.0E-15,125:1.0E-15,126:1.0E-15,127:1.0E-15,128:1.0E-15,129:1.0E-15,130:1.0E-15,131:1.0E-15,132:1.0E-15,133:1.0E-15,134:1.0E-15,135:1.0E-15,136:1.0E-15,137:1.0E-15,138:1.0E-15,139:1.0E-15,140:1.0E-15,141:1.0E-15,142:1.0E-15,152:1.0E-15)C3:0.14001274766208932):8.272470256006659E-4,(116:1.0E-15,122:1.0E-15,124:1.0E-15,144:1.0E-15,147:1.0E-15,168:1.0E-15,169:1.0E-15,173:1.0E-15,177:1.0E-15,178:1.0E-15,179:1.0E-15,180:1.0E-15,181:1.0E-15,182:1.0E-15)C0:0.28826882188223224):0.5423943801405566):4.271275621203421E-6,((2:1.0E-15,4:1.0E-15,5:1.0E-15,6:1.0E-15,7:1.0E-15,8:1.0E-15)C2:0.038571117316481336,(1:1.0E-15,11:1.0E-15,14:1.0E-15,15:1.0E-15,16:1.0E-15,18:1.0E-15,19:1.0E-15,23:1.0E-15,31:1.0E-15,34:1.0E-15,36:1.0E-15,42:1.0E-15,49:1.0E-15,50:1.0E-15,53:1.0E-15,69:1.0E-15,70:1.0E-15,72:1.0E-15,75:1.0E-15,76:1.0E-15,79:1.0E-15,83:1.0E-15,87:1.0E-15,89:1.0E-15,90:1.0E-15,93:1.0E-15,94:1.0E-15,98:1.0E-15,99:1.0E-15,104:1.0E-15,106:1.0E-15,107:1.0E-15,113:1.0E-15,176:1.0E-15)C4:0.003864219435212269):2.2516397880335815E-4):0.01622323489615009;
+[4, 2, 1, 2, 2, 2, 2, 2, 1, 1, 4, 1, 1, 4, 4, 4, 1, 4, 4, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 4, 1, 1, 4, 1, 4, 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 1, 4, 4, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 1, 4, 1, 1, 4, 4, 1, 1, 4, 1, 1, 1, 4, 1, 1, 1, 4, 1, 4, 4, 1, 1, 4, 4, 1, 1, 1, 4, 4, 1, 1, 1, 1, 4, 1, 4, 4, 1, 1, 1, 1, 1, 4, 1, 3, 0, 3, 3, 3, 3, 3, 0, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 0, 5, 5, 0, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 0, 0, 6, 6, 5, 0, 5, 6, 4, 0, 0, 0, 0, 0, 0]
+Run 2
+start sample posterior = -3989.0388479108906
+MAP value = -1441.132235155236
+ML value = -1040.5634585723092
+Clone C0, ID = 0
+[20]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[21]
+Clone C1, ID = 1
+[162, 163, 164, 165, 166, 169, 170, 174]
+[1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+[163, 164, 165, 166, 167, 170, 171, 175]
+Clone C2, ID = 2
+[1, 3, 4, 5, 6, 7]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2, 4, 5, 6, 7, 8]
+Clone C3, ID = 3
+[142, 144, 145, 147, 148, 149, 150, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 171, 172, 173]
+[1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+[143, 145, 146, 148, 149, 150, 151, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 172, 173, 174]
+Clone C4, ID = 4
+[114, 116, 117, 118, 119, 120, 122, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 151]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[115, 117, 118, 119, 120, 121, 123, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 152]
+Clone C5, ID = 5
+[115, 121, 123, 143, 146, 167, 168, 176, 177, 179, 180, 181]
+[0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[116, 122, 124, 144, 147, 168, 169, 177, 178, 180, 181, 182]
+Clone C6, ID = 6
+[0, 2, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 175, 178]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 176, 179]
+((((((116:1.0E-15,122:1.0E-15,124:1.0E-15,144:1.0E-15,147:1.0E-15,168:1.0E-15,169:1.0E-15,177:1.0E-15,178:1.0E-15,180:1.0E-15,181:1.0E-15,182:1.0E-15)C5:0.04331663954479976,((163:1.0E-15,164:1.0E-15,165:1.0E-15,166:1.0E-15,167:1.0E-15,170:1.0E-15,171:1.0E-15,175:1.0E-15)C1:0.5590222261992983,(143:1.0E-15,145:1.0E-15,146:1.0E-15,148:1.0E-15,149:1.0E-15,150:1.0E-15,151:1.0E-15,153:1.0E-15,154:1.0E-15,155:1.0E-15,156:1.0E-15,157:1.0E-15,158:1.0E-15,159:1.0E-15,160:1.0E-15,161:1.0E-15,162:1.0E-15,172:1.0E-15,173:1.0E-15,174:1.0E-15)C3:0.5079089084706389):0.16457755986759193):0.20589141363542393,(115:1.0E-15,117:1.0E-15,118:1.0E-15,119:1.0E-15,120:1.0E-15,121:1.0E-15,123:1.0E-15,125:1.0E-15,126:1.0E-15,127:1.0E-15,128:1.0E-15,129:1.0E-15,130:1.0E-15,131:1.0E-15,132:1.0E-15,133:1.0E-15,134:1.0E-15,135:1.0E-15,136:1.0E-15,137:1.0E-15,138:1.0E-15,139:1.0E-15,140:1.0E-15,141:1.0E-15,142:1.0E-15,152:1.0E-15)C4:0.37918415061945626):0.5441608949844529,(21:1.0E-15)C0:0.003957781724345209):0.024258811965452706,(1:1.0E-15,3:1.0E-15,9:1.0E-15,10:1.0E-15,11:1.0E-15,12:1.0E-15,13:1.0E-15,14:1.0E-15,15:1.0E-15,16:1.0E-15,17:1.0E-15,18:1.0E-15,19:1.0E-15,20:1.0E-15,22:1.0E-15,23:1.0E-15,24:1.0E-15,25:1.0E-15,26:1.0E-15,27:1.0E-15,28:1.0E-15,29:1.0E-15,30:1.0E-15,31:1.0E-15,32:1.0E-15,33:1.0E-15,34:1.0E-15,35:1.0E-15,36:1.0E-15,37:1.0E-15,38:1.0E-15,39:1.0E-15,40:1.0E-15,41:1.0E-15,42:1.0E-15,43:1.0E-15,44:1.0E-15,45:1.0E-15,46:1.0E-15,47:1.0E-15,48:1.0E-15,49:1.0E-15,50:1.0E-15,51:1.0E-15,52:1.0E-15,53:1.0E-15,54:1.0E-15,55:1.0E-15,56:1.0E-15,57:1.0E-15,58:1.0E-15,59:1.0E-15,60:1.0E-15,61:1.0E-15,62:1.0E-15,63:1.0E-15,64:1.0E-15,65:1.0E-15,66:1.0E-15,67:1.0E-15,68:1.0E-15,69:1.0E-15,70:1.0E-15,71:1.0E-15,72:1.0E-15,73:1.0E-15,74:1.0E-15,75:1.0E-15,76:1.0E-15,77:1.0E-15,78:1.0E-15,79:1.0E-15,80:1.0E-15,81:1.0E-15,82:1.0E-15,83:1.0E-15,84:1.0E-15,85:1.0E-15,86:1.0E-15,87:1.0E-15,88:1.0E-15,89:1.0E-15,90:1.0E-15,91:1.0E-15,92:1.0E-15,93:1.0E-15,94:1.0E-15,95:1.0E-15,96:1.0E-15,97:1.0E-15,98:1.0E-15,99:1.0E-15,100:1.0E-15,101:1.0E-15,102:1.0E-15,103:1.0E-15,104:1.0E-15,105:1.0E-15,106:1.0E-15,107:1.0E-15,108:1.0E-15,109:1.0E-15,110:1.0E-15,111:1.0E-15,112:1.0E-15,113:1.0E-15,114:1.0E-15,176:1.0E-15,179:1.0E-15)C6:0.020022272680087112):0.10626333752778927,(2:1.0E-15,4:1.0E-15,5:1.0E-15,6:1.0E-15,7:1.0E-15,8:1.0E-15)C2:0.07806963144498752);
+[6, 2, 6, 2, 2, 2, 2, 2, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 4, 5, 4, 4, 4, 4, 4, 5, 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 5, 3, 3, 5, 3, 3, 3, 3, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 5, 5, 1, 1, 3, 3, 3, 1, 6, 5, 5, 6, 5, 5, 5]
+MAP delProb = 0.092948
+MAP LOHProb = 0.105431
+
+real	8m34.814s
+user	9m22.940s
+sys	0m3.828s
+Loading required package: Rcpp
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+
+real	13m29.859s
+user	563m31.704s
+sys	0m16.032s
+waiting for semaphores done
+impute:
+
+python bin//visualize-tree.py impute result/TEST-CMP30-7P/2/impute-tree.txt result/TEST-CMP30-7P/2/impute-clones.txt result/TEST-CMP30-7P/2/output-impute --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['181', '258', '182', '173', '238', '186', '190', '169', '167', '194', '198', '202', '150', '234', '206', '210', '214', '148', '218', '146', '178', '222', '140', '226', '137', '270', '230', '133', '266', '242', '125', '286', '246', '250', '123', '254', '121', '290', '120', '282', '141', '262', '119', '274', '278', '122', '117', '294', '298', '81', '83', '302', '8', '6', '306', '310', '37', '50', '59', '89', '29', '62', '63', '65', '68', '70', '76', '27', '31', '33', '44', '32', '34', '41', '47', '66', '69', '82', '55', '90', '153', '42', '115', '57', '40', '84', '85', '157', '30', '26'])
+bp:
+
+python bin//visualize-tree.py bp result/TEST-CMP30-7P/2/bp-tree.txt result/TEST-CMP30-7P/2/bp-clones.txt result/TEST-CMP30-7P/2/output-bp --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['n0', 'n1', 'n4', 'n5', 'n10', 'n13'])
+onconeme:
+
+python bin//visualize-tree.py onconeme result/TEST-CMP30-7P/2/onconeme-tree.txt result/TEST-CMP30-7P/2/onconeme-clones.txt result/TEST-CMP30-7P/2/output-onconeme --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['1', '2', '7', '5', '18', '6', '10', '13', '17', '12', '16', '14'])
+sasc:
+
+python bin//visualize-tree.py sasc result/TEST-CMP30-7P/2/sasc-tree.txt result/TEST-CMP30-7P/2/sasc-clones.txt result/TEST-CMP30-7P/2/output-sasc --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['194', '193', '192', '191', '190', '187', '185', '184', '183', '181', '178', '177', '176', '175', '174', '172', '170', '169', '157', '154', '152', '151', '150', '148', '147', '146', '145', '144', '143', '142', '141', '136', '135', '133', '132', '129', '126', '125', '124', '121', '120', '119', '118', '117', '114', '112', '111', '110', '108', '107', '105', '103', '102', '101', '94', '93', '92', '85', '80', '79', '77', '74', '73', '72', '71', '70', '66', '64', '62', '61', '59', '56', '55', '54', '53', '52', '51', '50', '49', '48', '47', '46', '45', '44', '43', '42', '41', '40', '39', '38', '37', '36', '35', '34', '33', '32', '31', '30', '29', '28', '27', '26', '25', '24', '23', '22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1', '0'])
+sciphi:
+
+python bin//visualize-tree.py sciphi result/TEST-CMP30-7P/2/sciphi-tree.txt result/TEST-CMP30-7P/2/sciphi-clones.txt result/TEST-CMP30-7P/2/output-sciphi --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['64', '19', '166', '127', '76', '38', '82', '23', '60', '180', '55', '136', '113', '94', '168', '104', '162', '155', '42', '128', '0', '135', '120', '28', '63', '95', '18', '131', '43', '140', '106', '13', '132', '22', '49', '107', '114', '16', '178', '70', '145', '78', '2', '121', '21', '103', '74', '90', '123', '8', '98', '88', '10', '160', '44', '26', '117', '29', '133', '80', '112', '165', '53', '163', '151', '99', '161', '40', '47', '138', '177', '41', '72', '164', '1', '85', '111', '137', '170', '75', '4', '87', '32', '122', '158', '130', '65', '11', '173', '91', '50', '118', '61', '115', '147', '73', '81', '146', '66', '37', '152', '56', '6', '69', '93', '100', '9', '54', '142', '129', '134', '92', '159', '124', '156', '97', '169', '20', '83', '71', '34', '58', '35', '116', '125', '25', '154', '3', '148', '14', '31', '27', '52', '7', '110', '12', '5', '179', '126', '144', '48', '167', '77', '175', '36', '89', '141', '17', '119', '39', '15', '46', '84', '153', '139', '59', '157', '30', '108', '102', '150', '176', '109', '143', '62', '96', '86', '172', '24', '57', '174', '67', '33', '51', '45', '105', '171', '101', '68', '363', '149', '79'])
+scite:
+
+python bin//visualize-tree.py scite result/TEST-CMP30-7P/2/scite-tree.txt result/TEST-CMP30-7P/2/scite-clones.txt result/TEST-CMP30-7P/2/output-scite --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['13', '10', '22', '29', '14', '7', '1', '12', '31', '18', '33', '4', '6', '16', '19', '37', '5', '36', '35', '17', '27', '8', '28', '23'])
+siclonefit:
+
+python bin//visualize-tree.py siclonefit result/TEST-CMP30-7P/2/siclonefit-tree.txt result/TEST-CMP30-7P/2/siclonefit-clones.txt result/TEST-CMP30-7P/2/output-siclonefit --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['187', '186', '189', '188', '190', '185', '191', '184', '192', '183', '193', '182', '194'])
+sifit:
+
+python bin//visualize-tree.py sifit result/TEST-CMP30-7P/2/sifit-tree.txt result/TEST-CMP30-7P/2/sifit-clones.txt result/TEST-CMP30-7P/2/output-sifit --type-file data/Luang/Luang-2-types.txt --cell-name result/TEST-CMP30-7P/2/cell-names.txt --color result/TEST-CMP30-7P/2/colors.txt
+dict_keys(['187', '196', '210', '209', '208', '211', '207', '206', '205', '215', '214', '213', '219', '218', '224', '230', '231', '229', '238', '244', '243', '242', '241', '240', '247', '246', '245', '239', '237', '236', '235', '234', '233', '249', '248', '232', '228', '227', '226', '225', '223', '222', '252', '251', '250', '221', '220', '217', '216', '212', '204', '203', '253', '202', '201', '200', '199', '198', '197', '195', '194', '193', '192', '191', '259', '260', '258', '257', '262', '261', '256', '255', '254', '190', '264', '263', '189', '188', '186', '266', '265', '185', '271', '270', '269', '268', '273', '272', '267', '184', '278', '277', '285', '284', '283', '282', '281', '280', '279', '276', '275', '291', '290', '289', '292', '288', '294', '293', '287', '297', '296', '295', '286', '274', '183', '302', '301', '310', '309', '308', '307', '312', '311', '306', '305', '304', '303', '300', '326', '328', '327', '325', '324', '323', '322', '321', '320', '319', '329', '318', '317', '330', '316', '332', '331', '315', '314', '313', '299', '344', '346', '347', '345', '343', '342', '341', '340', '348', '339', '338', '337', '350', '351', '349', '336', '356', '355', '354', '353', '358', '361', '360', '359', '357', '352', '335', '334', '362', '333', '298', '182'])

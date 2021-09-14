@@ -1,0 +1,11 @@
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:0.0 clone:5 donco0:2.39
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:1.0 clone:5 donco0:2.41
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:2.0 clone:5 donco0:2.4
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:3.0 clone:5 donco0:2.36
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:4.0 clone:5 donco0:2.39
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:5.0 clone:5 donco0:2.39
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:6.0 clone:5 donco0:2.37
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:7.0 clone:5 donco0:2.38
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:8.0 clone:5 donco0:2.37
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:9.0 clone:5 donco0:2.38
+sample:50 site:200 step:13 mvr:0.07 zor:0.015 ozr:0.1 stepmut:10.0 clone:5 donco0:2.39

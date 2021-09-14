@@ -1,0 +1,151 @@
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:0 ALLCNT:1 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/1-0//input-scite.txt result/TEST-CMP30-1-OS/1-0//true-seq.txt result/TEST-CMP30-1-OS/1-0//impute-seq.txt I
+name:I 110 429
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:0 ALLCNT:2 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/2-0//input-scite.txt result/TEST-CMP30-1-OS/2-0//true-seq.txt result/TEST-CMP30-1-OS/2-0//impute-seq.txt I
+name:I 154 696
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:0 ALLCNT:3 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/3-0//input-scite.txt result/TEST-CMP30-1-OS/3-0//true-seq.txt result/TEST-CMP30-1-OS/3-0//impute-seq.txt I
+name:I 245 1031
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:0 ALLCNT:4 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/4-0//input-scite.txt result/TEST-CMP30-1-OS/4-0//true-seq.txt result/TEST-CMP30-1-OS/4-0//impute-seq.txt I
+name:I 312 1428
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:0 ALLCNT:5 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/5-0//input-scite.txt result/TEST-CMP30-1-OS/5-0//true-seq.txt result/TEST-CMP30-1-OS/5-0//impute-seq.txt I
+name:I 407 1816
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:1 ALLCNT:6 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/6-0//input-scite.txt result/TEST-CMP30-1-OS/6-0//true-seq.txt result/TEST-CMP30-1-OS/6-0//impute-seq.txt I
+name:I 83 370
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:1 ALLCNT:7 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/7-0//input-scite.txt result/TEST-CMP30-1-OS/7-0//true-seq.txt result/TEST-CMP30-1-OS/7-0//impute-seq.txt I
+name:I 146 639
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:1 ALLCNT:8 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/8-0//input-scite.txt result/TEST-CMP30-1-OS/8-0//true-seq.txt result/TEST-CMP30-1-OS/8-0//impute-seq.txt I
+name:I 209 1063
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:1 ALLCNT:9 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/9-0//input-scite.txt result/TEST-CMP30-1-OS/9-0//true-seq.txt result/TEST-CMP30-1-OS/9-0//impute-seq.txt I
+name:I 291 1376
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:1 ALLCNT:10 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/10-0//input-scite.txt result/TEST-CMP30-1-OS/10-0//true-seq.txt result/TEST-CMP30-1-OS/10-0//impute-seq.txt I
+name:I 414 1841
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:2 ALLCNT:11 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/11-0//input-scite.txt result/TEST-CMP30-1-OS/11-0//true-seq.txt result/TEST-CMP30-1-OS/11-0//impute-seq.txt I
+name:I 86 352
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:2 ALLCNT:12 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/12-0//input-scite.txt result/TEST-CMP30-1-OS/12-0//true-seq.txt result/TEST-CMP30-1-OS/12-0//impute-seq.txt I
+name:I 193 754
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:2 ALLCNT:13 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/13-0//input-scite.txt result/TEST-CMP30-1-OS/13-0//true-seq.txt result/TEST-CMP30-1-OS/13-0//impute-seq.txt I
+name:I 259 1095
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:2 ALLCNT:14 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/14-0//input-scite.txt result/TEST-CMP30-1-OS/14-0//true-seq.txt result/TEST-CMP30-1-OS/14-0//impute-seq.txt I
+name:I 363 1394
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:2 ALLCNT:15 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/15-0//input-scite.txt result/TEST-CMP30-1-OS/15-0//true-seq.txt result/TEST-CMP30-1-OS/15-0//impute-seq.txt I
+name:I 430 1746
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:3 ALLCNT:16 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/16-0//input-scite.txt result/TEST-CMP30-1-OS/16-0//true-seq.txt result/TEST-CMP30-1-OS/16-0//impute-seq.txt I
+name:I 73 330
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:3 ALLCNT:17 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/17-0//input-scite.txt result/TEST-CMP30-1-OS/17-0//true-seq.txt result/TEST-CMP30-1-OS/17-0//impute-seq.txt I
+name:I 171 690
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:3 ALLCNT:18 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/18-0//input-scite.txt result/TEST-CMP30-1-OS/18-0//true-seq.txt result/TEST-CMP30-1-OS/18-0//impute-seq.txt I
+name:I 284 1132
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:3 ALLCNT:19 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/19-0//input-scite.txt result/TEST-CMP30-1-OS/19-0//true-seq.txt result/TEST-CMP30-1-OS/19-0//impute-seq.txt I
+name:I 334 1403
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:3 ALLCNT:20 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/20-0//input-scite.txt result/TEST-CMP30-1-OS/20-0//true-seq.txt result/TEST-CMP30-1-OS/20-0//impute-seq.txt I
+name:I 404 1818
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:4 ALLCNT:21 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/21-0//input-scite.txt result/TEST-CMP30-1-OS/21-0//true-seq.txt result/TEST-CMP30-1-OS/21-0//impute-seq.txt I
+name:I 91 355
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:4 ALLCNT:22 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/22-0//input-scite.txt result/TEST-CMP30-1-OS/22-0//true-seq.txt result/TEST-CMP30-1-OS/22-0//impute-seq.txt I
+name:I 175 724
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:4 ALLCNT:23 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/23-0//input-scite.txt result/TEST-CMP30-1-OS/23-0//true-seq.txt result/TEST-CMP30-1-OS/23-0//impute-seq.txt I
+name:I 242 1083
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:4 ALLCNT:24 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/24-0//input-scite.txt result/TEST-CMP30-1-OS/24-0//true-seq.txt result/TEST-CMP30-1-OS/24-0//impute-seq.txt I
+name:I 396 1494
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:4 ALLCNT:25 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/25-0//input-scite.txt result/TEST-CMP30-1-OS/25-0//true-seq.txt result/TEST-CMP30-1-OS/25-0//impute-seq.txt I
+name:I 430 1854
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:5 ALLCNT:26 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/26-0//input-scite.txt result/TEST-CMP30-1-OS/26-0//true-seq.txt result/TEST-CMP30-1-OS/26-0//impute-seq.txt I
+name:I 83 365
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:5 ALLCNT:27 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/27-0//input-scite.txt result/TEST-CMP30-1-OS/27-0//true-seq.txt result/TEST-CMP30-1-OS/27-0//impute-seq.txt I
+name:I 177 710
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:5 ALLCNT:28 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/28-0//input-scite.txt result/TEST-CMP30-1-OS/28-0//true-seq.txt result/TEST-CMP30-1-OS/28-0//impute-seq.txt I
+name:I 241 1035
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:5 ALLCNT:29 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/29-0//input-scite.txt result/TEST-CMP30-1-OS/29-0//true-seq.txt result/TEST-CMP30-1-OS/29-0//impute-seq.txt I
+name:I 334 1452
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:5 ALLCNT:30 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/30-0//input-scite.txt result/TEST-CMP30-1-OS/30-0//true-seq.txt result/TEST-CMP30-1-OS/30-0//impute-seq.txt I
+name:I 359 1711
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:6 ALLCNT:31 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/31-0//input-scite.txt result/TEST-CMP30-1-OS/31-0//true-seq.txt result/TEST-CMP30-1-OS/31-0//impute-seq.txt I
+name:I 85 347
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:6 ALLCNT:32 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/32-0//input-scite.txt result/TEST-CMP30-1-OS/32-0//true-seq.txt result/TEST-CMP30-1-OS/32-0//impute-seq.txt I
+name:I 156 703
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:6 ALLCNT:33 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/33-0//input-scite.txt result/TEST-CMP30-1-OS/33-0//true-seq.txt result/TEST-CMP30-1-OS/33-0//impute-seq.txt I
+name:I 247 1074
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:6 ALLCNT:34 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/34-0//input-scite.txt result/TEST-CMP30-1-OS/34-0//true-seq.txt result/TEST-CMP30-1-OS/34-0//impute-seq.txt I
+name:I 322 1400
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:6 ALLCNT:35 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/35-0//input-scite.txt result/TEST-CMP30-1-OS/35-0//true-seq.txt result/TEST-CMP30-1-OS/35-0//impute-seq.txt I
+name:I 427 1735
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:7 ALLCNT:36 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/36-0//input-scite.txt result/TEST-CMP30-1-OS/36-0//true-seq.txt result/TEST-CMP30-1-OS/36-0//impute-seq.txt I
+name:I 83 387
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:7 ALLCNT:37 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/37-0//input-scite.txt result/TEST-CMP30-1-OS/37-0//true-seq.txt result/TEST-CMP30-1-OS/37-0//impute-seq.txt I
+name:I 146 691
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:7 ALLCNT:38 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/38-0//input-scite.txt result/TEST-CMP30-1-OS/38-0//true-seq.txt result/TEST-CMP30-1-OS/38-0//impute-seq.txt I
+name:I 213 1012
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:7 ALLCNT:39 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/39-0//input-scite.txt result/TEST-CMP30-1-OS/39-0//true-seq.txt result/TEST-CMP30-1-OS/39-0//impute-seq.txt I
+name:I 347 1447
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:7 ALLCNT:40 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/40-0//input-scite.txt result/TEST-CMP30-1-OS/40-0//true-seq.txt result/TEST-CMP30-1-OS/40-0//impute-seq.txt I
+name:I 363 1761
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:8 ALLCNT:41 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/41-0//input-scite.txt result/TEST-CMP30-1-OS/41-0//true-seq.txt result/TEST-CMP30-1-OS/41-0//impute-seq.txt I
+name:I 69 322
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:8 ALLCNT:42 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/42-0//input-scite.txt result/TEST-CMP30-1-OS/42-0//true-seq.txt result/TEST-CMP30-1-OS/42-0//impute-seq.txt I
+name:I 187 710
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:8 ALLCNT:43 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/43-0//input-scite.txt result/TEST-CMP30-1-OS/43-0//true-seq.txt result/TEST-CMP30-1-OS/43-0//impute-seq.txt I
+name:I 253 1078
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:8 ALLCNT:44 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/44-0//input-scite.txt result/TEST-CMP30-1-OS/44-0//true-seq.txt result/TEST-CMP30-1-OS/44-0//impute-seq.txt I
+name:I 315 1447
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:8 ALLCNT:45 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/45-0//input-scite.txt result/TEST-CMP30-1-OS/45-0//true-seq.txt result/TEST-CMP30-1-OS/45-0//impute-seq.txt I
+name:I 405 1776
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=20 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:9 ALLCNT:46 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/46-0//input-scite.txt result/TEST-CMP30-1-OS/46-0//true-seq.txt result/TEST-CMP30-1-OS/46-0//impute-seq.txt I
+name:I 89 343
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=40 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:9 ALLCNT:47 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/47-0//input-scite.txt result/TEST-CMP30-1-OS/47-0//true-seq.txt result/TEST-CMP30-1-OS/47-0//impute-seq.txt I
+name:I 174 705
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=60 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:9 ALLCNT:48 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/48-0//input-scite.txt result/TEST-CMP30-1-OS/48-0//true-seq.txt result/TEST-CMP30-1-OS/48-0//impute-seq.txt I
+name:I 231 1094
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=80 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:9 ALLCNT:49 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/49-0//input-scite.txt result/TEST-CMP30-1-OS/49-0//true-seq.txt result/TEST-CMP30-1-OS/49-0//impute-seq.txt I
+name:I 330 1417
+DIR=result/TEST-CMP30-1-IMPUT SAMPLE=100 LOCUS=200 STEP=5 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:9 ALLCNT:50 DIV_RATE= DEATH_RATE= 
+python bin/calc-imputation-accuracy.py result/TEST-CMP30-1-OS/50-0//input-scite.txt result/TEST-CMP30-1-OS/50-0//true-seq.txt result/TEST-CMP30-1-OS/50-0//impute-seq.txt I
+name:I 450 1886
+RUN_END

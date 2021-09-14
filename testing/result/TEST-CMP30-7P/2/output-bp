@@ -1,0 +1,94 @@
+digraph {
+	graph [rankdir=LR splines=compound]
+	n0 [label="N-98, N-99,
+N-101, I-7,
+MP1-179,
+MP1-178,
+N-83" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n1 [label="N-9, N-10, N-11, N-12, N-13,
+N-14, N-15, N-16, N-17,
+N-18, N-19, N-20, N-21,
+N-22, N-23, N-24, N-25,
+N-26, N-27, N-28, N-29,
+N-30, N-34, N-35, N-36,
+N-38, N-39, N-40, N-43,
+N-44, N-45, N-46, N-47,
+N-48, N-49, N-50, N-51,
+N-52, N-56, N-57, N-59,
+N-60, N-61, N-62, N-63,
+N-64, N-65, N-66, N-67,
+N-68, N-69, N-71, N-72,
+N-73, N-74, N-75, N-76,
+N-77, N-78, N-79, N-80,
+N-81, N-82, N-84, N-85,
+N-86, N-87, N-88, N-89,
+N-90, N-91, N-92, N-94,
+N-95, N-96, N-97, N-111,
+N-112, MP1-176" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n2 [label="P-129,
+P-130" color="#59B8EC" fillcolor="#59B8EC" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n3 [label="M2-169,
+I-3, M3-163,
+N-103" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n4 [label="N-106,
+N-107,
+MP1-173" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n5 [label="P-131, P-132,
+P-133, P-136,
+P-137, P-138,
+P-139, M3-160,
+M2-164, M2-168,
+MP1-175, MP1-180,
+P-115, P-116,
+P-117, P-118,
+P-119, P-120,
+P-121, P-122,
+P-125, P-126,
+P-127, P-128" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n6 [label="P-134, P-135, P-140,
+P-141, P-142, P-143,
+M3-144, M3-146, M3-147,
+M3-148, M3-149, M3-150,
+M3-151, M3-152, M3-153,
+M3-154, M3-155, M3-156,
+M3-157, M3-158, M3-159,
+M3-162, M2-165, M2-166,
+M2-167, M2-170, M2-171,
+MP1-172, MP1-174,
+MP1-177, MP1-181,
+MP1-182, N-105, N-114,
+P-123, P-124" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n7 [label="N-110" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n8 [label="" color=black fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n9 [label="N-109" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n10 [label="N-104,
+I-6, N-102" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n11 [label="I-1, I-2,
+N-100, I-5,
+I-8, N-108,
+N-113" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n12 [label="N-33, N-37,
+N-70, N-41,
+N-42, N-58,
+N-31, N-32" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n13 [label="I-4, N-93" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n14 [label="M3-145,
+M3-161" color=pink fillcolor=pink fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n15 [label="N-53, N-54,
+N-55" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	n0 -> n1 [label=0.0 color=black fontname=Arial len=0.00468493]
+	n1 -> n2 [label=0.7 color=black fontname=Arial len=0.697344]
+	n1 -> n3 [label=0.9 color=black fontname=Arial len=0.911899]
+	n0 -> n4 [label=0.5 color=black fontname=Arial len=0.51651]
+	n4 -> n5 [label=0.2 color=black fontname=Arial len=0.194085]
+	n5 -> n6 [label=0.0 color=black fontname=Arial len=0.000126831]
+	n5 -> n7 [label=0.1 color=black fontname=Arial len=0.057065]
+	n5 -> n8 [label=0.2 color=black fontname=Arial len=0.202502]
+	n5 -> n9 [label=0.4 color=black fontname=Arial len=0.352801]
+	n0 -> n10 [label=0.2 color=black fontname=Arial len=0.214476]
+	n10 -> n11 [label=0.6 color=black fontname=Arial len=0.571621]
+	n0 -> n12 [label=0.1 color=black fontname=Arial len=0.0582262]
+	n0 -> n13 [label=0.6 color=black fontname=Arial len=0.566092]
+	n13 -> n14 [label=0.6 color=black fontname=Arial len=0.590804]
+	n0 -> n15 [label=0.1 color=black fontname=Arial len=0.057109]
+}

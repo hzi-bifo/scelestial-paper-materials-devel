@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_index" for="graph" attr.name="index" attr.type="double"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_members" for="node" attr.name="members" attr.type="string"/>
+  <key id="v_params" for="node" attr.name="params" attr.type="string"/>
+  <key id="v_branch" for="node" attr.name="branch" attr.type="double"/>
+  <key id="v_mass" for="node" attr.name="mass" attr.type="double"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_Value" for="edge" attr.name="Value" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <data key="g_index">25</data>
+    <node id="n0">
+      <data key="v_name">X</data>
+      <data key="v_members">4 5 10 43 16 19 36 28 31</data>
+      <data key="v_params">-6.806262195124540 -5.076342267952318 -4.835284368273968 -4.934959509314456 -3.838024157007543 -4.928826013678025 -1.781246554443429 -5.514175655924356 -0.308216938674417 -2.165728341398802 -4.883072971053601 0.051891334977100 -1.082531164467127 -4.884720206230399 -3.654571815702958 0.716186687841140 -5.036886497036724 1.730867420748193 -0.846807477066866 -7.352021288918300</data>
+      <data key="v_branch">0</data>
+      <data key="v_mass">0.138946</data>
+      <data key="v_size">9</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">X-0</data>
+      <data key="v_members">2 3 6 11 13 14 15 17 20 21 22 24 25 27 30 32 34 37 40 41 42 46 47 48 49</data>
+      <data key="v_params">-2.495587785381968 0.500444705779433 -1.669070163634341 -0.692005017418645 -1.559269575881484 2.873126637719936 4.751728214771368 4.547502743169838 -6.338005352923608 -4.011920627876498 0.104682542503408 -5.485604549673003 -3.909956751609593 4.177630389589297 2.551189898289149 7.781267956151345 -1.083719020039393 2.312825241935119 -0.061760246951952 -0.175190181972445</data>
+      <data key="v_branch">0.989794</data>
+      <data key="v_mass">0.649745</data>
+      <data key="v_size">25</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">X-0-0</data>
+      <data key="v_members">1 35 33 38 7 8 9 39 44 45 23 26 29</data>
+      <data key="v_params">-1.246918222043146 -0.843188350737410 -6.689995680174198 1.357017241444485 0.110004131589877 5.138638496197406 1.724063058085176 6.816919407792281 -3.720472823286885 0.393086366660269 0.841212801329070 9.913651032705662 -2.400345618482976 2.315091101494734 3.409874957340870 0.692043552516600 -0.580473246950292 4.968083005660701 -9.695758050245997 1.622898071714462</data>
+      <data key="v_branch">0.0357901</data>
+      <data key="v_mass">0.238717</data>
+      <data key="v_size">13</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">X-1</data>
+      <data key="v_members">0 18 12</data>
+      <data key="v_params">2.783846405040189 9.893690235175621 -0.409362632481816 -0.712955900785794 -2.275400041785661 -3.122618745591518 -3.874325403505150 -4.287075189716532 -4.548611371348711 0.671811072172897 1.033896056719014 -5.267652603611701 -4.542514103408696 -7.120094800630414 -5.740607996812202 2.726904286292819 -3.261767287625617 5.095732050856966 -1.367924684220207 -3.342243347812040</data>
+      <data key="v_branch">0.0979</data>
+      <data key="v_mass">0.0782934</data>
+      <data key="v_size">3</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">0.989794</data>
+      <data key="e_Value">25</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_weight">0.0357901</data>
+      <data key="e_Value">13</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_weight">0.0979</data>
+      <data key="e_Value">3</data>
+    </edge>
+  </graph>
+</graphml>

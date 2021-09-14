@@ -1,0 +1,1554 @@
+parameters: RM:false SERVER:false STEP_MIN:13 STEP_MAX:13 STEP_INC:1 CLONE_MIN:5 CLONE_MAX:5 CLONE_INC:5 SAMPLE_MIN:50 SAMPLE_MAX:50 SAMPLE_INC:1 LOCUS_MIN:200 LOCUS_MAX:200 LOCUS_INC:1 MISSING_VALUE_RATE_MIN:0.07 MISSING_VALUE_RATE_MAX:0.071 MISSING_VALUE_RATE_INC:1 ZORATE_MIN:0.015 ZORATE_MAX:0.0151 ZORATE_INC:0.2 OZRATE_MIN:0.10 OZRATE_MAX:0.101 OZRATE_INC:0.1 REPEAT_COUNT:10 STEPMUTATIONRATE_MIN:0 STEPMUTATIONRATE_MAX:10.01 STEPMUTATIONRATE_INC:1 SDIR:result/TEST-CMP30-5E3-OS ZORATE_RANGE: 0.015 OZRATE_RANGE: 0.1 MISSING_VALUE_RATE_RANGE: 0.07 MISSING_VALUE_RATE_RANGE: 0.07 RUN:  RUN2: ,,steiner,, EXIT_ON_ERROR: 1
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:0.0 CLONE:5 ALLCNT:1 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 784 --seed-error 784 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-0/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 784 result/TEST-CMP30-5E3-OS/1-0 --remove-dup false
+0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:27:31
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+201minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/1-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/1-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/1-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.4637 
+I0 0.4637 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.8472727272727273 
+pI0 0.3728 1.0 
+ synthesis bin/synthesis/synthesis --seed 78561 --seed-error 78561 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-1/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 78561 result/TEST-CMP30-5E3-OS/1-1 --remove-dup false
+0 0 0 3 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 
+timestamp:31/08/2021 12:27:35
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3312maxresident)k
+0inputs+56outputs (0major+195minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/1-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/1-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/1-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.4686 
+I1 0.4686 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.875 
+pI1 0.40384615384615385 1.0 
+ synthesis bin/synthesis/synthesis --seed 156338 --seed-error 156338 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-2/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 156338 result/TEST-CMP30-5E3-OS/1-2 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 
+timestamp:31/08/2021 12:27:39
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+200minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/1-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/1-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/1-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.5616 
+I2 0.5616 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.8316666666666667 
+pI2 0.32193548387096776 1.0 
+ synthesis bin/synthesis/synthesis --seed 234115 --seed-error 234115 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-3/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 234115 result/TEST-CMP30-5E3-OS/1-3 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:27:43
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3120maxresident)k
+0inputs+56outputs (0major+197minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/1-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/1-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/1-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.5209 
+I3 0.5209 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.8466666666666667 
+pI3 0.4064 1.0 
+ synthesis bin/synthesis/synthesis --seed 311892 --seed-error 311892 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-4/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 311892 result/TEST-CMP30-5E3-OS/1-4 --remove-dup false
+0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:27:46
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3288maxresident)k
+0inputs+56outputs (0major+189minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/1-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/1-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/1-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.4790 
+I4 0.4790 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.84 
+pI4 0.3696 1.0 
+ synthesis bin/synthesis/synthesis --seed 389669 --seed-error 389669 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-5/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 389669 result/TEST-CMP30-5E3-OS/1-5 --remove-dup false
+3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:27:50
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3116maxresident)k
+0inputs+56outputs (0major+193minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/1-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/1-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/1-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.4578 
+I5 0.4578 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.8692307692307693 
+pI5 0.4346153846153846 1.0 
+ synthesis bin/synthesis/synthesis --seed 467446 --seed-error 467446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-6/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 467446 result/TEST-CMP30-5E3-OS/1-6 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 
+timestamp:31/08/2021 12:27:54
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3280maxresident)k
+0inputs+56outputs (0major+197minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/1-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/1-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/1-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.4977 
+I6 0.4977 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.82 
+pI6 0.37846153846153846 1.0 
+ synthesis bin/synthesis/synthesis --seed 545223 --seed-error 545223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-7/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 545223 result/TEST-CMP30-5E3-OS/1-7 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:31/08/2021 12:27:57
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3136maxresident)k
+0inputs+56outputs (0major+197minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/1-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/1-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/1-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.4983 
+I7 0.4983 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.8454545454545455 
+pI7 0.3875 1.0 
+ synthesis bin/synthesis/synthesis --seed 623000 --seed-error 623000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-8/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 623000 result/TEST-CMP30-5E3-OS/1-8 --remove-dup false
+0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 
+timestamp:31/08/2021 12:28:01
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3248maxresident)k
+0inputs+56outputs (0major+198minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/1-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/1-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/1-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.4189 
+I8 0.4189 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.8707692307692307 
+pI8 0.4528 1.0 
+ synthesis bin/synthesis/synthesis --seed 700777 --seed-error 700777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/1-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/1-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/1-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/1-9/true-seq.txt  --step-mutation-rate 0.0 --remove-dup false  
+Gen Synthesis seed: 700777 result/TEST-CMP30-5E3-OS/1-9 --remove-dup false
+3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 3 3 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:05
+2.39user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+196minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/1-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/1-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/1-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/1-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.4844 
+I9 0.4844 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.8636363636363636 
+pI9 0.3392857142857143 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:1.0 CLONE:5 ALLCNT:2 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 1561 --seed-error 1561 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-0/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 1561 result/TEST-CMP30-5E3-OS/2-0 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:31/08/2021 12:28:08
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3300maxresident)k
+0inputs+56outputs (0major+193minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/2-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/2-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/2-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.3561 
+I0 0.3561 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.945 
+pI0 0.3910344827586207 1.0 
+ synthesis bin/synthesis/synthesis --seed 79338 --seed-error 79338 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-1/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 79338 result/TEST-CMP30-5E3-OS/2-1 --remove-dup false
+0 3 0 1 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:12
+2.42user 0.00system 0:02.42elapsed 99%CPU (0avgtext+0avgdata 3176maxresident)k
+0inputs+56outputs (0major+191minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/2-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/2-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/2-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.3914 
+I1 0.3914 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9333333333333333 
+pI1 0.3393939393939394 1.0 
+ synthesis bin/synthesis/synthesis --seed 157115 --seed-error 157115 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-2/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 157115 result/TEST-CMP30-5E3-OS/2-2 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 
+timestamp:31/08/2021 12:28:16
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+190minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/2-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/2-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/2-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.3616 
+I2 0.3616 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9461538461538461 
+pI2 0.3967741935483871 1.0 
+ synthesis bin/synthesis/synthesis --seed 234892 --seed-error 234892 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-3/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 234892 result/TEST-CMP30-5E3-OS/2-3 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:19
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3224maxresident)k
+0inputs+56outputs (0major+192minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/2-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/2-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/2-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.4198 
+I3 0.4198 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9090909090909091 
+pI3 0.37037037037037035 1.0 
+ synthesis bin/synthesis/synthesis --seed 312669 --seed-error 312669 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-4/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 312669 result/TEST-CMP30-5E3-OS/2-4 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 
+timestamp:31/08/2021 12:28:23
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/2-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/2-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/2-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.5311 
+I4 0.5311 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.8615384615384616 
+pI4 0.4148148148148148 1.0 
+ synthesis bin/synthesis/synthesis --seed 390446 --seed-error 390446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-5/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 390446 result/TEST-CMP30-5E3-OS/2-5 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:27
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3300maxresident)k
+0inputs+56outputs (0major+194minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/2-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/2-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/2-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.4679 
+I5 0.4679 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.8492307692307692 
+pI5 0.46 1.0 
+ synthesis bin/synthesis/synthesis --seed 468223 --seed-error 468223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-6/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 468223 result/TEST-CMP30-5E3-OS/2-6 --remove-dup false
+1 0 0 1 0 0 3 0 0 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 3 1 0 3 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:31
+2.41user 0.00system 0:02.42elapsed 99%CPU (0avgtext+0avgdata 3220maxresident)k
+0inputs+56outputs (0major+188minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/2-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/2-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/2-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3526 
+I6 0.3526 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9307692307692308 
+pI6 0.4033333333333333 1.0 
+ synthesis bin/synthesis/synthesis --seed 546000 --seed-error 546000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-7/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 546000 result/TEST-CMP30-5E3-OS/2-7 --remove-dup false
+0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 3 0 0 0 
+timestamp:31/08/2021 12:28:34
+2.40user 0.00system 0:02.41elapsed 99%CPU (0avgtext+0avgdata 3296maxresident)k
+0inputs+56outputs (0major+197minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/2-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/2-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/2-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.5198 
+I7 0.5198 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.89 
+pI7 0.2696969696969697 1.0 
+ synthesis bin/synthesis/synthesis --seed 623777 --seed-error 623777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-8/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 623777 result/TEST-CMP30-5E3-OS/2-8 --remove-dup false
+3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:38
+2.40user 0.00system 0:02.41elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+194minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/2-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/2-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/2-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.4168 
+I8 0.4168 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.92 
+pI8 0.39866666666666667 1.0 
+ synthesis bin/synthesis/synthesis --seed 701554 --seed-error 701554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/2-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/2-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/2-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/2-9/true-seq.txt  --step-mutation-rate 1.0 --remove-dup false  
+Gen Synthesis seed: 701554 result/TEST-CMP30-5E3-OS/2-9 --remove-dup false
+0 0 1 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 3 0 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:42
+2.41user 0.00system 0:02.42elapsed 99%CPU (0avgtext+0avgdata 3292maxresident)k
+0inputs+56outputs (0major+195minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/2-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/2-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/2-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/2-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.4719 
+I9 0.4719 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.885 
+pI9 0.354 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:2.0 CLONE:5 ALLCNT:3 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 2338 --seed-error 2338 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-0/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 2338 result/TEST-CMP30-5E3-OS/3-0 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:46
+2.43user 0.00system 0:02.43elapsed 99%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/3-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/3-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/3-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.3536 
+I0 0.3536 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9216666666666666 
+pI0 0.36866666666666664 1.0 
+ synthesis bin/synthesis/synthesis --seed 80115 --seed-error 80115 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-1/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 80115 result/TEST-CMP30-5E3-OS/3-1 --remove-dup false
+0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 1 3 1 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:49
+2.41user 0.00system 0:02.41elapsed 99%CPU (0avgtext+0avgdata 3172maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/3-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/3-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/3-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.4071 
+I1 0.4071 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.8981818181818182 
+pI1 0.31870967741935485 1.0 
+ synthesis bin/synthesis/synthesis --seed 157892 --seed-error 157892 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-2/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 157892 result/TEST-CMP30-5E3-OS/3-2 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:31/08/2021 12:28:53
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3292maxresident)k
+0inputs+56outputs (0major+189minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/3-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/3-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/3-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.3818 
+I2 0.3818 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9615384615384616 
+pI2 0.36764705882352944 1.0 
+ synthesis bin/synthesis/synthesis --seed 235669 --seed-error 235669 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-3/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 235669 result/TEST-CMP30-5E3-OS/3-3 --remove-dup false
+0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:28:57
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3100maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/3-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/3-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/3-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.3216 
+I3 0.3216 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9492307692307692 
+pI3 0.3629411764705882 1.0 
+ synthesis bin/synthesis/synthesis --seed 313446 --seed-error 313446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-4/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 313446 result/TEST-CMP30-5E3-OS/3-4 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:31/08/2021 12:29:00
+2.39user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3300maxresident)k
+0inputs+56outputs (0major+194minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/3-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/3-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/3-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.3623 
+I4 0.3623 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.9383333333333334 
+pI4 0.3632258064516129 1.0 
+ synthesis bin/synthesis/synthesis --seed 391223 --seed-error 391223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-5/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 391223 result/TEST-CMP30-5E3-OS/3-5 --remove-dup false
+0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:04
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+193minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/3-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/3-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/3-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.4227 
+I5 0.4227 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9218181818181819 
+pI5 0.3496551724137931 1.0 
+ synthesis bin/synthesis/synthesis --seed 469000 --seed-error 469000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-6/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 469000 result/TEST-CMP30-5E3-OS/3-6 --remove-dup false
+0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:08
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3196maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/3-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/3-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/3-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3466 
+I6 0.3466 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9633333333333334 
+pI6 0.3503030303030303 1.0 
+ synthesis bin/synthesis/synthesis --seed 546777 --seed-error 546777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-7/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 546777 result/TEST-CMP30-5E3-OS/3-7 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:11
+2.43user 0.00system 0:02.43elapsed 99%CPU (0avgtext+0avgdata 3264maxresident)k
+0inputs+56outputs (0major+187minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/3-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/3-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/3-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.2865 
+I7 0.2865 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9633333333333334 
+pI7 0.38533333333333336 1.0 
+ synthesis bin/synthesis/synthesis --seed 624554 --seed-error 624554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-8/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 624554 result/TEST-CMP30-5E3-OS/3-8 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:31/08/2021 12:29:15
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3260maxresident)k
+0inputs+56outputs (0major+192minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/3-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/3-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/3-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.3649 
+I8 0.3649 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9553846153846154 
+pI8 0.40064516129032257 1.0 
+ synthesis bin/synthesis/synthesis --seed 702331 --seed-error 702331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/3-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/3-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/3-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/3-9/true-seq.txt  --step-mutation-rate 2.0 --remove-dup false  
+Gen Synthesis seed: 702331 result/TEST-CMP30-5E3-OS/3-9 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:31/08/2021 12:29:19
+2.40user 0.00system 0:02.41elapsed 99%CPU (0avgtext+0avgdata 3280maxresident)k
+0inputs+56outputs (0major+189minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/3-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/3-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/3-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/3-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.4533 
+I9 0.4533 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.866 
+pI9 0.2986206896551724 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:3.0 CLONE:5 ALLCNT:4 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 3115 --seed-error 3115 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-0/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 3115 result/TEST-CMP30-5E3-OS/4-0 --remove-dup false
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:31/08/2021 12:29:22
+2.39user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3244maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/4-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/4-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/4-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.4101 
+I0 0.4101 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9545454545454546 
+pI0 0.328125 1.0 
+ synthesis bin/synthesis/synthesis --seed 80892 --seed-error 80892 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-1/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 80892 result/TEST-CMP30-5E3-OS/4-1 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 
+timestamp:31/08/2021 12:29:26
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3100maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/4-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/4-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/4-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.3306 
+I1 0.3306 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9633333333333334 
+pI1 0.37290322580645163 1.0 
+ synthesis bin/synthesis/synthesis --seed 158669 --seed-error 158669 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-2/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 158669 result/TEST-CMP30-5E3-OS/4-2 --remove-dup false
+0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+timestamp:31/08/2021 12:29:30
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3296maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/4-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/4-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/4-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.3369 
+I2 0.3369 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.945 
+pI2 0.378 1.0 
+ synthesis bin/synthesis/synthesis --seed 236446 --seed-error 236446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-3/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 236446 result/TEST-CMP30-5E3-OS/4-3 --remove-dup false
+0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:33
+2.43user 0.00system 0:02.44elapsed 99%CPU (0avgtext+0avgdata 3220maxresident)k
+0inputs+56outputs (0major+187minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/4-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/4-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/4-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.3943 
+I3 0.3943 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9316666666666666 
+pI3 0.349375 1.0 
+ synthesis bin/synthesis/synthesis --seed 314223 --seed-error 314223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-4/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 314223 result/TEST-CMP30-5E3-OS/4-4 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:37
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3140maxresident)k
+0inputs+56outputs (0major+188minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/4-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/4-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/4-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.3756 
+I4 0.3756 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.9415384615384615 
+pI4 0.3709090909090909 1.0 
+ synthesis bin/synthesis/synthesis --seed 392000 --seed-error 392000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-5/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 392000 result/TEST-CMP30-5E3-OS/4-5 --remove-dup false
+0 1 0 3 0 3 1 0 0 0 0 0 0 0 1 0 0 0 3 0 0 1 0 0 0 1 0 1 0 0 1 1 0 3 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 
+timestamp:31/08/2021 12:29:41
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+189minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/4-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/4-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/4-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.3456 
+I5 0.3456 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9466666666666667 
+pI5 0.3664516129032258 1.0 
+ synthesis bin/synthesis/synthesis --seed 469777 --seed-error 469777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-6/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 469777 result/TEST-CMP30-5E3-OS/4-6 --remove-dup false
+0 0 3 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:45
+2.40user 0.00system 0:02.41elapsed 99%CPU (0avgtext+0avgdata 3280maxresident)k
+0inputs+56outputs (0major+188minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/4-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/4-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/4-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3726 
+I6 0.3726 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.94 
+pI6 0.31333333333333335 1.0 
+ synthesis bin/synthesis/synthesis --seed 547554 --seed-error 547554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-7/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 547554 result/TEST-CMP30-5E3-OS/4-7 --remove-dup false
+0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:49
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3288maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/4-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/4-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/4-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.3145 
+I7 0.3145 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9492307692307692 
+pI7 0.41133333333333333 1.0 
+ synthesis bin/synthesis/synthesis --seed 625331 --seed-error 625331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-8/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 625331 result/TEST-CMP30-5E3-OS/4-8 --remove-dup false
+0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:29:52
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3300maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/4-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/4-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/4-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.3747 
+I8 0.3747 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9466666666666667 
+pI8 0.355 1.0 
+ synthesis bin/synthesis/synthesis --seed 703108 --seed-error 703108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/4-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/4-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/4-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/4-9/true-seq.txt  --step-mutation-rate 3.0 --remove-dup false  
+Gen Synthesis seed: 703108 result/TEST-CMP30-5E3-OS/4-9 --remove-dup false
+3 3 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 1 3 
+timestamp:31/08/2021 12:29:56
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+187minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/4-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/4-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/4-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/4-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.2974 
+I9 0.2974 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9383333333333334 
+pI9 0.40214285714285714 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:4.0 CLONE:5 ALLCNT:5 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 3892 --seed-error 3892 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-0/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 3892 result/TEST-CMP30-5E3-OS/5-0 --remove-dup false
+0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:31/08/2021 12:30:00
+2.44user 0.00system 0:02.44elapsed 99%CPU (0avgtext+0avgdata 3104maxresident)k
+0inputs+56outputs (0major+188minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/5-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/5-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/5-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.3447 
+I0 0.3447 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9615384615384616 
+pI0 0.35714285714285715 1.0 
+ synthesis bin/synthesis/synthesis --seed 81669 --seed-error 81669 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-1/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 81669 result/TEST-CMP30-5E3-OS/5-1 --remove-dup false
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 
+timestamp:31/08/2021 12:30:04
+2.42user 0.00system 0:02.42elapsed 99%CPU (0avgtext+0avgdata 3104maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/5-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/5-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/5-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.2671 
+I1 0.2671 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9783333333333334 
+pI1 0.32611111111111113 1.0 
+ synthesis bin/synthesis/synthesis --seed 159446 --seed-error 159446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-2/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 159446 result/TEST-CMP30-5E3-OS/5-2 --remove-dup false
+0 0 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 3 0 0 0 3 
+timestamp:31/08/2021 12:30:08
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3104maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/5-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/5-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/5-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.3147 
+I2 0.3147 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9584615384615385 
+pI2 0.3664705882352941 1.0 
+ synthesis bin/synthesis/synthesis --seed 237223 --seed-error 237223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-3/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 237223 result/TEST-CMP30-5E3-OS/5-3 --remove-dup false
+0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 3 1 0 3 0 0 0 0 0 1 0 0 1 0 1 1 0 0 3 1 0 1 0 0 0 
+timestamp:31/08/2021 12:30:12
+2.37user 0.00system 0:02.79elapsed 84%CPU (0avgtext+0avgdata 3280maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/5-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/5-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/5-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2912 
+I3 0.2912 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9716666666666667 
+pI3 0.34294117647058825 1.0 
+ synthesis bin/synthesis/synthesis --seed 315000 --seed-error 315000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-4/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 315000 result/TEST-CMP30-5E3-OS/5-4 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+timestamp:31/08/2021 12:30:16
+2.41user 0.00system 0:02.41elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/5-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/5-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/5-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.2683 
+I4 0.2683 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.9769230769230769 
+pI4 0.38484848484848483 1.0 
+ synthesis bin/synthesis/synthesis --seed 392777 --seed-error 392777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-5/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 392777 result/TEST-CMP30-5E3-OS/5-5 --remove-dup false
+0 0 3 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:30:20
+2.39user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3312maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/5-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/5-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/5-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.3456 
+I5 0.3456 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9683333333333334 
+pI5 0.3417647058823529 1.0 
+ synthesis bin/synthesis/synthesis --seed 470554 --seed-error 470554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-6/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 470554 result/TEST-CMP30-5E3-OS/5-6 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 
+timestamp:31/08/2021 12:30:25
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3320maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/5-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/5-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/5-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3472 
+I6 0.3472 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9127272727272727 
+pI6 0.3585714285714286 1.0 
+ synthesis bin/synthesis/synthesis --seed 548331 --seed-error 548331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-7/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 548331 result/TEST-CMP30-5E3-OS/5-7 --remove-dup false
+3 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:30:28
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3124maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/5-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/5-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/5-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.3778 
+I7 0.3778 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9716666666666667 
+pI7 0.35333333333333333 1.0 
+ synthesis bin/synthesis/synthesis --seed 626108 --seed-error 626108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-8/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 626108 result/TEST-CMP30-5E3-OS/5-8 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:30:33
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/5-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/5-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/5-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.2766 
+I8 0.2766 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9783333333333334 
+pI8 0.3557575757575758 1.0 
+ synthesis bin/synthesis/synthesis --seed 703885 --seed-error 703885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/5-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/5-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/5-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/5-9/true-seq.txt  --step-mutation-rate 4.0 --remove-dup false  
+Gen Synthesis seed: 703885 result/TEST-CMP30-5E3-OS/5-9 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 
+timestamp:31/08/2021 12:30:37
+2.39user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3220maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/5-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/5-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/5-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/5-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.3294 
+I9 0.3294 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.96 
+pI9 0.36705882352941177 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:5.0 CLONE:5 ALLCNT:6 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 4669 --seed-error 4669 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-0/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 4669 result/TEST-CMP30-5E3-OS/6-0 --remove-dup false
+0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:30:40
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3136maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/6-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/6-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/6-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.3367 
+I0 0.3367 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.972 
+pI0 0.27 1.0 
+ synthesis bin/synthesis/synthesis --seed 82446 --seed-error 82446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-1/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 82446 result/TEST-CMP30-5E3-OS/6-1 --remove-dup false
+0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 
+timestamp:31/08/2021 12:30:44
+2.40user 0.00system 0:02.40elapsed 99%CPU (0avgtext+0avgdata 3280maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/6-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/6-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/6-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.2537 
+I1 0.2537 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9846153846153847 
+pI1 0.35555555555555557 1.0 
+ synthesis bin/synthesis/synthesis --seed 160223 --seed-error 160223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-2/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 160223 result/TEST-CMP30-5E3-OS/6-2 --remove-dup false
+0 0 0 1 0 1 0 0 0 3 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 1 1 
+timestamp:31/08/2021 12:30:48
+2.42user 0.00system 0:02.43elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/6-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/6-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/6-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.2733 
+I2 0.2733 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9781818181818182 
+pI2 0.3164705882352941 1.0 
+ synthesis bin/synthesis/synthesis --seed 238000 --seed-error 238000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-3/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 238000 result/TEST-CMP30-5E3-OS/6-3 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:30:51
+2.44user 0.00system 0:07.27elapsed 33%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/6-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/6-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/6-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2993 
+I3 0.2993 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9676923076923077 
+pI3 0.37 1.0 
+ synthesis bin/synthesis/synthesis --seed 315777 --seed-error 315777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-4/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 315777 result/TEST-CMP30-5E3-OS/6-4 --remove-dup false
+3 0 0 3 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:31/08/2021 12:31:07
+2.38user 0.00system 0:02.46elapsed 96%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/6-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/6-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/6-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.3138 
+I4 0.3138 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.98 
+pI4 0.37470588235294117 1.0 
+ synthesis bin/synthesis/synthesis --seed 393554 --seed-error 393554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-5/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 393554 result/TEST-CMP30-5E3-OS/6-5 --remove-dup false
+1 0 0 0 1 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 3 3 3 0 0 0 0 0 0 0 0 1 0 0 
+timestamp:31/08/2021 12:31:13
+2.40user 0.00system 0:02.46elapsed 97%CPU (0avgtext+0avgdata 3280maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/6-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/6-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/6-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.2460 
+I5 0.2460 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9916666666666667 
+pI5 0.34 1.0 
+ synthesis bin/synthesis/synthesis --seed 471331 --seed-error 471331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-6/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 471331 result/TEST-CMP30-5E3-OS/6-6 --remove-dup false
+0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:31:18
+2.37user 0.00system 0:02.51elapsed 94%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/6-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/6-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/6-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3890 
+I6 0.3890 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9490909090909091 
+pI6 0.31636363636363635 1.0 
+ synthesis bin/synthesis/synthesis --seed 549108 --seed-error 549108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-7/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 549108 result/TEST-CMP30-5E3-OS/6-7 --remove-dup false
+0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 0 0 3 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:31:23
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3304maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/6-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/6-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/6-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.3588 
+I7 0.3588 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9507692307692308 
+pI7 0.412 1.0 
+ synthesis bin/synthesis/synthesis --seed 626885 --seed-error 626885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-8/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 626885 result/TEST-CMP30-5E3-OS/6-8 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 
+timestamp:31/08/2021 12:31:27
+2.37user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3288maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/6-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/6-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/6-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.2821 
+I8 0.2821 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9745454545454545 
+pI8 0.34580645161290324 1.0 
+ synthesis bin/synthesis/synthesis --seed 704662 --seed-error 704662 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/6-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/6-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/6-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/6-9/true-seq.txt  --step-mutation-rate 5.0 --remove-dup false  
+Gen Synthesis seed: 704662 result/TEST-CMP30-5E3-OS/6-9 --remove-dup false
+0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+timestamp:31/08/2021 12:31:32
+2.39user 0.00system 0:02.44elapsed 98%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/6-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/6-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/6-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/6-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.2953 
+I9 0.2953 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9784615384615385 
+pI9 0.35333333333333333 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:6.0 CLONE:5 ALLCNT:7 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 5446 --seed-error 5446 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-0/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 5446 result/TEST-CMP30-5E3-OS/7-0 --remove-dup false
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:31:38
+2.39user 0.00system 0:02.40elapsed 99%CPU (0avgtext+0avgdata 3312maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/7-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/7-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/7-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.3730 
+I0 0.3730 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9563636363636364 
+pI0 0.30941176470588233 1.0 
+ synthesis bin/synthesis/synthesis --seed 83223 --seed-error 83223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-1/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 83223 result/TEST-CMP30-5E3-OS/7-1 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:31:44
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3300maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/7-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/7-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/7-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.2480 
+I1 0.2480 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9846153846153847 
+pI1 0.35555555555555557 1.0 
+ synthesis bin/synthesis/synthesis --seed 161000 --seed-error 161000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-2/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 161000 result/TEST-CMP30-5E3-OS/7-2 --remove-dup false
+1 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+timestamp:31/08/2021 12:31:50
+2.39user 0.00system 0:02.40elapsed 99%CPU (0avgtext+0avgdata 3212maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/7-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/7-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/7-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.2950 
+I2 0.2950 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9683333333333334 
+pI2 0.31405405405405407 1.0 
+ synthesis bin/synthesis/synthesis --seed 238777 --seed-error 238777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-3/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 238777 result/TEST-CMP30-5E3-OS/7-3 --remove-dup false
+0 0 0 0 1 0 1 3 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:31:53
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3124maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/7-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/7-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/7-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2740 
+I3 0.2740 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9723076923076923 
+pI3 0.36114285714285715 1.0 
+ synthesis bin/synthesis/synthesis --seed 316554 --seed-error 316554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-4/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 316554 result/TEST-CMP30-5E3-OS/7-4 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:31/08/2021 12:31:57
+2.38user 0.00system 0:02.51elapsed 94%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/7-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/7-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/7-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.2619 
+I4 0.2619 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.9854545454545455 
+pI4 0.3284848484848485 1.0 
+ synthesis bin/synthesis/synthesis --seed 394331 --seed-error 394331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-5/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 394331 result/TEST-CMP30-5E3-OS/7-5 --remove-dup false
+0 0 3 0 3 0 0 0 0 0 0 1 0 1 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 3 0 0 3 3 0 
+timestamp:31/08/2021 12:32:01
+2.36user 0.00system 0:02.41elapsed 98%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/7-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/7-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/7-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.2642 
+I5 0.2642 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9890909090909091 
+pI5 0.31085714285714283 1.0 
+ synthesis bin/synthesis/synthesis --seed 472108 --seed-error 472108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-6/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 472108 result/TEST-CMP30-5E3-OS/7-6 --remove-dup false
+0 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 1 3 0 0 0 1 0 0 
+timestamp:31/08/2021 12:32:05
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/7-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/7-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/7-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3352 
+I6 0.3352 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9766666666666667 
+pI6 0.33485714285714285 1.0 
+ synthesis bin/synthesis/synthesis --seed 549885 --seed-error 549885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-7/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 549885 result/TEST-CMP30-5E3-OS/7-7 --remove-dup false
+0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 1 0 0 
+timestamp:31/08/2021 12:32:09
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3136maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/7-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/7-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/7-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.3117 
+I7 0.3117 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9783333333333334 
+pI7 0.3354285714285714 1.0 
+ synthesis bin/synthesis/synthesis --seed 627662 --seed-error 627662 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-8/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 627662 result/TEST-CMP30-5E3-OS/7-8 --remove-dup false
+3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 
+timestamp:31/08/2021 12:32:14
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/7-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/7-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/7-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.3414 
+I8 0.3414 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9723076923076923 
+pI8 0.36114285714285715 1.0 
+ synthesis bin/synthesis/synthesis --seed 705439 --seed-error 705439 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/7-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/7-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/7-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/7-9/true-seq.txt  --step-mutation-rate 6.0 --remove-dup false  
+Gen Synthesis seed: 705439 result/TEST-CMP30-5E3-OS/7-9 --remove-dup false
+1 3 1 0 0 0 0 1 0 1 0 1 0 0 0 3 0 0 0 1 0 3 0 1 0 0 0 1 0 3 0 1 1 3 0 0 1 1 1 0 3 1 1 0 1 1 1 0 0 1 
+timestamp:31/08/2021 12:32:18
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3136maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/7-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/7-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/7-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/7-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.2270 
+I9 0.2270 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9876923076923076 
+pI9 0.3668571428571429 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:7.0 CLONE:5 ALLCNT:8 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 6223 --seed-error 6223 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-0/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 6223 result/TEST-CMP30-5E3-OS/8-0 --remove-dup false
+0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 1 0 0 0 
+timestamp:31/08/2021 12:32:21
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3116maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/8-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/8-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/8-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.2236 
+I0 0.2236 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9984615384615385 
+pI0 0.38176470588235295 1.0 
+ synthesis bin/synthesis/synthesis --seed 84000 --seed-error 84000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-1/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 84000 result/TEST-CMP30-5E3-OS/8-1 --remove-dup false
+0 3 0 0 0 0 1 0 0 0 0 0 3 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 3 0 0 
+timestamp:31/08/2021 12:32:25
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3308maxresident)k
+0inputs+56outputs (0major+186minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/8-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/8-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/8-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.2091 
+I1 0.2091 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9815384615384616 
+pI1 0.37529411764705883 1.0 
+ synthesis bin/synthesis/synthesis --seed 161777 --seed-error 161777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-2/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 161777 result/TEST-CMP30-5E3-OS/8-2 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:31/08/2021 12:32:29
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3252maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/8-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/8-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/8-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.2938 
+I2 0.2938 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.975 
+pI2 0.325 1.0 
+ synthesis bin/synthesis/synthesis --seed 239554 --seed-error 239554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-3/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 239554 result/TEST-CMP30-5E3-OS/8-3 --remove-dup false
+0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:32:32
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3140maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/8-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/8-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/8-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2666 
+I3 0.2666 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9707692307692307 
+pI3 0.3410810810810811 1.0 
+ synthesis bin/synthesis/synthesis --seed 317331 --seed-error 317331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-4/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 317331 result/TEST-CMP30-5E3-OS/8-4 --remove-dup false
+0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 1 0 3 0 
+timestamp:31/08/2021 12:32:36
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/8-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/8-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/8-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.2124 
+I4 0.2124 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.9945454545454545 
+pI4 0.29567567567567565 1.0 
+ synthesis bin/synthesis/synthesis --seed 395108 --seed-error 395108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-5/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 395108 result/TEST-CMP30-5E3-OS/8-5 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 
+timestamp:31/08/2021 12:32:40
+2.39user 0.00system 0:02.40elapsed 99%CPU (0avgtext+0avgdata 3116maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/8-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/8-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/8-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.2867 
+I5 0.2867 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.98 
+pI5 0.29944444444444446 1.0 
+ synthesis bin/synthesis/synthesis --seed 472885 --seed-error 472885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-6/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 472885 result/TEST-CMP30-5E3-OS/8-6 --remove-dup false
+0 0 0 0 3 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:31/08/2021 12:32:44
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+185minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/8-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/8-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/8-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.2695 
+I6 0.2695 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.984 
+pI6 0.29818181818181816 1.0 
+ synthesis bin/synthesis/synthesis --seed 550662 --seed-error 550662 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-7/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 550662 result/TEST-CMP30-5E3-OS/8-7 --remove-dup false
+0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:32:47
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/8-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/8-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/8-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.2981 
+I7 0.2981 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.98 
+pI7 0.3352631578947368 1.0 
+ synthesis bin/synthesis/synthesis --seed 628439 --seed-error 628439 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-8/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 628439 result/TEST-CMP30-5E3-OS/8-8 --remove-dup false
+0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:32:51
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3320maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/8-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/8-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/8-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.2949 
+I8 0.2949 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9636363636363636 
+pI8 0.2864864864864865 1.0 
+ synthesis bin/synthesis/synthesis --seed 706216 --seed-error 706216 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/8-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/8-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/8-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/8-9/true-seq.txt  --step-mutation-rate 7.0 --remove-dup false  
+Gen Synthesis seed: 706216 result/TEST-CMP30-5E3-OS/8-9 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 3 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+timestamp:31/08/2021 12:32:55
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/8-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/8-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/8-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/8-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.4097 
+I9 0.4097 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9507692307692308 
+pI9 0.35314285714285715 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:8.0 CLONE:5 ALLCNT:9 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 7000 --seed-error 7000 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-0/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 7000 result/TEST-CMP30-5E3-OS/9-0 --remove-dup false
+3 0 0 0 0 0 0 3 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 1 0 0 0 0 0 3 
+timestamp:31/08/2021 12:32:58
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3132maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/9-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/9-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/9-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.2242 
+I0 0.2242 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9892307692307692 
+pI0 0.36742857142857144 1.0 
+ synthesis bin/synthesis/synthesis --seed 84777 --seed-error 84777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-1/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 84777 result/TEST-CMP30-5E3-OS/9-1 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:02
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/9-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/9-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/9-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.1994 
+I1 0.1994 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9966666666666667 
+pI1 0.31473684210526315 1.0 
+ synthesis bin/synthesis/synthesis --seed 162554 --seed-error 162554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-2/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 162554 result/TEST-CMP30-5E3-OS/9-2 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:06
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3244maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/9-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/9-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/9-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.2218 
+I2 0.2218 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9866666666666667 
+pI2 0.3382857142857143 1.0 
+ synthesis bin/synthesis/synthesis --seed 240331 --seed-error 240331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-3/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 240331 result/TEST-CMP30-5E3-OS/9-3 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:09
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3304maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/9-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/9-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/9-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2158 
+I3 0.2158 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9953846153846154 
+pI3 0.3405263157894737 1.0 
+ synthesis bin/synthesis/synthesis --seed 318108 --seed-error 318108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-4/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 318108 result/TEST-CMP30-5E3-OS/9-4 --remove-dup false
+0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 3 1 1 1 0 0 1 3 1 1 0 0 1 1 1 1 1 1 1 1 1 0 1 1 
+timestamp:31/08/2021 12:33:13
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3256maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/9-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/9-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/9-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.2177 
+I4 0.2177 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.975 
+pI4 0.325 1.0 
+ synthesis bin/synthesis/synthesis --seed 395885 --seed-error 395885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-5/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 395885 result/TEST-CMP30-5E3-OS/9-5 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:17
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3212maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/9-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/9-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/9-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.2787 
+I5 0.2787 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9815384615384616 
+pI5 0.36457142857142855 1.0 
+ synthesis bin/synthesis/synthesis --seed 473662 --seed-error 473662 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-6/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 473662 result/TEST-CMP30-5E3-OS/9-6 --remove-dup false
+0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:20
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/9-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/9-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/9-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.3012 
+I6 0.3012 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9753846153846154 
+pI6 0.36228571428571427 1.0 
+ synthesis bin/synthesis/synthesis --seed 551439 --seed-error 551439 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-7/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 551439 result/TEST-CMP30-5E3-OS/9-7 --remove-dup false
+0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 1 0 3 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:24
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3292maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/9-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/9-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/9-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.2322 
+I7 0.2322 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.985 
+pI7 0.3476470588235294 1.0 
+ synthesis bin/synthesis/synthesis --seed 629216 --seed-error 629216 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-8/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 629216 result/TEST-CMP30-5E3-OS/9-8 --remove-dup false
+0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+timestamp:31/08/2021 12:33:28
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3248maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/9-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/9-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/9-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.2960 
+I8 0.2960 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.975 
+pI8 0.365625 1.0 
+ synthesis bin/synthesis/synthesis --seed 706993 --seed-error 706993 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/9-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/9-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/9-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/9-9/true-seq.txt  --step-mutation-rate 8.0 --remove-dup false  
+Gen Synthesis seed: 706993 result/TEST-CMP30-5E3-OS/9-9 --remove-dup false
+0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 3 0 3 0 0 0 1 0 3 0 3 0 0 3 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:31
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/9-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/9-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/9-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/9-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.2412 
+I9 0.2412 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9907692307692307 
+pI9 0.4025 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:9.0 CLONE:5 ALLCNT:10 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 7777 --seed-error 7777 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-0/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 7777 result/TEST-CMP30-5E3-OS/10-0 --remove-dup false
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 3 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:35
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3260maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/10-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/10-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/10-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.2431 
+I0 0.2431 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9861538461538462 
+pI0 0.3464864864864865 1.0 
+ synthesis bin/synthesis/synthesis --seed 85554 --seed-error 85554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-1/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 85554 result/TEST-CMP30-5E3-OS/10-1 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:39
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3120maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/10-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/10-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/10-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.2394 
+I1 0.2394 0.0000 
+pTrue1 pI1
+pTrue1 1.0 0.9945454545454545 
+pI1 0.28789473684210526 1.0 
+ synthesis bin/synthesis/synthesis --seed 163331 --seed-error 163331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-2/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 163331 result/TEST-CMP30-5E3-OS/10-2 --remove-dup false
+0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 3 3 0 0 0 0 0 0 0 1 0 3 0 0 
+timestamp:31/08/2021 12:33:42
+2.36user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3256maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/10-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/10-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/10-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.2927 
+I2 0.2927 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.9616666666666667 
+pI2 0.32055555555555554 1.0 
+ synthesis bin/synthesis/synthesis --seed 241108 --seed-error 241108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-3/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 241108 result/TEST-CMP30-5E3-OS/10-3 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 3 0 0 0 
+timestamp:31/08/2021 12:33:46
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/10-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/10-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/10-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2370 
+I3 0.2370 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9923076923076923 
+pI3 0.34864864864864864 1.0 
+ synthesis bin/synthesis/synthesis --seed 318885 --seed-error 318885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-4/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 318885 result/TEST-CMP30-5E3-OS/10-4 --remove-dup false
+0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 3 0 
+timestamp:31/08/2021 12:33:50
+2.40user 0.00system 0:02.40elapsed 99%CPU (0avgtext+0avgdata 3284maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/10-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/10-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/10-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.2720 
+I4 0.2720 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.9733333333333334 
+pI4 0.2994871794871795 1.0 
+ synthesis bin/synthesis/synthesis --seed 396662 --seed-error 396662 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-5/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 396662 result/TEST-CMP30-5E3-OS/10-5 --remove-dup false
+0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 3 3 
+timestamp:31/08/2021 12:33:54
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3248maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/10-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/10-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/10-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.2536 
+I5 0.2536 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9983333333333333 
+pI5 0.3237837837837838 1.0 
+ synthesis bin/synthesis/synthesis --seed 474439 --seed-error 474439 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-6/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 474439 result/TEST-CMP30-5E3-OS/10-6 --remove-dup false
+0 3 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:33:57
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3252maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/10-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/10-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/10-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.2739 
+I6 0.2739 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9945454545454545 
+pI6 0.28789473684210526 1.0 
+ synthesis bin/synthesis/synthesis --seed 552216 --seed-error 552216 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-7/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 552216 result/TEST-CMP30-5E3-OS/10-7 --remove-dup false
+3 0 0 0 0 1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 1 
+timestamp:31/08/2021 12:34:01
+2.36user 0.00system 0:02.36elapsed 99%CPU (0avgtext+0avgdata 3120maxresident)k
+0inputs+56outputs (0major+178minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/10-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/10-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/10-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.1748 
+I7 0.1748 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9984615384615385 
+pI7 0.3605555555555556 1.0 
+ synthesis bin/synthesis/synthesis --seed 629993 --seed-error 629993 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-8/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 629993 result/TEST-CMP30-5E3-OS/10-8 --remove-dup false
+0 1 1 0 1 1 3 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+timestamp:31/08/2021 12:34:05
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3220maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/10-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/10-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/10-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.2547 
+I8 0.2547 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9963636363636363 
+pI8 0.30444444444444446 1.0 
+ synthesis bin/synthesis/synthesis --seed 707770 --seed-error 707770 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/10-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/10-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/10-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/10-9/true-seq.txt  --step-mutation-rate 9.0 --remove-dup false  
+Gen Synthesis seed: 707770 result/TEST-CMP30-5E3-OS/10-9 --remove-dup false
+3 0 0 1 1 0 0 1 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 1 3 0 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 1 0 1 0 0 
+timestamp:31/08/2021 12:34:08
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+56outputs (0major+177minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/10-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/10-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/10-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/10-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.1896 
+I9 0.1896 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9933333333333333 
+pI9 0.3136842105263158 1.0 
+DIR=result/TEST-CMP30-5E3-OS SAMPLE=50 LOCUS=200 STEP=13 MVR=0.07 0->1=0.015 1->0:0.1 STEPMUT:10.0 CLONE:5 ALLCNT:11 DIV_RATE=1.5 DEATH_RATE=0.5 
+ synthesis bin/synthesis/synthesis --seed 8554 --seed-error 8554 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-0/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-0/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-0/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-0/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 8554 result/TEST-CMP30-5E3-OS/11-0 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:34:12
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-0/true-distance-matrix True0  result/TEST-CMP30-5E3-OS/11-0/impute-distance-matrix I0  result/TEST-CMP30-5E3-OS/11-0/true-part pTrue0  result/TEST-CMP30-5E3-OS/11-0/impute-part pI0 
+True0 I0 
+True0 0.0000 0.2131 
+I0 0.2131 0.0000 
+pTrue0 pI0
+pTrue0 1.0 0.9983333333333333 
+pI0 0.3523529411764706 1.0 
+ synthesis bin/synthesis/synthesis --seed 86331 --seed-error 86331 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-1/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-1/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-1/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-1/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 86331 result/TEST-CMP30-5E3-OS/11-1 --remove-dup false
+0 0 0 0 0 0 1 1 0 0 1 3 0 0 0 0 0 0 0 3 1 0 1 0 0 0 3 0 0 0 1 1 0 0 0 3 0 0 0 0 0 0 0 3 3 0 3 0 3 0 
+timestamp:31/08/2021 12:34:16
+2.39user 0.00system 0:02.40elapsed 99%CPU (0avgtext+0avgdata 3232maxresident)k
+0inputs+56outputs (0major+181minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-1/true-distance-matrix True1  result/TEST-CMP30-5E3-OS/11-1/impute-distance-matrix I1  result/TEST-CMP30-5E3-OS/11-1/true-part pTrue1  result/TEST-CMP30-5E3-OS/11-1/impute-part pI1 
+True1 I1 
+True1 0.0000 0.1927 
+I1 0.1927 0.0000 
+pTrue1 pI1
+pTrue1 1.0 1.0 
+pI1 0.2972972972972973 1.0 
+ synthesis bin/synthesis/synthesis --seed 164108 --seed-error 164108 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-2/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-2/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-2/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-2/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 164108 result/TEST-CMP30-5E3-OS/11-2 --remove-dup false
+0 0 0 0 0 1 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:34:20
+2.37user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3140maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-2/true-distance-matrix True2  result/TEST-CMP30-5E3-OS/11-2/impute-distance-matrix I2  result/TEST-CMP30-5E3-OS/11-2/true-part pTrue2  result/TEST-CMP30-5E3-OS/11-2/impute-part pI2 
+True2 I2 
+True2 0.0000 0.2484 
+I2 0.2484 0.0000 
+pTrue2 pI2
+pTrue2 1.0 0.994 
+pI2 0.2615789473684211 1.0 
+ synthesis bin/synthesis/synthesis --seed 241885 --seed-error 241885 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-3/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-3/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-3/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-3/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 241885 result/TEST-CMP30-5E3-OS/11-3 --remove-dup false
+0 3 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 3 0 0 0 0 
+timestamp:31/08/2021 12:34:23
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3224maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-3/true-distance-matrix True3  result/TEST-CMP30-5E3-OS/11-3/impute-distance-matrix I3  result/TEST-CMP30-5E3-OS/11-3/true-part pTrue3  result/TEST-CMP30-5E3-OS/11-3/impute-part pI3 
+True3 I3 
+True3 0.0000 0.2908 
+I3 0.2908 0.0000 
+pTrue3 pI3
+pTrue3 1.0 0.9646153846153847 
+pI3 0.3389189189189189 1.0 
+ synthesis bin/synthesis/synthesis --seed 319662 --seed-error 319662 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-4/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-4/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-4/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-4/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 319662 result/TEST-CMP30-5E3-OS/11-4 --remove-dup false
+0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:34:27
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3288maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-4/true-distance-matrix True4  result/TEST-CMP30-5E3-OS/11-4/impute-distance-matrix I4  result/TEST-CMP30-5E3-OS/11-4/true-part pTrue4  result/TEST-CMP30-5E3-OS/11-4/impute-part pI4 
+True4 I4 
+True4 0.0000 0.3202 
+I4 0.3202 0.0000 
+pTrue4 pI4
+pTrue4 1.0 0.974 
+pI4 0.27055555555555555 1.0 
+ synthesis bin/synthesis/synthesis --seed 397439 --seed-error 397439 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-5/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-5/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-5/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-5/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 397439 result/TEST-CMP30-5E3-OS/11-5 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 0 3 0 
+timestamp:31/08/2021 12:34:31
+2.38user 0.00system 0:02.38elapsed 99%CPU (0avgtext+0avgdata 3200maxresident)k
+0inputs+56outputs (0major+179minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-5/true-distance-matrix True5  result/TEST-CMP30-5E3-OS/11-5/impute-distance-matrix I5  result/TEST-CMP30-5E3-OS/11-5/true-part pTrue5  result/TEST-CMP30-5E3-OS/11-5/impute-part pI5 
+True5 I5 
+True5 0.0000 0.2976 
+I5 0.2976 0.0000 
+pTrue5 pI5
+pTrue5 1.0 0.9861538461538462 
+pI5 0.3464864864864865 1.0 
+ synthesis bin/synthesis/synthesis --seed 475216 --seed-error 475216 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-6/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-6/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-6/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-6/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 475216 result/TEST-CMP30-5E3-OS/11-6 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 
+timestamp:31/08/2021 12:34:34
+2.38user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3300maxresident)k
+0inputs+56outputs (0major+184minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-6/true-distance-matrix True6  result/TEST-CMP30-5E3-OS/11-6/impute-distance-matrix I6  result/TEST-CMP30-5E3-OS/11-6/true-part pTrue6  result/TEST-CMP30-5E3-OS/11-6/impute-part pI6 
+True6 I6 
+True6 0.0000 0.1966 
+I6 0.1966 0.0000 
+pTrue6 pI6
+pTrue6 1.0 0.9933333333333333 
+pI6 0.32216216216216215 1.0 
+ synthesis bin/synthesis/synthesis --seed 552993 --seed-error 552993 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-7/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-7/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-7/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-7/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 552993 result/TEST-CMP30-5E3-OS/11-7 --remove-dup false
+0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:34:38
+2.41user 0.00system 0:02.42elapsed 99%CPU (0avgtext+0avgdata 3108maxresident)k
+0inputs+56outputs (0major+180minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-7/true-distance-matrix True7  result/TEST-CMP30-5E3-OS/11-7/impute-distance-matrix I7  result/TEST-CMP30-5E3-OS/11-7/true-part pTrue7  result/TEST-CMP30-5E3-OS/11-7/impute-part pI7 
+True7 I7 
+True7 0.0000 0.1999 
+I7 0.1999 0.0000 
+pTrue7 pI7
+pTrue7 1.0 0.9953846153846154 
+pI7 0.3405263157894737 1.0 
+ synthesis bin/synthesis/synthesis --seed 630770 --seed-error 630770 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-8/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-8/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-8/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-8/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 630770 result/TEST-CMP30-5E3-OS/11-8 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 3 0 0 0 3 0 0 0 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+timestamp:31/08/2021 12:34:42
+2.37user 0.00system 0:02.37elapsed 99%CPU (0avgtext+0avgdata 3248maxresident)k
+0inputs+56outputs (0major+182minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-8/true-distance-matrix True8  result/TEST-CMP30-5E3-OS/11-8/impute-distance-matrix I8  result/TEST-CMP30-5E3-OS/11-8/true-part pTrue8  result/TEST-CMP30-5E3-OS/11-8/impute-part pI8 
+True8 I8 
+True8 0.0000 0.2130 
+I8 0.2130 0.0000 
+pTrue8 pI8
+pTrue8 1.0 0.9933333333333333 
+pI8 0.32216216216216215 1.0 
+ synthesis bin/synthesis/synthesis --seed 708547 --seed-error 708547 --sample 50 --locus 200 --aic 1 --adc 2 --akc 10 --step 13 --ais 0.1 --ads 0.1 --fclone result/TEST-CMP30-5E3-OS/11-9/true-clones.txt --fseq result/TEST-CMP30-5E3-OS/11-9/input-scite.txt --ftree result/TEST-CMP30-5E3-OS/11-9/true-tree.txt --mvrate 0.07 --zorate 0.015 --ozrate 0.1 --fseqtrue result/TEST-CMP30-5E3-OS/11-9/true-seq.txt  --step-mutation-rate 10.0 --remove-dup false  
+Gen Synthesis seed: 708547 result/TEST-CMP30-5E3-OS/11-9 --remove-dup false
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 
+timestamp:31/08/2021 12:34:46
+2.39user 0.00system 0:02.39elapsed 99%CPU (0avgtext+0avgdata 3316maxresident)k
+0inputs+56outputs (0major+183minor)pagefaults 0swaps
+RUN_END STEINER
+STR: result/TEST-CMP30-5E3-OS/11-9/true-distance-matrix True9  result/TEST-CMP30-5E3-OS/11-9/impute-distance-matrix I9  result/TEST-CMP30-5E3-OS/11-9/true-part pTrue9  result/TEST-CMP30-5E3-OS/11-9/impute-part pI9 
+True9 I9 
+True9 0.0000 0.2742 
+I9 0.2742 0.0000 
+pTrue9 pI9
+pTrue9 1.0 0.9945454545454545 
+pI9 0.29567567567567565 1.0 
+Done TEST-GEN-ALL
+"echo "Done TEST-GEN-ALL"" command filed with exit code 0.

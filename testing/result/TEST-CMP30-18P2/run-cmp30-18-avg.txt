@@ -1,0 +1,14 @@
+%
+\begin{tabular}{l|l|l|l|l|l|l|l|l|}
+&\multicolumn{4}{|c|}{150 samples} & \multicolumn{4}{|c|}{200 samples} \\
+& \multicolumn{2}{|c|}{5 clones} & \multicolumn{2}{|c|}{10 clones} & \multicolumn{2}{|c|}{5 clones} & \multicolumn{2}{|c|}{10 clones} \\
+Method & 20 sites & 50 sites & 20 sites & 50 sites & 20 sites & 50 sites & 20 sites & 50 sites \\ \hline  
+OncoNEM&0.90&0.77&0.82&0.75&1.05&0.88&0.79&0.87\\
+Scelestial&{\bf 0.81}&{\bf 0.72}&0.73&{\bf 0.68}&0.94&{\bf 0.77}&{\bf 0.73}&{\bf 0.78}\\
+BitPhylogeny&0.87&0.76&0.88&0.96&0.94&0.90&0.92&1.13\\
+SCITE&0.90&0.75&0.87&1.05&0.95&0.84&0.92&0.86\\
+SASC&0.87&0.81&0.82&0.78&1.00&0.84&0.80&0.82\\
+SCIPhI&0.84&0.88&0.97&0.88&1.00&0.86&0.88&0.87\\
+SiFit&0.83&{\bf 0.72}&{\bf 0.71}&0.72&{\bf 0.92}&0.80&0.78&0.84\\
+SiCloneFit&0.94&0.85&0.88&0.75&1.10&0.88&0.80&0.91\\
+\end{tabular}

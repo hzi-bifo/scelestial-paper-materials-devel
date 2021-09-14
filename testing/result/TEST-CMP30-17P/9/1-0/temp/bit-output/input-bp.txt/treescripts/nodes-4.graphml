@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_index" for="graph" attr.name="index" attr.type="double"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_members" for="node" attr.name="members" attr.type="string"/>
+  <key id="v_params" for="node" attr.name="params" attr.type="string"/>
+  <key id="v_branch" for="node" attr.name="branch" attr.type="double"/>
+  <key id="v_mass" for="node" attr.name="mass" attr.type="double"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_Value" for="edge" attr.name="Value" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <data key="g_index">30</data>
+    <node id="n0">
+      <data key="v_name">X</data>
+      <data key="v_members">0 4 5 42 20 28 30</data>
+      <data key="v_params">-5.057757736588655 0.762250020777431 3.413989592009248 9.987997550974992 9.647494663048873 -4.739722175324808 -5.400298308215534 -3.030894548867157 -3.485818744093253 -5.271148564145617 -2.716637712485407 -2.878553281325299 -4.312020624957520 -4.573074836678336 -5.123426725443091 3.254787201152059 -2.803501909868373 -3.198414528357156 5.165089111587537 -2.173043330569655</data>
+      <data key="v_branch">0</data>
+      <data key="v_mass">0.0997854</data>
+      <data key="v_size">7</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">X-0</data>
+      <data key="v_members">48 2 3 37 46</data>
+      <data key="v_params">-3.130944083342616 1.427553129283081 0.621139429919791 -2.370608293012491 3.661885002332606 -8.132006271170741 1.295573138440594 -0.602805479086534 9.116579960137319 -4.797834786400225 -2.555364772434647 -0.268353946204000 -7.803743745148541 9.727645001151521 -0.055974560237274 8.594980744987154 6.363711229087125 2.686004456834277 7.839757928984458 -2.117523716098824</data>
+      <data key="v_branch">0.440049</data>
+      <data key="v_mass">0.0901323</data>
+      <data key="v_size">5</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">X-0-0</data>
+      <data key="v_members">1 6 7 8 9 10 11 12 13 14 15 16 17 18 19 21 24 25 26 29 31 32 35 36 39 40 41 43 44 45 47 49</data>
+      <data key="v_params">2.999272072975599 9.822844271749972 2.908340750322489 -1.857758885407317 3.964496582422547 -5.941975001031612 -0.413612568058360 -3.216958900180005 2.489685522525704 -0.780701298107186 -4.403041775502824 9.827587888241636 -0.165664428078399 -0.128928688553812 -0.329644630800455 3.105432220072679 7.993582780777216 0.846029086195613 2.567881664519107 -1.207504139759840</data>
+      <data key="v_branch">0.61968</data>
+      <data key="v_mass">0.694565</data>
+      <data key="v_size">32</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">X-1</data>
+      <data key="v_members"></data>
+      <data key="v_params">-3.921035999492023 2.743915214684899 4.162822193075033 -7.979387802406556 1.109941664387406 -4.634386667695349 -7.529854692380578 1.582882843337262 -1.453445009150710 1.294909957483241 3.155201650110907 -0.408097657880395 4.125323790154751 -3.258703619643382 3.442760323926470 -2.166387026487765 -4.371251623149631 2.418634021169445 5.935416065622753 -2.258894310655318</data>
+      <data key="v_branch">0.63415</data>
+      <data key="v_mass">0.00555364</data>
+      <data key="v_size">0</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">X-1-0</data>
+      <data key="v_members">33 34 38 22 23 27</data>
+      <data key="v_params">0.583997244132685 4.939674532299859 4.903045794952965 -3.735402978273752 4.696884347140688 -9.308771297708610 2.082606487540201 -4.506315798495179 -0.610339873721807 -5.371260502012095 9.851131331162762 0.716482641799802 0.063829171801925 0.854934906688962 -1.677892737394372 5.522223448827098 0.993568443759454 -0.404140879481924 0.459161084758017 -7.052435600328285</data>
+      <data key="v_branch">0.973056</data>
+      <data key="v_mass">0.184332</data>
+      <data key="v_size">6</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">0.440049</data>
+      <data key="e_Value">5</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_weight">0.61968</data>
+      <data key="e_Value">32</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_weight">0.63415</data>
+      <data key="e_Value">0</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_weight">0.973056</data>
+      <data key="e_Value">6</data>
+    </edge>
+  </graph>
+</graphml>
