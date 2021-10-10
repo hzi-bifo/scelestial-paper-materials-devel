@@ -1,6 +1,6 @@
 # Scelestial: Single Cell Lineage Tree Inference based on a Steiner Tree Approximation Algorithm
 
-Scelestial is a fast application for phylogeny reconstruction on single-cell data. The algorithm is based on an approxmation algorithm for the Steiner problem and could be considered as a generalization of neighbor-joining method in which more than two samples are chosen for merge. 
+Scelestial is a fast application for phylogeny reconstruction on single-cell data. The algorithm is based on an approximation algorithm for the Steiner problem and could be considered as a generalization of neighbor-joining method in which more than two samples are chosen for merge.
 
 Table of Contents
 =================
@@ -28,7 +28,7 @@ and to run scelestial
 ```
 bin/scelestial <[input-file] >[output-file]
 ```
-The detail of input/output formats and how to 
+The detail of input/output formats and how to
 generate synthetic data follows.
 
 ### Sample input & output:
@@ -50,7 +50,7 @@ Input (`data/sample.txt`):
 14 ./. ./. G/G C/C C/C
 15 ./. T/T ./. T/T ./.
 ```
-The input consists of 5 samples with 15 sites. 
+The input consists of 5 samples with 15 sites.
 
 Output:
 ```
@@ -73,7 +73,16 @@ The output represents a tree with 6 nodes. The first 5 nodes are the input nodes
 
 
 
-## Running Scelestial (longer version):
+## Running Scelestial (long version):
+
+Scelestial is easy to be executed. It accepts input from standard input and prints output to the standard output. There are a few optional arguments for customizing behavior of Scelestial.
+
+```
+  -min-k arg                         Sets min-k to arg. Default=3. Scelestial considers all k-subsets of samples for min-k <= k <= max-k.
+  -max-k arg                         Sets max-k to arg. Default=3. Scelestial considers all k-subsets of samples for min-k <= k <= max-k.
+  -include-root arg                  Adds a sample with all sites equal to arg as root of the tree.
+```
+
 
 ### Input format:
 Input consists of a matrix with cells as columns and loci as rows. Each row starts with the name of the locus. Elements of the matrix represent sequencing results for one locus and one cell in a 10-state representation. Thus matrix elements are one of the following cases
@@ -120,7 +129,7 @@ The output consists of four files:
 A sample simulation could be
 ```bash
 # Running the simulator
-bin/synthesis --sample 5 --step 10 --locus 15 --aic 1 --adc 1 --akc 10 --ais 1 --ads 1 --seed 7 --fclone data/synth01-clone.txt --fseq data/synth01-seq.txt --fseqtrue data/synth01-seq-true.txt --ftree data/synth01-tree.txt --mvrate 0.5 --zorate 0.1 --ozrate 0.2 
+bin/synthesis --sample 5 --step 10 --locus 15 --aic 1 --adc 1 --akc 10 --ais 1 --ads 1 --seed 7 --fclone data/synth01-clone.txt --fseq data/synth01-seq.txt --fseqtrue data/synth01-seq-true.txt --ftree data/synth01-tree.txt --mvrate 0.5 --zorate 0.1 --ozrate 0.2
 # Converting simulated data to scelestial's format
 python src/convert-input.py data/synth01-seq.txt data/synth01-scelestial.txt /dev/null
 # Generating some names for cells
@@ -151,9 +160,9 @@ Then we generate the distance matrix between true and scelestial's distance matr
 ```bash
 python src/calc-matrix-distance.py data/synth01-true-distance-matrix.txt TRUE  data/synth01-scelestial-distance-matrix.txt SCEL
 # Result:
-# TRUE SCEL 
-# TRUE 0.00 0.41 
-# SCEL 0.41 0.00 
+# TRUE SCEL
+# TRUE 0.00 0.41
+# SCEL 0.41 0.00
 ```
 The result of the previous command is a matrix. The only important element in the matrix is the element in the row TRUE and column SCEL (or row SCEL and column TRUE). This element shows an overall difference between distances between pairs of samples in two trues. This is a value between 0 and 2 and higher values show more difference between the trees.
 
@@ -171,10 +180,10 @@ Then we can compare partitions produced by the true tree and the inferred tree a
 python src/calc-part-distance.py --match --normalize data/synth01-true-part.txt TRUE data/synth01-scelestial-part.txt SCEL
 # Result:
 # TRUE SCEL
-# TRUE 1.0 0.6 
-# SCEL 0.6 1.0 
+# TRUE 1.0 0.6
+# SCEL 0.6 1.0
 ```
-The element in row TRUE and column SCEL shows the similarity between TRUE and SCEL with respect to the partitions they create on samples by the trees. The value is a number between 0 and 1. 
+The element in row TRUE and column SCEL shows the similarity between TRUE and SCEL with respect to the partitions they create on samples by the trees. The value is a number between 0 and 1.
 
 ### Generating PDF
 A tree could be represented as PDF with the following command
@@ -199,7 +208,7 @@ library(igraph)
 
 Following command should switch to conda environment with python 2 (for biopython):
 ```
-conda py2 
+conda py2
 ```
 
 Also install java, boost-devel and graphviz for python. Makefile variables in the testing folder should be filled correctly.
@@ -207,7 +216,7 @@ Also install java, boost-devel and graphviz for python. Makefile variables in th
 
 ### Test scripts
 
-Testing scripts perform tests and put outputs to folders defined at the beggining of bash script files with name DIR. Several scripts run bin/test-gen-eval-all.sh with various parameters. Detail of tests are as follows:
+Testing scripts perform tests and put outputs to folders defined at the beginning of bash script files with name DIR. Several scripts run bin/test-gen-eval-all.sh with various parameters. Detail of tests are as follows:
 
 
 
@@ -220,5 +229,4 @@ Testing scripts perform tests and put outputs to folders defined at the begginin
 | run-cmp30-7.sh | Fig. 4 | result/TEST-CMP30-7/[12]/*.pdf
 | run-cmp30-8.sh | Fig. 5 | result/TEST-CMP30-8/1/*.pdf
 | run-sens30-all4.sh | Fig. 2, Fig. 3 | result/TEST-SENS30-ALL4/LOCUS2.txt, <br/> result/TEST-SENS30-ALL4/MV2.txt, <br/> result/TEST-SENS30-ALL4/ZO2.txt, <br/> result/TEST-SENS30-ALL4/OZ2.txt, <br/> result/TEST-SENS30-ALL4/SAMPLE2.txt |
-
 
