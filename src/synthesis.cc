@@ -13,8 +13,8 @@ ostream& operator<<(ostream& os, vector<bool> v) {
 
 Output removeDuplicates(const Output& o) {
 	vector<bool> dup(o.sampleCount, false);
-	for (int i=0; i<o.sampleCount; i++)
-		for (int j=i+1; j<o.sampleCount; j++) {
+	for (size_t i=0; i<o.sampleCount; i++)
+		for (size_t j=i+1; j<o.sampleCount; j++) {
 			bool eq = true;
 			for (unsigned k=0; eq && k<o.output.size(); k++) {
 				eq &= (o.output[k][i] == o.output[k][j]);
@@ -22,33 +22,33 @@ Output removeDuplicates(const Output& o) {
 			if (eq)
 				dup[j] = true;
 		}
-	set<int> samples;
-	vector<int> newSampleIndex(o.sampleCount, -1);
+	set<size_t> samples;
+	vector<size_t> newSampleIndex(o.sampleCount, -1);
 	int sc = 0;
-	for (int i=0; i<o.sampleCount; i++)
+	for (size_t i=0; i<o.sampleCount; i++)
 		if (!dup[i]) {
 			newSampleIndex[i] = sc;
 			sc++;
 			samples.insert(i);
 		}
 	Output r(sc);
-	for (unsigned i=0; i<o.cloneSamples.size(); i++) {
+	for (size_t i=0; i<o.cloneSamples.size(); i++) {
 		r.cloneSamples.push_back(vector<int>());
-		for (unsigned j=0; j<o.cloneSamples[i].size(); j++)
+		for (size_t j=0; j<o.cloneSamples[i].size(); j++)
 			if (samples.find(o.cloneSamples[i][j]) != samples.end())
 				r.cloneSamples[i].push_back(newSampleIndex[o.cloneSamples[i][j]]);
 	}
-	for (unsigned i=0; i<o.sampleCount; i++)
+	for (size_t i=0; i<o.sampleCount; i++)
 		if (samples.find(i) != samples.end())
 			r.sampleClone.push_back(o.sampleClone[i]);
-	for (unsigned k=0; k<o.output.size(); k++) {
+	for (size_t k=0; k<o.output.size(); k++) {
 		r.output.push_back(vector<int>());
-		for (int i=0; i<o.sampleCount; i++) {
+		for (size_t i=0; i<o.sampleCount; i++) {
 			if (samples.find(i) != samples.end()) 
 				r.output[k].push_back(o.output[k][i]);
 		}
 	}
-	for (int i=0; i<n; i++) {
+	for (size_t i=0; i<n; i++) {
 		r.compressParent(i);
 	}
 	return r;
@@ -58,7 +58,7 @@ int main(int argc, char* argv[]) {
 
 	int seed;
 	int seedError;
-	int sampleCount;
+	size_t sampleCount;
 	string cloneFileName, seqFileName, treeFileName, trueSeqFileName;
 	bool removeDuplicateSequences = false;
 
@@ -67,9 +67,9 @@ int main(int argc, char* argv[]) {
 	po::options_description desc("Allowed options");
 	desc.add_options()
 		("help", "produce help message")
-		("sample", po::value<int>(&sampleCount)->required(), "number of sampled cells")
-		("step", po::value<int>(&step)->required(), "number of simulation steps")
-		("locus", po::value<int>(&locusCount)->required(), "number of locuses")
+		("sample", po::value<size_t>(&sampleCount)->required(), "number of sampled cells")
+		("step", po::value<size_t>(&step)->required(), "number of simulation steps")
+		("locus", po::value<size_t>(&locusCount)->required(), "number of locuses")
 		// ("locus-potential", po::value<int>(&potentialLocusCount)->default_value(-1), "number of potential locuses in genome")
 		("aic", po::value<double>(&incAdvProb)->required(), "advantage increase rate")
 		("adc", po::value<double>(&decAdvProb)->required(), "advantage decrease rate")

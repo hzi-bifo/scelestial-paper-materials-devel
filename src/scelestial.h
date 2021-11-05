@@ -72,7 +72,16 @@ enum debug_option
     DEBUG_ENABLE,
     DEBUG_ENABLE_V
 };
-debug_option logLevel = DEBUG_DISABLE;
+#ifdef DEBUG_LEVEL_1
+	debug_option logLevel = DEBUG_ENABLE;
+	#define IFDEBUG(A) {if(logLevel > 0) { logger << A << endl; }}
+#elif  DEBUG_LEVEL_2
+	debug_option logLevel = DEBUG_ENABLE_V;
+	#define IFDEBUG(A) {if(logLevel > 0) { logger << A << endl; }}
+#else
+	debug_option logLevel = DEBUG_DISABLE;
+	#define IFDEBUG(A) {}
+#endif
 using std::endl;
 
 const int MAXTREELEAFS = 10;
@@ -501,14 +510,22 @@ tuple<vector<EdgeWeight>, double> imputeTree(
 		const vector<vector<int>>& tree, 
 		UniverseVertexSet& universeVertexSet, 
 		bool onlyCost) {
+	IFDEBUG("imputeTree called ...")
 	int len = universeVertexSet.length();
 
 	double finalCost = 0;
 	vector<vector<int>> imputedTree(tree.size(), vector<int>(len, -1));
 
+	IFDEBUG("imputeTree started ...")
+
 	for (int l=0; l<len; l++) {
+#ifdef SMALL_STACK_CONFIG
+		vector<vector<double>> cost(MAXNODE, vector<double>(allelCodingSize, 0));
+		vector<vector<vector<int>>> path(MAXNODE, vector<vector<int>>(allelCodingSize, vector<int>(MAXNODE, 0)));
+#else
 		double cost[MAXNODE][allelCodingSize];
 		int path[MAXNODE][allelCodingSize][MAXNODE];
+#endif
 		for (int v=(int)(tree.size())-1; v>=0; v--) {
 			for (int a = 0; a<allelCodingSize; a++) {
 				if (tree[v].size() == 1) {
@@ -567,6 +584,8 @@ tuple<vector<EdgeWeight>, double> imputeTree(
 
 	}
 	// return imputedTree;
+	
+	IFDEBUG("imputed tree cost calculated")
 
 
 	if (!onlyCost) {
@@ -611,7 +630,10 @@ double imputeTreeCost(
 		const vector<int>& leaves, 
 		const vector<vector<int>>& tree, 
 		UniverseVertexSet& universeVertexSet) {
-	return get<1>(imputeTree(leaves, tree, universeVertexSet, true));
+	IFDEBUG("imputeTreeCost called")
+	//return get<1>(imputeTree(leaves, tree, universeVertexSet, true));
+	tuple<vector<EdgeWeight>, double> r = imputeTree(leaves, tree, universeVertexSet, true);
+	return std::get<1>(r);
 }
 
 
@@ -793,11 +815,21 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 
 	for (int k = minkk; k<=kk; k++) {
 
+		if (logLevel > 0) {
+			logger << "Generating all trees " << k << " ..." << endl;
+		}
 		GenerateAllTrees alg(k);
+		if (logLevel > 0) {
+			logger << "Generating all trees " << k << " created" << endl;
+		}
 		vector<vector<vector<int>>> trees = alg.run();
+		if (logLevel > 0) {
+			logger << "Generating all trees executed" << endl;
+		}
 
 		//fill candidateStack
 		SubsetIterator<int> choose(n, k, input);
+		IFDEBUG("choose created")
 
 
 		for (int tt=0; choose.isValid(); tt++, choose.next()) {
@@ -806,6 +838,7 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 			if (logLevel > 0) {
 				stepsPassed++;
 				if (stepsPassed % 1000 == 0) {
+				//if (stepsPassed % 1 == 0) {
 					auto end = std::chrono::steady_clock::now();
 
 					//Following is too time consuming, 
@@ -824,9 +857,11 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 			vector<int> li = choose.get();
 
 			sort(T.begin(), T.end());
+			IFDEBUG("Edges sorted " << T.size())
 			/**
 			 * terminalTreeDiscardingEdges = bridges
 			 */ 
+
 			vector<EdgeWeight> terminalTreeRemainingEdges, terminalTreeDiscardingEdges;
 			double bridgeCost = 0; // the cost of separating l from each other in T
 			{
@@ -837,6 +872,7 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 				for (int i=0; i+1<(int)li.size(); i++) {
 					ds.join(li[i], li[i+1]);
 				}
+				IFDEBUG("ds joins done")
 
 				for (auto &e: T) {
 					if (!ds.isJoint(e.v, e.u)) {
@@ -847,19 +883,27 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 						bridgeCost += e.w;
 					}
 				}
+				IFDEBUG("edges joined")
 			}
 
+			IFDEBUG("Choose done")
 
 			double minC = 1000000000;
+			IFDEBUG("calculating minC " << minC << "minT ...")
 			vector<vector<int>> minT;
+			IFDEBUG("calculating minC " << minC << "minT (2) ...")
 
-			for (auto tree : trees) {
+			for (vector<vector<int>> &tree : trees) {
+			//for (auto &tree : trees) {
+				IFDEBUG("impute tree " << tree << " ... ")
 				double c = imputeTreeCost(li, tree, universeVertexSet);
+				IFDEBUG("impute tree " << tree << " done ")
 				if (c < minC) {
 					minC = c;
 					minT = tree;
 				}
 			}
+			IFDEBUG("minC " << minC << "minT found")
 
 			{
 
@@ -930,6 +974,7 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 
 				} 
 			}
+			IFDEBUG("gain calculated")
 
 		}
 			
