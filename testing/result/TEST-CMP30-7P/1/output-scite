@@ -10,7 +10,7 @@ M-153,
 M-155" color=black fillcolor="#9F8C80" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
 	5 [label="M-151" color=pink fillcolor=pink fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
 	6 [label="P-135,
-P-136" color="#59B8EC" fillcolor="#59B8EC" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+P-136" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
 	7 [label="" color=black fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
 	8 [label="M-152" color=pink fillcolor=pink fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
 	9 [label="" color=black fillcolor=white fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
@@ -42,8 +42,8 @@ M-158" color=pink fillcolor=pink fontcolor=black fontname=Arial gradientangle=0 
 	15 [label="P-123, P-132,
 P-145, P-146,
 P-147, P-149,
-P-150" color="#59B8EC" fillcolor="#59B8EC" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
-	16 [label="N-54" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+P-150" color="#E65D28" fillcolor="#E65D28" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
+	16 [label="N-54" color="#59B8EC" fillcolor="#59B8EC" fontcolor=black fontname=Arial gradientangle=0 margin=0 penwidth=4 shape=circle style=filled]
 	17 [label="N-1, N-2, N-3, N-4, N-5, N-6,
 N-7, N-8, N-9, N-10, N-11,
 N-12, N-13, N-14, N-15, N-16,
