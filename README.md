@@ -247,3 +247,6 @@ Testing scripts perform tests and put outputs to folders defined at the beginnin
 | run-cmp30-8.sh | Fig. 5 | result/TEST-CMP30-8/1/*.pdf
 | run-sens30-all4.sh | Fig. 2, Fig. 3 | result/TEST-SENS30-ALL4/LOCUS2.txt, <br/> result/TEST-SENS30-ALL4/MV2.txt, <br/> result/TEST-SENS30-ALL4/ZO2.txt, <br/> result/TEST-SENS30-ALL4/OZ2.txt, <br/> result/TEST-SENS30-ALL4/SAMPLE2.txt |
 
+
+# License
+This project is under GPL 3.0 license.
