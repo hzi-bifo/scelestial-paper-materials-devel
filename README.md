@@ -6,7 +6,7 @@ Table of Contents
 =================
    * [Running Scelestial (short version):](#running-scelestial-short-version)
       * [Sample input &amp; output:](#sample-input--output)
-   * [Running Scelestial (longer version):](#running-scelestial-long-version)
+   * [Running Scelestial (options):](#running-scelestial-long-version)
       * [Input format:](#input-format)
       * [Output format:](#output-format)
    * [Generating simulated data:](#generating-simulated-data)
@@ -102,6 +102,13 @@ The output of scelestial represents the inferred evolutionary tree as well as th
 
 After the description of the nodes of the tree, there is a part to represent the tree itself. For each edge there is a line consists of two endpoints of the edge followed by the length of the edge.
 
+### Moving all the samples to the leaf nodes
+Scelestial may assign samples to internal nodes. If the infered phylogeny is required to contain sample nodes as leaf nodes, the option `-no-internal-sample` could be used. With this option all the samples which are assigned to internal nodes are moved to new leaf nodes connected to their corresponding internal nodes. 
+
+### Re-rooting the tree
+The option `-root root-index` specifies the root of the tree. Scelestial internally infers an unrooted tree. With this option Scelestial move the root-index sample to the root of the tree via changing direction of the edges. The root index which is given to this option as an argument is the zero-based index of the input sample (column of the input matrix).
+
+Note that if option `-no-internal-sample` is used in combination with option `-root root-index`, the root of the final tree would be parent of the sample root-index.
 
 ## Generating simulated data:
 The simulation is done by simulating an evolutionary tree. The tree starts with a node. The tree generation is done through some steps (number of steps is defined by --step parameter). At each step, a node from the evolutionary tree is selected and a child is added to it. Each node has a relative advantage. Nodes are selected based on their relative advantages. Advantage of a child is defined based on its parent advantage, it increases/decreases/remains as its parent with probabilities defined by parameters --aic/--adc/--akc after normalization (division by sum of these values). The amount of increment/decrement is defined by --ais and --ads parameters.
