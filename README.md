@@ -6,7 +6,7 @@ Table of Contents
 =================
    * [Running Scelestial (short version):](#running-scelestial-short-version)
       * [Sample input &amp; output:](#sample-input--output)
-   * [Running Scelestial (longer version):](#running-scelestial-longer-version)
+   * [Running Scelestial (longer version):](#running-scelestial-long-version)
       * [Input format:](#input-format)
       * [Output format:](#output-format)
    * [Generating simulated data:](#generating-simulated-data)
