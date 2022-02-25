@@ -78,9 +78,17 @@ The output represents a tree with 6 nodes. The first 5 nodes are the input nodes
 Scelestial is easy to be executed. It accepts input from standard input and prints output to the standard output. There are a few optional arguments for customizing behavior of Scelestial.
 
 ```
-  -min-k arg                         Sets min-k to arg. Default=3. Scelestial considers all k-subsets of samples for min-k <= k <= max-k.
-  -max-k arg                         Sets max-k to arg. Default=3. Scelestial considers all k-subsets of samples for min-k <= k <= max-k.
-  -include-root arg                  Adds a sample with all sites equal to arg as root of the tree.
+usage: scelestial [options] <input >output
+  -min-k arg             Sets min-k to arg. Default=3. 
+                         Scelestial considers all k-subsets of samples for min-k <= k <= max-k.
+  -max-k arg             Sets max-k to arg. Default=4. 
+                         Scelestial considers all k-subsets of samples for min-k <= k <= max-k.
+  -include-root arg      Adds a sample with all sites equal to arg as root of the tree.
+  -root root-index       Zero-based index of the new root.
+                         After inferring the tree, tree edges are directed toward new root.
+                         In the output line "u v w" u is the parent and v is the chine node.
+  -no-internal-sample    Move all samples to leaf nodes.
+                         If -root is also present, a neighbor of root-index is chosen as the root.
 ```
 
 
