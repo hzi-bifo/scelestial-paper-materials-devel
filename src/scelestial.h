@@ -93,16 +93,16 @@ const int nucleotideAcidCount = 4;
 const int allelCodingSize = 11;
 string allelCoding[][2] = {
 	{"A","A/A"},		
-						{"T","T/T"},
-						{"C","C/C"},
-						{"G","G/G"},
-						{"K","A/C"},
-						{"L","A/G"},
-						{"M","C/T"},
-						{"N","C/G"},
-						{"O","T/G"},
-						{"P","T/A"},
-						{"X","./."}};
+	{"T","T/T"},
+	{"C","C/C"},
+	{"G","G/G"},
+	{"K","A/C"},
+	{"L","A/G"},
+	{"M","C/T"},
+	{"N","C/G"},
+	{"O","T/G"},
+	{"P","T/A"},
+	{"X","./."}};
 map<string, char> allelCodingMap;
 map<char,int> allelCoding2Int;
 char int2AllelCoding[allelCodingSize];
@@ -1216,7 +1216,7 @@ void reRootEdgeSet(vector<EdgeWeight>& e, const vector<int>& v, int newRoot) {
 // if newRoot is not -1 and is replaced with another internal node in the tree, the replaced-to vertex intex is returned
 //    otherwise new neighbor of newRoot is returned.
 // note that this function is not working for the case that v.size() <= 2
-int moveSamplesToLeaf(vector<EdgeWeight>& e, vector<int>& v, const set<int>& inputCells, UniverseVertexSet& universeVertexSet, int newRoot) {
+int moveSamplesToLeaf(vector<EdgeWeight>& e, vector<int>& v, const set<int>& inputCells, UniverseVertexSet& universeVertexSet, const map<int, Cell>& imputation, int newRoot) {
 	map<int, int> deg;
 	for (auto ee:e) {
 		deg[ee.v]++;
@@ -1231,7 +1231,14 @@ int moveSamplesToLeaf(vector<EdgeWeight>& e, vector<int>& v, const set<int>& inp
 	vector<int> newVertices;
 	for (int vv : v) {
 		if (deg[vv] > 1 && inputCells.find(vv) != inputCells.end()) {
-			int to = universeVertexSet.add(universeVertexSet.getVertex(vv));
+			Cell c;
+			if (imputation.find(vv) != imputation.end()) {
+			 	c.load(imputation.find(vv)->second.toString());
+			} else {
+				c = universeVertexSet.getVertex(vv);
+			}
+
+			int to = universeVertexSet.add(c);
 			replacedTo[vv] = to;
 			newVertices.push_back(to);
 			if (logLevel > 1)
@@ -1282,7 +1289,7 @@ void printResultAsGraph(ostream& os, UniverseVertexSet& universeVertexSet, const
 	if (noInternalSample) {
 		if (logLevel > 0)
 			logger << "Moving samples to leaves." << endl;
-		newRoot = moveSamplesToLeaf(e, v, inputCells, universeVertexSet, newRoot);
+		newRoot = moveSamplesToLeaf(e, v, inputCells, universeVertexSet, imputation, newRoot);
 		if (logLevel > 1)
 			logger << "newRoot = " << newRoot << endl;
 	}
