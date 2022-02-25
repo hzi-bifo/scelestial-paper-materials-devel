@@ -1,0 +1,11 @@
+5
+0 1 AAA AAA
+1 1 ACC ACC
+2 1 CAC CAC
+3 1 AAA AAA
+4 0 AAC -
+4
+4 2 1
+4 1 1
+0 4 1
+3 0 0
