@@ -96,7 +96,7 @@ int main(int argc, char* argv[]) {
 
 	if (vm.count("help")) {
 		cout << desc << "\n";
-		return 1;
+		return 0;
 	}
 	po::notify(vm);
 
