@@ -36,11 +36,20 @@ git clone git@github.com:hzi-bifo/scelestial-paper-materials-devel.git scelestia
 Change folder and make
 ```
 cd scelestial
-make
+make bin/scelestial
 ```
 Now you can run scelestial with relative or aboslute address
 ```
 bin/scelestial -help
+```
+
+To build `synthesis` address of header files and library folder of boost program options should be fixed in the makefile. Then following command builds `synthesis`
+```
+make bin/synthesis
+```
+And following command executes it `synthesis` 
+```
+bin/synthesis --help
 ```
 
 
