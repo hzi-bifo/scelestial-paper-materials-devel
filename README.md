@@ -21,12 +21,30 @@ Table of Contents
       * [Preparation](#preparation)
       * [Test scripts](#test-scripts)
 
-## Running Scelestial (short version):
-in short, to make run
+## Installation:
+Scelestial could be installed via conda under bioconda channel. For bioconda-based installation, first install [miniconda](https://docs.conda.io/en/latest/miniconda.html) (or [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)) and then 
+install via following command
 ```bash
+conda install -c bioconda scelestial
+```
+
+Alternatively, scelestial could be installed from source. Download source codes via
+```
+git clone git@github.com:hzi-bifo/scelestial-paper-materials-devel.git scelestial
+```
+Change folder and make
+```
+cd scelestial
 make
 ```
-and to run scelestial
+Now you can run scelestial with relative or aboslute address
+```
+bin/scelestial -help
+```
+
+
+## Running Scelestial (short version):
+In short, run scelestial with
 ```
 bin/scelestial <[input-file] >[output-file]
 ```
