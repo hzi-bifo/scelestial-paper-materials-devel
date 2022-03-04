@@ -53,6 +53,7 @@ EXIT_ON_ERROR=1
 OPT_GEN=
 RUN_OPT_SICLONEFIT=
 RUN_OPT_SIFIT=
+SIFITITER=10000
 
 SDIR=$1
 shift
@@ -269,6 +270,10 @@ do
 		echo "--CPUT-LIMIT $RUN_OPT_SIFIT"
 		shift
 		;;
+	-sifit-iter)
+		SIFITITER=$2
+		shift 2
+		;;
 	--) # End of all options
 		shift
 		break;
@@ -467,7 +472,7 @@ for STEPMUTATIONRATE in $STEPMUTATIONRATE_RANGE; do
 #Running sifit
 		if [[ $RUN2 =~ .*,sifit,.* ]]; then
 			timestamp
-			$TIMEOUT $SCRIPT/run-sifit.sh $DIR 10000 $MATRIX_DISTANCE_NORMALIZATION $RUN_OPT_SIFIT 2>&1
+			$TIMEOUT $SCRIPT/run-sifit.sh $DIR $SIFITITER $MATRIX_DISTANCE_NORMALIZATION $RUN_OPT_SIFIT 2>&1
 			CMP_STR="$CMP_STR $DIR/sifit-distance-matrix sifit$CNT "
 			CMP_PART_STR="$CMP_PART_STR $DIR/sifit-part psifit$CNT "
 			OUT_STR="$OUT_STR SiFit$CNT $DIR/sifit-tree.txt $DIR/sifit-clones.txt"

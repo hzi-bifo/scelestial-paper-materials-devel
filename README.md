@@ -4,16 +4,17 @@ Scelestial is a fast application for phylogeny reconstruction on single-cell dat
 
 Table of Contents
 =================
-   * [Running Scelestial (short version):](#running-scelestial-short-version)
-      * [Sample input &amp; output:](#sample-input--output)
-   * [Running Scelestial (options):](#running-scelestial-long-version)
-      * [Input format:](#input-format)
-      * [Output format:](#output-format)
+   * [Installation](#installation)
+   * [Running Scelestial](#running-scelestial)
+      * [Sample input &amp; output](#sample-input--output)
+   * [Running Scelestial Explained](#running-scelestial-explained)
+      * [Input format](#input-format)
+      * [Output format](#output-format)
       * [Moving all the samples to the leaf nodes](#moving-all-the-samples-to-the-leaf-nodes)
       * [Re-rooting the tree](#Re-rooting-the-tree)
-  * [Generating simulated data:](#generating-simulated-data)
-      * [Running Scelestial:](#running-scelestial)
-      * [Evaluating the results:](#evaluating-the-results)
+  * [Generating simulated data](#generating-simulated-data)
+      * [Running Scelestial on Simulated Data](#running-scelestial-on-simulated-data)
+      * [Evaluating the results](#evaluating-the-results)
          * [Comparing sample distances](#comparing-sample-distances)
          * [Comparing partition similarity](#comparing-partition-similarity)
       * [Generating PDF](#generating-pdf)
@@ -21,12 +22,39 @@ Table of Contents
       * [Preparation](#preparation)
       * [Test scripts](#test-scripts)
 
-## Running Scelestial (short version):
-in short, to make run
+## Installation:
+Scelestial could be installed via conda under bioconda channel. For bioconda-based installation, first install [miniconda](https://docs.conda.io/en/latest/miniconda.html) (or [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)) and then 
+install via following command
 ```bash
-make
+conda install -c bioconda scelestial
 ```
-and to run scelestial
+
+Alternatively, scelestial could be installed from source. Download source codes via
+```
+git clone git@github.com:hzi-bifo/scelestial-paper-materials-devel.git scelestial
+```
+Change folder and make
+```
+cd scelestial
+make bin/scelestial
+```
+Now you can run scelestial with relative or aboslute address
+```
+bin/scelestial -help
+```
+
+To build `synthesis` address of header files and library folder of boost program options should be fixed in the makefile. Then following command builds `synthesis`
+```
+make bin/synthesis
+```
+And following command executes it `synthesis` 
+```
+bin/synthesis --help
+```
+
+
+## Running Scelestial
+In short, run scelestial with
 ```
 bin/scelestial <[input-file] >[output-file]
 ```
@@ -75,7 +103,7 @@ The output represents a tree with 6 nodes. The first 5 nodes are the input nodes
 
 
 
-## Running Scelestial (long version):
+## Running Scelestial Explained:
 
 Scelestial is easy to be executed. It accepts input from standard input and prints output to the standard output. There are a few optional arguments for customizing behavior of Scelestial.
 
@@ -153,7 +181,7 @@ python src/convert-input.py data/synth01-seq.txt data/synth01-scelestial.txt /de
 for ((i=1; i<=5; i++)); do echo "C$i"; done > data/synth01-cell-names.txt
 ```
 
-### Running Scelestial:
+### Running Scelestial on Simulated Data:
 The easiest part is to run the scelestial as follows:
 ```bash
 bin/scelestial <data/synth01-scelestial.txt >data/synth01-scelestial-tree-clone.txt
