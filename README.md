@@ -5,15 +5,15 @@ Scelestial is a fast application for phylogeny reconstruction on single-cell dat
 Table of Contents
 =================
    * [Installation](#installation)
-   * [Running Scelestial (short version)](#running-scelestial-short-version)
+   * [Running Scelestial](#running-scelestial)
       * [Sample input &amp; output](#sample-input--output)
-   * [Running Scelestial (options)](#running-scelestial-long-version)
+   * [Running Scelestial Explained](#running-scelestial-explained)
       * [Input format](#input-format)
       * [Output format](#output-format)
       * [Moving all the samples to the leaf nodes](#moving-all-the-samples-to-the-leaf-nodes)
       * [Re-rooting the tree](#Re-rooting-the-tree)
   * [Generating simulated data](#generating-simulated-data)
-      * [Running Scelestial](#running-scelestial)
+      * [Running Scelestial on Simulated Data](#running-scelestial-on-simulated-data)
       * [Evaluating the results](#evaluating-the-results)
          * [Comparing sample distances](#comparing-sample-distances)
          * [Comparing partition similarity](#comparing-partition-similarity)
@@ -53,7 +53,7 @@ bin/synthesis --help
 ```
 
 
-## Running Scelestial (short version):
+## Running Scelestial
 In short, run scelestial with
 ```
 bin/scelestial <[input-file] >[output-file]
@@ -103,7 +103,7 @@ The output represents a tree with 6 nodes. The first 5 nodes are the input nodes
 
 
 
-## Running Scelestial (long version):
+## Running Scelestial Explained:
 
 Scelestial is easy to be executed. It accepts input from standard input and prints output to the standard output. There are a few optional arguments for customizing behavior of Scelestial.
 
@@ -181,7 +181,7 @@ python src/convert-input.py data/synth01-seq.txt data/synth01-scelestial.txt /de
 for ((i=1; i<=5; i++)); do echo "C$i"; done > data/synth01-cell-names.txt
 ```
 
-### Running Scelestial:
+### Running Scelestial on Simulated Data:
 The easiest part is to run the scelestial as follows:
 ```bash
 bin/scelestial <data/synth01-scelestial.txt >data/synth01-scelestial-tree-clone.txt
