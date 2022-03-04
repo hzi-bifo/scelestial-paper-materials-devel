@@ -14,7 +14,7 @@ Table of Contents
       * [Re-rooting the tree](#Re-rooting-the-tree)
    * [Running Scelestial Explained](#running-scelestial-explained)
    * [Running Pre-defined Tests](#running-pre-defined-tests)
-      * [Running Scelestial on Simulated Data](#running-scelestial-on-simulated-data)
+   * [Running Scelestial on Simulated Data](#running-scelestial-on-simulated-data)
       * [Evaluating the results](#evaluating-the-results)
          * [Comparing sample distances](#comparing-sample-distances)
          * [Comparing partition similarity](#comparing-partition-similarity)
@@ -156,7 +156,7 @@ On the root of the folder execute following command:
 sh bin/test/test2.sh
 ```
 
-### Test 4: Rerooting and moving samples to leaf nodes
+### Test 3: Rerooting and moving samples to leaf nodes
 With default options, Scelestial may place samples in internal nodes. In this representation simplifies the tree and thus the resulting visualization would be easier to understand. Scelestial has an option `-no-internal-sample` for moving samples to leaf nodes. In this case for each sample which is assigned to internal nodes, a new leaf node which is connected to the internal node with branch length zero is created and the samples is moved to this new node. 
 
 The combination of `-no-internal-sample` option and `-root` option may make a confusion. Option `-root [ROOT]` is supposed to put sample `[ROOT]` at the root of the phylogeny, while option `-no-internal-sample` asks Scelestial to put all the samples in leaf nodes. When these two options are present, Scelestial puts parent of sample `[ROOT]` as the root of the tree. This test shows the result of executing Scelestial with both these two options.
@@ -166,7 +166,7 @@ On the root of the folder execute following command:
 sh bin/test/test5.sh
 ```
 
-### Other tests
+### Other Tests
 Some other tests are created for testing Scelestial. Details could be found in following files
 * `bin/test/test3.sh`
 * `bin/test/test4.sh`
