@@ -5,15 +5,16 @@ Scelestial is a fast application for phylogeny reconstruction on single-cell dat
 Table of Contents
 =================
    * [Installation](#installation)
-   * [Running Scelestial (short version)](#running-scelestial-short-version)
+   * [Running Scelestial](#running-scelestial)
       * [Sample input &amp; output](#sample-input--output)
-   * [Running Scelestial (options)](#running-scelestial-long-version)
+   * [Running Scelestial Explained](#running-scelestial-explained)
       * [Input format](#input-format)
       * [Output format](#output-format)
       * [Moving all the samples to the leaf nodes](#moving-all-the-samples-to-the-leaf-nodes)
       * [Re-rooting the tree](#Re-rooting-the-tree)
-  * [Generating simulated data](#generating-simulated-data)
-      * [Running Scelestial](#running-scelestial)
+   * [Running Scelestial Explained](#running-scelestial-explained)
+   * [Running Pre-defined Tests](#running-pre-defined-tests)
+   * [Running Scelestial on Simulated Data](#running-scelestial-on-simulated-data)
       * [Evaluating the results](#evaluating-the-results)
          * [Comparing sample distances](#comparing-sample-distances)
          * [Comparing partition similarity](#comparing-partition-similarity)
@@ -53,7 +54,7 @@ bin/synthesis --help
 ```
 
 
-## Running Scelestial (short version):
+## Running Scelestial
 In short, run scelestial with
 ```
 bin/scelestial <[input-file] >[output-file]
@@ -103,7 +104,7 @@ The output represents a tree with 6 nodes. The first 5 nodes are the input nodes
 
 
 
-## Running Scelestial (long version):
+## Running Scelestial Explained:
 
 Scelestial is easy to be executed. It accepts input from standard input and prints output to the standard output. There are a few optional arguments for customizing behavior of Scelestial.
 
@@ -139,6 +140,37 @@ Scelestial may assign samples to internal nodes. If the infered phylogeny is req
 The option `-root root-index` specifies the root of the tree. Scelestial internally infers an unrooted tree. With this option Scelestial move the root-index sample to the root of the tree via changing direction of the edges. The root index which is given to this option as an argument is the zero-based index of the input sample (column of the input matrix).
 
 Note that if option `-no-internal-sample` is used in combination with option `-root root-index`, the root of the final tree would be parent of the sample root-index.
+
+## Running Pre-defined Tests
+### Test 2: A simple and small test
+
+On the root of the folder execute following command:
+```
+sh bin/test/test1.sh
+```
+
+### Test 2: Rerooting
+The option `-root 4` (in the bash script file) asks Scelestial to re-root the resulting tree to the sample 4 (which is 5-th column of the matrix).
+On the root of the folder execute following command:
+```
+sh bin/test/test2.sh
+```
+
+### Test 3: Rerooting and moving samples to leaf nodes
+With default options, Scelestial may place samples in internal nodes. In this representation simplifies the tree and thus the resulting visualization would be easier to understand. Scelestial has an option `-no-internal-sample` for moving samples to leaf nodes. In this case for each sample which is assigned to internal nodes, a new leaf node which is connected to the internal node with branch length zero is created and the samples is moved to this new node. 
+
+The combination of `-no-internal-sample` option and `-root` option may make a confusion. Option `-root [ROOT]` is supposed to put sample `[ROOT]` at the root of the phylogeny, while option `-no-internal-sample` asks Scelestial to put all the samples in leaf nodes. When these two options are present, Scelestial puts parent of sample `[ROOT]` as the root of the tree. This test shows the result of executing Scelestial with both these two options.
+
+On the root of the folder execute following command:
+```
+sh bin/test/test5.sh
+```
+
+### Other Tests
+Some other tests are created for testing Scelestial. Details could be found in following files
+* `bin/test/test3.sh`
+* `bin/test/test4.sh`
+
 
 ## Generating simulated data:
 The simulation is done by simulating an evolutionary tree. The tree starts with a node. The tree generation is done through some steps (number of steps is defined by --step parameter). At each step, a node from the evolutionary tree is selected and a child is added to it. Each node has a relative advantage. Nodes are selected based on their relative advantages. Advantage of a child is defined based on its parent advantage, it increases/decreases/remains as its parent with probabilities defined by parameters --aic/--adc/--akc after normalization (division by sum of these values). The amount of increment/decrement is defined by --ais and --ads parameters.
@@ -181,7 +213,7 @@ python src/convert-input.py data/synth01-seq.txt data/synth01-scelestial.txt /de
 for ((i=1; i<=5; i++)); do echo "C$i"; done > data/synth01-cell-names.txt
 ```
 
-### Running Scelestial:
+### Running Scelestial on Simulated Data:
 The easiest part is to run the scelestial as follows:
 ```bash
 bin/scelestial <data/synth01-scelestial.txt >data/synth01-scelestial-tree-clone.txt
