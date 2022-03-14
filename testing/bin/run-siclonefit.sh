@@ -34,13 +34,19 @@ do
 	esac
 done
 
+if [ "$ITER" = "0" ]; then
+OPT_ITER=""
+else
+OPT_ITER="-iter $ITER"
+fi
+
 
 awk '{printf("%d %s\n", NR-1, $0)}' $DIR/input-scite.txt > $DIR/input-siclonefit.txt
 head -1 $DIR/input-scite.txt | grep -oE [[:digit:]] | awk '{printf("%d ", NR, $0)}' > $DIR/siclonefit-cellNames.txt
 
 mkdir -p $DIR/siclonefit
-echo "time java $OPT -jar $SCRIPT/SiCloneFit/SiCloneFiTComplete.jar -n `cat $DIR/input-scite.txt | wc -l` -m `head -1 $DIR/input-scite.txt | grep -oE [[:digit:]] | wc -l` -iter $ITER -ipMat $DIR/input-siclonefit.txt -cellNames $DIR/siclonefit-cellNames.txt -outDir $DIR/siclonefit"
-time java $OPT -jar $SCRIPT/SiCloneFit/SiCloneFiTComplete.jar -n `cat $DIR/input-scite.txt | wc -l` -m `head -1 $DIR/input-scite.txt | grep -oE [[:digit:]] | wc -l` -iter $ITER -ipMat $DIR/input-siclonefit.txt -cellNames $DIR/siclonefit-cellNames.txt -outDir $DIR/siclonefit
+echo "time java $OPT -jar $SCRIPT/SiCloneFit/SiCloneFiTComplete.jar -n `cat $DIR/input-scite.txt | wc -l` -m `head -1 $DIR/input-scite.txt | grep -oE [[:digit:]] | wc -l` $OPT_ITER -ipMat $DIR/input-siclonefit.txt -cellNames $DIR/siclonefit-cellNames.txt -outDir $DIR/siclonefit"
+time java $OPT -jar $SCRIPT/SiCloneFit/SiCloneFiTComplete.jar -n `cat $DIR/input-scite.txt | wc -l` -m `head -1 $DIR/input-scite.txt | grep -oE [[:digit:]] | wc -l` $OPT_ITER -ipMat $DIR/input-siclonefit.txt -cellNames $DIR/siclonefit-cellNames.txt -outDir $DIR/siclonefit
 
 python $SCRIPT/siclonefit-2-tree-clone.py $DIR/siclonefit/samples/best/best_MAP_tree.txt $DIR/input-scite.txt $DIR/siclonefit-tree.txt $DIR/siclonefit-clones.txt
 python $SCRIPT/tree-clone-2-distance-matrix.py $DIR/siclonefit-tree.txt $DIR/siclonefit-clones.txt $MATRIX_DISTANCE_NORMALIZATION > $DIR/siclonefit-distance-matrix

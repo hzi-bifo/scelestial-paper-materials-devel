@@ -20,9 +20,9 @@ RUN2=,onco,steiner,bitphyl,scite,sasc,sciphi,sifit,siclonefit,
 
 for RUN2 in  onco steiner bitphyl scite sasc sciphi sifit siclonefit ; do
 mkdir -p $DIR/$RUN2
-sem -j 10 $SCRIPT/test-gen-eval-all.sh $DIR -rep $LEN -mut 2 2.01 1 -ozr $OZ_OPT -zor $ZO_OPT -mvr $MV_OPT -locus $LOC_OPT -sample $SAMPLE_OPT -clone $CLONECNT $CLONECNT 1 -step 5 5 1 -gen synth -run2 ,$RUN2, -keep -cpu-limit -timeout 24h 86400 -sifit-iter 0 -siclonefit-iter 0 -exit-on-error-no &>$DIR/$RUN2/$OUTPUT.eo 
+sem -j 10 --id cmp6 $SCRIPT/test-gen-eval-all.sh $DIR/$RUN2 -rep $LEN -mut 2 2.01 1 -ozr $OZ_OPT -zor $ZO_OPT -mvr $MV_OPT -locus $LOC_OPT -sample $SAMPLE_OPT -clone $CLONECNT $CLONECNT 1 -step 5 5 1 -gen synth -run2 ,$RUN2, -keep -cpu-limit -timeout 24h 86400 -sifit-iter 0 -siclonefit-iter 0 -exit-on-error-no 2>&1 >$DIR/$RUN2/$OUTPUT.eo 
 done
-sem --wait
+sem --wait --id cmp6
 
 for RUN2 in  onco steiner bitphyl scite sasc sciphi sifit siclonefit ; do
 cat $DIR/$RUN2/$OUTPUT.eo

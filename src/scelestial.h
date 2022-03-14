@@ -216,6 +216,11 @@ struct DisjointSetArray {
 			parent[i] = -1;
 	}
 
+	DisjointSetArray(size_t sz) : parent(sz) {
+		for(size_t i=0; i<sz; i++)
+			parent[i] = -1;
+	}
+
 	template<typename It>
 	DisjointSetArray(It begin, It end) : parent(MAX_SEQUENCE)  {
 		for (It i = begin; i != end; i++) {
@@ -224,10 +229,12 @@ struct DisjointSetArray {
 	}
 
 	void add(int t) {
+		assert(t < (int)parent.size() && t >= 0);
 		parent[t] = t;
 	}
 
 	int parentStar(int t) const {
+		assert(t < (int)parent.size() && t >= 0);
 		if (parent[t] == t)
 			return t;
 		return parent[t] = parentStar(parent[t]);
@@ -273,7 +280,7 @@ struct GenerateAllTrees {
 
 	//output
 	vector<string> trees;
-	char treeRepresentation[100 * 8 * 3]; // MAXN * 3 * MAXLGN
+	char treeRepresentation[MAXNODE * MAXTREELEAFS * 3]; // MAXN * 3 * MAXLGN
 	int treeRepresentationEnd;
 	vector< vector<vector<int>> > outChilds;
 
@@ -405,7 +412,7 @@ struct GenerateAllTrees {
 };
 
 ostream& operator<<(ostream& os, const GenerateAllTrees& a) {
-	char tab[100];
+	char tab[1000];
 	for (int i=0; i<a.depth * 2; i++)
 		tab[i] = ' ';
 	tab[a.depth * 2] = 0;
@@ -833,6 +840,9 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 
 
 		for (int tt=0; choose.isValid(); tt++, choose.next()) {
+		
+			//IFDEBUG("REMOVE")
+			//if (tt > 100000) break;
 
 
 			if (logLevel > 0) {
@@ -908,6 +918,9 @@ vector<tuple<vector<vector<int>>, vector<EdgeWeight>, vector<EdgeWeight>, vector
 			{
 
 				double gain = bridgeCost - minC;
+				//IFDEBUG("REMOVE IT!")
+				//if (tt % 200 == 0)
+				//	gain = 1; // REMOVE IT!!!!!
 				if (gain > EPSILON) {
 					DisjointSetArray ds, ds2;
 					for (auto n : input) {
@@ -1128,17 +1141,21 @@ tuple<vector<EdgeWeight>, double> optimizeTree(
 
 // Removes degree two edges which does not provide any other information regarding input vertices
 tuple<vector<EdgeWeight>, vector<int>> compressGraph(UniverseVertexSet& universeVertexSet, const vector<EdgeWeight>& edges, const vector<int>& inputCells) {
-	DisjointSetArray ds;
+	if (logLevel > 2) std::cerr << "compressGraph::compressGraph" << std::endl;
+	DisjointSetArray ds(universeVertexSet.size());
+	if (logLevel > 2) std::cerr << "compressGraph::ds.join vertices" << " " << universeVertexSet.size() << " " << MAX_SEQUENCE << std::endl;
 	for (int i=0; i<universeVertexSet.size(); i++) {
 		ds.add(i);
 	}
 
+	if (logLevel > 2) std::cerr << "compressGraph::ds.join edges" << std::endl;
 	for (auto e: edges) {
 		if (e.w == 0) {
 			ds.join(e.v, e.u);
 		}
 	}
 
+	if (logLevel > 2) std::cerr << "compressGraph::filling minOfSet" << std::endl;
 	map<int, int> minOfSet;
 	for (int i=0; i<universeVertexSet.size(); i++) {
 		int p = ds.parentStar(i);
@@ -1147,6 +1164,7 @@ tuple<vector<EdgeWeight>, vector<int>> compressGraph(UniverseVertexSet& universe
 		minOfSet[p] = min(minOfSet[p], i);
 	}
 
+	if (logLevel > 2) std::cerr << "compressGraph::filling E" << std::endl;
 	vector<EdgeWeight> E;
 	for (auto e: edges) {
 		if (e.w != 0) {
@@ -1158,11 +1176,13 @@ tuple<vector<EdgeWeight>, vector<int>> compressGraph(UniverseVertexSet& universe
 		}
 	}
 
+	if (logLevel > 2) std::cerr << "compressGraph::filling V" << std::endl;
 	set<int> V;
 	for (auto m: minOfSet) {
 	   V.insert(m.second); 
 	}
 
+	if (logLevel > 2) std::cerr << "compressGraph::Adding vertices" << std::endl;
 	//We should add input vertices, even there are more than one with equal sequences.
 	for (auto v: inputCells) {
 		if (V.find(v) == V.end()) {
@@ -1175,6 +1195,7 @@ tuple<vector<EdgeWeight>, vector<int>> compressGraph(UniverseVertexSet& universe
 		}
 	}
 
+	if (logLevel > 2) std::cerr << "compressGraph::returning" << std::endl;
 	return make_tuple(E, vector<int>(V.begin(), V.end()));
 }
 

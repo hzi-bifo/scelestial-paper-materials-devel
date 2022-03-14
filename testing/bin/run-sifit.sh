@@ -38,7 +38,7 @@ done
 
 awk '{printf("%d %s\n", NR-1, $0)}' $DIR/input-scite.txt > $DIR/input-sifit.txt
 
-if [ "$ITER" == "0" ]; then
+if [ "$ITER" = "0" ]; then
 OPT_ITER=""
 else
 OPT_ITER="-iter $ITER"

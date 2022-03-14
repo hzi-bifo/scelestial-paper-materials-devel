@@ -1,11 +1,68 @@
 Run 0
 1311
+1301
+1300
+1300
+1300
 1298
 1295
 1294
-1294
-1292
-1292
-1292
-1292
-1292
+1290
+1290
+After 1000 iterations, likelihood of the best configuration is -6831.968487 
+After 2000 iterations, likelihood of the best configuration is -6829.863078 
+After 3000 iterations, likelihood of the best configuration is -6822.662977 
+After 4000 iterations, likelihood of the best configuration is -6820.794678 
+After 5000 iterations, likelihood of the best configuration is -6818.407331 
+After 6000 iterations, likelihood of the best configuration is -6818.407331 
+After 7000 iterations, likelihood of the best configuration is -6818.407331 
+After 8000 iterations, likelihood of the best configuration is -6815.865222 
+After 9000 iterations, likelihood of the best configuration is -6815.708066 
+After 10000 iterations, likelihood of the best configuration is -6813.273864 
+After 11000 iterations, likelihood of the best configuration is -6811.548133 
+After 12000 iterations, likelihood of the best configuration is -6807.286969 
+After 13000 iterations, likelihood of the best configuration is -6806.752552 
+After 14000 iterations, likelihood of the best configuration is -6804.588363 
+After 15000 iterations, likelihood of the best configuration is -6804.588363 
+After 16000 iterations, likelihood of the best configuration is -6804.588363 
+After 17000 iterations, likelihood of the best configuration is -6804.588363 
+After 18000 iterations, likelihood of the best configuration is -6803.994402 
+After 19000 iterations, likelihood of the best configuration is -6803.994402 
+After 20000 iterations, likelihood of the best configuration is -6803.087818 
+After 21000 iterations, likelihood of the best configuration is -6801.293969 
+After 22000 iterations, likelihood of the best configuration is -6800.864829 
+After 23000 iterations, likelihood of the best configuration is -6800.864829 
+After 24000 iterations, likelihood of the best configuration is -6800.864829 
+After 25000 iterations, likelihood of the best configuration is -6800.864829 
+After 26000 iterations, likelihood of the best configuration is -6800.864829 
+After 27000 iterations, likelihood of the best configuration is -6800.864829 
+After 28000 iterations, likelihood of the best configuration is -6800.864829 
+After 29000 iterations, likelihood of the best configuration is -6800.864829 
+After 30000 iterations, likelihood of the best configuration is -6800.864829 
+After 31000 iterations, likelihood of the best configuration is -6800.864829 
+After 32000 iterations, likelihood of the best configuration is -6800.059227 
+After 33000 iterations, likelihood of the best configuration is -6798.039851 
+After 34000 iterations, likelihood of the best configuration is -6798.039851 
+After 35000 iterations, likelihood of the best configuration is -6797.486633 
+After 36000 iterations, likelihood of the best configuration is -6797.486633 
+After 37000 iterations, likelihood of the best configuration is -6795.710536 
+After 38000 iterations, likelihood of the best configuration is -6795.094636 
+After 39000 iterations, likelihood of the best configuration is -6794.922515 
+After 40000 iterations, likelihood of the best configuration is -6794.922515 
+After 41000 iterations, likelihood of the best configuration is -6794.922515 
+After 42000 iterations, likelihood of the best configuration is -6794.724887 
+After 43000 iterations, likelihood of the best configuration is -6786.719767 
+After 44000 iterations, likelihood of the best configuration is -6786.426727 
+After 45000 iterations, likelihood of the best configuration is -6786.426727 
+After 46000 iterations, likelihood of the best configuration is -6786.426727 
+After 47000 iterations, likelihood of the best configuration is -6786.426727 
+After 48000 iterations, likelihood of the best configuration is -6786.426727 
+After 49000 iterations, likelihood of the best configuration is -6784.569916 
+best delProb = 0.876766	 best LOHProb = 0.080564	 best recurProb = 0.050000
+ 
+
+best false negative rate = 0.969264
+best deletion parameter = 0.876766
+best LOH parameter = 0.080564
+best log-likelihood score = -6784.569916
+best tree = ((((((((sc25:0.6421600938285403,sc45:0.46289490302702024):0.10036971503729497,sc34:0.5808322191878483):0.06719006534196251,sc27:0.2456631567523071):0.014932503949608407,sc28:0.3507349169831642):0.03207006600899136,sc43:0.26674809451941933):0.07126654823199721,sc35:0.16414803970498057):0.006300626241669599,(sc5:0.13487153828340886,sc19:0.48587693843648766):0.14114803575328524):0.20915775181068172,((((((sc47:0.10246052990101076,sc2:0.2251419323840141):0.46040591065148995,sc11:0.21007999572022956):0.21624329574674625,(sc42:0.1512560938153029,(sc3:2.61123337373079,sc36:0.2949761440183426):0.5933450282937545):0.12808590715151813):0.10756192863517454,sc22:0.2250526661073413):0.16452244600159655,(((sc31:0.025449361757248698,sc10:0.03470067849275005):0.19153412506013942,(sc16:0.6019061554792379,(sc38:0.08114699632688115,(((sc14:0.18748436704147964,(sc40:0.5752997943606257,sc49:0.2665031806405983):0.019528638336317385):1.9282227196033104,sc24:0.37435517117437705):0.14493227250086235,sc17:0.43719974185646937):0.07063428504676439):0.15218121271899498):0.019820530257285383):0.03167966393410005,sc15:0.03132072791333961):0.029638484216295592):0.08432845919956015,(((((sc29:0.13079428256936468,(sc26:0.2609889056690817,(sc30:0.31841969945841825,(sc50:5.007242826757063,sc44:0.9535217819714423):0.5511789470915798):0.3089290693569237):0.28336913734233066):0.28056583418062303,sc6:0.23946610453956715):0.10723073431217307,((sc21:0.17796420460274606,sc33:0.041004904705173886):0.17648611051965726,(((sc48:0.34678182872628344,((sc32:0.06267159388490408,sc41:0.1117395945501986):0.07552303599142841,(sc39:0.4243216916984752,sc7:0.0706397597456334):0.06444032000277562):0.35797647563084284):0.04150565762295655,sc20:0.22352263754344573):6.903350559249036E-5,(sc4:0.5184552724333988,(sc8:0.0338187198645271,sc12:2.499413896705814):0.03666786509714889):0.09880240677119718):0.015353368293750126):0.014297907360376479):0.10549881848823812,((sc18:0.1671041133824405,sc37:0.007782616994058336):3.1787502487341364,sc46:0.6388758885285425):1.894529516046167):0.06748380204113681,(sc13:0.3014724766487768,((sc23:0.4091683887847957,sc9:0.03704440909322716):0.17977633342228122,sc1:0.2707514171317174):0.050920577111996074):0.08329731140717908):0.010125810840282072):0.3204049360937325);

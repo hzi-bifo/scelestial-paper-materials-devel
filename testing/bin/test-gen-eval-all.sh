@@ -54,6 +54,7 @@ OPT_GEN=
 RUN_OPT_SICLONEFIT=
 RUN_OPT_SIFIT=
 SIFITITER=10000
+SICLONEFIT_ITER=1
 
 SDIR=$1
 shift
@@ -274,6 +275,10 @@ do
 		SIFITITER=$2
 		shift 2
 		;;
+	-siclonefit-iter)
+		SICLONEFIT_ITER=$2
+		shift 2
+		;;
 	--) # End of all options
 		shift
 		break;
@@ -482,7 +487,7 @@ for STEPMUTATIONRATE in $STEPMUTATIONRATE_RANGE; do
 #Running siclonefit
 		if [[ $RUN2 =~ .*,siclonefit,.* ]]; then
 			timestamp
-			$TIMEOUT $SCRIPT/run-siclonefit.sh $DIR 1 $MATRIX_DISTANCE_NORMALIZATION $RUN_OPT_SICLONEFIT 2>&1
+			$TIMEOUT $SCRIPT/run-siclonefit.sh $DIR $SICLONEFIT_ITER $MATRIX_DISTANCE_NORMALIZATION $RUN_OPT_SICLONEFIT 2>&1
 			CMP_STR="$CMP_STR $DIR/siclonefit-distance-matrix siclonefit$CNT "
 			CMP_PART_STR="$CMP_PART_STR $DIR/siclonefit-part psiclonefit$CNT "
 			OUT_STR="$OUT_STR SiCloneFit$CNT $DIR/siclonefit-tree.txt $DIR/siclonefit-clones.txt"

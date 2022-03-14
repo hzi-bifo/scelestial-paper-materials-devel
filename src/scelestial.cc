@@ -2,6 +2,9 @@
 #include "scelestial.h"
 using std::cerr;
 
+#undef assert
+#define assert(a) {}
+
 #   define ASSERT(condition, message) \
     do { \
         if (! (condition)) { \
