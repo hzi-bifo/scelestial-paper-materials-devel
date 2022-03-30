@@ -30,6 +30,10 @@ install via following command
 conda install -c conda-forge libcxx 'boost-cpp=1.74.0' 'boost=1.74.0'
 conda install -c bioconda scelestial
 ```
+Then installation could be checked by executing following command
+```
+scelestial -help
+```
 
 Alternatively, scelestial could be installed from source. Download source codes via
 ```
