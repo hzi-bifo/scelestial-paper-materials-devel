@@ -27,6 +27,7 @@ Table of Contents
 Scelestial could be installed via conda under bioconda channel. For bioconda-based installation, first install [miniconda](https://docs.conda.io/en/latest/miniconda.html) (or [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)) and then 
 install via following command
 ```bash
+conda install -c conda-forge libcxx boost-cpp
 conda install -c bioconda scelestial
 ```
 
