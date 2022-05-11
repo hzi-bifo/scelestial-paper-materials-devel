@@ -107,7 +107,7 @@ Output:
 
 The output represents a tree with 6 nodes. The inferred tree is shown in the following figure. The numbers inside nodes represent the sample number which is placed in that evolutionary node. Samples are numbered zero-based in the output file and in the figure bellow. For example, sample zero corresponds to the first column in the input data file and the line `0 1 GNNGCAXXXTXCXXX GNNGCAAACTGCCCT` in the output file.
 <p align="center">
-<img src="https://github.com/hzi-bifo/scelestial-paper-materials-devel/blob/master/output-impute.png?raw=true" width="400px">
+<img src="https://github.com/hzi-bifo/scelestial-paper-materials-devel/blob/master/output-impute.png?raw=true" width="500px">
 </p>
 
 
