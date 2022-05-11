@@ -107,7 +107,7 @@ Output:
 
 The inferred tree is shown in the following figure
 <p align="center">
-<img src="https://github.com/hzi-bifo/scelestial-paper-materials-devel/blob/master/output-impute.png?raw=true" width="200px">
+<img src="https://github.com/hzi-bifo/scelestial-paper-materials-devel/blob/master/output-impute.png?raw=true" width="400px">
 </p>
 
 
