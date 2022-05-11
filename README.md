@@ -106,7 +106,9 @@ Output:
 ```
 
 The inferred tree is shown in the following figure
-<img src="https://github.com/hzi-bifo/scelestial-paper-materials-devel/blob/master/output-impute.png?raw=true" width="50%">
+<p align="center">
+<img src="https://github.com/hzi-bifo/scelestial-paper-materials-devel/blob/master/output-impute.png?raw=true" width="200px">
+</p>
 
 
 The output represents a tree with 6 nodes. The first 5 nodes are the input nodes (specified by second column, 1: input samples, 0: new nodes). Imputed sequences are shown as the 4th column. For example sample 0 is imputed as `GNNGCAAACTGCCCT`. In this sequence we use folloing coding to represent duplets `"A":"A/A", "T":"T/T", "C":"C/C", "G":"G/G", "K":"A/C", "L":"A/G", "M":"C/T", "N":"C/G", "O":"T/G", "P":"T/A", "X":"./."`.
