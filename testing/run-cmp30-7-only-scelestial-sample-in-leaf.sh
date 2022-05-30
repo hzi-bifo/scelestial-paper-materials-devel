@@ -91,3 +91,22 @@ DIR=$OLD_DIR
 
 
 echo "Done" 
+
+
+CNT=0
+for DATA_FILE_TYPE in `echo $DATA_FILES | sed 's/,/\n/g'`  ; do
+	CNT=$((CNT+1))
+	DIR=$SDIR/$CNT
+	DATA_FILE=$(echo $DATA_FILE_TYPE | cut -f1 -d:)
+	DATA_TYPE=$(echo $DATA_FILE_TYPE | cut -f2 -d:)
+	DATA_NAME=$(echo $DATA_FILE_TYPE | cut -f3 -d:)
+	DATA_MUT_INFO=$(echo $DATA_FILE_TYPE | cut -f4 -d:)
+	for b in 'impute'; do
+		python $SCRIPT/visualize-tree.py $b $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/output-$b-mut-cmmall --type-file $DATA_TYPE --cell-name $DIR/cell-names.txt --color $DIR/colors.txt --seq $DIR/input-scite.txt --mark-mutations common=1:all:ignore-leaf
+		python $SCRIPT/visualize-tree.py $b $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/output-$b-mut-cmmpos --type-file $DATA_TYPE --cell-name $DIR/cell-names.txt --color $DIR/colors.txt --seq $DIR/input-scite.txt --mark-mutations common=1:positive:ignore-leaf
+		python $SCRIPT/visualize-tree.py $b $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/output-$b-mut-cmm0.9all --type-file $DATA_TYPE --cell-name $DIR/cell-names.txt --color $DIR/colors.txt --seq $DIR/input-scite.txt --mark-mutations common=0.9:all:ignore-leaf
+		#mutations common in a node and its direct children
+		python $SCRIPT/visualize-tree.py $b $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/output-$b-mut-dcpos --type-file $DATA_TYPE --cell-name $DIR/cell-names.txt --color $DIR/colors.txt --seq $DIR/input-scite.txt --mark-mutations direct-children:positive:ignore-leaf 
+	done
+done
+

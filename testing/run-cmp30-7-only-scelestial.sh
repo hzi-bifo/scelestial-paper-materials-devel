@@ -50,7 +50,7 @@ mix-fill\t#9F8C80
 
 
 CNT=0
-for DATA_FILE_TYPE in ${DATA_FILES//,/ } ; do
+for DATA_FILE_TYPE in `echo $DATA_FILES | sed 's/,/\n/g'`  ; do
 	CNT=$((CNT+1))
 	DIR=$SDIR/$CNT
 	mkdir -p $DIR
@@ -200,3 +200,4 @@ DIR=$OLD_DIR
 
 
 echo "Done" 
+

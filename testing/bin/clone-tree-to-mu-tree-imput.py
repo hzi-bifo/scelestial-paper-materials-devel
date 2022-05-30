@@ -17,7 +17,7 @@ parser.add_argument('mutationInfoFileName')
 parser.add_argument('cellNamesFileName')
 parser.add_argument('outputFileName')
 parser.add_argument('--compress', dest='compress', action='store_const', const = True, default = False)
-parser.add_argument('--mark-mutations', dest='markMutations', action='store_const', const = True, default = False)
+parser.add_argument('--mark-mutations', dest='markMutations', help='example: common=1:positive:ignore-leaf')
 parser.add_argument('--mark-mutations-separated', dest='markMutationsSeparated', action='store_const', const = True, default = False)
 parser.add_argument('--merge-colons', dest='margeClones', action='store_const', const = True, default = False)
 parser.add_argument('--cell-type', dest='cellTypeFileName')
@@ -75,59 +75,12 @@ if args.margeClones:
 	treeChildren = newTreeChildren
 	treeRoot = treeRoot
 
+
+
 treeNodeMutations = {}
-def fillTreeNodeMutations(mutIndex = None):
-	allMutationCount = [ [ sum([1 for s in sequences if s[i] == mut]) for mut in [0, 1] ] for i,m in enumerate(mutationInfo) ]
-	# print(allMutationCount)
-
-	def dfs(v):
-		myCellsStar = []
-		if v in treeNodeCells:
-			myCellsStar += [int(u)-1 for u in treeNodeCells[v]]
-		if v in treeChildren:
-			for u,w in treeChildren[v]:
-				myCellsStar = dfs(u) + myCellsStar
-
-		nodeMutations[v] = []
-		#treeNodeMutations[v] = []
-		for i, m in enumerate(mutationInfo):
-			subTreeNormal, subTreeMutated = 0, 0
-			for c in myCellsStar:
-			#if v in treeNodeCells:
-			#	for u in treeNodeCells[v]:
-				#c = int(u) - 1
-				if sequences[c][i] == 0:
-					subTreeNormal += 1
-				if sequences[c][i] == 1:
-					subTreeMutated += 1
-			
-			#if subTreeMutated > subTreeNormal:
-			if subTreeMutated > 0:
-				ignoremut = False
-				if v in treeChildren:
-					for u,w in treeChildren[v]:
-						smi = [submut for ii, submut, desc in nodeMutations[u] if i == ii]
-						if len(smi) == 1 and smi[0] == subTreeMutated:
-							ignoremut = True
-				if not ignoremut:
-					nodeMutations[v].append((i, subTreeMutated, str(subTreeNormal) +',' + str(len(myCellsStar)) ))
-				#treeNodeMutations[v].append(m['gene']+'/'+str(subTreeMutated))
-				print("Mut:{} node: {} gene: {} cells:{} subtree: {},{}/{},{} ".format(i, v, m['gene'], ','.join([cellNames[int(c)-1] for c in treeNodeCells[v]]) , subTreeNormal, subTreeMutated, allMutationCount[i][0], allMutationCount[i][1]))
-				
-			#oddsratio, pvalue = stats.fisher_exact([[subTreeMutated, allMutationCount[i][1] - subTreeMutated], [subTreeNormal, allMutationCount[i][0]-subTreeNormal]], alternative='greater')
-			#if pvalue <= 0.01 and v != treeRoot:
-			#	treeNodeMutations[v].append(m['gene'])
-			#	print([[subTreeMutated, allMutationCount[i][1] - subTreeMutated], [subTreeNormal, allMutationCount[i][0]-subTreeNormal+100]])
-			#	print("testing for mutation:{} location: {} p-value: {} gene: {} cells:{} subtree: {},{}/{},{} ".format(i, v, pvalue, m['gene'], ','.join(treeNodeCells[v]) , subTreeNormal, subTreeMutated, allMutationCount[i][0], allMutationCount[i][1]))
-		return myCellsStar
-
-	nodeMutations = {}
-	dfs(treeRoot)
-	for v, muts in nodeMutations.items():
-		treeNodeMutations[v] = [ mutationInfo[i]['gene'] + '/' + str(mut) + ',' + str(desc) for i, mut, desc in muts if mutIndex is None or i == mutIndex]
-
 if args.markMutations:
-	fillTreeNodeMutations()
+	# treeNodeMutations = fillTreeNodeMutations()
+	treeNodeMutations = fillTreeNodeMutations(treeNodeCells, treeChildren, mutationInfo, sequences, cellNames, treeRoot, None, args.markMutations)
 
 nodes = list(treeNodeCells.keys())
 if args.compress:
@@ -176,16 +129,16 @@ def treeNodeDescColor(treeNode, cells):
 			col, fontcol, fillcol = BROWN, "black", BROWN
 	if treeNodeMutations is not None and treeNode in treeNodeMutations:
 		mutations = sorted(list(set(treeNodeMutations[treeNode])))
-		seqmut = math.sqrt(len(mutations)/7)
+		seqmut = math.sqrt(len(mutations)/6)
 		if len(mutations) > 0:
 			desc += " ["
 			lastLineLen = 0
 			for i, mut in enumerate(mutations):
-				desc += mut + " "
-				lastLineLen += 1
 				if lastLineLen >= seqmut:
 					desc += '\n'
 					lastLineLen = 0
+				desc += mut + " "
+				lastLineLen += 1
 			#desc += " ".join(mutations)
 			desc += "]"
 	return desc, col, fontcol, fillcol
@@ -196,7 +149,8 @@ def treeEdgeLabel(v, u, w):
 
 if args.markMutationsSeparated:
 	for i, mut in enumerate(mutationInfo):
-		fillTreeNodeMutations(i)
+		# treeNodeMutations = fillTreeNodeMutations(i)
+		treeNodeMutations = fillTreeNodeMutations(treeNodeCells, treeChildren, mutationInfo, sequences, cellNames, treeRoot, i, args.markMutations)
 		writeGraph(args.outputFileName + '-' + str(i), treeNodeCells, nodes, edges, treeNodeDescColor, treeEdgeLabel)
 else:
 	writeGraph(args.outputFileName, treeNodeCells, nodes, edges, treeNodeDescColor, treeEdgeLabel)

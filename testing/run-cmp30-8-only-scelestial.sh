@@ -172,6 +172,11 @@ for DATA_FILE_TYPE in ${DATA_FILES//,/ } ; do
 		echo $a $b:
 		python $SCRIPT/visualize-tree.py $b $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/output-$b --type-file $DATA_TYPE; 
 		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info.txt $DIR/cell-names.txt $DIR/output-$b-mut2 --compress 
+
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info.txt $DIR/cell-names.txt $DIR/output-$b-mut-cmmall --mark-mutations common=1:all:ignore-leaf
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info.txt $DIR/cell-names.txt $DIR/output-$b-mut-cmmpos --mark-mutations common=1:pos:ignore-leaf
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info.txt $DIR/cell-names.txt $DIR/output-$b-mut-cmm0.9all --mark-mutations common=0.9:all:ignore-leaf
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info.txt $DIR/cell-names.txt $DIR/output-$b-mut-dcpos --mark-mutations direct-children:positive:ignore-leaf
 	done
 
 done > $SDIR/$OUTPUT.eo
@@ -180,3 +185,22 @@ DIR=$OLD_DIR
 
 
 echo "Done" 
+
+awk -F '\t' 'BEGIN { OFS="\t" }{$12 = "-"; print}' $DIR/mutation-info.txt > $DIR/mutation-info-empty.txt
+
+CNT=0
+for DATA_FILE_TYPE in ${DATA_FILES//,/ } ; do
+	CNT=$((CNT+1))
+	DIR=$SDIR/$CNT
+	DATA_FILE=$(echo $DATA_FILE_TYPE | cut -f1 -d:)
+	DATA_TYPE=$(echo $DATA_FILE_TYPE | cut -f2 -d:)
+	DATA_NAME=$(echo $DATA_FILE_TYPE | cut -f3 -d:)
+	DATA_MUT_INFO=$(echo $DATA_FILE_TYPE | cut -f4 -d:)
+
+	for b in 'impute'; do
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info-empty.txt $DIR/cell-names.txt $DIR/output-$b-mut-cmmall --mark-mutations common=1:all:ignore-leaf
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info-empty.txt $DIR/cell-names.txt $DIR/output-$b-mut-cmmpos --mark-mutations common=1:pos:ignore-leaf
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info-empty.txt $DIR/cell-names.txt $DIR/output-$b-mut-cmm0.9all --mark-mutations common=0.9:all:ignore-leaf
+		python $SCRIPT/clone-tree-to-mu-tree-imput.py $DIR/$b-tree.txt $DIR/$b-clones.txt $DIR/input-scite.txt $DIR/mutation-info-empty.txt $DIR/cell-names.txt $DIR/output-$b-mut-dcpos --mark-mutations direct-children:positive:ignore-leaf
+	done
+done

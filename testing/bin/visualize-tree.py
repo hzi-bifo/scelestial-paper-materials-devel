@@ -2,6 +2,8 @@ import sys, re, argparse
 from graphviz import Digraph
 from lib import *
 import math
+import importlib  
+
 
 parser = argparse.ArgumentParser(description='Generate samples from single-cell data set.')
 parser.add_argument('title')
@@ -12,6 +14,9 @@ parser.add_argument('--type-file', dest='typeFile', action='store', required = F
 parser.add_argument('--compressed-out-file', dest='compressedOutFileName', action='store', required = False)
 parser.add_argument('--cell-name', dest='cellNamesFileName')
 parser.add_argument('--color', dest='colorFileName')
+parser.add_argument('--seq', dest='seqFileName', action='store', required=False)
+parser.add_argument('--mark-mutations', dest='markMutations', help='example: common=1:positive:ignore-leaf')
+parser.add_argument('--mutation-info', dest='mutationInfoFileName', action='store', required=False)
 args = parser.parse_args()
 
 title = args.title
@@ -29,6 +34,18 @@ if args.colorFileName != None:
 	classColor_ = loadTable(args.colorFileName)
 	#print(classColor_)
 	classColor = {int(r[0]) if r[0].isnumeric() else r[0]:r[1].strip() for r in classColor_}
+if args.seqFileName:
+	sequences = loadSequenceFile(args.seqFileName)
+treeNodeMutations = {}
+if args.mutationInfoFileName:
+	mutationInfo = loadMutationInfoFile(args.mutationInfoFileName)
+if args.markMutations:
+	if 'mutationInfo' not in vars():
+		mutationInfo = []
+		for i in range(len(sequences[0])):
+			mutationInfo.append({'gene' : '-', 'geneInfo' : '', id: str(i+1)})
+	treeNodeMutations = fillTreeNodeMutations(treeNodeCells, treeChildren, mutationInfo, sequences, cellNames, treeRoot, None, args.markMutations)
+
 
 def treeNodeDescColor(treeNode, cells):
 	desc = ','.join(cells)
@@ -62,6 +79,20 @@ def treeNodeDescColor(treeNode, cells):
 					r += 2
 			desc += x
 			r += len(x)
+	if treeNodeMutations is not None and treeNode in treeNodeMutations:
+		mutations = sorted(list(set(treeNodeMutations[treeNode])))
+		seqmut = math.sqrt(len(mutations)/6)
+		if len(mutations) > 0:
+			desc += " ["
+			lastLineLen = 0
+			for i, mut in enumerate(mutations):
+				if lastLineLen >= seqmut:
+					desc += '\n'
+					lastLineLen = 0
+				desc += mut + " "
+				lastLineLen += 1
+			#desc += " ".join(mutations)
+			desc += "]"
 	return desc, col, "black", fillcol
 
 def treeEdgeLabel(v, u, w):
